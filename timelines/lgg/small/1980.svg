@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1500"
+   height="1350"
+   viewBox="0 0 1500 1350"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <image
+     width="1498"
+     height="1498"
+     preserveAspectRatio="none"
+     xlink:href="../basemap/lggosm.png"
+     id="image1"
+     x="60"
+     y="-50"
+     style="display:none" />
+  <path
+     style="fill:none;fill-opacity:0;stroke:#f04d22;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 794.96,910.54 -2.07,-4.32 -4.58,-3.97 -9.59,-4.84 -11.23,-2.59 -11.75,-1.73 h -5.1 l -19.95,7.34 -6.05,1.12 -19.26,0.69 -5.61,-0.6 -3.71,-1.55 -2.85,-3.54 -6.65,-9.41"
+     id="path2" />
+  <path
+     style="fill:none;fill-opacity:0;stroke:#f04d22;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 794.96,910.54 7.34,5.35 3.97,0.6 14.77,-7.95 3.37,-0.69 5.18,1.04 2.85,2.94 6.3,17.36"
+     id="path3" />
+  <path
+     style="fill:none;fill-opacity:0;stroke:#f04d22;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 686.57,887.14 -3.54,-3.45 -78.68,-33.25 -4.84,-0.35 -4.84,1.73 -5.01,0.09 -26.69,-15.46 -41.71,-22.2 -41.8,-23.49 -45.34,-25.48 -91.29,-62.1 -163.4,-100.61 -3.71,0.09 -14.6,14.25 -17.19,12.26 -10.88,21.16 -5.61,5.96 -6.22,7.17 -18.31,13.04"
+     id="path4" />
+  <text
+     x="89.45"
+     y="206.96"
+     id="text3019"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="89.45"
+       y="206.96"
+       id="tspan1">1980</tspan></text>
+</svg>
