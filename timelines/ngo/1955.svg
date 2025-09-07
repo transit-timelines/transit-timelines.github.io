@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   viewBox="-200 0 7600 9600"
-   width="7600"
-   height="9600"
+   viewBox="-200 0 8400 9700"
+   width="8400"
+   height="9700"
    id="svg2">
   <metadata
      id="metadata8">
@@ -62,18 +62,18 @@
      y="206.96"
      id="text2992"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="-110.55"
        y="206.96"
        id="tspan1">1955</tspan></text>
   <text
      x="-110.55"
-     y="9497.96"
+     y="9597.96"
      id="text2992-3"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="-110.55"
-       y="9497.96"
+       y="9597.96"
        id="tspan2">1955</tspan></text>
   <path
      id="path4513"
@@ -93,11 +93,11 @@
      id="path4520" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#00aa7f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-     d="m 2399.0,411.0 -9,6.5 -98.5,17.5 -65.02,12.46 -71.82,-2.54 -270.13,-11.44 -3.18,3.81 -1.91,29.24"
+     d="m 2399,411 -9,6.5 -98.5,17.5 -65.02,12.46 -71.82,-2.54 -270.13,-11.44 -3.18,3.81 -1.91,29.24"
      id="path4606" />
   <path
      id="path4516-3"
-     d="m 2390.0,417.5 9,-6.5 33.73,1.82 26.69,1.91 43.22,-8.58 39.41,-12.71 8.26,-8.58 6.36,-22.56 3.81,-32.73 3.81,-28.6 10.49,-29.56 8.58,-22.88 17.16,-16.53 37.18,-28.92 28.6,-9.85 36.86,-14.3 38.45,-28.92 17.48,-12.08 38.77,-33.05 11.12,-4.13 13.67,-9.53 30.83,-41.95 55.61,-79.77 6.36,-29.56 6.36,-67.37 7.31,-11.76 10.81,-9.22 6.36,-19.7 1.91,-12.08 -9.53,-21.61 -20.66,-54.98 -0.79,-8.39"
+     d="m 2390,417.5 9,-6.5 33.73,1.82 26.69,1.91 43.22,-8.58 39.41,-12.71 8.26,-8.58 6.36,-22.56 3.81,-32.73 3.81,-28.6 10.49,-29.56 8.58,-22.88 17.16,-16.53 37.18,-28.92 28.6,-9.85 36.86,-14.3 38.45,-28.92 17.48,-12.08 38.77,-33.05 11.12,-4.13 13.67,-9.53 30.83,-41.95 55.61,-79.77 6.36,-29.56 6.36,-67.37 7.31,-11.76 10.81,-9.22 6.36,-19.7 1.91,-12.08 -9.53,-21.61 -20.66,-54.98 -0.79,-8.39"
      style="fill:none;fill-rule:evenodd;stroke:#00aa7f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#00aa7f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
@@ -105,7 +105,7 @@
      id="path6950" />
   <path
      id="path4554"
-     d="m 1940.93,1084.36 -12.93,17.64 -18,8 -23.5,8 -9.5,13.5 -32.5,65 -19.5,28.5 -10,6.5 -42.5,-6 -37,-10.5 -17.5,-0.5 -56.5,23.5 -56,-4 -15,8 -10,12.5 -2,22 -50.5,74 -36.5,122 -22,134 -10.5,26 -75.5,134 -16.5,19 -19.5,11 -23,6.5 -181,38 -12,5.5 -4.5,15 -1.5,101.5 -3.5,44.5 1.84,67.33 23.4,55.69 16.48,11.75 3.63,12.67 -36.43,188.76 -16.89,172.58 -59.81,164.85 -12.89,10.65 -11.24,2.7 -160.0,-2.25 -38.65,2.7"
+     d="m 1940.93,1084.36 -12.93,17.64 -18,8 -23.5,8 -9.5,13.5 -32.5,65 -19.5,28.5 -10,6.5 -42.5,-6 -37,-10.5 -17.5,-0.5 -56.5,23.5 -56,-4 -15,8 -10,12.5 -2,22 -50.5,74 -36.5,122 -22,134 -10.5,26 -75.5,134 -16.5,19 -19.5,11 -23,6.5 -181,38 -12,5.5 -4.5,15 -1.5,101.5 -3.5,44.5 1.84,67.33 23.4,55.69 16.48,11.75 3.63,12.67 -36.43,188.76 -16.89,172.58 -59.81,164.85 -12.89,10.65 -11.24,2.7 -160,-2.25 -38.65,2.7"
      style="fill:none;fill-rule:evenodd;stroke:#00aa7f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="fill:none;stroke:#00aa7f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
