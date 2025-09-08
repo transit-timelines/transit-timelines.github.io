@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 19300 13800"
+   viewBox="-50 0 19350 13800"
    height="13800"
-   width="19300"
+   width="19350"
    id="svg2"
    version="1.1"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -49,25 +49,25 @@
   <path
      id="path5976"
      d="m 11660,7047 14.5,24.5 2,19.5 -81.5,361 -88,422 -32.5,70.5 -54,168.5 -220.5,239 -189.5,370.5 -108.73,312.68"
-     style="fill:none;fill-rule:evenodd;stroke:#009768;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="fill:none;fill-rule:evenodd;stroke:#378740;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2828"
      y="13697.96"
-     x="89.45"><tspan
+     x="39.45"><tspan
        id="tspan2"
        y="13697.96"
-       x="89.45"></tspan></text>
+       x="39.45"></tspan></text>
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2828-6"
      y="206.96"
-     x="89.45"><tspan
+     x="39.45"><tspan
        id="tspan1"
        y="206.96"
-       x="89.45">1910</tspan></text>
+       x="39.45">1910</tspan></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#51bea5;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 11627.12,7752.57 -9.69,22.61 -5.01,5.17 -9.21,2.75 -13.24,0.97 -10.5,-1.94 -11.79,-2.58 h -7.11 l -7.43,3.71 -5.65,6.46 -8.4,17.12 -2.75,2.58"
@@ -105,7 +105,7 @@
      d="m 11721.12,7583.62 -4.36,9.21 -63.48,106.44 -26.16,53.3"
      id="path4579" />
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#009768;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     style="fill:none;fill-rule:evenodd;stroke:#378740;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
      d="m 11840.42,7326.22 -108.73,-33.35 -13.71,4.34 -14.16,8.91 -23.53,16.22 -21.47,14.85 -40.43,35.17 -8.08,10.01"
      id="path4587" />
   <path
