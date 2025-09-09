@@ -28,22 +28,22 @@
   <image
      style="display:none"
      y="-135.86"
-     x="-100"
+     x="-1380.57"
      id="image10"
      xlink:href="../basemap/sdqosm.png"
      preserveAspectRatio="none"
      height="1920.86"
-     width="2241" />
+     width="3521.57" />
   <path
      id="path836"
      d="m 105.95,1160.83 183.51,-39.12 33.94,-6.33 119.66,-9.78 66.16,-23.01 23.01,-3.45 74.79,16.11 288.79,20.13 94.92,1.15 20.71,-5.18 18.98,-14.96 13.23,-25.89 -0.58,-62.13 5.75,-16.11 12.66,-17.83 284.76,-212.85"
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ef3738;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path838"
      d="m 1090.24,104.63 11.51,27.61 3.45,14.96 -8.45,12.72 -10.17,5.69 -21.56,4.47 -11.39,9.76 -15.46,54.1 -29.29,48 -0.81,21.15 -2.03,36.61 -6.1,18.31 -27.25,34.98 -20.75,8.95 -63.86,17.49 -9.76,7.32 -21.56,43.93 2.44,21.97 10.17,13.83 17.9,21.97 2.44,13.02 -13.02,184.68 27.66,429.56 44.75,189.97 22.78,46.37 1.22,7.73 -1.63,4.47 -6.1,8.14 -242.44,117.15 -32.14,20.34 -1.22,3.25 1.63,8.14 21.56,30.51"
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000c0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#335394;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3784"
      y="206.96"
