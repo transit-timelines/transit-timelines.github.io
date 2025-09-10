@@ -13,7 +13,7 @@ SFO=sfo1960a.svg sfo1961plan.svg sfo1966plan.svg sfo2025a.svg
 SEA=sea1970plan.svg sea2000a.svg sea2002plan.svg sea2015a.svg sea2016plan.svg sea2025a.svg sea2026proj.svg
 ZRH=zrh1973plan.svg ../../timelines/zrh/small/2025.svg
 HNL=hnl2006plan.svg hnl2025a.svg
-PVD=pvd1914.svg pvd1914plan.svg pvd2020.svg
+PVD=pvd1914.svg pvd1914plan.svg pvd2025.svg
 CVG=cvg1920plan.svg
 MSY=msy1959plan.svg
 MAN=man1970a.svg man1971plan.svg man2025a.svg
@@ -44,10 +44,10 @@ pit%a.svg : ../../timelines/pit/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 900 -1400 1350 0 $< > $@
 
 sea%a.svg : ../../timelines/sea/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl -720 -3865 1230 2235 $< > $@
+	~/timelines/scripts/reviewbox.pl -720 -2465 430 2235 $< > $@
 
 ymq%a.svg : ../../timelines/ymq/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl -2100 -100 1000 200 $< > $@
+	~/timelines/scripts/reviewbox.pl -2100 -100 0 100 $< > $@
 
 man%a.svg : ../../timelines/man/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl -700 0 0 1550 $< > $@

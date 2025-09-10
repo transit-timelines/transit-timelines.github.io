@@ -9,8 +9,8 @@
    version="1.1"
    id="svg2"
    width="3550"
-   height="3000"
-   viewBox="0 0 3550 3000">
+   height="4400"
+   viewBox="0 -1400 3550 4400">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -52,12 +52,12 @@
      id="path4618" />
   <text
      x="89.45"
-     y="206.96"
+     y="-1193.04"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="206.96"
+       y="-1193.04"
        id="tspan1">2000</tspan></text>
   <path
      id="path825"

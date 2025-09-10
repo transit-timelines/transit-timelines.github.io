@@ -28,11 +28,11 @@
   <image
      xlink:href="../basemap/manosm.png"
      width="2409"
-     height="4015.0"
+     height="4015"
      preserveAspectRatio="none"
      id="image10"
      x="50"
-     y="35.0"
+     y="35"
      style="display:none" />
   <path
      id="path4138"
@@ -42,14 +42,14 @@
      id="text4227"
      y="3970.41"
      x="78.57"
-     style="font-style:normal;font-weight:normal;font-size:139.7px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#e9b600;stroke-width:1.0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;font-size:139.7px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#e9b600;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      xml:space="preserve" />
   <text
      x="39.45"
      y="156.96"
      id="text2997"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="39.45"
        y="156.96"
        id="tspan1">1940</tspan></text>

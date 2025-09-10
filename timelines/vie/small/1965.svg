@@ -3,8 +3,8 @@
 
 <svg
    version="1.1"
-   width="3150"
-   viewBox="-150 -1575 3150 6050"
+   width="3600"
+   viewBox="-600 -1575 3600 6050"
    height="6050"
    id="svg2"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -47,12 +47,12 @@
      id="path3782"
      style="fill:none;stroke:#00963f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <text
-     x="-60.55"
+     x="-510.55"
      y="-1368.04"
      id="text3818"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-60.55"
+       x="-510.55"
        y="-1368.04"
        id="tspan1">1965</tspan></text>
   <path
@@ -61,12 +61,12 @@
      style="fill:none;stroke:#009ee3;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 
   <text
-     x="-60.55"
+     x="-510.55"
      y="7347.95"
      id="text3004"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-60.55"
+       x="-510.55"
        y="4372.95"
        id="tspan2"></tspan></text>
 </svg>

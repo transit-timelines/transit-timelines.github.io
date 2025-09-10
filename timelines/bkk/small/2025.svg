@@ -3,8 +3,8 @@
    version="1.1"
    id="svg2"
    width="5500"
-   height="5850"
-   viewBox="0 -450 5500 5850"
+   height="6750"
+   viewBox="0 -1350 5500 6750"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -74,10 +74,10 @@
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3639-3"
-     y="-243.04"
+     y="-1143.04"
      x="89.45"><tspan
        id="tspan1"
-       y="-243.04"
+       y="-1143.04"
        x="89.45">2025</tspan></text>
   <path
      style="opacity:1;fill:none;stroke:#c3a031;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"

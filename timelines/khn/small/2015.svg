@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="3650"
-   height="3650"
-   viewBox="0 0 3650 3650">
+   width="5050"
+   height="5400"
+   viewBox="-850 -1750 5050 5400">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -35,13 +35,13 @@
      height="5329.38"
      width="5033.31" />
   <text
-     x="89.45"
-     y="206.96"
+     x="-760.55"
+     y="-1543.04"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="89.45"
-       y="206.96"
+       x="-760.55"
+       y="-1543.04"
        id="tspan1">2015</tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:0.39;fill-rule:nonzero;stroke:#e70038;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -52,7 +52,7 @@
      xml:space="preserve"
      id="text2828"
      y="3547.96"
-     x="89.45"><tspan
+     x="-760.55"><tspan
        id="tspan2"
        y="3547.96"
-       x="89.45"></tspan></text></svg>
+       x="-760.55"></tspan></text></svg>

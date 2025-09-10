@@ -36,7 +36,7 @@
      style="display:none" />
   <path
      id="path836"
-     d="m 573.16,2467.15 -15.28,-20.31 -2.52,-8.99 1.44,-10.97 3.06,-8.27 6.47,-6.65 19.24,-13.12 4.85,-8.45 3.06,-12.76 2.34,-22.83 5.39,-11.69 9.89,-8.63 23.37,-6.47 8.09,-3.78 21.93,-21.03 22.47,-23.01 42.97,-64.72 17.08,-18.88 14.56,-17.62 7.55,-15.1 3.96,-15.82 -4.49,-59.5 0.36,-16.72 1.98,-22.11 2.34,-12.94 7.37,-13.66 15.1,-19.6 13.12,-10.97 13.66,-10.43 12.76,-4.67 19.6,-2.52 19.95,-3.42 7.91,-2.16 4.67,-3.96 2.7,-5.57 2.7,-13.66 4.13,-10.43 6.47,-9.89 13.3,-16.36 6.83,-11.15 11.15,-22.65 6.47,-8.27 17.26,-16.0 9.35,-11.51 12.4,-18.34 8.27,-20.49 2.88,-12.22 3.24,-40.99 -3.24,-17.98"
+     d="m 573.16,2467.15 -15.28,-20.31 -2.52,-8.99 1.44,-10.97 3.06,-8.27 6.47,-6.65 19.24,-13.12 4.85,-8.45 3.06,-12.76 2.34,-22.83 5.39,-11.69 9.89,-8.63 23.37,-6.47 8.09,-3.78 21.93,-21.03 22.47,-23.01 42.97,-64.72 17.08,-18.88 14.56,-17.62 7.55,-15.1 3.96,-15.82 -4.49,-59.5 0.36,-16.72 1.98,-22.11 2.34,-12.94 7.37,-13.66 15.1,-19.6 13.12,-10.97 13.66,-10.43 12.76,-4.67 19.6,-2.52 19.95,-3.42 7.91,-2.16 4.67,-3.96 2.7,-5.57 2.7,-13.66 4.13,-10.43 6.47,-9.89 13.3,-16.36 6.83,-11.15 11.15,-22.65 6.47,-8.27 17.26,-16 9.35,-11.51 12.4,-18.34 8.27,-20.49 2.88,-12.22 3.24,-40.99 -3.24,-17.98"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00aeef;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path1694"
@@ -128,7 +128,7 @@
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00aeef;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path965"
-     d="m 1600.2,1072.29 1.62,-4.31 v -6.47 l -1.8,-16.0 5.03,-42.07 3.78,-10.79 10.61,-20.49 7.01,-16.36 4.31,-23.37 1.26,-35.42 -2.52,-25.71 -0.18,-8.99 3.24,-12.04 8.09,-21.75 7.37,-38.47 3.42,-9.89 9.35,-16.54 7.55,-9.89 9.89,-10.79 4.67,-8.81 2.34,-13.3 3.96,-12.22 4.85,-11.15 28.4,-41.71 2.52,-13.3"
+     d="m 1600.2,1072.29 1.62,-4.31 v -6.47 l -1.8,-16 5.03,-42.07 3.78,-10.79 10.61,-20.49 7.01,-16.36 4.31,-23.37 1.26,-35.42 -2.52,-25.71 -0.18,-8.99 3.24,-12.04 8.09,-21.75 7.37,-38.47 3.42,-9.89 9.35,-16.54 7.55,-9.89 9.89,-10.79 4.67,-8.81 2.34,-13.3 3.96,-12.22 4.85,-11.15 28.4,-41.71 2.52,-13.3"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00aeef;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path967"
@@ -136,7 +136,7 @@
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00aeef;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path969"
-     d="m 1139.19,1600.72 -1.46,5.32 11.42,32.18 10.61,24.0 11.24,38.92 -2.79,32.72"
+     d="m 1139.19,1600.72 -1.46,5.32 11.42,32.18 10.61,24 11.24,38.92 -2.79,32.72"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00aeef;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path971"
@@ -163,7 +163,7 @@
      d="m 772.97,1809.83 2.98,0.25 14.92,-11.33 3.78,-15.46 3.06,-2.88 24.99,-5.21 5.75,-4.31 14.2,-17.98 19.06,-44.58 -1.62,-26.97 3.96,-7.37 -14.74,-75.68 2.34,-4.67"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00aeef;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3784"
      y="206.96"

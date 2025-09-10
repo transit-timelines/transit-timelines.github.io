@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="2100"
-   height="1350"
-   viewBox="-50 0 2100 1350"
+   width="2300"
+   height="1450"
+   viewBox="-250 -100 2300 1450"
    xml:space="preserve"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
@@ -39,11 +39,11 @@
      style="opacity:1;fill:none;fill-opacity:0.02;fill-rule:nonzero;stroke:#9ccb3c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 681.08,949.12 -5.26,-15.14 2.69,-7.66 9.63,-5.94 12.34,-2.97 30.03,-3.59 139.99,-6.86 97.7,-19.63"
      id="path4512" /><text
-     x="39.45"
-     y="206.96"
+     x="-160.55"
+     y="106.96"
      id="text2992"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="39.45"
-       y="206.96"
+       x="-160.55"
+       y="106.96"
        id="tspan1">2025</tspan></text></svg>

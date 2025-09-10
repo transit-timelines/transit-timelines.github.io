@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="1550"
-   height="3000"
-   viewBox="0 0 1550 3000">
+   width="2200"
+   height="3350"
+   viewBox="-550 -200 2200 3350">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -46,9 +46,9 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2992"
-     y="206.96"
-     x="89.45"><tspan
+     y="6.96"
+     x="-460.55"><tspan
        id="tspan1"
-       y="206.96"
-       x="89.45">2020</tspan></text>
+       y="6.96"
+       x="-460.55">2020</tspan></text>
 </svg>

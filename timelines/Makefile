@@ -38,5 +38,5 @@ endef
 .PHONY: all $(wildcard ???) $(wildcard ???/small) $(wildcard ???/uncropped) $(wildcard ???/uncropped/small)
 $(foreach dir, $(wildcard ??? ???/uncropped), $(eval $(call WriteRules, $(dir))))
 
-index.html: $(wildcard ???/small/2020.svg) $(wildcard ???/s) $(wildcard ???/name) ../scripts/makemainindex.sh ../scripts/template/part4 opening-dates
+index.html: $(wildcard ???/small/2025.svg) $(wildcard ???/s) $(wildcard ???/name) ../scripts/makemainindex.sh ../scripts/template/part4 opening-dates
 	~/timelines/scripts/makemainindex.sh `awk -F'\t' '{print $$2}' opening-dates` > $@

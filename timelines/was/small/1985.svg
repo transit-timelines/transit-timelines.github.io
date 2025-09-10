@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="svg2"
-   viewBox="-50, 30, 6150, 5700"
+   viewBox="-1900, 30, 8000, 5700"
    height="5700"
-   width="6150"
+   width="8000"
    version="1.1"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
@@ -69,19 +69,19 @@
      xml:space="preserve"
      id="text2819"
      y="236.96"
-     x="39.45"><tspan
+     x="-1810.55"><tspan
        id="tspan1"
        y="236.96"
-       x="39.45">1985</tspan></text>
+       x="-1810.55">1985</tspan></text>
   <text
      style="font-size:144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
      xml:space="preserve"
      id="text2819-1"
      y="5627.96"
-     x="39.45"><tspan
+     x="-1810.55"><tspan
        id="tspan2"
        y="5627.96"
-       x="39.45"></tspan></text>
+       x="-1810.55"></tspan></text>
   <path
      id="path4151-7"
      d="m 4023.99,3684.89 3.63,-4.12 7.1,-18.25 3.55,-2.32 h 30.76 l 2.4,-2.43 1.46,-2.9 0.11,-6.42"

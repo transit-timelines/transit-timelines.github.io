@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="2300"
-   height="2550"
-   viewBox="0 0 2300 2550">
+   width="3850"
+   height="3800"
+   viewBox="-900 -675 3850 3800">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -43,12 +43,12 @@
      d="m 672.63,122.37 3.39,113.22 9.49,17.63 75.93,95.59 6.78,25.08 -4.07,18.98 -54.92,113.9 0.68,48.14 -3.39,21.69 -9.49,23.05 -59.66,80 -12.88,10.85 -60.34,25.76 -13.56,10.85 -12.88,14.92 -24.41,55.59 -1.36,16.95 35.25,166.1 38.64,76.61 8.14,5.42 42.03,-4.75 8.81,5.42 41.36,92.88 v 17.63 l -10.85,73.9 -2.03,36.61 0.68,8.14 28.47,14.24 42.03,48.14 14.92,46.1 8.14,34.58 2.03,25.08 v 11.53 l -48.14,103.73 2.71,35.93 -7.46,8.81 -136.95,37.29 -10.85,6.78 -12.2,16.95 0.68,96.27 -6.78,35.25"
      id="path840" />
   <text
-     x="89.45"
-     y="206.96"
+     x="-810.55"
+     y="-468.04"
      id="text3817"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="89.45"
-       y="206.96"
+       x="-810.55"
+       y="-468.04"
        id="tspan1">2000</tspan></text>
 </svg>

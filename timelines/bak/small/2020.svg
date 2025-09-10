@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="2100"
-   height="1350"
-   viewBox="-50 0 2100 1350"
+   width="2300"
+   height="1450"
+   viewBox="-250 -100 2300 1450"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -38,12 +38,12 @@
      d="m 450.63,1265.19 52.73,-25.65"
      id="path4510" />
   <text
-     x="39.45"
-     y="206.96"
+     x="-160.55"
+     y="106.96"
      id="text2992"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="39.45"
-       y="206.96"
+       x="-160.55"
+       y="106.96"
        id="tspan1">2020</tspan></text>
 </svg>

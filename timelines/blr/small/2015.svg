@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 2500 2750"
-   height="2750"
-   width="2500"
+   viewBox="-750 0 4850 3900"
+   height="3900"
+   width="4850"
    id="svg2"
    version="1.1">
   <metadata
@@ -47,12 +47,12 @@
      d="m 1179.12,1157.88 -59.49,-86.37 -10.14,-9.69 -8.37,-1.76 -13.66,3.08 -52,-8.81 -58.17,-24.68 -23.8,-3.53 h -13.66 l -56.41,14.54 -8.81,-2.2 -7.49,-5.29 -4.85,-9.69 -18.07,-123.39 6.61,-44.95 13.66,-16.31 17.63,-12.34 34.81,-14.1 5.73,-8.81 3.08,-10.58 -3.53,-42.31 L 909.86,707.95 886.07,663 869.32,651.98 566.14,472.19 515.9,458.08 393.39,391.1 360.34,362.02 281.46,335.14 240.92,310.9 192.88,296.8 110.03,266.83"
      style="opacity:1;fill:none;fill-opacity:0;fill-rule:nonzero;stroke:#58ba49;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     x="89.45"
+     x="-660.55"
      y="206.96"
      id="text3817"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="89.45"
+       x="-660.55"
        y="206.96"
        id="tspan1">2015</tspan></text>
 </svg>

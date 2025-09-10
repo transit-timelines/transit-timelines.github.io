@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="800"
-   height="2000"
-   viewBox="0 -800 800 2000"
+   width="2100"
+   height="2750"
+   viewBox="-475 -800 2100 2750"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -34,12 +34,12 @@
      x="-2425"
      y="-13978" />
   <text
-     x="89.45"
+     x="-385.55"
      y="-593.04"
      id="text3652"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="89.45"
+       x="-385.55"
        y="-593.04"
        id="tspan1">2025</tspan></text>
   <path

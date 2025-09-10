@@ -3,8 +3,8 @@
    version="1.1"
    id="svg2"
    width="10550"
-   height="5600"
-   viewBox="0 0 10550 5600"
+   height="10000"
+   viewBox="0 -4400 10550 10000"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -39,12 +39,12 @@
      id="path840" />
   <text
      x="89.45"
-     y="206.96"
+     y="-4193.04"
      id="text3652"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="206.96"
+       y="-4193.04"
        id="tspan1">2005</tspan></text>
   <text
      x="10127.45"

@@ -3,8 +3,8 @@
    version="1.1"
    id="svg2"
    width="3950"
-   height="3650"
-   viewBox="0 0 3950 3650"
+   height="3950"
+   viewBox="0 -300 3950 3950"
    xml:space="preserve"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
@@ -37,12 +37,12 @@
      d="m 3277.7,2888.45 13.08,10.96 14.14,4.6 16.26,1.77 15.91,-4.95 14.85,-9.19 278.95,-189.15 10.61,-5.3 36.77,-16.62 10.61,-9.19 11.31,-14.85 28.28,-54.45 11.31,-13.79 14.14,-11.67 13.08,-5.66 74.6,-30.76"
      id="path846" /><text
      x="89.45"
-     y="206.96"
+     y="-93.04"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="206.96"
+       y="-93.04"
        id="tspan1">2025</tspan></text><path
      style="fill:none;stroke:#ec6b05;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      d="m 2228.41,-24.24 13.36,41.46 8.78,46.64 3.31,33.6 -4.37,73.47 -6.16,36.46 -18.5,58.21 -0.29,10 15.93,31.64 8.57,5.18 183.47,-6.64 17.65,-3.43 25.13,-8.14 7.39,0.64 6.17,5.43 12.28,27.65 8.49,24.19 0.47,0.81 4,4.59 0.74,0.58 7.2,3.72 1.68,0.22 10.91,-2.38 5.45,2.58 4.31,6.04 70.26,217.82 -1.55,6.97 -2.96,4.92 -4.27,2.81 -55.61,18.52 -0.91,0.54 -7.09,6.6 -0.55,0.75 -5.42,11.34 -0.24,0.9 -0.9,12.97 0.09,0.86 24.75,86.62 0.05,0.16 6.2,11.83 6.28,8.59 7.23,7.27 2.25,9.65 -1.94,26.64"

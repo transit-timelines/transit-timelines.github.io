@@ -40,13 +40,13 @@
   <path
      style="fill:none;stroke:#012a69;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="path3757"
-     d="m 602.5,652.5 129,1 20,8.5 0,11 3,5.5 20.5,2.5 16.5,-5.5 16,-16.5 L 993,439.5 1099,312 l 33,-51.5 26,-24 35.5,-24 50.5,-29.5 41,-24.5 26.5,-16 45.5,-44.0 24.5,-14" />
+     d="m 602.5,652.5 129,1 20,8.5 0,11 3,5.5 20.5,2.5 16.5,-5.5 16,-16.5 L 993,439.5 1099,312 l 33,-51.5 26,-24 35.5,-24 50.5,-29.5 41,-24.5 26.5,-16 45.5,-44 24.5,-14" />
   <path
      style="fill:none;stroke:#012a69;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="path3763"
      d="M 1958.12,1249.95 1573.5,1494.5 l -47,25 -50.5,21.5 -43,13 -36.5,8 -30,4.5 -66.5,1 -65,-7.5 -54,-12.5 -104.5,-36.5 -23.5,0 -6.5,-3 -18.5,-12.5 -259,-91 L 295,1239" />
   <text
-     style="font-size:144.0px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
      xml:space="preserve"
      id="text2994"
      y="156.96"
@@ -55,7 +55,7 @@
        y="156.96"
        x="89.45">1990</tspan></text>
   <path
-     d="m 604.5,652.0 -36.5,19 -67.5,40.5 -10,22.5 -9.5,15 -75.5,42.5 -24.5,19 -16.5,26 -21.5,15 -69,43.5 L 210.5,1077 l -5,1 -71.5,-25 -5,3 -20.5,60.21 1.93,3.57 74.79,25.61 1.29,3.69 -13.81,37.02 2.49,4.78 80.92,27.2 3.87,1.91"
+     d="m 604.5,652 -36.5,19 -67.5,40.5 -10,22.5 -9.5,15 -75.5,42.5 -24.5,19 -16.5,26 -21.5,15 -69,43.5 L 210.5,1077 l -5,1 -71.5,-25 -5,3 -20.5,60.21 1.93,3.57 74.79,25.61 1.29,3.69 -13.81,37.02 2.49,4.78 80.92,27.2 3.87,1.91"
      id="path3759"
      style="fill:none;stroke:#012a69;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
   <path

@@ -7,7 +7,7 @@ cat <<HEREDOC
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Rapid Transit Timelines and Scale Comparison" />
 <meta property="og:image" content="https://alexander.co.tz/timelines/preview.png" />
-<meta property="og:description" content="Maps every 5 years, 1840-2020" />
+<meta property="og:description" content="Maps every 5 years, 1840-2025" />
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
 div#preloader {
@@ -85,7 +85,7 @@ HEREDOC
 start=$(for city in $@; do ls $city/????.svg; done | sed -e's!^.../\(....\).svg!\1!' | sort | head -n 1)
 echo "start=${start};"
 echo -n "count="
-expr 1 + \( \( 2020 - $start \) / 5 \) | sed -e's/$/;/'
+expr 1 + \( \( 2025 - $start \) / 5 \) | sed -e's/$/;/'
 echo -n "citylist = ["
 for city in $@; do echo -n '"'$city'",'; done | tr 'a-z' 'A-Z' | sed -e's/,$/];/'
 echo ''
@@ -258,15 +258,15 @@ HEREDOC
 for city in $@; do
   NAME=`cat $city/name`
   UPPER=$(echo $city | tr 'a-z' 'A-Z')
-  NATIVEW=$(grep ' width="' $city/small/2020.svg | head -n1 | sed -e's/.* width="\([0-9\.]*\)".*/\1/;')
+  NATIVEW=$(grep ' width="' $city/small/2025.svg | head -n1 | sed -e's/.* width="\([0-9\.]*\)".*/\1/;')
   W=$(awk "BEGIN{print int(0.5+$NATIVEW*10/138)}")
-  H=$(awk "BEGIN{print int(0.5+$(grep ' height=' $city/small/2020.svg | head -n1 | sed -e's/.* height="\([0-9\.]*\)".*/\1/;')*$W/$NATIVEW)}")
+  H=$(awk "BEGIN{print int(0.5+$(grep ' height=' $city/small/2025.svg | head -n1 | sed -e's/.* height="\([0-9\.]*\)".*/\1/;')*$W/$NATIVEW)}")
   if [ -f $city/s ]; then
     echo '<span id="'$UPPER'" style="display: inline-block;"><a href="'$city'">'$NAME'</a><br>'
-    echo '  <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="'$city'/small/2020.svg" title="2020" alt="2020 map" width="'${W}'" height="'${H}'"></a></span>'
+    echo '  <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="'$city'/small/2025.svg" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
   else
     echo '<span id="'$UPPER'" style="display: none;"><a href="'$city'">'$NAME'</a><br>'
-    echo '  <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="/0" title="2020" alt="2020 map" width="'${W}'" height="'${H}'"></a></span>'
+    echo '  <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="/0" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
   fi
 done
 
@@ -318,7 +318,7 @@ HEREDOC
 for city in $@; do if [ -f $city/s ]; then
   UPPER=`echo $city | tr 'a-z' 'A-Z'`
   echo '<div id="'$UPPER'pre">'
-  for yr in $(seq ${start} 5 2020); do
+  for yr in $(seq ${start} 5 2025); do
     if [ -f $city/small/$yr.svg ]; then
       echo '<img src="'${city}'/small/'${yr}'.svg" alt="">'
     fi

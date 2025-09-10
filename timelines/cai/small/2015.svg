@@ -2,8 +2,8 @@
 <svg
    id="svg2"
    height="5100"
-   width="3250"
-   viewBox="-50, 0, 3250, 5100"
+   width="3400"
+   viewBox="-200, 0, 3400, 5100"
    version="1.1"
    xml:space="preserve"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -36,18 +36,18 @@
      xml:space="preserve"
      id="text3788"
      y="4997.96"
-     x="39.45"><tspan
+     x="-110.55"><tspan
        id="tspan2"
        y="4997.96"
-       x="39.45"></tspan></text><text
+       x="-110.55"></tspan></text><text
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3792"
      y="206.96"
-     x="39.45"><tspan
+     x="-110.55"><tspan
        id="tspan1"
        y="206.96"
-       x="39.45">2015</tspan></text>
+       x="-110.55">2015</tspan></text>
 <path
      style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
      d="m 2753.88,934.04 -0.59,-25.27 3,-7.84 4.51,-6.56 45.08,-37.8 3.25,-7.19 1.14,-9.76 2.06,-80.7 6.68,-59.18"

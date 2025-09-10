@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="-50 -50 2550 1750"
-   height="1750"
-   width="2550"
+   viewBox="-1950 -50 5300 2550"
+   height="2550"
+   width="5300"
    id="svg2"
    version="1.1">
   <metadata
@@ -127,10 +127,10 @@
      xml:space="preserve"
      id="text2992"
      y="156.96"
-     x="39.45"><tspan
+     x="-1860.55"><tspan
        id="tspan1"
        y="156.96"
-       x="39.45">1985</tspan></text>
+       x="-1860.55">1985</tspan></text>
   <path
      id="path865"
      d="m 1095.12,1010.78 -23.96,-8.23 -10.1,-5.58 -8.45,-7.64 -5.3,-2.03 -5.59,0.81 -2.73,4.47 -0.12,6.22 -0.8,6.47 -4.86,5.4 -40.61,28.49 -24.22,11.96"

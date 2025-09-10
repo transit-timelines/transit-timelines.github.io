@@ -3,8 +3,8 @@
    version="1.1"
    id="svg2"
    width="3550"
-   height="3000"
-   viewBox="0 0 3550 3000"
+   height="4400"
+   viewBox="0 -1400 3550 4400"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -35,12 +35,12 @@
      style="display:none" />
   <text
      x="89.45"
-     y="206.96"
+     y="-1193.04"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="206.96"
+       y="-1193.04"
        id="tspan1">2025</tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#21bdbd;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

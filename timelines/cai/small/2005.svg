@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   width="3250"
+   width="3400"
    height="5100"
-   viewBox="-50, 0, 3250, 5100"
+   viewBox="-200, 0, 3400, 5100"
    id="svg2">
   <metadata
      id="metadata8">
@@ -62,21 +62,21 @@
      id="path3786"
      style="fill:none;stroke:#808000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
   <text
-     x="39.45"
+     x="-110.55"
      y="4997.96"
      id="text3788"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="39.45"
+       x="-110.55"
        y="4997.96"
        id="tspan2"></tspan></text>
   <text
-     x="39.45"
+     x="-110.55"
      y="206.96"
      id="text3792"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="39.45"
+       x="-110.55"
        y="206.96"
        id="tspan1">2005</tspan></text>
 </svg>

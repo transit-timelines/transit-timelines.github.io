@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 1050 2450"
+   viewBox="-1150 0 2200 2450"
    height="2450"
-   width="1050"
+   width="2200"
    id="svg2"
    version="1.1"
    xml:space="preserve"
@@ -31,10 +31,10 @@
      xml:space="preserve"
      id="text2984"
      y="206.96"
-     x="89.45"><tspan
+     x="-1060.55"><tspan
        id="tspan1"
        y="206.96"
-       x="89.45">2025</tspan></text><path
+       x="-1060.55">2025</tspan></text><path
      style="fill:none;fill-opacity:0;stroke:#fb7402;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      d="m 375.89,1048.19 -76.48,-121.9 -7.85,14.86 -97.19,60.45 -38.74,-2.84 -162.48,102.2 -49.6,28.39 -498.06,320.66 -34.01,8.27 -153.03,95.17 -10.39,4.25 -27.16,3.78 -15.35,7.32 -134.61,88.8 -14.41,11.57 -36.6,36.13 -11.1,7.32 -7.08,2.13 -11.34,0.94 -29.76,-9.92"
      id="path1" /></svg>

@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="-50 0 2100 1350"
-   height="1350"
-   width="2100"
+   viewBox="-250 -100 2300 1450"
+   height="1450"
+   width="2300"
    id="svg2"
    version="1.1">
   <metadata
@@ -38,11 +38,11 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2992"
-     y="206.96"
-     x="39.45"><tspan
+     y="106.96"
+     x="-160.55"><tspan
        id="tspan1"
-       y="206.96"
-       x="39.45">1965</tspan></text>
+       y="106.96"
+       x="-160.55">1965</tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:0.02;fill-rule:nonzero;stroke:#0089b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 450.63,1265.19 52.73,-25.65"

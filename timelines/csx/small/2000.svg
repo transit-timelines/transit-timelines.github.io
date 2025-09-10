@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="3700"
-   height="3850"
-   viewBox="0 0 3700 3850">
+   width="5400"
+   height="6000"
+   viewBox="-600 -675 5400 6000">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -35,13 +35,13 @@
      x="-792.2"
      y="-858.4" />
   <text
-     x="89.45"
-     y="206.96"
+     x="-510.55"
+     y="-468.04"
      id="text2992"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="89.45"
-       y="206.96"
+       x="-510.55"
+       y="-468.04"
        id="tspan1">2000</tspan></text>
   <path
      style="opacity:1;fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
@@ -53,7 +53,7 @@
      xml:space="preserve"
      id="text3639"
      y="5222.96"
-     x="89.45"><tspan
+     x="-510.55"><tspan
        id="tspan2"
        y="5222.96"
-       x="89.45"></tspan></text></svg>
+       x="-510.55"></tspan></text></svg>
