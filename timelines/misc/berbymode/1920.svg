@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="svg2"
-   viewBox="-1310, -2520, 8150, 7300"
+   viewBox="-1760 -2520 8600 7300"
    height="7300"
-   width="8150"
+   width="8600"
    version="1.1"
    xml:space="preserve"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -196,7 +196,7 @@
    x="-1170.55"><tspan
      id="tspan2"
      y="4677.96"
-     x="-1220.55">1920</tspan></text><path
+     x="-1670.55">1920</tspan></text><path
    style="fill:none;fill-rule:evenodd;stroke:#999999;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    d="m 560.5,-2406 -20.53,-50.86 -4.48,-25.36 1.31,-20.55 8.36,-35.09"
    id="path85993" /><path
@@ -369,7 +369,7 @@
    x="-1170.55"><tspan
      id="tspan1"
      y="-2313.04"
-     x="-1220.55">1920</tspan></text><path
+     x="-1670.55">1920</tspan></text><path
    style="fill:none;stroke:#ff0000;stroke-width:3;stroke-linejoin:round;stroke-opacity:1"
    d="m 2259.52,1339.93 20.45,4.65 2.85,4.22 27.21,17.49 -10.05,14.69 33.84,33.31 0.37,8.11 8.32,8.45 32.7,21.28 35.26,18.73 2.95,-4.37 12.25,-25.4 16.64,-43.42"
    id="path3082" /><path
