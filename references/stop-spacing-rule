@@ -1,10 +1,8 @@
+===== PENDING AND UNDER 5KM =====
 AMS: most of the NS network (3.5km Sloterdijk-Lelylaan, 4.5km Centraal-Sloterdijk, 3.7km Muiderpoort)
-BER: 2.4km Stettiner Bf in 1925 and maybe earlier
 BHX: Birmingham Intl and on to Coventry, Wolverhampton, Tame Bridge Pkwy, Dorridge
-BJS: 7.2km Capital Airport Express, 13+km Daxing Airport Express
-BNE: Beenleigh
 BOM: Ambernath & Kalwa bypass
-BOS: Back Bay
+BOS: 1.9km Back Bay
 BRN: Lyss/Biel?
 BRU: Antwerp-2.2km-Berchem-Lier/Gent, Namur? Brugge? Zottegem? Aalst? De Pinte? Herentals?, Diest-Hasselt?, merge CRL?
 BRQ: hln-Zidenice?
@@ -13,27 +11,22 @@ BSL: S Pratteln, Rheinfelden?, Olten?
 BUD: Keleti-Rakos
 CAI: Capital LRT (e.g. 4.6km El Shorouk-New Heliopolis)
 CCS: 9.5km Los Teques 2010, 3.5km teleferico avila, 4.8km metrocable mariche
-CHI: 7.6km Skokie Swift pre-2015
 CRL: Charleroi-Namur?, Charleroi-Marchienne?, merge BRU?
-CSX: 7.6km S2 maglev Changshannan-Langli
-CZX: intercity line from Wuxi/Shanghai (~41km Changzhou-Wuxi)
 DEN: airport line (technically barely qualifies anyway)
 DLC: L12 on 2015 map
 DRS: Coswig?
 DUS: RE Düsseldorf-Duisburg-Bochum(-Hamm?), Duisburg-Oberhausen(-Dortmund?), Köln-Hürth(-Bonn?)
-DWS: 5.3km epcot
 EDI: if Waverly-Haymarket (just over 2km) then Inverkeithing & Polmont but also 2015 Glasgow via FH
 FKB: Bruchsal?
 FSZ: Tokaido line (Okitsu to Shimada?)
+FRA: Offenbach Lokalbahn?
 FUK: Tenjin-Omuta, Kagoshima Main?
 GLA: Paisley Gilmour and on to Killwinning, Port Glasgow
-GOJ: cable car
+GOJ: 3.7km cable car
 GRQ: Sauwerd, Leeuwarden, Zwolle etc
 GVA: airport, possibly Lausanne
 HAJ: Weetzen, Langenhagen, Lehrte?
-HKG: 5.7km Ngong Ping, ~22km Airport-Tsing Yi 2000, 40km WKowloon-ShenzhenN
 IST: airport line (borderline)
-JKT: Duri-Rawa Buaya-6.6km-Batu Ceper
 JNB: Gautrain (4.5km Sandton-Rosebank)
 KSF: Hbf-Wilhelmshöhe?
 KUL: KLIA express
@@ -44,7 +37,6 @@ LON: 6.4km Stratford/Colchester, 4.8km Cheshunt/Broxbourne, 4.9km BStortford/Saw
 LUG: Paradiso
 LYN: RhoneExpress (Meyzieu-SE 7.0km)
 MAD: 3km L7 Estadio Metropolitano - Barrio del Puerto shuttle
-MAN: 8.1km Stockport
 MDE: Metrocable L (4.5km)
 MEL: Deer Park/Geelong/Melton (borderline already)
 MEX: Tren Suburbano (3.5km Tlalnepantla-San Rafael), Toluca (~5.9km Zinacantepec-Toluca Centro)
@@ -68,7 +60,6 @@ SPK: airport line
 STO: arlanda express
 STR: Plochingen RE/MEX16?
 SZD: Meadowhall
-SZV: intercity line from Shanghai
 THR: line 1 airport branch, line 5 early
 TLS: was TER to Colomiers 4tph at some point?
 TOY
@@ -79,8 +70,20 @@ ULM: line between Ulm and Neu-Ulm since 2013
 URC: Airport (interterminal) MRT
 VIE
 WLG: trunk to Petone pre-2020?
-WUX: intercity line from Changzhou (~41km)
-YTO: Union Pearson Express (5.3km Union-Bloor and yes they will sell you a ticket for that)
 ZAG: cableway
 ZDA: towards Olten, Turgi, etc (probably merges with ZRH)
 ZRH: Zug, Winterthur, Turgi, likely others
+===== BETWEEN 5KM AND 10KM =====
+BJS: 7.2km Capital Airport Express, 13+km Daxing Airport Express
+BNE: 7.9km Altandi-Beenleigh
+CHI: 7.6km Skokie Swift pre-2015
+CSX: 7.6km S2 maglev Changshannan-Langli
+DWS: 5.3km epcot
+HKG: 5.7km Ngong Ping, ~22km Airport-Tsing Yi 2000, 40km WKowloon-ShenzhenN
+JKT: Duri-Rawa Buaya-6.6km-Batu Ceper
+MAN: 8.1km Stockport
+MUC: 7.4km early Pasing
+YTO: Union Pearson Express (5.3km Union-Bloor and yes they will sell you a ticket for that)
+===== OVER 10KM =====
+CZX: ~41km Changzhou-Wuxi via intercity line to Shanghai
+WUX: intercity line from Changzhou (~41km)
