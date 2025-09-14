@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
-   viewBox="-50, 0, 10550, 8600"
+   viewBox="-50 0 7150 8600"
    height="8600"
-   width="10550"
+   width="7150"
    version="1.1">
   <metadata
      id="metadata8">
@@ -27,10 +27,10 @@
      id="defs6" />
   <image
      xlink:href=".././../basemap/melosm.png"
-     x="-100"
+     x="-3832.91"
      y="-465.64"
-     width="10665.46"
-     height="9065.64"
+     width="14398.37"
+     height="9332.28"
      id="image10"
      style="display:none" />
   <path
@@ -40,7 +40,7 @@
   <path
      style="fill:none;stroke:#00578b;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3778"
-     d="m 3908.37,3447.19 -11.22,-16.77 -9.72,-28.04 -31.17,-87.88 -8,-7.25 -10.25,-4.25 -9.5,0 -225.75,81.75 -7,11 -2.75,7.75 -1.5,10 2,16.75 17.5,32.75" />
+     d="m 3908.37,3447.19 -11.22,-16.77 -9.72,-28.04 -31.17,-87.88 -8,-7.25 -10.25,-4.25 -9.5,0 -225.75,81.75 -7,11 -2.75,7.75 -1.5,10 2,16.75 17.65,32.81" />
   <path
      style="fill:none;stroke:#00578b;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3786"
@@ -50,7 +50,7 @@
      id="path3788"
      d="m 5003.18,3586.27 25.5,-7.5 24.5,-4 67,5 19,1.5 14.5,-6 54.5,-26 14.5,-3.5 16,1.5 85.5,19.5 24,1.5 26,-6 21.5,-9.5 21.5,-16 67,-60.5 27,-11 74,-2 138.5,26 139,25 20,-1 24.5,-12.5 23.5,-12 15.5,-2.5 40.5,7 63.5,1.5 147.5,24 22.5,0 42.5,-7.5 49,-11.5 130,-23.5 114.5,-21.5 18,0 189.5,19 42,-2.5 81,-6 32,-8 45.5,-25 21.5,-12.5" />
   <path
-     d="m 3918.37,3460.94 -17.22,-32.77 -9.22,-26.79 -31.42,-89.88 -11,-8.75 -11,-4.5 -10,-0.5 -225,81.75 -7.5,6.75 -6,10.5 -3.5,17.5 3,17.5 17.5,34.25"
+     d="m 3918.37,3460.94 -17.22,-32.77 -9.22,-26.79 -31.42,-89.88 -11,-8.75 -11,-4.5 -10,-0.5 -225,81.75 -7.5,6.75 -6,10.5 -3.5,17.5 3,17.5 17.15,33.06"
      id="path4229"
      style="fill:none;stroke:#00a8e6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
@@ -60,7 +60,7 @@
   <path
      style="fill:none;stroke:#d31d2c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3792"
-     d="m 3916.18,3424.77 -19.77,-7.62 -13.53,-12.94 -30.21,-87.54 -6.19,-5.66 -10.08,-4.07 -8.13,0 -222.21,81.32 -7.07,9.9 -2.83,15.73 2.12,14.85 17.5,32.53" />
+     d="m 3916.18,3424.77 -19.77,-7.62 -13.53,-12.94 -30.21,-87.54 -6.19,-5.66 -10.08,-4.07 -8.13,0 -222.21,81.32 -7.07,9.9 -2.83,15.73 2.12,14.85 16.97,32.01" />
   <path
      style="fill:none;stroke:#d31d2c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3794"
@@ -68,7 +68,7 @@
   <path
      style="fill:none;stroke:#fbbd10;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3796"
-     d="m 3695.48,1647.59 46.7,491.68 10.5,117.5 -0.5,35 -18,175 -25,197 -20.5,181 -9.5,24.5 -19,18 -25.5,6.5 -42.5,2.5 -35.5,19 -28,37.5 -28.5,24 -47.5,28 -19,29 -12.5,51.5 -2,37.5 14.5,70.5 8,32 16.21,31.73 36.29,44.77 32.5,46.5 34,37 43.75,44.25 14.82,28.73" />
+     d="m 3695.48,1647.59 46.7,491.68 10.5,117.5 -0.5,35 -18,175 -25,197 -20.5,181 -9.5,24.5 -19,18 -25.5,6.5 -42.5,2.5 -35.5,19 -28,37.5 -28.5,24 -47.5,28 -19,29 -12.5,51.5 -2,37.5 14.5,70.5 8,32 16.21,31.73 36.29,44.77 32.5,46.5 34,37 43.75,44.25 14.82,29.23" />
   <path
      style="fill:none;stroke:#fbbd10;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3798"
@@ -114,10 +114,10 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3824"
-     y="8497.96"
+     y="8697.96"
      x="39.45"><tspan
        id="tspan2"
-       y="8497.96"
+       y="8697.96"
        x="39.45">1990</tspan></text>
   <path
      d="m 4100.24,3774.12 5.69,-40.2 17.85,-117.23 -4.25,-16.69 -13,-18.99 -20.69,-17.96 -32.57,-12.58 -51.11,-19.85 -32.36,-21.62 -29.55,-24.48 -27.44,-22.33 -22.05,-13.42 -16.72,-3.57 -16.04,4.87 -62.76,22.9"

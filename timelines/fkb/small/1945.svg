@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 350 3250 3400"
+   viewBox="-25 350 3750 3400"
    height="3400"
-   width="3250"
+   width="3750"
    id="svg2"
    version="1.1">
   <metadata
@@ -39,8 +39,8 @@
      xml:space="preserve"
      id="text3784"
      y="556.96"
-     x="89.45"><tspan
+     x="64.45"><tspan
        id="tspan1"
        y="556.96"
-       x="89.45">1945</tspan></text>
+       x="64.45">1945</tspan></text>
 </svg>

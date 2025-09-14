@@ -3,8 +3,8 @@
    id="svg2"
    version="1.1"
    width="9350"
-   height="5700"
-   viewBox="0 0 9350 5700"
+   height="7500"
+   viewBox="0 -1800 9350 7500"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -26,11 +26,11 @@
      id="defs6" />
   <image
      xlink:href="../basemap/istosm.png"
-     y="-223.67"
+     y="-1749.67"
      x="-76"
      id="image10"
      preserveAspectRatio="none"
-     height="5849.67"
+     height="7375.67"
      width="9410.33"
      style="display:none" />
   <path
@@ -87,12 +87,12 @@
      id="path4200" />
   <text
      x="89.45"
-     y="206.96"
+     y="-1593.04"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="206.96"
+       y="-1593.04"
        id="tspan1">2015</tspan></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#f58050;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

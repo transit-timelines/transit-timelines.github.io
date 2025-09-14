@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   width="8050"
-   viewBox="650, -75, 8050, 8500"
+   width="8700"
+   viewBox="-10 -75 8700 8500"
    height="8500"
    id="svg2"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -40,9 +40,9 @@
      xlink:href="../basemap/parosm.png"
      id="image12"
      height="6886.77"
-     width="7997.54"
+     width="8664"
      y="263.23"
-     x="666.14"
+     x="-0.32"
      style="display:none" />
   <path
      d="m 3587.38,3640.88 14.64,-14.73 60.5,-48 47.5,-37 60.5,-26.5 128.5,-60 11.98,-0.67 62.22,33.24 6.53,-2.82 14.55,-17.77 1.62,-4.92 -32.39,-169.55 -13.5,-25.5 -44,-69.5 0,-11 8.71,-17.83 8.75,-8.61 35.54,-73.56 -2,-27.5 20,-43.5 -3,-25.5 4,-6 53.5,-11 69,7"
@@ -69,21 +69,21 @@
      id="path3611"
      style="fill:none;stroke:#96a33c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     x="739.45"
+     x="79.45"
      y="131.96"
      id="text2847"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="739.45"
+       x="79.45"
        y="131.96"
        id="tspan1">1910</tspan></text>
   <text
-     x="739.45"
+     x="79.45"
      y="8322.96"
      id="text2847-0"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="739.45"
+       x="79.45"
        y="8322.96"
        id="tspan2"></tspan></text>
   <path

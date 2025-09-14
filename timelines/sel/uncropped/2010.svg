@@ -8,8 +8,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="13250"
-   height="10200"
-   viewBox="0 -25 13250 10200"
+   height="16250"
+   viewBox="0 -50 13250 16250"
    id="svg2">
   <metadata
      id="metadata8">
@@ -105,19 +105,19 @@
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3652"
-     y="181.96"
+     y="156.96"
      x="89.45"><tspan
        id="tspan1"
-       y="181.96"
+       y="156.96"
        x="89.45">2010</tspan></text>
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3652-1"
-     y="10072.96"
+     y="16097.96"
      x="89.45"><tspan
        id="tspan2"
-       y="10072.96"
+       y="16097.96"
        x="89.45">2010</tspan></text>
   <path
      style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"

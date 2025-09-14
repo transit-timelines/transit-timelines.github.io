@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   width="4400"
-   height="4050"
-   viewBox="0, -50, 4400, 4050"
+   width="6450"
+   height="5250"
+   viewBox="-50 -1250 6450 5250"
    id="svg2">
   <metadata
      id="metadata8">
@@ -62,12 +62,21 @@
      d="m 2582.32,383.04 -4.73,-4.91 -5.61,-5.2 c -0.1,-0.09 -0.23,-0.14 -0.37,-0.13 l -4e-4,-1.9e-4 c -0.02,10e-4 -0.04,0 -0.07,0.01 l -6.39,1.2 c -0.1,0.02 -0.2,0.07 -0.27,0.14 l -65.5,67.5"
      id="path886" />
   <text
-     x="89.45"
-     y="156.96"
+     x="39.45"
+     y="-1043.04"
      id="text2990"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-       x="89.45"
-       y="156.96"
+       x="39.45"
+       y="-1043.04"
        id="tspan1">2015</tspan></text>
-</svg>
+
+<text
+     x="-2298.55"
+     y="3897.96"
+     id="text2819-1"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="39.45"
+       y="3897.96"
+       id="tspan2">2015</tspan></text></svg>

@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 350 3250 3400"
+   viewBox="-25 350 3750 3400"
    height="3400"
-   width="3250"
+   width="3750"
    id="svg2"
    version="1.1">
   <metadata
@@ -103,10 +103,10 @@
      xml:space="preserve"
      id="text3784"
      y="556.96"
-     x="89.45"><tspan
+     x="64.45"><tspan
        id="tspan1"
        y="556.96"
-       x="89.45">2005</tspan></text>
+       x="64.45">2005</tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00a66e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1651.2,2623.88 -0.82,13.24 3.12,12.38 15.25,25.25 40.5,30 8,8.5 6.25,12 2.75,15.75 1.25,83.5 4.5,15 21.25,38.25 3.25,17 -1,18.75 -3.75,16.25 -20.75,39.25 -1.5,9.25 7.56,76.88"

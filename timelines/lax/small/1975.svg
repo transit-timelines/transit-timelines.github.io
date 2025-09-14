@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   id="svg2"
-   height="6850"
+   version="1.1"
    width="7900"
+   height="6850"
    viewBox="-75, -350, 7900, 6850"
-   version="1.1">
+   id="svg2"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,7 +21,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -30,25 +31,45 @@
      style="display:none"
      id="image10"
      height="7830.67"
-     width="9229"
+     width="11746"
      y="-1347.67"
      x="-1446.67" />
   <text
-     style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     xml:space="preserve"
+     x="89.45"
+     y="6330.29"
      id="text2996"
-     y="6397.96"
-     x="14.45"><tspan
-       id="tspan2"
-       y="6397.96"
-       x="14.45"></tspan></text>
-  <text
-     style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
      xml:space="preserve"
+     style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+       x="14.45"
+       y="6397.96"
+       id="tspan2"></tspan></text>
+  <text
+     x="89.45"
+     y="206.96"
      id="text2996-6"
-     y="-143.04"
-     x="14.45"><tspan
-       id="tspan1"
+     xml:space="preserve"
+     style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+       x="14.45"
        y="-143.04"
-       x="14.45">1975</tspan></text>
+       id="tspan1">1975</tspan></text>
+  <path
+     style="fill:none;stroke:#aeb8be;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 4274.46,1827.51 24.71,-15.39 145.38,-90.79 17.29,-3.78 37.83,1.08 519.9,-6.49 525.85,-8.65 186.39,-1.46 -0.04,6.9"
+     id="path1" />
+  <path
+     style="fill:none;stroke:#aeb8be;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 3417.25,2001.2 13.42,2.22 h 15.67 l 11.89,-5.4 12.97,-17.83 13.51,-8.65 35.67,-9.73 20.54,-7.57 22.7,-4.32 22.16,1.08 22.16,8.65 31.89,18.38 23.78,8.11 18.92,-1.62 22.7,-9.73 27.02,-10.27 27.02,-4.32 41.61,-2.7 128.08,1.62 21.62,-5.4 157.27,-85.39 27.56,-13.51 24.86,-2.16 59.99,2.7 21.62,-7.57 32.58,-20.28"
+     id="path2987" />
+  <path
+     d="m 3417.25,2001.2 -138.75,-21.37 -12.62,-3.45 -33.38,-26.05 h -6 l -38.17,49.98 -1.26,1.51 -3.7,0.46 -36.97,-28.35 -3.5,0.12 -97,125.01 h -4.44 l -21.94,-16.57 -0.47,-3.97 4.67,-6.54 -0.47,-3.74 -55.33,-43.42 -181.15,-96.18 -12.84,-14.71 -9.34,-7 -10.27,-3.03 -15.41,-3.27 -62.1,-33.38 -200.53,1.4"
+     id="path3757"
+     style="fill:none;stroke:#aeb8be;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+  <path
+     style="fill:none;stroke:#aeb8be;stroke-linejoin:round;stroke-opacity:1"
+     d="m 3220.37,1958.36 3.81,-0.13 42.25,31.63 7.7,3.85 42.84,7.94 5.72,-4.79 22.18,0.23 43.19,7.12 21.13,6.65 3.15,-0.82 1.63,-6.07 3.29,-2.79"
+     id="path2" />
+  <path
+     style="fill:none;stroke:#aeb8be;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 3008.67,2056.79 3.96,-0.11 6.3,-8.05 3.15,-0.35 37.12,28.95 3.83,-0.25"
+     id="path3" />
 </svg>

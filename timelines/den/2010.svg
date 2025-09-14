@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
-   viewBox="0, -50, 4400, 4050"
-   height="4050"
-   width="4400"
+   viewBox="-50 -1250 6450 5250"
+   height="5250"
+   width="6450"
    version="1.1">
   <metadata
      id="metadata8">
@@ -65,11 +65,11 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2990"
-     y="156.96"
-     x="89.45"><tspan
+     y="-1043.04"
+     x="39.45"><tspan
        id="tspan1"
-       y="156.96"
-       x="89.45">2010</tspan></text>
+       y="-1043.04"
+       x="39.45">2010</tspan></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#814479;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      d="m 2401.83,287.45 3.34,0.72 9.77,9.77 4.53,-0.48 5.24,-5.01"
@@ -78,4 +78,13 @@
      id="path1601"
      d="m 2493,434.79 3.03,1.69 3.29,3.53 8.34,7.92 5.98,-0.84 63.37,-64.21 -0.25,-2.78 -5.48,-5.14 -5.22,0.84 -61.85,63.54 -4.89,0.67"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#e13536;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-</svg>
+
+<text
+     x="-2298.55"
+     y="3897.96"
+     id="text2819-1"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="39.45"
+       y="3897.96"
+       id="tspan2">2010</tspan></text></svg>

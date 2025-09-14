@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="3250"
+   width="3750"
    height="3400"
-   viewBox="0 350 3250 3400">
+   viewBox="-25 350 3750 3400">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -43,17 +43,17 @@
      d="m 2510,2558.75 37.75,18"
      id="path1028" />
   <text
-     x="89.45"
+     x="64.45"
      y="556.96"
      id="text3784"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="89.45"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="64.45"
        y="556.96"
        id="tspan1">1960</tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00a66e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1737.06,3055.13 5.44,55.37 -0.25,16.25 -6.5,27.25 -22.5,78.25 -10.25,15.5 -19.75,21.75 -5.75,14.25 -1,16.25 0.25,65.75 2.5,19.75 6,17 4.25,6.5 24.5,19.25 21.75,17.25 11.5,13.75 31.75,16.5 53.75,26.5 17.63,4.0"
+     d="m 1737.06,3055.13 5.44,55.37 -0.25,16.25 -6.5,27.25 -22.5,78.25 -10.25,15.5 -19.75,21.75 -5.75,14.25 -1,16.25 0.25,65.75 2.5,19.75 6,17 4.25,6.5 24.5,19.25 21.75,17.25 11.5,13.75 31.75,16.5 53.75,26.5 17.63,4"
      id="path867-3" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00a66e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

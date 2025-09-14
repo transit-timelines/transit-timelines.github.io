@@ -11,8 +11,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="5300"
-   height="5000"
-   viewBox="-150, -590, 5300, 5000"
+   height="6500"
+   viewBox="-150 -2090 5300 6500"
    id="svg2">
   <metadata
      id="metadata8">
@@ -32,9 +32,9 @@
      xlink:href="../basemap/mexosm.png"
      style="display:none"
      id="image10"
-     height="5092.92"
+     height="6684.46"
      width="5411.23"
-     y="-642.92"
+     y="-2234.46"
      x="-318.31" />
   <path
      d="m 1233.5,1269.5 3,22 -7,54.5 -35,166 -26.5,114 -37.5,217.5 -7,53 -6,11 -28.34,13.84"
@@ -57,12 +57,12 @@
        id="tspan2"></tspan></text>
   <text
      x="-60.55"
-     y="-383.04"
+     y="-1883.04"
      id="text3790-8"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
        x="-60.55"
-       y="-383.04"
+       y="-1883.04"
        id="tspan1">1975</tspan></text>
   <path
      d="m 397.5,2160.5 58.54,-15.39 64.08,-32.5 16.57,-5.41 27.2,0.12 11.49,-3.66 12.11,-8.18 16.01,-15.47 32.5,-57.5 30,-64.5 10.5,-32.5 23,-61 15,-35 11,-11.5 31,-6 123.5,-28.5 200,-50 76.5,-21.5 21,-1.5 149,17.5 79.5,7.5 22,-8 78.5,14 32,4 9,-1 5,-4 6,-11.5 0,-18 -0.5,-48 3,-14.5 8,-9.5 6,-4 23.5,2.5 35.5,2.5 8.5,8 0.5,21 4,10 84,47.5 312,173 72.5,48 54.5,34 14,3 13.5,-3.5 6.5,-5.5 9,-14 8,-19 8.5,-71.5"

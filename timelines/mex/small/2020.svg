@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="svg2"
-   viewBox="-150, -590, 5300, 5000"
-   height="5000"
+   viewBox="-150 -2090 5300 6500"
+   height="6500"
    width="5300"
    version="1.1"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -27,9 +27,9 @@
   <image
      xlink:href="../basemap/mexosm.png"
      id="image10"
-     height="5092.92"
+     height="6684.46"
      width="5411.23"
-     y="-642.92"
+     y="-2234.46"
      x="-318.31"
      style="display:none" />
   <path
@@ -105,10 +105,10 @@
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
      xml:space="preserve"
      id="text3790-8"
-     y="-383.04"
+     y="-1883.04"
      x="-60.55"><tspan
        id="tspan1"
-       y="-383.04"
+       y="-1883.04"
        x="-60.55">2020</tspan></text>
   <path
      style="fill:none;stroke:#aa9848;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -138,4 +138,8 @@
      id="path845"
      d="m 625.57,3703.33 2.29,18.58 4.13,8.26 6.19,6.19 23.4,8.49 125.25,55.28 4.13,7.8 1.38,8.72 -2.98,11.47 -24.09,62.63 v 17.43 l 4.36,12.39 7.11,12.16 17.43,10.78 80.75,36.7 2.32,4.26 -1.02,5.68 -5.65,6.12 h -7.11 l -4.13,-4.59 -0.92,-6.65 4.36,-7.34 -0.69,-3.44"
      style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#a83439;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-</svg>
+
+<path
+     style="fill:none;stroke:#c0181c;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 1108.18,1387.92 10.22,-60.66 -1.7,-11.59 -16.02,-43.62 -133.25,-187.77 -143.13,-382.36 -78.72,-220.83 -15.68,-82.13 -9.2,-138.7 -11.59,-44.98 -16.02,-43.62 -35.44,-82.81 -19.08,-88.94 -56.91,-233.78 -12.95,-21.47 -14.65,-14.65 -37.49,-35.1 -13.97,-18.4 -12.61,-27.6 -12.95,-67.48 -28.97,-140.4 -2.39,-18.74 2.39,-20.79 10.56,-24.88 85.2,-103.6 63.73,-80.08 7.52,-17.63 5.78,-26.51 -7.47,-98.8 -4.58,-85.54 6.02,-34.22 66.27,-329.17 51.57,-260.49 23.86,-312.54"
+     id="path5" /></svg>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    viewBox="0 0 1900 1900"
    height="1900"
    width="1900"
    id="svg2"
-   version="1.1">
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,7 +19,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -34,6 +33,10 @@
      preserveAspectRatio="none"
      height="2109.29"
      width="2953" />
+  <path
+     style="fill:none;stroke:#229b8f;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 1076.58,746.11 -103.2,-28.39 -29.85,-5.13 -98.35,-2.56 h -80.76 l -26.74,5.13 -23.81,9.89 -17.21,11.54 -15.57,18.13 -12.64,21.06 -4.58,22.53 0.18,14.1 2.52,8.78 17.63,35.91"
+     id="path1" />
   <path
      id="path836"
      d="m 128.38,1759.8 13.66,6.23 15.1,3.12 24.45,1.44 15.58,-1.92 63.04,-10.79 23.49,-2.4 82.94,-3.12 16.54,-2.64 14.62,-8.39 11.27,-11.51 7.91,-13.18 9.11,-29.96 8.39,-12.7 5.75,-6.95 17.02,-13.18 5.27,-6.71 6.47,-23.25 2.52,-11.63 -0.24,-2.16 -1.2,-1.56"
@@ -55,7 +58,7 @@
      d="m 709.83,1204.66 12.2,-13.9 6.1,-8.81 5.93,-14.24 2.88,-14.92 -0.51,-14.07 -2.37,-13.22 -9.83,-28.81 -6.1,-10.85 -7.46,-12.54 -11.36,-22.54 -9.66,-32.88 -10,-20.51 -6.44,-10.85 -10.34,-10.85 -4.58,-8.14 -1.53,-7.97 -0.17,-37.12 -11.19,-26.61 -28.31,-39.32 v -4.24 l 33.05,-30.17 9.49,0.68 4.92,3.9 15.42,1.19 5.08,-4.07 44.57,3.55 3.71,-2.73 -0.03,-25.62 18.63,-16.38 126.29,-0.54 5.83,-2.03 84.89,12.13 89.92,15.34 8.05,2.8 4.32,2.97 1.51,3.13 8.71,13.16 15.12,14.9 5.04,0.09 1.45,-1.3 69.23,-66.6 10.18,-22.11 1.99,-0.68 8.47,2.88 12.29,7.63 16.02,11.78 8.39,8.22 32.61,27.53 11.64,18.28 5.46,9.85 6.05,7.47 5.87,8.36 3.56,3.2 37.18,19.57 93.4,54.44 15.66,5.34 5.16,3.91 5.69,6.23 14.59,14.23 9.43,7.47 3.2,5.34 3.02,8.18 18.68,23.13 20.1,21.17 5.16,4.45 7.83,3.56 5.34,4.98 17.43,26.86 4.8,3.38 19.04,6.23 12.81,8.89 14.05,10.85 14.23,7.47 8.72,1.96 8.01,-0.53 38.07,-5.16 16.54,0.36 17.61,6.76 15.48,10.5 9.25,9.78 26.86,29.89 10.5,6.76 25.62,8.54"
      id="path852" />
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2994"
      y="206.96"

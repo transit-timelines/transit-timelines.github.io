@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
-   viewBox="-50, 0, 10550, 8600"
+   viewBox="-50 0 7150 8600"
    height="8600"
-   width="10550"
+   width="7150"
    version="1.1">
   <metadata
      id="metadata8">
@@ -27,10 +27,10 @@
      id="defs6" />
   <image
      xlink:href=".././../basemap/melosm.png"
-     x="-100"
+     x="-3832.91"
      y="-465.64"
-     width="10665.46"
-     height="9065.64"
+     width="14398.37"
+     height="9332.28"
      id="image10"
      style="display:none" />
   <path
@@ -67,11 +67,11 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:180px;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3824"
-     y="8497.96"
+     y="8697.96"
      x="39.45"><tspan
        style="line-height:180px"
        id="tspan2"
-       y="8497.96"
+       y="8697.96"
        x="39.45">1940</tspan></text>
   <path
      style="fill:none;stroke:#00a8e6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -84,7 +84,7 @@
   <path
      style="fill:none;stroke:#f373ac;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path4231"
-     d="m 3453.25,3258.5 37.25,46.75 31.5,45 39.75,43.25 40.25,73.5" />
+     d="m 3453.25,3258.5 37.25,46.75 31.5,45 39.75,43.25 23.34,40.77 17.07,33.04" />
   <path
      d="m 4248.91,5506.37 15.98,-103.69 v -17.54 l -3.9,-14.03 -6.24,-14.03 -10.14,-15.98 -84.59,-95.9 -21.05,-13.25 -15.59,-10.92 -39.76,-49.51 -17.93,-24.56 -0.39,-21.44 4.29,-14.42 58.86,-124.75 10.53,-20.27 46.39,-49.12 17.54,-23 9.36,-15.59 6.24,-19.88 17.15,-119.68 16.76,-101.75 0.78,-26.12 -1.95,-25.73 -3.9,-21.05 -6.24,-14.81 -5.85,-12.86 -48.34,-83.81 -28.46,-49.51 -27.29,-70.17 -14.42,-35.47 -3.12,-17.54 1.95,-15.59 17.15,-113.44 3.12,-26.12 -2.34,-17.54 -2.73,-13.25 -5.46,-11.69 -9.75,-19.1 -7.02,-8.19 -28.07,-28.85 -9.36,-28.07 -1.17,-28.85 20.66,-139.17 9.6,-55.98"
      id="path3776"

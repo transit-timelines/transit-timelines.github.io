@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
    version="1.1"
-   width="3300"
+   width="3600"
    height="5750"
-   viewBox="4750 150 3300 5750">
+   viewBox="4450 150 3600 5750">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,7 +27,7 @@
      id="defs6" />
   <image
      width="10966.66"
-     height="7128.33"
+     height="9047.49"
      preserveAspectRatio="none"
      xlink:href="../../basemap/throsm.png"
      id="image10"
@@ -43,21 +43,21 @@
      d="m 6194.5,1211 14,-198.5 L 6103,622 6209.5,251"
      id="path4205" />
   <text
-     x="4839.45"
+     x="4539.45"
      y="356.96"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="4839.45"
+       x="4539.45"
        y="356.96"
        id="tspan1">2000</tspan></text>
   <text
-     x="4839.45"
+     x="4539.45"
      y="5797.96"
      id="text3019-6"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="4839.45"
+       x="4539.45"
        y="5797.96"
        id="tspan2">2000</tspan></text>
 </svg>

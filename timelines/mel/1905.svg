@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   width="10550"
+   width="7150"
    height="8600"
-   viewBox="-50, 0, 10550, 8600"
+   viewBox="-50 0 7150 8600"
    id="svg2">
   <metadata
      id="metadata8">
@@ -27,10 +27,10 @@
      id="defs6" />
   <image
      xlink:href=".././../basemap/melosm.png"
-     x="-100"
+     x="-3832.91"
      y="-465.64"
-     width="10665.46"
-     height="9065.64"
+     width="14398.37"
+     height="9332.28"
      id="image10"
      style="display:none" />
   <path
@@ -49,12 +49,12 @@
        style="line-height:180px">1905</tspan></text>
   <text
      x="39.45"
-     y="8497.96"
+     y="8697.96"
      id="text3824"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:180px;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="39.45"
-       y="8497.96"
+       y="8697.96"
        id="tspan2"
        style="line-height:180px">1905</tspan></text>
   <path

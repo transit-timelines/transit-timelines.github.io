@@ -9,8 +9,8 @@
    version="1.1"
    id="svg2"
    width="2800"
-   height="2700"
-   viewBox="0 0 2800 2700">
+   height="5100"
+   viewBox="0 -2400 2800 5100">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -46,13 +46,23 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3878"
-     y="206.96"
+     y="-2193.04"
      x="89.45"><tspan
        id="tspan1"
-       y="206.96"
+       y="-2193.04"
        x="89.45">1965</tspan></text>
   <path
      style="fill:none;stroke:#ee1d23;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1573.3,1076.34 v -16.84 l -6.54,-79.56 1.56,-10.76 0.08,-14.01 2.67,-13.78 8.29,-35.2 7.59,-18.15 12.48,-22.22 16.51,-29.62"
      id="path839" />
+
+  <text
+     x="2377.45"
+     y="2597.96"
+     id="text3807"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="2377.45"
+       y="2597.96"
+       id="tspan2"></tspan></text>
 </svg>

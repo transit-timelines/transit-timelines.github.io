@@ -6,8 +6,8 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="-2550 -1200 10600 7100"
-   height="7100"
+   viewBox="-2550 -1200 10600 9000"
+   height="9000"
    width="10600"
    version="1.1"
    id="svg2">
@@ -28,12 +28,12 @@
   <image
      xlink:href="../basemap/throsm.png"
      style="display:none"
-     y="-131.67"
-     x="0"
+     y="-1228.33"
+     x="-2741.67"
      id="image10"
      preserveAspectRatio="none"
-     height="6031.67"
-     width="8225" />
+     height="9047.49"
+     width="10966.66" />
   <path
      id="path4197"
      d="m 5994.16,3037.61 517.8,-12.45 28.54,11.34 162,172 573,-50 21.04,-12.37 59.96,-88.63"
@@ -55,7 +55,7 @@
      d="m 6194.5,1211 14,-198.5 L 6103,622 6209.5,251"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019"
      y="-993.04"
@@ -64,13 +64,13 @@
        y="-993.04"
        x="-2460.55">2010</tspan></text>
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019-6"
-     y="5797.96"
+     y="7697.96"
      x="-2460.55"><tspan
        id="tspan2"
-       y="5797.96"
+       y="7697.96"
        x="-2460.55">2010</tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#fd0a09;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -82,7 +82,7 @@
      id="path825" />
   <path
      style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#fd0a09;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 6571.73,3021.38 -60.47,0.76 -867.26,21.12 -289.91,5.03 -8.18,-7.12 -13.13,-2.47 -19.03,1.52 -8.18,3.62 -6.09,5.9 -43.21,1.52 -5.9,-5.52 -0.76,-17.13 4.0,-2.09 32.74,-0.38 7.99,-4.76 16.18,-15.61 5.9,-7.42 4.76,-2.28 3.81,1.52 0.19,11.99 -5.14,8.57 -22.27,13.32 -5.33,6.47 -3.43,10.85 1.9,16.37 5.71,11.99 9.52,6.85 12.75,3.24 25.51,-1.9 11.99,-4.0 13.71,-15.23 21.72,-18.73"
+     d="m 6571.73,3021.38 -60.47,0.76 -867.26,21.12 -289.91,5.03 -8.18,-7.12 -13.13,-2.47 -19.03,1.52 -8.18,3.62 -6.09,5.9 -43.21,1.52 -5.9,-5.52 -0.76,-17.13 4,-2.09 32.74,-0.38 7.99,-4.76 16.18,-15.61 5.9,-7.42 4.76,-2.28 3.81,1.52 0.19,11.99 -5.14,8.57 -22.27,13.32 -5.33,6.47 -3.43,10.85 1.9,16.37 5.71,11.99 9.52,6.85 12.75,3.24 25.51,-1.9 11.99,-4 13.71,-15.23 21.72,-18.73"
      id="path827" />
   <path
      style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#8de1f8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -98,6 +98,6 @@
      id="path870" />
   <path
      style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#8de1f8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 5900.76,2489.36 -0.22,118.73 -8.53,27.14 -47.59,93.96 -8.38,32.36 -0.76,38.64 -6.09,173.6 13.32,148.28 18.65,226.13 5.9,29.12 6.32,86.65 3.77,56.5 1.71,52.92 -2.09,15.42 -4.0,4.76 -1.52,4.38 v 2.66 l 3.62,4.57 3.81,2.09 5.33,-1.14 4.19,-5.33 7.8,-2.66 4.95,3.05 13.51,12.56 13.51,8.38 26.27,9.14 47.59,44.92 17.32,33.5 59.01,109.64 14.09,7.42 277.53,38.07 4.38,-4.57 -0.19,-47.4 -6.09,-7.61 -46.83,-17.13 -4.0,0.95 -1.52,3.05 7.04,62.24 -2.86,3.43"
+     d="m 5900.76,2489.36 -0.22,118.73 -8.53,27.14 -47.59,93.96 -8.38,32.36 -0.76,38.64 -6.09,173.6 13.32,148.28 18.65,226.13 5.9,29.12 6.32,86.65 3.77,56.5 1.71,52.92 -2.09,15.42 -4,4.76 -1.52,4.38 v 2.66 l 3.62,4.57 3.81,2.09 5.33,-1.14 4.19,-5.33 7.8,-2.66 4.95,3.05 13.51,12.56 13.51,8.38 26.27,9.14 47.59,44.92 17.32,33.5 59.01,109.64 14.09,7.42 277.53,38.07 4.38,-4.57 -0.19,-47.4 -6.09,-7.61 -46.83,-17.13 -4,0.95 -1.52,3.05 7.04,62.24 -2.86,3.43"
      id="path874" />
 </svg>

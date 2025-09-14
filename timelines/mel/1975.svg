@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   width="10550"
+   width="7150"
    height="8600"
-   viewBox="-50, 0, 10550, 8600"
+   viewBox="-50 0 7150 8600"
    id="svg2">
   <metadata
      id="metadata8">
@@ -27,10 +27,10 @@
      id="defs6" />
   <image
      xlink:href=".././../basemap/melosm.png"
-     x="-100"
+     x="-3832.91"
      y="-465.64"
-     width="10665.46"
-     height="9065.64"
+     width="14398.37"
+     height="9332.28"
      id="image10"
      style="display:none" />
   <path
@@ -72,12 +72,12 @@
        id="tspan1">1975</tspan></text>
   <text
      x="39.45"
-     y="8497.96"
+     y="8697.96"
      id="text3824"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:180px;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;"><tspan
        x="39.45"
-       y="8497.96"
+       y="8697.96"
        id="tspan2"
        style="line-height:180px;">1975</tspan></text>
   <path
@@ -93,7 +93,7 @@
      id="path3804"
      d="m 3018.18,3204.02 -68.5,91.75 -66.5,90.5 -25,42.5 -7,27.5 -38.5,194 -28.5,134 -2,30 9.5,97.5 62,166.5 19,41 23,33 33,25 60.5,23.5 64.5,28.5" />
   <path
-     d="m 3453.25,3258.5 37.25,46.75 31.5,45 39.75,43.25 40.25,73.5"
+     d="m 3453.25,3258.5 37.25,46.75 31.5,45 39.75,43.25 23.34,40.77 17.07,33.04"
      id="path4231"
      style="fill:none;stroke:#03852d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path

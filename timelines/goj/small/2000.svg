@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="1500"
-   height="1800"
-   viewBox="0 0 1500 1800">
+   width="2000"
+   height="1950"
+   viewBox="50 -200 2000 1950">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,13 +27,13 @@
      id="defs6" />
   <image
      style="display:none"
-     width="1497"
-     height="1684.12"
+     width="2058.38"
+     height="2058.37"
      preserveAspectRatio="none"
      xlink:href="../basemap/gojosm.png"
      id="image10"
      x="0"
-     y="115.88" />
+     y="-258.37" />
   <path
      style="opacity:1;fill:none;fill-opacity:0.08;fill-rule:nonzero;stroke:#e52617;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 183.05,1629.46 44.54,6.71 8.85,-1.83 13.42,-5.8 45.76,-38.44 100.98,-73.22 164.14,-115.02 12.51,-12.51 13.42,-16.48 88.17,-131.19 11.9,-25.02 105.56,-257.49 92.44,-222.41 0.61,-9.76 -3.05,-14.03 -23.49,-78.41 0.31,-8.85 12.81,-69.56 0.31,-10.98 -6.71,-18 -0.61,-15.86 2.75,-24.1 3.66,-11.29 4.27,-6.41 17.69,-9.46 61.22,-38.3 5.18,-3.08"
@@ -46,9 +46,9 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2984"
-     y="206.96"
-     x="89.45"><tspan
+     y="6.96"
+     x="139.45"><tspan
        id="tspan1"
-       y="206.96"
-       x="89.45">2000</tspan></text>
+       y="6.96"
+       x="139.45">2000</tspan></text>
 </svg>

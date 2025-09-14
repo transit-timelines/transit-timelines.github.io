@@ -6,8 +6,8 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="-2550 -1200 10600 7100"
-   height="7100"
+   viewBox="-2550 -1200 10600 9000"
+   height="9000"
    width="10600"
    version="1.1"
    id="svg2">
@@ -27,19 +27,19 @@
      id="defs6" />
   <image
      style="display:none"
-     y="-131.67"
-     x="0"
+     y="-1228.33"
+     x="-2741.67"
      id="image10"
      xlink:href="../../basemap/throsm.png"
      preserveAspectRatio="none"
-     height="6031.67"
-     width="8225" />
+     height="9047.49"
+     width="10966.66" />
   <path
      id="path4205"
      d="m 6194.5,1211 14,-198.5 L 6103,622 6209.5,251"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019"
      y="-993.04"
@@ -48,12 +48,12 @@
        y="-993.04"
        x="-2460.55">1990</tspan></text>
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019-6"
-     y="5797.96"
+     y="7697.96"
      x="-2460.55"><tspan
        id="tspan2"
-       y="5797.96"
+       y="7697.96"
        x="-2460.55">1990</tspan></text>
 </svg>

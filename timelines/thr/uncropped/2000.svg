@@ -9,8 +9,8 @@
    id="svg2"
    version="1.1"
    width="10600"
-   height="7100"
-   viewBox="-2550 -1200 10600 7100">
+   height="9000"
+   viewBox="-2550 -1200 10600 9000">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -26,13 +26,13 @@
   <defs
      id="defs6" />
   <image
-     width="8225"
-     height="6031.67"
+     width="10966.66"
+     height="9047.49"
      preserveAspectRatio="none"
      xlink:href="../../basemap/throsm.png"
      id="image10"
-     x="0"
-     y="-131.67"
+     x="-2741.67"
+     y="-1228.33"
      style="display:none" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#024697;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -47,17 +47,17 @@
      y="-993.04"
      id="text3019"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="-2460.55"
        y="-993.04"
        id="tspan1">2000</tspan></text>
   <text
      x="-2460.55"
-     y="5797.96"
+     y="7697.96"
      id="text3019-6"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="-2460.55"
-       y="5797.96"
+       y="7697.96"
        id="tspan2">2000</tspan></text>
 </svg>

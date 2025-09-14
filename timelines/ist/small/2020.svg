@@ -3,8 +3,8 @@
    id="svg2"
    version="1.1"
    width="9350"
-   height="5700"
-   viewBox="0 0 9350 5700"
+   height="7500"
+   viewBox="0 -1800 9350 7500"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -27,15 +27,15 @@
   <image
      xlink:href="../basemap/istosm.png"
      style="display:none"
-     y="-223.67"
+     y="-1749.67"
      x="-76"
      id="image10"
      preserveAspectRatio="none"
-     height="5849.67"
+     height="7375.67"
      width="9410.33" />
   <path
      style="opacity:1;fill:none;stroke:#f499bb;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
-     d="m 2487.82,1416.14 48.46,15.46 24.25,3.08 21.19,-2.2 20.02,-6.63 51.85,-20.63 104.44,-29.43 10.87,-7.86 7.55,-17.22 22.24,-90.22 9.97,-10.97 14.27,-10.14 57.64,-33.25 29.1,-25.01 24.74,-27.6 26.4,-30.22 25.44,-57.31 16.54,-36.53 36.89,-50.62 20.53,-19.1 23.8,-9.81 42.87,-2.32 24.97,2.93 98.58,43.88 18.92,3.93 14.48,-1.94 20.76,-7.97 20.26,-20.61 12.84,-12.22 11.39,-3.69 19.2,-2.42 38.59,8.71 35.17,13.63 24.84,16.69 20.62,7.04 49.15,13.66 19.69,6.33 32.91,22.32 16.04,4.92 28.13,2.2 31.35,-2.56 90.35,-8.02 32.56,4.81 98.28,13.76 89.82,5.39 21.07,1.32 15.71,-5.62 41.44,-31.89 12.14,-4.62 15.52,0.4 88.31,35.16 14.1,15.82 10.02,25.99 8.93,38.87 9.67,24.64 20.81,26.15 27.76,28.84 24.47,13.26 57.58,19.44 70.9,22.03"
+     d="m 2487.82,1416.14 48.46,15.46 24.25,3.08 21.19,-2.2 20.02,-6.63 51.85,-20.63 104.44,-29.43 10.87,-7.86 7.55,-17.22 22.24,-90.22 9.97,-10.97 14.27,-10.14 57.64,-33.25 29.1,-25.01 24.74,-27.6 26.4,-30.22 25.44,-57.31 16.54,-36.53 36.89,-50.62 20.53,-19.1 23.8,-9.81 42.87,-2.32 24.97,2.93 98.58,43.88 18.92,3.93 14.48,-1.94 20.76,-7.97 20.26,-20.61 12.84,-12.22 11.39,-3.69 19.2,-2.42 38.59,8.71 35.17,13.63 24.84,16.69 20.62,7.04 49.15,13.66 19.69,6.33 32.91,22.32 16.04,4.92 28.13,2.2 31.35,-2.56 90.35,-8.02 32.56,4.81 98.28,13.76 89.82,5.39 20.07,-0.93 16.71,-5.12 47.19,-24.64 16.89,-5.37 22.52,1.9 70.81,28.91 14.1,15.82 10.02,25.99 8.93,38.87 9.67,24.64 20.81,26.15 27.76,28.84 24.47,13.26 57.58,19.44 70.9,22.03"
      id="path860" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#5c6065;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -127,12 +127,12 @@
      id="path1515" />
   <text
      x="89.45"
-     y="206.96"
+     y="-1593.04"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="206.96"
+       y="-1593.04"
        id="tspan1">2020</tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:0.02;fill-rule:nonzero;stroke:#d4cf95;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

@@ -6,8 +6,8 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 9350 5700"
-   height="5700"
+   viewBox="0 -1800 9350 7500"
+   height="7500"
    width="9350"
    version="1.1"
    id="svg2">
@@ -27,12 +27,12 @@
      id="defs6" />
   <image
      style="display:none"
-     y="-223.67"
+     y="-1749.67"
      x="-76"
      id="image10"
      xlink:href="../basemap/istosm.png"
      preserveAspectRatio="none"
-     height="5849.67"
+     height="7375.67"
      width="9410.33" />
   <path
      id="path4194"
@@ -42,10 +42,10 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019"
-     y="206.96"
+     y="-1593.04"
      x="89.45"><tspan
        id="tspan1"
-       y="206.96"
+       y="-1593.04"
        x="89.45">1920</tspan></text>
 
   <text

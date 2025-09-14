@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 350 3250 3400"
+   viewBox="-25 350 3750 3400"
    height="3400"
-   width="3250"
+   width="3750"
    id="svg2"
    version="1.1">
   <metadata
@@ -36,7 +36,7 @@
      style="display:none" />
   <path
      id="path836"
-     d="m 1580,1721.0 -102.5,89.25 -52.5,44.25 -5.75,7.5 -0.25,7.75 3,6.25 36.5,24 3.5,7.25 0.25,11.75 -6.5,87.5 -10.5,158.75 L 1439,2300.5"
+     d="m 1580,1721 -102.5,89.25 -52.5,44.25 -5.75,7.5 -0.25,7.75 3,6.25 36.5,24 3.5,7.25 0.25,11.75 -6.5,87.5 -10.5,158.75 L 1439,2300.5"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00a66e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path840"
@@ -47,20 +47,20 @@
      d="m 2510,2558.75 37.75,18"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#919499;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3784"
      y="556.96"
-     x="89.45"><tspan
+     x="64.45"><tspan
        id="tspan1"
        y="556.96"
-       x="89.45">1980</tspan></text>
+       x="64.45">1980</tspan></text>
   <path
      id="path835"
      d="m 1651.2,2623.88 -0.82,13.24 3.12,12.38 15.25,25.25 40.5,30 8,8.5 6.25,12 2.75,15.75 1.25,83.5 4.5,15 21.25,38.25 3.25,17 -1,18.75 -3.75,16.25 -20.75,39.25 -1.5,9.25 7.56,76.88"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00a66e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path867"
-     d="m 1737.06,3055.13 5.44,55.37 -0.25,16.25 -6.5,27.25 -22.5,78.25 -10.25,15.5 -19.75,21.75 -5.75,14.25 -1,16.25 0.25,65.75 2.5,19.75 6,17 4.25,6.5 24.5,19.25 21.75,17.25 11.5,13.75 31.75,16.5 53.75,26.5 35.25,8 28,20.75 11.25,11 11.75,5.75 21.5,1.25 27,-7.5 24,2 14.75,-2.5 15,-8.25 9,-7.5 11.25,-2.5 h 14.5 l 46,9.5 33.5,19.75 12.5,12.25 24.25,22 22,27.75 6.5,10.0"
+     d="m 1737.06,3055.13 5.44,55.37 -0.25,16.25 -6.5,27.25 -22.5,78.25 -10.25,15.5 -19.75,21.75 -5.75,14.25 -1,16.25 0.25,65.75 2.5,19.75 6,17 4.25,6.5 24.5,19.25 21.75,17.25 11.5,13.75 31.75,16.5 53.75,26.5 35.25,8 28,20.75 11.25,11 11.75,5.75 21.5,1.25 27,-7.5 24,2 14.75,-2.5 15,-8.25 9,-7.5 11.25,-2.5 h 14.5 l 46,9.5 33.5,19.75 12.5,12.25 24.25,22 22,27.75 6.5,10"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00a66e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>

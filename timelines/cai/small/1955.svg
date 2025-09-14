@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   width="3400"
-   height="5100"
-   viewBox="-200, 0, 3400, 5100"
+   width="8500"
+   height="6100"
+   viewBox="-200 -1000 8500 6100"
    id="svg2">
   <metadata
      id="metadata8">
@@ -48,12 +48,12 @@
        id="tspan2"></tspan></text>
   <text
      x="-110.55"
-     y="206.96"
+     y="-793.04"
      id="text3792"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="-110.55"
-       y="206.96"
+       y="-793.04"
        id="tspan1">1955</tspan></text>
   <path
      d="m 756.02,1699.77 -5.06,8.78 -7.43,7.09 -6.75,3.38 -20.93,22.29 -3.38,8.78 -6.08,37.14 -0.68,46.6"
