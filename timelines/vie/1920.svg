@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   width="3600"
-   viewBox="-600 -1575 3600 6050"
+   width="4900"
+   viewBox="-1900 -1575 4900 6050"
    height="6050"
    id="svg2">
   <metadata
@@ -32,26 +32,26 @@
      style="display:none"
      id="image10"
      height="6070.09"
-     width="3597.09"
+     width="4721.18"
      y="-1573.73"
-     x="-674.45" />
+     x="-1798.54" />
   <text
-     x="-510.55"
+     x="-1810.55"
      y="-1368.04"
      id="text3818"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-       x="-510.55"
+       x="-1810.55"
        y="-1368.04"
        id="tspan1">1920</tspan></text>
 
   <text
-     x="-510.55"
+     x="-1810.55"
      y="7347.95"
      id="text3004"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-510.55"
+       x="-1810.55"
        y="4372.95"
        id="tspan2">1920</tspan></text>
 </svg>
