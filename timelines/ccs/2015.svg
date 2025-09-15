@@ -45,7 +45,7 @@
      id="path3778"
      style="fill:none;stroke:#ef1b27;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     d="m 2537.69,435.92 -1.41,26.16 -6.01,25.1 -14.5,16.26 -30.05,27.93 -43.49,24.4 -67.53,42.78 -42.07,33.94 -27.22,10.96 -24.75,6.72 -8.49,7.78 -9.9,15.2 -6.36,23.69 -3.03,53.96 -1.98,32.38 -6.58,33.23 -8.35,10.33 -26.02,13.29 -13.44,15.91 -14.14,26.16 -19.8,23.33 -10.61,9.55 -30.41,21.57 -32.74,18.46 -30.2,14.78 -67.53,66.47 -8.49,30.41 -32.53,50.2 -21.92,44.9 -33.94,56.57 -8.84,45.96 -33.61,82.67 -9.33,24.55 -21.84,19.34 -21.84,6.42 -37.8,-3.83 -22.67,-11.07 -17.22,-11.09"
+     d="m 2561.73,428.04 -9.29,35.28 -13.68,22.41 -23,17.71 -30.05,19.64 -44.32,29.79 -66.7,45.68 -42.07,33.94 -27.22,10.96 -24.75,6.72 -8.49,7.78 -7.83,16.03 -8.43,22.86 -45.96,143.19 -13.44,15.91 -14.14,26.16 -19.8,23.33 -10.61,9.55 -30.41,21.57 -32.74,18.46 -30.2,14.78 -67.53,66.47 -8.49,30.41 -32.53,50.2 -30.21,49.46 -25.65,52.01 -3.04,40.16 -39.41,88.47 -9.33,24.55 -21.84,19.34 -21.84,6.42 -37.8,-3.83 -22.67,-11.07 -17.22,-11.09"
      id="path3780"
      style="fill:none;stroke:#145e8f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
@@ -70,34 +70,6 @@
      id="path4865"
      style="fill:none;stroke:#885828;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     d="m 3137.11,2102.48 -28.83,60.78 244.67,99.74 50.65,80.26 109.09,35.06"
-     id="path4899"
-     style="display:none;fill:none;stroke:#b2b3b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     d="m 3352.95,2264.55 -65.45,54.54"
-     id="path4912"
-     style="display:none;fill:none;stroke:#b2b3b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     d="m 3402.04,2342.47 -11.69,87.27"
-     id="path4914"
-     style="display:none;fill:none;stroke:#b2b3b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     d="m 559.8,2297.35 -68.32,-138.85 -40.77,-62.81 -218.19,-14.33"
-     id="path4916"
-     style="display:none;fill:none;stroke:#b2b3b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     d="m 450.71,2094.59 -46.28,-79.34"
-     id="path4918"
-     style="display:none;fill:none;stroke:#b2b3b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     d="m 448.5,2094.59 69.42,-96.97"
-     id="path4920"
-     style="display:none;fill:none;stroke:#b2b3b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     d="M 491.48,2155.2 646.86,2032.88"
-     id="path4922"
-     style="display:none;fill:none;stroke:#b2b3b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
      style="fill:none;stroke:#fdbd35;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path4153"
      d="m 920.53,1244.16 12,-31.5 2,-21.5 2,-40 -11,-20 -10.5,-15.5 -10.61,-29.59 -0.73,-25.75 6.89,-22.79 25.44,-21.81 36,-13.06 41.5,-21 33,-25.5 22.5,-22.5 22,-35 15,-14.5 27,-17 37,-20 63.15,-50.02 175.35,-82.98 63.38,-26.77 38.64,-30.58 35.48,-32.65 56.47,-47.77 9.42,-30.22 5.38,-8.47 40,-33.21 57.08,-20.85 37.36,-30.09 42.2,-15.09 72.99,-29.9 30.1,-21.4" />
@@ -113,7 +85,6 @@
      style="fill:none;stroke:#b2b3b6;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
      d="m 3807.82,705.75 575.86,333.37"
      id="path1" />
-
   <path
      style="fill:none;stroke:#b2b3b6;stroke-width:5;stroke-linejoin:round"
      d="m 2476.03,179.51 97.27,-440.68"

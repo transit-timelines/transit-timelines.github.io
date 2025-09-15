@@ -33,7 +33,7 @@
      x="0"
      style="display:none" />
   <text
-     style="font-size:144.0px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
      xml:space="preserve"
      id="text3000"
      y="106.96"
@@ -64,11 +64,11 @@
   <path
      style="fill:none;stroke:#ec2c29;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3759"
-     d="m 948.13,968.98 -5.63,21.02 -9,8.5 -18.5,20.0 -6.2,6.72" />
+     d="m 948.13,968.98 -5.63,21.02 -9,8.5 -18.5,20 -6.2,6.72" />
   <path
      style="fill:none;stroke:#ec2c29;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      id="path3761"
-     d="m 1072,844 -9.5,-6.5 -27.5,0.5 -8.5,1.5 -5,4 v 24 l -5,14.5 -10.5,10.5 -41.5,27 -5.5,9.5 -4.5,23 -6.37,16.98 -5.63,21.02 -9,8.5 -42,45.5 -36,29 -9.5,15 -13.3,45.0 -8.07,28.34" />
+     d="m 1072,844 -9.5,-6.5 -27.5,0.5 -8.5,1.5 -5,4 v 24 l -5,14.5 -10.5,10.5 -41.5,27 -5.5,9.5 -4.5,23 -6.37,16.98 -5.63,21.02 -9,8.5 -42,45.5 -36,29 -9.5,15 -13.3,45 -8.07,28.34" />
   <path
      d="m 824.63,1161.34 -1.76,8.47 -14.67,17.53 -6.47,12.62 -4.77,28.15 1.93,27.47 -7.88,46.08 6.34,7.01"
      id="path4523"
@@ -91,11 +91,11 @@
      id="path8295" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#ec2c29;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-     d="m 1178.68,709.33 -21.08,-4.0 -1.87,-2.13 8.81,-36.83 30.69,-42.43 9.34,-24.82 v -10.14 l 6.4,-17.88 12.28,-4.54 -0.53,-29.62 6.14,-8.27 v -4.54 l -33.62,-24.02 -30.69,-30.42 -19.48,-6.94 -61.64,-42.16 -25.62,-15.48 -17.35,-15.74 -8.01,-5.07 -10.14,-2.13 -23.75,31.49 -7.74,-1.6 4.54,-24.28 2.67,-0.53 16.81,5.07"
+     d="m 1178.68,709.33 -21.08,-4 -1.87,-2.13 8.81,-36.83 30.69,-42.43 9.34,-24.82 v -10.14 l 6.4,-17.88 12.28,-4.54 -0.53,-29.62 6.14,-8.27 v -4.54 l -33.62,-24.02 -30.69,-30.42 -19.48,-6.94 -61.64,-42.16 -25.62,-15.48 -17.35,-15.74 -8.01,-5.07 -10.14,-2.13 -23.75,31.49 -7.74,-1.6 4.54,-24.28 2.67,-0.53 16.81,5.07"
      id="path8297" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#ec2c29;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-     d="m 1179.48,484.64 -6.94,23.75 0.8,2.13 15.74,4.0 33.62,22.42"
+     d="m 1179.48,484.64 -6.94,23.75 0.8,2.13 15.74,4 33.62,22.42"
      id="path8299" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#ec2c29;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
@@ -119,7 +119,7 @@
      id="path6506" />
   <path
      id="path4499"
-     d="m 1258.73,519.73 5.05,-8.18 34.64,-65.69 30.18,-59.22 15.49,-30.47 3.43,-1.1 15.82,7.62 1.33,4.0 -45.03,88.93 -2.4,1.13 -4.1,-1.11 -13.11,-6.76 -3.8,0.67"
+     d="m 1258.73,519.73 5.05,-8.18 34.64,-65.69 30.18,-59.22 15.49,-30.47 3.43,-1.1 15.82,7.62 1.33,4 -45.03,88.93 -2.4,1.13 -4.1,-1.11 -13.11,-6.76 -3.8,0.67"
      style="fill:none;fill-rule:evenodd;stroke:#ec2c29;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
   <path
      id="path4521"
@@ -135,6 +135,6 @@
      id="path3903" />
   <path
      style="fill:none;stroke:#017ec0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1345.5,1269.5 -39.5,27.5 -16.5,21 -9,8.5 -19,13 -19,25 -6,22 -12.32,14.25 -57.68,66.75 -28,37.0 -13.5,12.0 -43.5,18 -45,5.5 -4.55,-2.27 -14.45,-7.23 -9.5,1.5 -30.08,30.74 -6.92,30.76 -4.3,10.98 -3.03,16.1 0.57,21.0 2.41,26.39"
+     d="m 1345.5,1269.5 -39.5,27.5 -16.5,21 -9,8.5 -19,13 -19,25 -6,22 -12.32,14.25 -57.68,66.75 -28,37 -13.5,12 -43.5,18 -45,5.5 -4.55,-2.27 -14.45,-7.23 -9.5,1.5 -30.08,30.74 -6.92,30.76 -4.3,10.98 -3.03,16.1 0.57,21 2.41,26.39"
      id="path1018" />
 </svg>

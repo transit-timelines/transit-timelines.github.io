@@ -34,14 +34,14 @@
      style="display:none" />
   <path
      style="fill:none;stroke:#017ec0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 983,1726.0 -3.75,12.5 -9.73,15.3"
+     d="m 983,1726 -3.75,12.5 -9.73,15.3"
      id="path957" />
   <text
      x="-710.55"
      y="106.96"
      id="text3000"
      xml:space="preserve"
-     style="font-size:144.0px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+     style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
        x="-710.55"
        y="106.96"
        id="tspan1">1975</tspan></text>
@@ -59,12 +59,12 @@
      d="m 948.13,968.98 -5.63,21.02 -9,8.5 -18.5,20 -6.2,6.72" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#ec2c29;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-     d="m 1258.73,519.73 5.05,-8.18 34.64,-65.69 30.18,-59.22 15.49,-30.47 3.43,-1.1 15.82,7.62 1.33,4.0 -45.03,88.93 -2.4,1.13 -4.1,-1.11 -13.11,-6.76 -3.8,0.67"
+     d="m 1258.73,519.73 5.05,-8.18 34.64,-65.69 30.18,-59.22 15.49,-30.47 3.43,-1.1 15.82,7.62 1.33,4 -45.03,88.93 -2.4,1.13 -4.1,-1.11 -13.11,-6.76 -3.8,0.67"
      id="path4499" />
   <path
      style="fill:none;stroke:#ec2c29;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      id="path3761"
-     d="m 1072,844 -9.5,-6.5 -27.5,0.5 -8.5,1.5 -5,4 v 24 l -5,14.5 -10.5,10.5 -41.5,27 -5.5,9.5 -4.5,23 -6.37,16.98 -5.63,21.02 -9,8.5 -42,45.5 -36,29 -9.5,15 -13.3,45.0 -8.07,28.34" />
+     d="m 1072,844 -9.5,-6.5 -27.5,0.5 -8.5,1.5 -5,4 v 24 l -5,14.5 -10.5,10.5 -41.5,27 -5.5,9.5 -4.5,23 -6.37,16.98 -5.63,21.02 -9,8.5 -42,45.5 -36,29 -9.5,15 -13.3,45 -8.07,28.34" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#017ec0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      d="m 1262.34,521.06 2.45,-9.05 32.37,-61.73 2.67,-0.47 12.81,6.67 4.27,1.2 3.47,-1.33 57.24,-113.08 -1.2,-5.14 -3.74,-1.33 -54.97,19.48 -38.69,77.92 1.6,4.8 12.68,6.67 2.4,6.67"
@@ -75,15 +75,15 @@
      style="fill:none;stroke:#ec2c29;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="fill:none;stroke:#017ec0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 946.59,1956.51 0.91,-5.51 24.5,-53.5 5,-16 v -20 l -6.5,-27.5 0.5,-36 3,-21.5 10,-34.5 -1.0,-16 -12.0,-39.5 -4.36,-18.53"
+     d="m 946.59,1956.51 0.91,-5.51 24.5,-53.5 5,-16 v -20 l -6.5,-27.5 0.5,-36 3,-21.5 10,-34.5 -1,-16 -12,-39.5 -4.36,-18.53"
      id="path3903" />
   <path
      style="fill:none;stroke:#017ec0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1077.5,2739.0 -36,-13.5 -19,-15.5 -28.5,-23.5 -16.5,-21.5 -13,-25.5 -8.5,-38 -29,-159 -9.5,-42.5 2,-36 12,-25 39,-54.5 7,-21.5 1.5,-21.5 -5.5,-20 -11.5,-33 -6.5,-23.5 -2.5,-27.5 -8.06,-171.06 1.64,-9.94"
+     d="m 1077.5,2739 -36,-13.5 -19,-15.5 -28.5,-23.5 -16.5,-21.5 -13,-25.5 -8.5,-38 -29,-159 -9.5,-42.5 2,-36 12,-25 39,-54.5 7,-21.5 1.5,-21.5 -5.5,-20 -11.5,-33 -6.5,-23.5 -2.5,-27.5 -8.06,-171.06 1.64,-9.94"
      id="path3757-5" />
   <path
      style="fill:none;stroke:#017ec0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1345.5,1269.5 -39.5,27.5 -16.5,21 -9,8.5 -19,13 -19,25 -6,22 -12.32,14.25 -57.68,66.75 -28,37.0 -13.5,12.0 -43.5,18 -45,5.5 -4.55,-2.27 -14.45,-7.23 -9.5,1.5 -30.08,30.74 -6.92,30.76 -4.3,10.98 -3.03,16.1 0.57,21.0 2.41,26.39"
+     d="m 1345.5,1269.5 -39.5,27.5 -16.5,21 -9,8.5 -19,13 -19,25 -6,22 -12.32,14.25 -57.68,66.75 -28,37 -13.5,12 -43.5,18 -45,5.5 -4.55,-2.27 -14.45,-7.23 -9.5,1.5 -30.08,30.74 -6.92,30.76 -4.3,10.98 -3.03,16.1 0.57,21 2.41,26.39"
      id="path1018" />
   <path
      style="fill:none;stroke:#017ec0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

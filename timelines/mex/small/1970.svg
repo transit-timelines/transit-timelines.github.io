@@ -2,18 +2,17 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="5300"
    height="6500"
    viewBox="-150 -2090 5300 6500"
-   id="svg2">
+   id="svg2"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -22,7 +21,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,17 +36,14 @@
      x="-318.31" />
   <path
      d="m 1233.5,1269.5 3,22 -7,54.5 -35,166 -26.5,114 -37.5,217.5 -7,53 -6,11 -28.34,13.84"
-     inkscape:connector-curvature="0"
      id="path3782"
      style="fill:none;stroke:#7e9426;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <path
      d="m 568.04,1217.59 20.96,1.91 82,21.5 19.5,17 41,32 65,48.5 12.5,14 33,53 15,21 45.5,31 37,16 47,16 103,44.5 99.5,23 94.5,20.5 55,9 48.94,6.05 6.5,4.55 2.65,7.44 -1.09,40.46 -16,114.5 -27.5,199 -31,198 -46,326.5 -37,251 -16.5,73 -16.5,62.5 -3,36 15.5,69.5 8.5,12 13.5,3 50,1.5"
-     inkscape:connector-curvature="0"
      id="path3784"
      style="fill:none;stroke:#1478c7;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <path
-     d="m 603.5,2080 32.5,-57.5 30,-64.5 10.5,-32.5 23,-61 15,-35 11,-11.5 31,-6 123.5,-28.5 200,-50 76.5,-21.5 21,-1.5 149,17.5 79.5,7.5 22,-8 78.5,14 32,4 9,-1 5,-4 6,-11.5 0,-18 -0.5,-48 3,-14.5 8,-9.5 6,-4 23.5,2.5 35.5,2.5 8.5,8 0.5,21 4,10 84,47.5 312,173 72.5,48"
-     inkscape:connector-curvature="0"
+     d="m 2115.5,1947.5 -72.5,-48 -312,-173 -84,-47.5 -4,-10 -0.5,-21 -8.5,-8 -35.5,-2.5 -23.5,-2.5 -6,4 -8,9.5 -3,14.5 0.5,48 v 18 l -6,11.5 -5,4 -9,1 -32,-4 -78.5,-14 -22,8 -79.5,-7.5 -149,-17.5 -21,1.5 -76.5,21.5 -200,50 -123.5,28.5 -31,6 -11,11.5 -15,35 -23,61 -10.5,32.5 -30,64.5 -32.5,57.5 -16.01,15.47"
      id="path3788"
      style="fill:none;stroke:#f148a3;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <text

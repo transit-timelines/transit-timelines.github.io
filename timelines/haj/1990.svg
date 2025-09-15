@@ -44,7 +44,7 @@
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ed1845;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0072bc;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1633.8,806.0 -62.37,55.05 -7.59,11.12 -13.29,7.05 -8.68,8.95 -11.66,23.32 -11.12,19.25 -28.61,64.07 -24.0,58.51 -29.15,39.59 -2.71,13.97 -8.84,30.04 -7.29,14.57 -18.6,20.13 -21.29,8.25 -29.15,21.86 -9.92,10.16 -4.84,4.99 -7.1,1.53 -5.37,-0.58 -31.64,-21.09"
+     d="m 1633.8,806 -62.37,55.05 -7.59,11.12 -13.29,7.05 -8.68,8.95 -11.66,23.32 -11.12,19.25 -28.61,64.07 -24,58.51 -29.15,39.59 -2.71,13.97 -8.84,30.04 -7.29,14.57 -18.6,20.13 -21.29,8.25 -29.15,21.86 -9.92,10.16 -4.84,4.99 -7.1,1.53 -5.37,-0.58 -31.64,-21.09"
      id="path4510" />
   <path
      id="path4541"
@@ -72,7 +72,7 @@
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ed1845;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path4619"
-     d="M 1633.8,806.0 1662,783.25 1680.75,776 1945,658.5 l 70,-46 48.75,-29.75 18,-6.75 48.25,-11.25 23,0.75 21.5,5.5"
+     d="M 1633.8,806 1662,783.25 1680.75,776 1945,658.5 l 70,-46 48.75,-29.75 18,-6.75 48.25,-11.25 23,0.75 21.5,5.5"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0072bc;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path4621"
@@ -111,7 +111,7 @@
      y="206.96"
      id="text3019"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
        y="206.96"
        id="tspan1">1990</tspan></text>

@@ -19,7 +19,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,7 +51,7 @@
      id="path4681" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#97178c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="M 12281.51,7138.23 12298,7138 l 47.75,-10.75 55.75,-42.25 79,-110 160.5,-70.5 26,-6 45.11,-34.84 18.8,-13.28 24.61,-1.17 20.98,-5.71"
+     d="m 12281.51,7138.23 16.49,-0.23 47.75,-10.75 55.75,-42.25 79,-110 160.5,-70.5 26,-6 45.11,-34.84 18.8,-13.28 24.61,-1.17 10.49,-2.85"
      id="path4714" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#ecb404;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -488,8 +487,8 @@
      id="path942"
      d="m 10584.31,7798.09 12.37,13.09 5.82,19.16 34.43,15.28 48.98,43.89 1.7,3.39 0.24,8.73"
      style="opacity:1;fill:none;fill-opacity:0.39;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-
-<path
+  <path
      style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
      d="m 3786.66,13494.46 190.52,-30.98"
-     id="path4" /></svg>
+     id="path4" />
+</svg>

@@ -28,8 +28,8 @@
      xlink:href="../../basemap/lonosm.png"
      x="-4725.03"
      y="-7482.57"
-     width="12823.94"
-     height="15977.37"
+     width="17238.74"
+     height="20602.4"
      id="image12"
      style="display:none" />
   <path
@@ -55,7 +55,7 @@
   <path
      style="fill:none;stroke:#861a54;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3620"
-     d="m 3236.26,2180.14 -10.51,-10.89 -41,-38.75 -34.5,-25.25 -26.25,-23.75 -23,-26.25 -33.25,-42.75 -18.75,-25 -5,-17.5 10,-82 3,-24" />
+     d="m 3236.26,2180.14 -10.51,-10.89 -41,-38.75 -34.5,-25.25 -25.22,-26.85 -36.45,-49.63 -16.89,-22.27 -16.7,-20.76 -5,-10.04 -1.14,-15.59 9.09,-67.43 1.63,-22.52 -2.88,-9.09" />
   <path
      style="fill:none;stroke:#04783f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3622"

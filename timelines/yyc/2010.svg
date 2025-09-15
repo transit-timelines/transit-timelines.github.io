@@ -42,7 +42,7 @@
      id="path3757"
      style="fill:none;stroke:#ee2e22;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3790"
      y="206.96"
@@ -61,5 +61,5 @@
   <path
      style="fill:none;stroke:#00447b;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      id="path3767"
-     d="m 1872.5,1638.0 -5.75,2.25 -17.62,0.44 -293.03,-13.97" />
+     d="m 1872.5,1638 -5.75,2.25 -17.62,0.44 -293.03,-13.97" />
 </svg>

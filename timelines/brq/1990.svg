@@ -56,7 +56,7 @@
      style="opacity:1;fill:none;fill-opacity:0.53;fill-rule:nonzero;stroke:#005089;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path875"
-     d="M 657.21,645.31 713.0,622.62"
+     d="M 657.21,645.31 713,622.62"
      style="opacity:1;fill:none;fill-opacity:0.53;fill-rule:nonzero;stroke:#005089;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path877"
@@ -84,11 +84,11 @@
      style="opacity:1;fill:none;fill-opacity:0.53;fill-rule:nonzero;stroke:#005089;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path889"
-     d="m 1272.22,432.06 -3.6,7.67 -7.67,32.36 0.96,3.6 12.46,9.83 -0.48,5.99 -32.84,34.28 -37.87,46.5 -5.99,10.31 -2.64,8.87 0.48,9.35 30.44,81.02 9.83,23.49 40.75,64.0 10.43,14.98 8.87,1.08 7.87,20.98"
+     d="m 1272.22,432.06 -3.6,7.67 -7.67,32.36 0.96,3.6 12.46,9.83 -0.48,5.99 -32.84,34.28 -37.87,46.5 -5.99,10.31 -2.64,8.87 0.48,9.35 30.44,81.02 9.83,23.49 40.75,64 10.43,14.98 8.87,1.08 7.87,20.98"
      style="opacity:1;fill:none;fill-opacity:0.53;fill-rule:nonzero;stroke:#005089;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path891"
-     d="m 713.0,622.62 9.83,-6.47 3.36,-3.36 32.84,7.43 30.68,12.7 38.59,20.37 30.68,6.47 21.09,11.98 26.61,11.03 17.5,5.51 10.79,8.39 42.19,57.29 57.05,66.4 40.03,39.79 5.99,5.51 8.63,2.16 2.16,8.63 2.88,1.92"
+     d="m 713,622.62 9.83,-6.47 3.36,-3.36 32.84,7.43 30.68,12.7 38.59,20.37 30.68,6.47 21.09,11.98 26.61,11.03 17.5,5.51 10.79,8.39 42.19,57.29 57.05,66.4 40.03,39.79 5.99,5.51 8.63,2.16 2.16,8.63 2.88,1.92"
      style="opacity:1;fill:none;fill-opacity:0.53;fill-rule:nonzero;stroke:#005089;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path925"
@@ -107,7 +107,7 @@
      d="m 402.54,491.1 2.54,24.58 5.76,12.88 13.05,12.37 17.63,8.81 25.42,5.42 7.8,-1.02 16.27,-7.8 8.81,-2.37 22.61,-0.7"
      style="opacity:1;fill:none;fill-opacity:0.53;fill-rule:nonzero;stroke:#005089;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2995"
      y="206.96"

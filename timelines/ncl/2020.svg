@@ -47,7 +47,7 @@
      id="path1003" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#31b356;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="M 407.0,598.43 434.5,604 518.71,593.34"
+     d="M 407,598.43 434.5,604 518.71,593.34"
      id="path1001" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#31b356;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -58,7 +58,7 @@
      y="206.96"
      id="text2847"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
        y="206.96"
        id="tspan1">2020</tspan></text>

@@ -35,22 +35,22 @@
      style="display:none" />
   <path
      id="path14202"
-     d="m 2012.6391,2101.2316 115.1999,13.0503 41.0114,10.7043 74.6496,20.7438 50.5,30 29.5,3.5 63,3 84,6.5 4.04,0.37"
+     d="m 2012.64,2101.23 115.2,13.05 41.01,10.7 74.65,20.74 50.5,30 29.5,3.5 63,3 84,6.5 4.04,0.37"
      style="fill:none;stroke:#984e1d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path3894"
-     d="m 2489.0,2041.23 -10.5,141.5 -0.74,9.41"
+     d="m 2489,2041.23 -10.5,141.5 -0.74,9.41"
      style="fill:none;stroke:#ee262f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     d="m 2007,2097.0606 32.8493,64.0906 18.8875,41.1391 10.2632,11.9397 26.6555,17.1137 24.3445,23.3863 28,49.5 5.5,31 2.3876,15.1102 8.3137,60.6965 7.8457,16.763 13.5537,14.1533 1.0136,4.8424 0.7207,5.1044 -19.5456,33.5754 -0.45,12.1854 16.4206,25.8894 15.73,1.29 22.43,-7.29 36.59,4.35 8.5255,3.9523 5.0881,6.598 -0.5242,6.5981 -5.4098,11.7198 -13.4295,144.9841"
+     d="m 2007,2097.06 32.85,64.09 18.89,41.14 10.26,11.94 26.66,17.11 24.34,23.39 28,49.5 5.5,31 2.39,15.11 8.31,60.7 7.85,16.76 13.55,14.15 1.01,4.84 0.72,5.1 -19.55,33.58 -0.45,12.19 16.42,25.89 15.73,1.29 22.43,-7.29 36.59,4.35 8.53,3.95 5.09,6.6 -0.52,6.6 -5.41,11.72 -13.43,144.98"
      id="path3896"
      style="fill:none;stroke:#fccd19;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     d="m 2145.9904,1843.2348 -1.4904,60.4952 -0.2649,144.0993 -25.2036,102.149 -12.0315,34.7517 -5.75,60.61 -4.26,10.93 -8.98,7.66 -9.28,12.99 -0.71,7.77 4.48,9.04 12,4 42.5,10 h 26 l 55.5,-19.5 50.5,-15.5 81,-15.5 40,-13.5 112,-66.5 80.5,-53.5 42,-27"
+     d="m 2145.99,1843.23 -1.49,60.5 -0.26,144.1 -25.2,102.15 -12.03,34.75 -5.75,60.61 -4.26,10.93 -8.98,7.66 -9.28,12.99 -0.71,7.77 4.48,9.04 12,4 42.5,10 h 26 l 55.5,-19.5 50.5,-15.5 81,-15.5 40,-13.5 112,-66.5 80.5,-53.5 42,-27"
      id="path3898"
      style="fill:none;stroke:#ee262f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     d="m 2213.5,1638.73 -9,14.5 -27,31.5 -13.5,38.5 -11,86.5 -3,22.5 1.5,28.5 52,154.5 16.2003,49.9984 -1.2538,6.7023 -49.5961,53.0455 0.2994,5.0882 15.8502,48.1656 0.4323,43.8594 -11.4423,41.6506 -19.0891,47.7774 -1.4009,23.7026 -3.3452,13.5359 -18.1755,11.3574 -1.5174,10.6622 4.9098,7.5837 58.3916,1.8518 20.6846,1.6183 48.8161,30.043 22.6673,16.2641 24.0687,18.5936 25.8361,24.3659 61.6639,24.6341 41.5,21.5 120.04,83.69"
+     d="m 2216.92,1630.25 -3.42,8.48 -9,14.5 -27,31.5 -13.5,38.5 -11,86.5 -3,22.5 1.5,28.5 52,154.5 16.2,50 -1.25,6.7 -49.6,53.05 0.3,5.09 15.85,48.17 0.43,43.86 -11.44,41.65 -19.09,47.78 -1.4,23.7 -3.35,13.54 -18.18,11.36 -1.52,10.66 4.91,7.58 58.39,1.85 20.68,1.62 48.82,30.04 22.67,16.26 24.07,18.59 25.84,24.37 61.66,24.63 41.5,21.5 120.04,83.69"
      id="path3900"
      style="fill:none;stroke:#51c7f4;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
@@ -58,7 +58,7 @@
      y="-1243.04"
      id="text3914"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="-210.55"
        y="-1243.04"
        id="tspan1">1955</tspan></text>
@@ -67,12 +67,12 @@
      y="5297.96"
      id="text3914-4"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="-210.55"
        y="5297.96"
        id="tspan2">1955</tspan></text>
   <path
-     d="m 2082.5,2293.74 -12.53,-0.11 -13.56,-6.77 -34.26,-23.86 -11.41,-4.49 -42.3933,0.8515 -11.5338,-5.317"
+     d="m 2082.5,2293.74 -12.53,-0.11 -13.56,-6.77 -34.26,-23.86 -11.41,-4.49 -42.39,0.85 -11.53,-5.32"
      id="path3939"
      style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>

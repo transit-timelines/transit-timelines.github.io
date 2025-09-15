@@ -71,11 +71,11 @@
      y="206.96"
      id="text3000"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144.0px;line-height:180.0px;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:180px;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
        y="206.96"
        id="tspan1"
-       style="line-height:180.0px">2005</tspan></text>
+       style="line-height:180px">2005</tspan></text>
   <text
      x="89.45"
      y="6947.96"
@@ -92,6 +92,6 @@
      style="fill:none;fill-rule:evenodd;stroke:#f7d304;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#60b22f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 2720.0,3854.5 23,-66.5 12,-41.5 16,-51 5,-41 v -18 l 9.5,-25.5 33.5,-33 42.5,-16.5 20,-9 13.5,-10.5 33.5,-33.5 7.5,-13 5.5,-21.5 6,-38.5 1,-75 -6,-14.5 -29,-26 -16.5,-24.5 -40.5,-27.5 -7.5,-13 -17.5,-68.5 16,-75 21.5,-34 19.5,-63 25,-132 5,-39.5 -6,-42 5,-48.5 6.5,-58 2,-31 2.5,-38.5 23.5,-49.5 3.5,-19.5 -4.5,-8.5 -35.5,-31 h -10 l -12,3 h -11.5 l -16.54,-24.7"
+     d="m 2720,3854.5 23,-66.5 12,-41.5 16,-51 5,-41 v -18 l 9.5,-25.5 33.5,-33 42.5,-16.5 20,-9 13.5,-10.5 33.5,-33.5 7.5,-13 5.5,-21.5 6,-38.5 1,-75 -6,-14.5 -29,-26 -16.5,-24.5 -40.5,-27.5 -7.5,-13 -17.5,-68.5 16,-75 21.5,-34 19.5,-63 25,-132 5,-39.5 -6,-42 5,-48.5 6.5,-58 2,-31 2.5,-38.5 23.5,-49.5 3.5,-19.5 -4.5,-8.5 -35.5,-31 h -10 l -12,3 h -11.5 l -16.54,-24.7"
      id="path4558" />
 </svg>

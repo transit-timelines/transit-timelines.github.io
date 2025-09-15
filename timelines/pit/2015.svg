@@ -41,11 +41,11 @@
      id="path3757"
      style="fill:none;stroke:#017ec0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     d="m 1072,844 -9.5,-6.5 -27.5,0.5 -8.5,1.5 -5,4 v 24 l -5,14.5 -10.5,10.5 -41.5,27 -5.5,9.5 -4.5,23 -6.37,16.98 -5.63,21.02 -9,8.5 -42,45.5 -36,29 -9.5,15 -13.3,45.0"
+     d="m 1072,844 -9.5,-6.5 -27.5,0.5 -8.5,1.5 -5,4 v 24 l -5,14.5 -10.5,10.5 -41.5,27 -5.5,9.5 -4.5,23 -6.37,16.98 -5.63,21.02 -9,8.5 -42,45.5 -36,29 -9.5,15 -13.3,45"
      id="path3761"
      style="fill:none;stroke:#ec2c29;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
   <path
-     d="m 1388.4,335.53 -11.34,1.17 -27.88,9.38 -13.74,27.02 0.85,3.56 19.0,9.35 2.29,-2.39 20.19,-40.97 10.28,-6.06"
+     d="m 1388.4,335.53 -11.34,1.17 -27.88,9.38 -13.74,27.02 0.85,3.56 19,9.35 2.29,-2.39 20.19,-40.97 10.28,-6.06"
      id="path3790"
      style="fill:none;stroke:#7d0d6f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
   <path
@@ -69,7 +69,7 @@
      y="106.96"
      id="text3000"
      xml:space="preserve"
-     style="font-size:144.0px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+     style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
        x="-710.55"
        y="106.96"
        id="tspan1">2015</tspan></text>
@@ -82,7 +82,7 @@
      d="m 1259.14,514.94 6.09,-2.8 33.72,-65.89 34.34,-69.06 -0.75,-3.21 -16.42,-8.3 -3.02,2.45 -32.45,64.34 1.89,3.96 13.59,6.79 1.13,5.47"
      id="path4499" />
   <path
-     d="m 832.7,1133.0 -6.2,19.0 -3.71,18.96 -20.53,26.67 -6.45,38.18 9.2,33.2 -3,38.5"
+     d="m 832.7,1133 -6.2,19 -3.71,18.96 -20.53,26.67 -6.45,38.18 9.2,33.2 -3,38.5"
      id="path866"
      style="fill:none;stroke:#ec2c29;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
@@ -99,6 +99,6 @@
      id="path3757-3" />
   <path
      style="fill:none;stroke:#ec2c29;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 802.0,1307.5 3.5,10 11,16 10,21 32.02,30.06 16.98,15.94 20.5,22 12,24 12.5,22 15.5,11 20,13.5 17,16 15.5,12.5 6,12"
+     d="m 802,1307.5 3.5,10 11,16 10,21 32.02,30.06 16.98,15.94 20.5,22 12,24 12.5,22 15.5,11 20,13.5 17,16 15.5,12.5 6,12"
      id="path1787" />
 </svg>
