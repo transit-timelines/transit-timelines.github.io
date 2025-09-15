@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="9050"
-   height="9300"
-   viewBox="4200 0 9050 9300"
+   width="13250"
+   height="12700"
+   viewBox="0 0 13250 12700"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -42,17 +42,17 @@
      xml:space="preserve"
      id="text3652"
      y="206.96"
-     x="4289.45"><tspan
+     x="89.45"><tspan
        id="tspan1"
        y="206.96"
-       x="4289.45">2015</tspan></text>
+       x="89.45">2015</tspan></text>
   <text
      x="12827.45"
-     y="9197.96"
+     y="12597.96"
      id="text3652-1"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="12827.45"
-       y="9197.96"
+       y="12597.96"
        id="tspan2">2015</tspan></text>
 </svg>
