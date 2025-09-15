@@ -80,10 +80,10 @@
        y="-2643.04"
        id="text3784"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="-2860.55"
-         y="-2643.04"
-         id="tspan1">1985</tspan></text>
+       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"> <tspan
+   x="-2860.55"
+   y="-2643.04"
+   id="tspan1">1985</tspan> </text>
     <path
        id="path1617"
        d="m 707.1,1034.57 4.44,4.42"
@@ -121,14 +121,4 @@
        d="m 898.8,1414.1 2.43,3.71 21.15,2.19 7.4,2.89 40.12,17.73 75.69,21.87 8.73,1.92 2.81,4.91 -7.41,22.85 -47.67,38.89"
        id="path877-5" />
   </g>
-
-  <text
-     x="-2860.55"
-     y="1797.96"
-     id="text3652-1"
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-2860.55"
-       y="1797.96"
-       id="tspan2"></tspan></text>
 </svg>

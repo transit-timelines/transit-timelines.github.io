@@ -25,7 +25,7 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="../basemap/pusosm.png"
+     xlink:href="basemap/pusosm.png"
      y="-42"
      x="-50"
      id="image10"
@@ -66,19 +66,10 @@
      xml:space="preserve"
      id="text3019"
      y="206.96"
-     x="89.45"><tspan
-       id="tspan1"
-       y="206.96"
-       x="89.45">2020</tspan></text>
-  <text
-     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"
-     id="text3019-6"
-     y="4697.96"
-     x="89.45"><tspan
-       id="tspan2"
-       y="4697.96"
-       x="89.45"></tspan></text>
+     x="89.45"> <tspan
+   id="tspan1"
+   y="206.96"
+   x="89.45">2020</tspan> </text>
   <path
      style="fill:none;stroke:#1e489f;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      d="m 4032.33,2958.49 52.98,40.25 c 0.22,0.16 0.46,0.29 0.71,0.38 l 17.81,6.02 c 0.21,0.07 0.43,0.11 0.66,0.13 l 24.29,1.39 c 0.18,0.01 0.35,7e-4 0.53,-0.03 l 19.2,-3.01 c 0.22,-0.04 0.44,-0.1 0.64,-0.19 l 13.88,-6.25 c 0.36,-0.16 0.68,-0.41 0.93,-0.72 l 13.42,-16.89 c 0.08,-0.1 0.15,-0.2 0.21,-0.31 l 16.22,-28.33 13.82,-12.26 16.9,-9.24 47.67,-17.28 32.31,-22.74 16.15,-12.68 9,-11.61 3.44,-13.41 -1.31,-35.5 6.71,-46.78 4.09,-31.08 -3.27,-22.41 -1.96,-16.69 0.33,-10.47 3.27,-9.98 33.86,-65.11"

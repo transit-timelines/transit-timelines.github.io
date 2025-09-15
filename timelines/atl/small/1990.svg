@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
-   viewBox="-250 0 3650 5000"
+   viewBox="50 0 3350 5000"
    height="5000"
-   width="3650"
+   width="3350"
    version="1.1">
   <metadata
      id="metadata8">
@@ -46,21 +46,21 @@
      id="path3776"
      d="m 176.57,3084.55 49.35,-5.48 19.74,1.1 30.71,9.87 48.25,23.03 63.61,23.03 19.74,1.1 31.8,-7.68 69.09,-30.71 39.48,-15.35 114.05,-20.84 48.25,-7.68 32.9,-3.29 81.15,1.1 36.19,2.19 93.22,3.29 38.38,-3.29 h 39.48 l 40.58,-2.19 41.67,6.58 28.51,6.58 34,18.64 89.93,69.09 23.03,17.55 20.84,2.19 27.42,-2.19 29.61,-5.48 40.58,-15.35 131.6,-47.16 42.77,-9.87 39.48,-9.87 30.71,-13.16 42.77,-38.38 35.09,-27.42 34,-15.35 63.61,-12.06 52.64,-10.97 36.19,-1.1 27.42,5.48 31.8,18.64 36.19,10.97 31.8,-1.1 36.19,-20.84 42.77,-30.71 36.19,-23.03 42.77,-5.48 41.67,-7.68 26.32,-13.16 17.55,-17.55 16.45,-32.9 15.35,-40.58 16.45,-15.35 23.03,-12.06 21.93,-4.39 h 58.12 l 70.19,1.1 19.74,4.39 23.03,1.1 40.58,-14.26 12.95,-5.38" />
   <text
-     x="-160.55"
+     x="139.45"
      y="206.96"
      id="text3652"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-160.55"
+       x="139.45"
        y="206.96"
        id="tspan1">1990</tspan></text>
   <text
-     x="-160.55"
+     x="139.45"
      y="4897.96"
      id="text3652-1"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-160.55"
+       x="2977.45"
        y="4897.96"
        id="tspan2"></tspan></text>
 </svg>

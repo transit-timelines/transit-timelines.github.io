@@ -80,10 +80,10 @@
        y="-2643.04"
        id="text3784"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="-2860.55"
-         y="-2643.04"
-         id="tspan1">1980</tspan></text>
+       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"> <tspan
+   x="-2860.55"
+   y="-2643.04"
+   id="tspan1">1980</tspan> </text>
     <path
        id="path1617"
        d="m 707.1,1034.57 4.44,4.42"
@@ -101,14 +101,4 @@
        d="m 898.8,1414.1 2.43,3.71 21.15,2.19 7.4,2.89 40.12,17.73 75.69,21.87 11.76,2.58 3.76,-2.41 4.77,-19.69 -8.37,-21.9 0.96,-2.78 58.46,-15.37 1.32,-2.43 2.07,-17.98 3.91,-15.61 7.47,-16.08 14.06,-19.47 28.51,-18.72 27.26,-26.06 21.23,-9.61 9.96,-9.69 4.64,-0.88 3.59,1.12"
        id="path877-5" />
   </g>
-
-  <text
-     x="-2860.55"
-     y="1797.96"
-     id="text3652-1"
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-2860.55"
-       y="1797.96"
-       id="tspan2"></tspan></text>
 </svg>

@@ -29,7 +29,7 @@
      width="5530.5"
      height="4608.75"
      preserveAspectRatio="none"
-     xlink:href="../basemap/xmnosm.png"
+     xlink:href="basemap/xmnosm.png"
      id="image10"
      x="-1486.25"
      y="48.5" />
@@ -78,21 +78,12 @@
      xml:space="preserve"
      id="text2992"
      y="206.96"
-     x="-1460.55"><tspan
-       id="tspan1"
-       y="206.96"
-       x="-1460.55">2025</tspan></text>
+     x="-1460.55"> <tspan
+   id="tspan1"
+   y="206.96"
+   x="-1460.55">2025</tspan> </text>
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="M 789.7,4356.57 777.03,4222.36"
      id="path846" />
-  <text
-     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"
-     id="text2828"
-     y="4647.96"
-     x="-1460.55"><tspan
-       id="tspan2"
-       y="4647.96"
-       x="-1460.55">2025</tspan></text>
 </svg>

@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   width="3650"
+   width="3350"
    height="5000"
-   viewBox="-250 0 3650 5000"
+   viewBox="50 0 3350 5000"
    id="svg2">
   <metadata
      id="metadata8">
@@ -58,17 +58,17 @@
      xml:space="preserve"
      id="text3652"
      y="206.96"
-     x="-160.55"><tspan
+     x="139.45"><tspan
        id="tspan1"
        y="206.96"
-       x="-160.55">2015</tspan></text>
+       x="139.45">2015</tspan></text>
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3652-1"
      y="4897.96"
-     x="-160.55"><tspan
+     x="2977.45"><tspan
        id="tspan2"
        y="4897.96"
-       x="-160.55">2015</tspan></text>
+       x="2977.45">2015</tspan></text>
 </svg>

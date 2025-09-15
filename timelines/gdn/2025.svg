@@ -90,10 +90,10 @@
      y="-2643.04"
      id="text3784"
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-2860.55"
-       y="-2643.04"
-       id="tspan1">2025</tspan></text>
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"> <tspan
+   x="-2860.55"
+   y="-2643.04"
+   id="tspan1">2025</tspan> </text>
   <path
      id="path1553"
      d="m 342.41,304.52 5.06,-2.41"
@@ -106,15 +106,6 @@
      id="path1621"
      d="m 1077.18,571.69 -2.88,2.05"
      style="fill:none;stroke:#b90707;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <text
-     x="-2860.55"
-     y="1797.96"
-     id="text3652-1"
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-2860.55"
-       y="1797.96"
-       id="tspan2">2025</tspan></text>
   <path
      style="fill:none;stroke:#b90707;stroke-width:1;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none"
      d="m 460.39,1647.87 -4.14,3.82 -15.52,-1.13 -5.85,2.46 -18.01,10.62 -8.68,3.02 -8.62,0.74 -88.49,-0.39 -6.58,-1.67 -12.12,-3.89 -7.89,0.34 -45.11,2.98 -10.23,-0.4 -2.75,2.51 2.73,21.34 -0.3,8.95 -1.74,9.97 -5.26,16.18"

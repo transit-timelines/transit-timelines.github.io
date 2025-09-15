@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
-   viewBox="-250 0 3650 5000"
+   viewBox="50 0 3350 5000"
    height="5000"
-   width="3650"
+   width="3350"
    version="1.1">
   <metadata
      id="metadata8">
@@ -50,21 +50,21 @@
      id="path3778"
      d="m 711.75,2796.12 6.58,35.09 5.48,27.42 18.64,28.51 21.93,25.22 7.68,35.09 10.97,62.51 14.26,17.55 43.32,21.39 41.13,2.1 73.4,2.74 33.27,-2.79 51.25,-1.5 34.95,-0.69 39.36,5.41 32.07,7.9 31.9,18.05 87.64,66.3 24.68,19.29 25.22,3.29 32.35,-4.94 19.08,-2.98 71.46,-25.95 38.87,-16.03 60.79,-20.19 30.88,-6.82 52,-13.56 30.01,-12.61 37.53,-34.24 40.19,-31.01 35.55,-15.9 99.64,-20.29" />
   <text
-     x="-160.55"
+     x="139.45"
      y="206.96"
      id="text3652"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-160.55"
+       x="139.45"
        y="206.96"
        id="tspan1">1995</tspan></text>
   <text
-     x="-160.55"
+     x="139.45"
      y="4897.96"
      id="text3652-1"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-160.55"
+       x="2977.45"
        y="4897.96"
        id="tspan2">1995</tspan></text>
 </svg>

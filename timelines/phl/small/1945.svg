@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="5050"
    height="4550"
    viewBox="-600, 100, 5050, 4550"
-   id="svg2">
+   id="svg2"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata3437">
     <rdf:RDF>
@@ -19,7 +19,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,22 +71,13 @@
      style="fill:none;stroke:#552b9d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <text
      x="-510.55"
-     y="4547.96"
-     id="text2828"
-     xml:space="preserve"
-     style="font-size:144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-       x="-510.55"
-       y="4547.96"
-       id="tspan2"></tspan></text>
-  <text
-     x="-510.55"
      y="306.96"
      id="text2828-6"
      xml:space="preserve"
-     style="font-size:144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-       x="-510.55"
-       y="306.96"
-       id="tspan1">1945</tspan></text>
+     style="font-size:144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"> <tspan
+   x="-510.55"
+   y="306.96"
+   id="tspan1">1945</tspan> </text>
   <path
      d="m 2497.75,2092.21 29.75,59.5 20,61 5.5,19 -1.5,28.5 -6,66 -2.5,39 -14.5,100 -3.5,44 -12.82,44.97 -13.16,27.1 -17.88,13.3 -12.64,9.81 -9.59,10.03 -2.4,6.32 -15.26,88.29"
      id="path3660"

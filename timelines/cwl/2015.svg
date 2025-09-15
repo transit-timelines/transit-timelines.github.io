@@ -29,7 +29,7 @@
      y="20"
      x="-75"
      id="image10"
-     xlink:href="../basemap/cwlosm.png"
+     xlink:href="basemap/cwlosm.png"
      preserveAspectRatio="none"
      height="4830"
      width="2100" />
@@ -52,19 +52,10 @@
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
-     id="text2828"
-     y="4697.96"
-     x="39.45"><tspan
-       id="tspan2"
-       y="4697.96"
-       x="39.45">2015</tspan></text>
-  <text
-     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"
      id="text2828-6"
      y="206.96"
-     x="39.45"><tspan
-       id="tspan1"
-       y="206.96"
-       x="39.45">2015</tspan></text>
+     x="39.45"> <tspan
+   id="tspan1"
+   y="206.96"
+   x="39.45">2015</tspan> </text>
 </svg>
