@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 12250 14800"
-   height="14800"
-   width="12250"
+   viewBox="-100 -350 12350 15150"
+   height="15150"
+   width="12350"
    id="svg2"
    version="1.1">
   <metadata
@@ -326,20 +326,20 @@
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3914"
-     y="206.96"
-     x="89.45"><tspan
+     y="-143.04"
+     x="-10.55"><tspan
        id="tspan1"
-       y="206.96"
-       x="89.45">1980</tspan></text>
+       y="-143.04"
+       x="-10.55">1980</tspan></text>
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3914-4"
      y="14697.96"
-     x="89.45"><tspan
+     x="-10.55"><tspan
        id="tspan2"
        y="14697.96"
-       x="89.45">1980</tspan></text>
+       x="-10.55">1980</tspan></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#e3000b;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      d="m 5265.19,2166.16 1.13,4.8"
@@ -528,7 +528,6 @@
      id="path5694-6"
      d="m 4924.44,10756.5 -9.9,-0.88 -2.47,-2.48 -4.95,-14.32 -15.91,-84.5 -1.59,-24.75 2.47,-17.86 v -8.31 l -1.41,-7.25 -4.77,-10.43 -1.06,-6.54 3.18,-44.9 5.3,-21.39 v -8.13 l -10.78,-30.41 -1.41,-10.08 1.41,-8.13 4.07,-7.25 11.67,-15.38 33.06,-47.55 7.95,-11.31 0.03,-4.57 -9.32,-7.01 -25.01,-25.13 0.39,-5.83"
      style="fill:none;fill-rule:evenodd;stroke:#05a1e6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
-
   <path
      style="fill:none;fill-rule:evenodd;stroke:#006bb4;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-width:5"
      d="m 3001.41,4451.65 -2.18,-11.23 3.44,-53.34 5.74,-45.88 5.7,-27.36"
