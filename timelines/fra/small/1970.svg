@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="4650"
+   width="5800"
    height="4050"
-   viewBox="-25 -25 4650 4050"
+   viewBox="-1175 -25 5800 4050"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -25,12 +25,12 @@
   <defs
      id="defs6" />
   <image
-     width="4761"
+     width="6059.45"
      height="3895.36"
      preserveAspectRatio="none"
      xlink:href="../basemap/fraosm.png"
      id="image10"
-     x="0"
+     x="-1298.45"
      y="74.64"
      style="display:none" />
   <path
@@ -42,12 +42,12 @@
      d="m 2810.69,1235.55 -3.69,-12.55 -2.75,-21.5 3.25,-46.75 3.25,-18.75 0.75,-18.75 7.38,-9.81 12.37,-7.38 13,-0.56 9.94,3.62 10.06,10.38 14.06,11.25 20.38,14.19 34,16.75 16.56,12.31 8.5,13.25 13.75,16.75 22.25,18 12,27 10.31,7.38"
      id="path4971" />
   <text
-     x="64.45"
+     x="-1085.55"
      y="181.96"
      id="text2819"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="64.45"
+       x="-1085.55"
        y="181.96"
        id="tspan1">1970</tspan></text>
   <path

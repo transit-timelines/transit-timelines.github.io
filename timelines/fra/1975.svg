@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="-25 -25 4650 4050"
+   viewBox="-1175 -25 5800 4050"
    height="4050"
-   width="4650"
+   width="5800"
    id="svg2"
    version="1.1">
   <metadata
@@ -27,12 +27,12 @@
      id="defs6" />
   <image
      y="74.64"
-     x="0"
+     x="-1298.45"
      id="image10"
      xlink:href="../basemap/fraosm.png"
      preserveAspectRatio="none"
      height="3895.36"
-     width="4761"
+     width="6059.45"
      style="display:none" />
   <path
      id="path4714"
@@ -51,10 +51,10 @@
      xml:space="preserve"
      id="text2819"
      y="181.96"
-     x="64.45"><tspan
+     x="-1085.55"><tspan
        id="tspan1"
        y="181.96"
-       x="64.45">1975</tspan></text>
+       x="-1085.55">1975</tspan></text>
   <path
      id="path5178"
      d="m 3158.8,1530.07 -0.55,-10.82 -15.87,-47.42 v -17.68 l -18.68,-60.69 -33.02,-48.79 -11.94,-20.28 -47.15,-65.3 -10.18,-6.38 -6.59,-2.75"

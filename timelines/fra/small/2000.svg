@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="4650"
+   width="5800"
    height="4050"
-   viewBox="-25 -25 4650 4050">
+   viewBox="-1175 -25 5800 4050">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -26,12 +26,12 @@
   <defs
      id="defs6" />
   <image
-     width="4761"
+     width="6059.45"
      height="3895.36"
      preserveAspectRatio="none"
      xlink:href="../basemap/fraosm.png"
      id="image10"
-     x="0"
+     x="-1298.45"
      y="74.64"
      style="display:none" />
   <path
@@ -111,12 +111,12 @@
      d="m 2928.31,1503.97 -18.56,-14.32 -13.44,-16.26 -17.32,-29.88 -31.74,-67.76 -7.5,-20.75 -2.5,-22.75 5,-23 -0.25,-15.25 -5.5,-23.25 -13.25,-17.25 -11.25,-13.5 -5,-17 -2.75,-21.5 3.25,-46.75 3.25,-18.75 0.75,-18.75 7.38,-9.81 12.5,-2.44 12.25,-0.81 8.06,3.12 9.69,10.12 13.88,11.19 20.44,14.38 34.75,17.19 15.5,11.5 8.31,13.19 13.94,16.88 21.81,17.62 11.75,26.75 11.31,8.19"
      id="path4971" />
   <text
-     x="64.45"
+     x="-1085.55"
      y="181.96"
      id="text2819"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="64.45"
+       x="-1085.55"
        y="181.96"
        id="tspan1">2000</tspan></text>
   <path
@@ -151,4 +151,9 @@
      style="fill:none;fill-rule:evenodd;stroke:#00a54f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      d="m 2891.36,978.63 4.6,-6.36 12.37,-14.14 53.03,-34.29 18.03,-9.9 37.33,-43.71"
      id="path5369" />
+
+  <path
+     style="fill:none;stroke:#96ca4e;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m -1041.92,2577.23 26.16,73.39 25.76,58.56 27.33,32.01 15.22,20.69 12.49,42.16 9.76,35.52 3.51,39.04 -3.51,40.21 -5.47,38.26 0.39,22.25 7.03,30.06 12.88,24.2"
+     id="path1" />
 </svg>
