@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="3000"
+   width="4000"
    height="1700"
-   viewBox="0 0 3000 1700">
+   viewBox="0 0 4000 1700">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -26,7 +26,7 @@
   <defs
      id="defs6" />
   <image
-     width="2977"
+     width="4059.55"
      height="2435.73"
      preserveAspectRatio="none"
      xlink:href="../basemap/toyosm.png"

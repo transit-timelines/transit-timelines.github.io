@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 3000 1700"
+   viewBox="0 0 4000 1700"
    height="1700"
-   width="3000"
+   width="4000"
    id="svg2"
    version="1.1">
   <metadata
@@ -33,7 +33,7 @@
      xlink:href="../basemap/toyosm.png"
      preserveAspectRatio="none"
      height="2435.73"
-     width="2977" />
+     width="4059.55" />
   <path
      id="path844"
      d="m 1169.66,320.61 4.59,0.77 148.2,36.46 97.03,33.06"
