@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="5300"
+   width="6400"
    height="2550"
-   viewBox="-1950 -50 5300 2550">
+   viewBox="-1950 -50 6400 2550">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -163,4 +163,13 @@
      id="path839"
      d="m 933.93,1086.39 -1.54,3.65 1.32,50.1 12.22,13.18 22.29,17.74 3.84,0.72 6.71,-1.44"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ee7100;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     d="m 3564.41,2096.89 5.86,20.82 4.77,11.71 16.49,25.6"
+     id="path3" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     d="m 3590.77,2158.17 11.82,9.98 9.76,3.58 19.52,3.36 81.52,39.99"
+     id="path4" />
 </svg>
