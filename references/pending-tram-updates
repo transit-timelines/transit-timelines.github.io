@@ -1,6 +1,7 @@
 check Huangshi gradesep
 use Mengzi IATA code when assigned
-metro background BHX BRN LED MAD WUH SHE SYD WUH
+metro background CSO QUL BHX BRN LED MAD WUH SHE SYD WUH
+
 
 check construction status:
 Antwerpen 2/4 11 12

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1850"
+   height="1900"
+   viewBox="0 0 1850 1900"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <image
+       width="1921"
+       height="1921"
+       preserveAspectRatio="none"
+       xlink:href="../basemap/aahosm.png"
+       id="image1"
+       x="25"
+       y="75"
+       style="display:none" />
+    <path
+       style="fill:none;stroke:#4b76ba;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+       d="m 531.34,127.41 -2.44,17.77 -8.44,33.53 -85.28,261.61 -119.03,363.54 -7.99,18.43 -102.16,186.1 -7.11,18.88 -4.66,20.43 -3.11,20.65 2.22,30.2 4.44,17.54 18.43,51.97 1.33,16.43 -0.89,14.66 -4,12.44 -75.73,136.36 -4.89,17.99 -0.44,17.77 5.77,18.88 10.66,19.77 25.54,35.09 17.77,14.44 100.82,59.52 23.1,14.88 16.66,16.21 7.77,20.21 0.44,14.88 -9.33,23.98 -6.44,21.99 -1.55,19.77 2.89,23.98 5.55,19.1 14.21,28.87 15.55,16.43 15.55,9.55 21.99,6.66 31.54,4.44 14.44,-2.44 12.21,-8.22 23.1,-21.99 11.77,-7.99 16.21,-4.44 17.1,2.22 85.28,35.09 19.99,2.89 19.1,-1.78 16.88,-5.55 19.77,-11.77 54.19,-54.85 32.2,-25.76 51.08,-55.52 49.97,-40.86 20.21,-12.66 86.17,-49.08 54.19,-29.98 24.87,-10.66 18.43,-5.55 69.07,-15.1 445.94,-91.94 76.62,-14.88 27.54,-9.11 35.75,-18.43"
+       id="path1" />
+    <text
+       x="89.45"
+       y="206.96"
+       id="text3759"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="89.45"
+         y="206.96"
+         id="tspan1">2010</tspan></text>
+  </g>
+</svg>
