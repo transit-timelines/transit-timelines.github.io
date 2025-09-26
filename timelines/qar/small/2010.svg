@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 4000 1450"
-   height="1450"
-   width="4000"
+   viewBox="-1600 115 5600 7300"
+   height="7300"
+   width="5600"
    id="svg2"
    version="1.1">
   <metadata
@@ -28,23 +28,36 @@
   <image
      style="display:none"
      y="95.05"
-     x="25"
+     x="-1637.8"
      id="image10"
      xlink:href="../basemap/qarosm.png"
      preserveAspectRatio="none"
-     height="1454.95"
-     width="4157" />
+     height="7274.75"
+     width="5819.8" />
   <path
      id="path817"
-     d="m 138.64,306.7 15.13,1.61 34.12,-6.76 62.45,-12.23 18.35,-1.61 16.42,0.97 24.79,6.12 205.07,80.8 24.79,13.52 25.43,16.1 13.52,10.62 24.14,22.54 183.18,198.95 19.96,18.67 28.65,25.11 64.39,51.51 49.58,32.84 278.79,181.57 367.97,235.98 41.21,18.35 130.38,52.15 85.94,34.5 27.06,2.53 14.81,-1.61 17.38,-5.79 419.15,-188.65 778.43,-371.51 17.71,-6.44 15.13,-0.64 430.74,-19.96 36.06,0.64 269.13,13.52"
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#f7931d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     d="m 129.69,304.8 21.91,2.97 36.29,-6.22 62.45,-12.23 18.35,-1.61 16.42,0.97 24.79,6.12 205.07,80.8 24.79,13.52 25.43,16.1 13.52,10.62 24.14,22.54 183.18,198.95 19.96,18.67 28.65,25.11 64.39,51.51 49.58,32.84 278.79,181.57 367.97,235.98 41.21,18.35 130.38,52.15 85.94,34.5 27.06,2.53 14.81,-1.61 17.38,-5.79 419.15,-188.65 778.43,-371.51 17.71,-6.44 15.13,-0.64 430.74,-19.96 36.06,0.64 269.13,13.52"
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00a650;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3818"
-     y="206.96"
-     x="89.45"><tspan
+     y="321.96"
+     x="-1510.55"><tspan
        id="tspan1"
-       y="206.96"
-       x="89.45">2010</tspan></text>
+       y="321.96"
+       x="-1510.55">2010</tspan></text>
+  <text
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3019-6"
+     y="7312.96"
+     x="-1510.55"><tspan
+       id="tspan2"
+       y="7312.96"
+       x="-1510.55"></tspan></text>
+  <path
+     style="fill:none;stroke:#1ac0f4;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 129.69,304.8 -15.81,-3.55 -53.15,-15.18 -114.15,-11.93 -61.82,0.54 -30.1,4.88 -25.22,10.03 -23.59,16 -21.15,21.96 -17.08,29.83 -84.6,221.26 -9.49,39.05 -1.36,42.03 6.24,128.25 28.47,554.77 13.02,250.54 8.68,146.42 16,308.57 8.41,176.79 -2.98,22.23 -8.27,25.35 -63.31,202.96"
+     id="path1" />
 </svg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1800"
+   height="2550"
+   viewBox="0 0 1800 2550"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <image
+       width="4839"
+       height="5470.17"
+       preserveAspectRatio="none"
+       xlink:href="../basemap/einosm.png"
+       id="image1"
+       x="-100"
+       y="150"
+       style="display:none" />
+    <path
+       style="fill:none;stroke:#0173bc;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+       d="m 1686.79,2417.33 -57.42,15.08 -28.55,3.21 -27.91,-3.21 -20.53,-7.38 -21.49,-15.08 -14.44,-17.32 -85.65,-102.01 -234.82,-286.14 -175.15,-212.68 -28.55,-48.12 -146.92,-261.76 -151.41,-263.37 -231.61,-411.89 -113.24,-199.85 -69.61,-125.43 -45.87,-70.89 -41.06,-80.52 -27.59,-39.78 -44.91,-50.36"
+       id="path1" />
+    <text
+       x="89.45"
+       y="206.96"
+       id="text3019"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="89.45"
+         y="206.96"
+         id="tspan1">2015</tspan></text>
+  </g>
+</svg>
