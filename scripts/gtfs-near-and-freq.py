@@ -142,11 +142,13 @@ for line in stops[1:]:
 stTripidPos = posInHeading("trip_id", stoptimes[0])
 stTimePos = posInHeading("departure_time", stoptimes[0])
 stStopidPos = posInHeading("stop_id", stoptimes[0])
+stPickupPos = posInHeading("pickup_type", stoptimes[0])
+stDropoffPos = posInHeading("drop_off_type", stoptimes[0])
 currentTripid = ''
 currentTrip = {}
 for line in stoptimes[1:]:
     lineArray = preProc(line).split(',')
-    if len(lineArray[2]) < 4:
+    if len(lineArray[stTimePos]) < 4:
         continue
     tripid = lineArray[stTripidPos]
     time = minsFromTime(lineArray[stTimePos])
@@ -159,8 +161,10 @@ for line in stoptimes[1:]:
     for origin in currentTrip:
         if stopNames[stopid] not in fromAtoB[stopNames[origin]]:
             fromAtoB[stopNames[origin]][stopNames[stopid]] = set()
-        fromAtoB[stopNames[origin]][stopNames[stopid]].add(currentTrip[origin])
-    currentTrip[stopid] = time
+        if lineArray[stDropoffPos] != '1':
+            fromAtoB[stopNames[origin]][stopNames[stopid]].add(currentTrip[origin])
+    if lineArray[stPickupPos] != '1':
+        currentTrip[stopid] = time
 
 print('<?xml version="1.0" encoding="UTF-8"?>')
 print('<kml xmlns="http://www.opengis.net/kml/2.2"><Document>')

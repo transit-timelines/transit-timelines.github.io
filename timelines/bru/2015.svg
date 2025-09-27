@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="4500"
-   height="8300"
-   viewBox="3500 0 4500 8300">
+   width="6500"
+   height="10400"
+   viewBox="3500 0 6500 10400">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -275,10 +275,10 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019-6"
-     y="8197.96"
+     y="10297.96"
      x="3589.45"><tspan
        id="tspan2"
-       y="8197.96"
+       y="10297.96"
        x="3589.45">2015</tspan></text>
   <path
      id="path6688"
@@ -336,4 +336,9 @@
      id="path4557"
      d="m 7609.07,5918.12 18.41,-2.98 14.32,-10.23 8.87,-13.98 6.48,-26.94 -2.39,-57.62 -11.93,-38.19 -10.57,-27.28 -10.23,-26.6 -21.48,-38.19"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#7b7879;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+
+  <path
+     style="fill:none;stroke:#7b7879;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 7233.43,1257.49 26.17,27.67 24.81,13.78 47.12,15.04 57.89,17.29 20.55,10.78 53.88,13.78 31.58,23.31 35.09,36.59 94.23,101.25 144.61,120.55 358.88,294.98 98.24,80.95 12.53,7.02 19.3,6.27 19.55,2.26 21.8,-1.25 76.69,-10.28"
+     id="path5" />
 </svg>
