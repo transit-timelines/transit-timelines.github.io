@@ -2,7 +2,6 @@
 ACH: Wil, Altstätten, Herisau, Romanshorn-Weinfelden?
 AMS: 4.5km Sloterdijk-Centraal(-Sittard!)
 BRU: 1.3km Central-Midi(-52.1km Gent-40.1km Brugge!)
-BRQ: 2.6km hl n-Zidenice but frequent only if unticketable services included
 EDI: 2.1km Waverly-Haymarket and onward to Inverkeithing & Polmont but also 2015 Glasgow via FH
 FSZ: Tokaido line Hammamatsu-Atami (e.g. 2.5km Shizuoaka-EShizuoka)
 FUK: Tenjin-Omuta, Kagoshima Main?
@@ -13,7 +12,6 @@ MIL: 3.5km MXP T1-MXP T2, 12.8km Busto Arsizio FN-MXP T1 (2010-2015)
 MOW: elektrichkas?
 NGO: 2.2km Kanayama-Jingumae(-Toyohashi/Airport), 4.1km Utsumi 2020?, 8.4km Kintetsu Isuzugawa exp Matsusaka-IseNakagawa, 13.4km Yokkaichi-Kuwana(-Nagoya)
 OSA: 3.1km Yamashina-Otsukyo(-Katata), 4.6km Himeji-Aboshi pre2010, 39.1km ShinOsaka-Kyoto shinkansen
-PRG: hln-Ricany, Liben-Uvaly, Masarykovo-Bubny, 4.6km Rajska zahrada-Vysocany, Podoba-Roztoky, 4.7km Smichov 2020?
 QLS: 2.4km Prilly(-Cosonnay), 2.5km Pully(-Cully), 4.5km Renens(-Geneva), 6.1km Vevey-Montreux(-Aigle), 8.5km Puidoux-Palezieux, 39.1km Yverdon les Bains
 SMV: 2km Bad Ragaz-Malenfeld, 4.6km Malenfeld-Landquart
 SPK: airport line
@@ -21,7 +19,7 @@ TYO: 1.6km Shintoshin-Omiya, 1.9km Tokyo-Shimbashi, 2.0km Zushi-EZushi, 18.7km S
 ZIN: 1.9km Grütschalp-Winteregg, 2.3km Winteregg-Mürren, but perhaps not general-purpose
 ZRH: Zug, Winterthur, Turgi-Brugg, likely others
 ===== BETWEEN 5KM AND 10KM =====
-AMS: 6.0km Centraal-Amstel 1990, 6.4km Bussum-Hilversum 2000, 6.6km Uitgeest-Beverwijk(-Haarlem) 2010, 7.4 Utrecht-Houten 2005, 9.0km Schiphol-Zuid(-Lelystad) (also 1980), 9.7km Rotterdam-Alexander(-Gouda), 11.5km Utrecht-Driebergen Ziest, 13.8km Goverwelle-Woerden, 15.9km Utrecht-Woerden, 16.9km Centraal-Schiphol(-HSL), 17.5km Hilversum-Utrecht 1995,17.5km Hilversum-Utrecht 1995,  21.2km Amersfoort-Utrecht(-Den Haag), 24.8km Almere-Lelystad(-Zwolle), 27.1km Leiden-Schiphol, 37.5km Dordrecht-Roosendaal
+AMS: 6.0km Centraal-Amstel 1990, 6.4km Bussum-Hilversum 2000, 6.6km Uitgeest-Beverwijk(-Haarlem) 2010, 7.4 Utrecht-Houten 2005, 9.0km Schiphol-Zuid(-Lelystad) (also 1980), 9.7km Rotterdam-Alexander(-Gouda), 11.5km Utrecht-Driebergen Ziest, 13.8km Goverwelle-Woerden, 15.9km Utrecht-Woerden, 16.9km Centraal-Schiphol(-HSL), 17.5km Hilversum-Utrecht 1995, 21.2km Amersfoort-Utrecht(-Den Haag), 24.8km Almere-Lelystad(-Zwolle), 27.1km Leiden-Schiphol, 37.5km Dordrecht-Roosendaal
 BHX: 5.4km Solihull-Dorridge, 13.2km New St-Intl(-Coventry), 13.3km Tame Br-New St, 20.7km Wolverhampton
 BJS: 7.2km Capital Airport Express, 13+km Daxing Airport Express
 BNE: 7.9km Altandi-Beenleigh
@@ -45,7 +43,7 @@ MAN: 9.3km Stockport, 14.5km Salford Crescent-Bolton
 MST: 5.4km Maastricht-Meerssen, 18.5km Heerlen-Sittard, 21.8km Maastricht-Sittard
 MUC: 7.4km early Pasing
 NCL: 5.6km Metrocentre 1990-2015?
-NKG: 6.2km S9 Tuanjiewei-Gaochun
+NKG: 6.2km S9 Tuanjiewei-Gaochun (merge with WHA)
 NYC: 6.6km GCT-Harlem, 8.2km Penn-Woodside(-Jamaica), 16km JFK Exp Jay-HB
 OPO: 8.5km Campanha-Ermesinde
 PAR: 5.8km StL-Bois Colombes 1925, 13.7km Rueil 1935, 14.1km St Cloud 1935, 14.km VilleneuveSG 1955, 20.5km St Germain 1935
@@ -60,11 +58,13 @@ BRN: 10.2km Biel-Lyss(-Bern), 25.6km Solothurn-Biel, 31.2km Bern-Fribourg
 BRS: 18.5km Temple Meads-Bath Spa
 BSL: 13.2km Basel-Liestal, 16.9km Basel-Rheinfelden, 38km Olten-Basel
 CZX/WUX: 41km Changzhou-Wuxi(-Suzhou) via intercity line
+DAC: 11.7km opening 2022-12-28
 DRS: 14.0km Neustadt-Coswig
 GRQ: 15.3km Leeuwarden-Feanwalden(-Groningen), 27.6km Assen(-Zwolle)
 HAJ: 16.1km Hannover-Lehrte
 LUX: 12.4km Ettelbruck-Mersch
 OSL: 23.0km Oslo-Ski via Follobanen, 30.9km Lillestrom-Airport
+PME: 10.1km Barnham-Chicester, 14.3km Chicester-Havant
 QAR: 16.5km Arnhem-Ede Wagenigen
 QNC: 13.1km Ins
 SHA: 29.9km maglev, 41km Changzhou-Wuxi(-Suzhou)

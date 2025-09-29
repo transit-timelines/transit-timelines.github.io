@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
-   width="3050"
-   height="2200"
-   viewBox="-20, -50, 3050, 2200"
+   width="4500"
+   height="2750"
+   viewBox="-45 -500 4500 2750"
    id="svg2">
   <metadata
      id="metadata8">
@@ -31,17 +31,17 @@
      xlink:href="../basemap/prgosm.png"
      style="display:none"
      id="image10"
-     height="2165.71"
-     width="3032"
-     y="-0.57"
+     height="2598.85"
+     width="4547.99"
+     y="-433.71"
      x="0" />
   <text
-     x="69.45"
-     y="156.96"
+     x="44.45"
+     y="-293.04"
      id="text3767"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-       x="69.45"
-       y="156.96"
+       x="44.45"
+       y="-293.04"
        id="tspan1">1925</tspan></text>
 </svg>
