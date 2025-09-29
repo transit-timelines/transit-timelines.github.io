@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1800"
+   height="1250"
+   viewBox="0 0 1800 1250"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <image
+     width="1813"
+     height="1510.83"
+     preserveAspectRatio="none"
+     xlink:href="../basemap/knuosm.png"
+     id="image1"
+     x="50"
+     y="-50"
+     style="display:none" />
+  <path
+     style="fill:none;stroke:#ff6600;stroke-width:5;stroke-linejoin:round"
+     d="m 102.81,257.46 72.3,100.18 22.21,29.36 13.33,12.34 16.29,11.1 21.47,10.12 132.51,41.46 230.47,74.27 15.3,8.14 103.89,74.52 58.24,34.79 37.75,16.78 28.62,24.43 20.97,11.35 13.82,2.96 19.49,1.97 42.94,9.13 38.74,3.95 39.48,0.99 65.89,1.48 21.22,3.45 15.55,9.87 9.38,3.45 10.86,-1.97 10.36,-4.94 16.04,-17.52 26.4,-19.25 16.53,-5.43 19.74,2.71 31.34,12.09 18.01,13.57 15.3,17.03 13.08,13.33 112.03,47.38 19,2.47 69.83,13.33 42.69,16.53 40.96,7.9 14.31,10.12 21.71,30.1 2.96,11.35 -7.65,34.79 v 28.13 l -1.97,12.58 -5.68,16.53 -56.01,100.18 -10.61,15.05 -11.35,7.65 -35.53,8.39"
+     id="path1" />
+  <text
+     x="89.45"
+     y="206.96"
+     id="text3652"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="89.45"
+       y="206.96"
+       id="tspan1">2025</tspan></text>
+</svg>
