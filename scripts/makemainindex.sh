@@ -293,12 +293,12 @@ for city in $@; do
     chomp $name;
     foreach ( split(/ \/ /, $name) ) {
       if (-e "$city/s") {
-        print "$_ <input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"toggleshow(\x27${upper}\x27)\" autocomplete=\"off\" checked><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
+        print "$_ AA<input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"toggleshow(\x27${upper}\x27)\" autocomplete=\"off\" checked><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
       } else {
-        print "$_ <input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"toggleshow(\x27${upper}\x27)\" autocomplete=\"off\"><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
+        print "$_ AA<input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"toggleshow(\x27${upper}\x27)\" autocomplete=\"off\"><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
       }
     }' $city
-done | sort | sed -e's/.* <input/<input/;'
+done | sort | sed -e's/.* AA<input/<input/;'
 cat <<HEREDOC
 </div>
 <div id="showall" style="display: block;"><a href="javascript:selectall(0)">show all</a></div>

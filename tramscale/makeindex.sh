@@ -141,7 +141,7 @@ window.onload=window.onhashchange;
 <h3>Tramway (Streetcar & Light Rail) Scale Comparison</h3>
 <div id="maps" style="padding-left: calc(10.5em + 22px);">
 HEREDOC
-CITIES=$(for file in $@; do grep -P "^`basename $file .svg`@?\t" names | sed -e's/<br>/ /; s/ (.*//; s/\(.*\)@*\t\(.*\)/\2 \1/; s/\(.*\) \([0-9]*\) \(.*\)/\2 \1 \3/;'; done | sort | sed -e's/.* //; s/@//;')
+CITIES=$(for file in $@; do grep -P "^`basename $file .svg`@?\t" names | sed -e's/<br>/ /; s/ (.*//; s/\(.*\)@*\t\(.*\)/\2 AA\1/;'; done | sort | sed -e's/.* AA//; s/@//;')
 for city in $CITIES; do
   NAME=`grep -P "^$city@?\t" names | sed -e's/.*\t//'`
   SNAME=`echo $NAME | sed -e's/<br>/ /; s/ (.*//;'`
@@ -178,12 +178,12 @@ for city in $CITIES; do
     foreach ( split(/ \/ /, $name) ) {
       $sortname = $_ =~ s/(.*) ([0-9]*)/$2 $1/r;
       if ($show) {
-        print "$sortname <input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"checkboxclick(\x27${upper}\x27)\" autocomplete=\"off\" checked><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
+        print "$sortname AA<input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"checkboxclick(\x27${upper}\x27)\" autocomplete=\"off\" checked><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
       } else {
-        print "$sortname <input type=\"checkbox\" id=\"${upper}checkbox${id}\" class=\"${upper}checkbox\" onclick=\"checkboxclick(\x27${upper}\x27)\" autocomplete=\"off\"><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
+        print "$sortname AA<input type=\"checkbox\" id=\"${upper}checkbox${id}\" class=\"${upper}checkbox\" onclick=\"checkboxclick(\x27${upper}\x27)\" autocomplete=\"off\"><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
       }
     }' $city
-done | sort | sed -e's/.* <input/<input/;'
+done | sort | sed -e's/.* AA<input/<input/;'
 cat <<HEREDOC
 </div>
 <div id="showall" style="display: block;"><a href="javascript:selectall()">show all</a></div>
