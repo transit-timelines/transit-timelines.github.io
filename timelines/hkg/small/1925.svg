@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="9450"
-   height="8850"
-   viewBox="-850 -1100 9450 8850"
+   height="9000"
+   viewBox="-850 -1275 9450 9000"
    id="svg2">
   <metadata
      id="metadata3790">
@@ -41,20 +41,20 @@
      style="fill:none;stroke:#9f5443;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <text
      x="-760.55"
-     y="7647.96"
+     y="7622.96"
      id="text4378"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
        x="-760.55"
-       y="7647.96"
+       y="7622.96"
        id="tspan2"></tspan></text>
   <text
      x="-760.55"
-     y="-893.04"
+     y="-1068.04"
      id="text4378-3"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
        x="-760.55"
-       y="-893.04"
+       y="-1068.04"
        id="tspan1">1925</tspan></text>
 </svg>

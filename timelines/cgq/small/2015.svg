@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="3400"
+   width="4550"
    height="4150"
-   viewBox="-1050 -1450 3400 4150"
+   viewBox="-1050 -1450 4550 4150"
    xml:space="preserve"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs6" /><image
      style="display:none"
-     width="3406.31"
+     width="4379.54"
      height="4136.23"
      preserveAspectRatio="none"
      xlink:href="../basemap/cgqosm.png"
