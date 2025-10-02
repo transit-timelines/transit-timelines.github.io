@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="-600 0 4350 2900"
-   height="2900"
-   width="4350"
+   viewBox="-600 0 5750 6000"
+   height="6000"
+   width="5750"
    id="svg2"
    version="1.1">
   <metadata
@@ -59,4 +59,14 @@
      id="path5266"
      d="m 1100.97,2129.61 -85.56,148.49"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+
+  <text
+     x="-510.55"
+     y="5897.96"
+     id="text3652-1"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="-510.55"
+       y="5897.96"
+       id="tspan2"></tspan></text>
 </svg>

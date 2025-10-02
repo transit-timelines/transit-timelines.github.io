@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="1850"
-   height="1450"
-   viewBox="-175 -400 1850 1450">
+   width="17150"
+   height="7100"
+   viewBox="-8225 -2050 17150 7100">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,12 +27,12 @@
      id="defs6" />
   <image
      xlink:href="../basemap/fszosm.png"
-     width="1659"
-     height="1659"
+     width="17143"
+     height="7465.5"
      preserveAspectRatio="none"
      id="image10"
-     x="75"
-     y="-609"
+     x="-8220"
+     y="-2268"
      style="display:none" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0094e2;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -46,11 +46,11 @@
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2838-3"
-     y="-193.04"
-     x="-85.55"><tspan
+     y="-1843.04"
+     x="-8135.55"><tspan
        id="tspan1"
-       y="-193.04"
-       x="-85.55">1970</tspan></text>
+       y="-1843.04"
+       x="-8135.55">1970</tspan></text>
 
   <path
      style="fill:none;stroke:#e50038;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
@@ -60,4 +60,30 @@
      style="fill:none;stroke:#e50038;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      d="m 1572,-276.3 -36.03,35.22 -19.84,17.61 -17.7,39.23 -38.56,45.69 -34.92,54.82 -20.88,3.12"
      id="path2" />
+
+<text
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3652-1"
+     y="4947.96"
+     x="8502.45"><tspan
+       id="tspan2"
+       y="4947.96"
+       x="8502.45"></tspan></text>
+  <path
+     style="fill:none;stroke:#00214b;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 8302.41,-1558.67 41.93,0.28"
+     id="path2" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 8808.09,-957.67 31.59,26.28"
+     id="path3" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 6837.94,212.74 87.21,-212.45"
+     id="path4" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     d="m 6438.88,-107.66 45.05,3.78"
+     id="path5" />
 </svg>

@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="1850"
-   height="1450"
-   viewBox="-175 -400 1850 1450"
+   width="17150"
+   height="7100"
+   viewBox="-8225 -2050 17150 7100"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -26,12 +26,12 @@
      id="defs6" />
   <image
      xlink:href="../basemap/fszosm.png"
-     width="1659"
-     height="1659"
+     width="17143"
+     height="7465.5"
      preserveAspectRatio="none"
      id="image10"
-     x="75"
-     y="-609"
+     x="-8220"
+     y="-2268"
      style="display:none" />
   <path
      id="path824"
@@ -49,11 +49,11 @@
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2838-3"
-     y="-193.04"
-     x="-85.55"><tspan
+     y="-1843.04"
+     x="-8135.55"><tspan
        id="tspan1"
-       y="-193.04"
-       x="-85.55">1925</tspan></text>
+       y="-1843.04"
+       x="-8135.55">1925</tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0094e2;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 122.91,774.15 5.28,3.34 7.51,39.76 -0.83,4.45 -8.34,5.28"
@@ -70,4 +70,13 @@
      id="path893"
      d="m 562.94,521.53 -1.96,2.92 -16.68,5.98 -18.21,2.78 -15.57,10.29 -9.45,2.78 -16.68,3.2 -26,17.94 -14.32,8.48 -11.82,6.4 -32.95,33.09 -4.38,5.67"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0094e2;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-</svg>
+
+<text
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3652-1"
+     y="4947.96"
+     x="8502.45"><tspan
+       id="tspan2"
+       y="4947.96"
+       x="8502.45"></tspan></text></svg>

@@ -3,8 +3,8 @@
    version="1.1"
    id="svg2"
    width="10300"
-   height="11500"
-   viewBox="0 -700 10300 11500"
+   height="14350"
+   viewBox="0 -725 10300 14350"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -26,12 +26,12 @@
      id="defs6" />
   <image
      width="10402"
-     height="9839.73"
+     height="14337.89"
      preserveAspectRatio="none"
      xlink:href="../basemap/fukosm.png"
      id="image10"
      x="0"
-     y="60.27"
+     y="-783.14"
      style="display:none" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#004ea2;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -41,19 +41,19 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019"
-     y="-493.04"
+     y="-518.04"
      x="89.45"><tspan
        id="tspan1"
-       y="-493.04"
+       y="-518.04"
        x="89.45">1940</tspan></text>
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019-6"
-     y="10697.96"
+     y="13522.96"
      x="89.45"><tspan
        id="tspan2"
-       y="10697.96"
+       y="13522.96"
        x="89.45"></tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff00ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
