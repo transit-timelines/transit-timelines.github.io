@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="3350 0 17700 14650"
-   height="14650"
+   viewBox="3350 -4000 17700 19950"
+   height="19950"
    width="17700"
    id="svg2"
    version="1.1"
@@ -27,13 +27,13 @@
      id="defs6" />
   <image
      style="display:none"
-     y="-1327.8000200000001"
-     x="3250.0"
+     y="-4069.8"
+     x="3250"
      id="image10"
      xlink:href="../../basemap/tyoosm.png"
      preserveAspectRatio="none"
-     height="16177.8"
-     width="17823.0" />
+     height="20016.6"
+     width="17823" />
   <path
      id="path5026"
      d="m 12359.36,9046.25 -17.84,-0.79 -45.52,20.55 -179,227.5 -62.5,117 -53,57 -47.5,83 -23.5,34 -115.5,122 -56.5,50 -53.5,34.5 -54.5,20.5 -57.5,7 -31,17.25 -169.5,160 -27.93,39.18"
@@ -54,19 +54,19 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2993"
-     y="14547.96"
+     y="15847.96"
      x="3439.45"><tspan
        id="tspan2"
-       y="14547.96"
+       y="15847.96"
        x="3439.45">1905</tspan></text>
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2997"
-     y="206.96"
+     y="-3793.04"
      x="3439.45"><tspan
        id="tspan1"
-       y="206.96"
+       y="-3793.04"
        x="3439.45">1905</tspan></text>
   <path
      id="path5878"

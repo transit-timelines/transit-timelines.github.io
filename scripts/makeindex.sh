@@ -92,8 +92,8 @@ if [ $(basename ${PWD%/*}) == 'misc' ]; then
 	echo '<a href="..">miscellaneous timelines and maps</a>'
 elif [ $(basename ${PWD}) == 'uncropped' ]; then
 	sed -e"s%\.\.%\.\./\.\.%; s%<a href=.*>\(${CITYNAME}\)</a>%\1%" ${SCRIPTDIR}/template/part3
-	if [ -f ../seealso ]; then
-		sed -e"s%\.\.%\.\./\.\.%" ../seealso
+	if [ -f seealso ]; then
+		cat seealso
 	fi
 else
 	sed -e"s%<a href=.*>\(${CITYNAME}\)</a>%\1%" ${SCRIPTDIR}/template/part3
