@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
    version="1.1"
-   width="5400"
-   height="3200"
-   viewBox="0 0 5400 3200">
+   width="14950"
+   height="9100"
+   viewBox="-2050 -1200 14950 9100">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,25 +27,35 @@
      id="defs6" />
   <image
      xlink:href="../basemap/glaosm.png"
-     y="256.96"
-     x="0"
+     y="-1259.33"
+     x="-2084.89"
      id="image10"
      preserveAspectRatio="none"
-     height="2843.04"
-     width="5307"
+     height="9097.72"
+     width="14973.32"
      style="display:none" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#f47321;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 2417,1555.5 1.5,16.5 11,25 16,43.5 20,53.5 14,17 37.5,15.5 37,14 29,15.5 24.5,16 41.5,11.5 87,0.5 57,0 21.5,6 35,-14 27.5,-21 8.5,-14 16.5,-53.5 5,-22.5 21.5,-95 -2,-12.5 -8,-18 -16.5,-11.5 -32.5,-14.5 -5.5,-11.5 -25,-13.5 -132.5,-79 -23.5,1 -50,-19 -17.5,-4 -17,-0.5 -18.5,5.5 -12,14 -32,50.5 -11.5,4 -21.5,3 -35.5,-1 -14.5,11.5 -13.5,19.5 -20.5,42 -2,10.5 0.5,14"
+     d="m 2417,1555.5 1.5,16.5 11,25 16,43.5 20,53.5 13.54,17 15.33,9.77 27.73,7.58 31.9,12.14 29,15.5 24.5,16 41.5,11.5 87,0.5 h 57 l 14.85,3.68 15.54,-0.92 50.53,-26.38 6.79,-6.31 3.09,-6.27 18.2,-60.3 5,-22.5 21.5,-95 -2,-12.5 -8,-18 -16.5,-11.5 -16.58,-5.38 -21.42,-22.94 -157.5,-90.18 -23.5,1 -50,-19 -17.5,-4 -17,-0.5 -17.11,6.74 -13.39,12.76 -32,50.5 -11.5,4 -21.5,3 -35.5,-1 -15.89,10.88 -12.42,14.09 -14.93,22.52 -5.48,15.14 -1.77,14.53 v 15.34"
      id="path4163" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:180px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-     x="89.45"
-     y="206.96"
+     x="-1960.55"
+     y="-993.04"
      id="text4177"><tspan
        id="tspan1"
-       x="89.45"
-       y="206.96"
+       x="-1960.55"
+       y="-993.04"
        style="font-size:144px">1920</tspan></text>
+
+  <text
+     x="-1960.55"
+     y="7797.96"
+     id="text3652-1"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="-1960.55"
+       y="7797.96"
+       id="tspan2"></tspan></text>
 </svg>

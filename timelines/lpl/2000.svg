@@ -7,8 +7,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
-   viewBox="0, -1200, 5600, 7150"
-   height="7150"
+   viewBox="0 -1160 5600 7100"
+   height="7100"
    width="5600"
    version="1.1">
   <metadata
@@ -56,7 +56,7 @@
   <path
      style="fill:none;stroke:#00a650;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="path3784"
-     d="m 1663,2843 -20,37.5 -25.5,16.5 -10,25 2,14 10,11.5 23.5,16 8,12 5,17.5 31.5,89 20,76 79,256.5 64.5,205 112.5,473.5 66,286 28.5,84.5 21,50 27.5,48.5 24.5,34 213,294 171,275.5 226,359.5 19,36 19.5,54.5 39,107.5 24.5,52.5 6,21.5 7.5,12.5 13,9 42,26" />
+     d="m 1663,2843 -20,37.5 -25.5,16.5 -10,25 2,14 10,11.5 23.5,16 8,12 5,17.5 31.5,89 20,76 79,256.5 64.5,205 112.5,473.5 51.13,221.58" />
   <path
      style="fill:none;stroke:#ed1c24;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="path3786"
@@ -65,19 +65,19 @@
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
      xml:space="preserve"
      id="text3813"
-     y="5847.96"
+     y="5837.96"
      x="89.45"><tspan
        id="tspan2"
-       y="5847.96"
+       y="5837.96"
        x="89.45">2000</tspan></text>
   <text
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
      xml:space="preserve"
      id="text3817"
-     y="-993.04"
+     y="-953.04"
      x="89.45"><tspan
        id="tspan1"
-       y="-993.04"
+       y="-953.04"
        x="89.45">2000</tspan></text>
   <path
      id="path4580"
