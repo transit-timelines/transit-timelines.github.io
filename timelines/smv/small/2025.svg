@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1500"
+   height="3300"
+   viewBox="0 0 1500 3300"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <image
+       width="1846"
+       height="3692"
+       preserveAspectRatio="none"
+       xlink:href="../basemap/smvosm.png"
+       id="image1"
+       x="-300"
+       y="90"
+       style="display:none" />
+    <path
+       style="fill:none;fill-opacity:0.25;stroke:#69479c;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+       d="m 1000.13,3198.36 33.22,-28.48 6.7,-19.82 0.56,-13.12 -3.91,-82.64 1.4,-23.17 17.59,-219.71 11.45,-56.11 17.59,-40.48 20.38,-41.6 8.93,-33.22 17.59,-60.02 12.84,-34.9 72.03,-154.94 79.29,-80.96 24.85,-26.52 14.24,-27.64 9.49,-30.99 4.19,-31.27 6.14,-58.07 -1.68,-46.9 -8.1,-34.06 -11.17,-40.2 -2.79,-45.23 -14.24,-187.05 -51.09,-374.94 -14.24,-104.13 -9.21,-34.62 -11.45,-24.01 -175.6,-310.72 -24.85,-31.55 -25.13,-26.8 -41.88,-29.31 -99.39,-58.35 -26.52,-8.38 -19.54,-0.28 -40.76,1.95 -24.85,-4.19 -22.89,-8.38 -24.29,-15.63 -547.19,-488.84 -33.22,-18.7"
+       id="path1" />
+    <text
+       x="89.45"
+       y="206.96"
+       id="text3019"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="89.45"
+         y="206.96"
+         id="tspan1">2025</tspan></text>
+  </g>
+</svg>

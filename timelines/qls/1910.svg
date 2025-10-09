@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 -850 1350 2300"
-   height="2300"
-   width="1350"
+   viewBox="-515 -850 3750 2950"
+   height="2950"
+   width="3750"
    id="svg2"
    version="1.1">
   <metadata
@@ -28,23 +28,23 @@
   <image
      style="display:none"
      y="-871.67"
-     x="0"
+     x="-464.33"
      id="image10"
      xlink:href="../basemap/qlsosm.png"
      preserveAspectRatio="none"
-     height="2321.67"
-     width="1393" />
+     height="3018.17"
+     width="3714.67" />
   <path
      id="path817"
      d="m 831.05,1315.76 38.85,-189.15 4.68,-22.3"
      style="opacity:1;fill:none;fill-opacity:0.08;fill-rule:nonzero;stroke:#e6007e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
-     x="89.45"
+     x="-425.55"
      y="-643.04"
      id="text3818"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="89.45"
+       x="-425.55"
        y="-643.04"
        id="tspan1">1910</tspan></text>
   <path
@@ -55,4 +55,14 @@
      id="path818"
      d="m 967.31,943.31 -5.38,45.7 0.58,32.26"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+
+  <path
+     style="fill:none;fill-opacity:0.25;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     d="m -401,-296.62 139.21,96.57"
+     id="path1" />
+
+  <path
+     style="fill:none;fill-opacity:0.25;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     d="m 3043.94,1908.22 -1.25,-45.36 -4.01,-27.57 -7.77,-19.55 -16.04,-32.08 -4.26,-15.54 -12.78,-64.66"
+     id="path3" />
 </svg>

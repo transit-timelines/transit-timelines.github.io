@@ -9,8 +9,8 @@
    version="1.1"
    id="svg2"
    width="5700"
-   height="5750"
-   viewBox="0 -450 5700 5750">
+   height="5950"
+   viewBox="0 0 5700 0">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -28,7 +28,7 @@
   <image
      style="display:none"
      width="5713.54"
-     height="5942.08"
+     height="6170.62"
      preserveAspectRatio="none"
      xlink:href="../basemap/zrhosm.png"
      id="image10"
@@ -48,20 +48,20 @@
      id="path4835" />
   <text
      x="89.45"
-     y="-243.04"
+     y="-233.04"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="-243.04"
+       y="-233.04"
        id="tspan1">1975</tspan></text>
   <text
      x="89.45"
-     y="5197.96"
+     y="5407.96"
      id="text3019-6"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="5197.96"
+       y="5407.96"
        id="tspan2"></tspan></text>
 </svg>

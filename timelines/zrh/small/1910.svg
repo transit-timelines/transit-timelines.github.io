@@ -6,8 +6,8 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 -450 5700 5750"
-   height="5750"
+   viewBox="0 -440 5700 5950"
+   height="5950"
    width="5700"
    id="svg2"
    version="1.1">
@@ -31,7 +31,7 @@
      id="image10"
      xlink:href="../basemap/zrhosm.png"
      preserveAspectRatio="none"
-     height="5942.08"
+     height="6170.62"
      width="5713.54"
      style="display:none" />
   <path
@@ -46,18 +46,18 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019"
-     y="-243.04"
+     y="-233.04"
      x="89.45"><tspan
        id="tspan1"
-       y="-243.04"
+       y="-233.04"
        x="89.45">1910</tspan></text>
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019-6"
-     y="5197.96"
+     y="5407.96"
      x="89.45"><tspan
        id="tspan2"
-       y="5197.96"
+       y="5407.96"
        x="89.45"></tspan></text>
 </svg>

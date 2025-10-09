@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="1600"
-   height="950"
-   viewBox="0 0 1600 950"
+   width="3350"
+   height="6350"
+   viewBox="-595 -2950 3350 6350"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -25,16 +25,16 @@
   <defs
      id="defs6" />
   <image
-     width="1875"
-     height="1171.88"
+     width="3750"
+     height="6796.88"
      preserveAspectRatio="none"
      xlink:href="../basemap/lugosm.png"
      id="image10"
-     x="-150"
-     y="-296.88"
+     x="-853.12"
+     y="-2875"
      style="display:none" />
   <path
-     style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#ed1c23;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#030405;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1342.99,249.29 43.96,-40.39 18.98,-4.75 8.81,-7.12 13.22,-10.17 10.17,-5.42 10.51,-1.02 15.25,6.44 7.46,5.76 12.88,26.78"
      id="path817" />
   <path
@@ -57,9 +57,26 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text2994"
-     y="206.96"
-     x="89.45"><tspan
+     y="-2743.04"
+     x="-505.55"><tspan
        id="tspan1"
-       y="206.96"
-       x="89.45">2005</tspan></text>
-</svg>
+       y="-2743.04"
+       x="-505.55">2005</tspan></text>
+
+<text
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3019-6"
+     y="3297.96"
+     x="-510.55"><tspan
+       id="tspan2"
+       y="3297.96"
+       x="-510.55">2005</tspan></text>
+<path
+     style="fill:none;fill-opacity:0.25;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     d="m 1410.12,-2841.86 194.77,288.66"
+     id="path3" />
+<path
+     style="fill:none;fill-opacity:0.25;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     d="m 2518.81,3150.45 130.63,-13.41"
+     id="path5" /></svg>

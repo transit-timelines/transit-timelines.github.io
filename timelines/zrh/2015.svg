@@ -3,8 +3,8 @@
    version="1.1"
    id="svg2"
    width="5700"
-   height="5750"
-   viewBox="0 -450 5700 5750"
+   height="5950"
+   viewBox="0 0 5700 0"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@
      x="25"
      id="image10"
      preserveAspectRatio="none"
-     height="5942.08"
+     height="6170.62"
      width="5713.54"
      style="display:none" />
   <path
@@ -115,21 +115,21 @@
      id="path4835" />
   <text
      x="89.45"
-     y="-243.04"
+     y="-233.04"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="-243.04"
+       y="-233.04"
        id="tspan1">2015</tspan></text>
   <text
      x="89.45"
-     y="5197.96"
+     y="5407.96"
      id="text3019-6"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="5197.96"
+       y="5407.96"
        id="tspan2">2015</tspan></text>
   <path
      id="path4517"
@@ -171,4 +171,9 @@
      id="path850"
      d="m 2664.56,1018.49 -0.7,-11.76 1.93,-10.7 -2.63,-4.56 -6.14,-4.74 -44.56,-10 -44.21,1.4 -23.86,-4.56 -23.51,-0.88 -14.04,4.56 -7.54,1.05 -7.72,-1.93 -84.04,-52.99 -0.7,-4.21 44.21,-77.72 0.7,-6.49 -0.88,-5.79 -7.19,-10.7 -3.33,-8.42 2.63,-10.09 -1.49,-16.23 -5.09,-18.51 -9.83,-12.02 -26.93,-24.04 -1.14,-3.33 0.44,-2.81 0.96,-2.81 9.47,-12.72 10.61,-16.14 7.9,-9.39 46.67,-33.34 36.49,-34.91 9.3,-10.35 17.37,-12.63 5.79,-14.56 5.97,-20.7 -0.35,-17.55 -4.04,-14.21 -10,-13.16 -16.32,-14.56 -23.86,-8.42 -5.26,-1.93 -4.39,-11.4 -1.4,-10 4.39,-16.84 5.61,-10.35 4.91,-4.04 15.26,-3.33 46.32,6.14"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0070b7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+
+  <path
+     style="fill:none;fill-opacity:0.25;stroke:#ac99c9;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 3746,4430.37 30.76,18.81 8.23,9.8 4.31,13.91 -0.98,8.03 -1.18,8.03 -4.7,8.62 -10.58,18.42 -2.16,10.97 1.18,12.74 4.9,11.17 6.27,7.05 12.54,8.03 56.04,10.19 36.45,9.41 17.05,9.21 15.48,14.3 62.7,42.13 10.58,12.34 13.52,15.87 4.51,8.62 21.16,52.71 8.62,9.8 10.97,6.86 27.83,13.52 10.19,2.55 33.7,1.37 11.76,4.11 22.34,15.28 27.24,20.38 5.88,9.6 1.57,7.84 -0.39,26.26 1.96,31.74 -2.55,8.03 -5.68,8.82 -26.26,27.83 -18.22,7.45 -6.27,6.86 -2.74,9.01 0.2,22.34 2.35,8.62 6.47,6.07 31.35,10.78 17.24,18.62 18.22,14.5 13.32,23.32 10.19,7.45 12.54,1.96 31.94,-0.59 19.4,-10.39 19.4,-3.53 28.61,-14.11 12.54,-9.21 10.39,-2.16 11.56,3.53 10.58,11.76 7.45,13.13 14.7,10.78 4.51,8.43 6.86,43.11 -1.37,7.45 -7.64,16.66 -0.2,9.21 6.07,16.46 0.98,9.41 -1.76,15.68 -2.55,8.62 -20.38,31.74 -4.31,13.91 -3.53,89.16 -2.35,9.01 -28.41,53.49"
+     id="path1" />
 </svg>

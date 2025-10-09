@@ -1,21 +1,11 @@
-===== PENDING AND UNDER 5KM =====
-ACH: Wil, Altstätten, Herisau, Romanshorn-Weinfelden?
-AMS: 4.5km Sloterdijk-Centraal(-Utrecht-48.1km sHertogenbosch-Sittard!)
-BLK: Chorley-Buckshaw Pkwy(-BlackpoolN) 2015?
-BRU: 1.3km Central-Midi(-52.1km Gent-40.1km Brugge!)
-LUG: 2.3km Lugano-Paradiso(-Mendrisio), 4.1km ComoSG-Chiasso(-Mendrisio), 2.7km SAntonio-Cadenazzo
-MOW: elektrichkas?
-QLS: 2.4km Prilly(-Cosonnay), 2.5km Pully(-Cully), 4.5km Renens(-Geneva), 6.1km Vevey-Montreux(-Aigle), 8.5km Puidoux-Palezieux, 39.1km Yverdon les Bains
-SMV: 2km Bad Ragaz-Malenfeld, 4.6km Malenfeld-Landquart
-ZIN: 1.9km Grütschalp-Winteregg, 2.3km Winteregg-Mürren, but perhaps not general-purpose
-ZRH: Zug, Winterthur, Turgi-Brugg, likely others
 ===== BETWEEN 5KM AND 10KM =====
+ACH: 2.3km St Fiden (but just two stations), 5.2km Gossau-Flawil(-Wil), 5.9km (Altstätten-)Heerbrugg-St Margrethen(-SG), 6.6km Romanshorn-Amriswil(-Weinfelden), 8.3km Herisau
 AMS: 6.0km Centraal-Amstel 1990, 6.4km Bussum-Hilversum 2000, 6.6km Uitgeest-Beverwijk(-Haarlem) 2010, 7.4 Utrecht-Houten 2005, 9.0km Schiphol-Zuid(-Lelystad) (also 1980), 9.7km Rotterdam-Alexander(-Gouda), 11.5km Utrecht-Driebergen Ziest, 13.8km Goverwelle-Woerden, 15.9km Utrecht-Woerden, 16.9km Centraal-Schiphol(-HSL), 17.5km Hilversum-Utrecht 1995, 21.2km Amersfoort-Utrecht(-Den Haag), 24.8km Almere-Lelystad(-Zwolle), 27.1km Leiden-Schiphol, 37.5km Dordrecht-Roosendaal
 BHX: 5.4km Solihull-Dorridge, 5.8km Coventry-Tile Hill(-New St), 13.2km New St-Intl(-Coventry), 13.3km Tame Br-New St, 20.7km Wolverhampton
 BJS: 7.2km Capital Airport Express, 13+km Daxing Airport Express
-BLK: 5.2km BlackpoolN-Poulton le Fylde(-Preston/Chorley)
+BLK: 5.2km BlackpoolN-Poulton le Fylde(-Preston/Chorley) (Chorley-Buckshaw Pkwy 2015 was just 3.7km)
 BNE: 7.9km Altandi-Beenleigh
-BRU: 5.7km Ottignies-Wavre, 5.9km Denderleeuw-Aalst, 6.5km Gent-Dampoort(-Lokeren), 12.5km Gent-Wetteren, 15.0km Ottignies-Gembloux(-Namur), 18.7km Lier-Herentals, 20.3km Denderleeuw-Zottegem
+BRU: 5.7km Ottignies-Wavre, 5.9km Denderleeuw-Aalst, 15.0km Ottignies-Gembloux(-Namur), 18.7km Lier-Herentals, 20.3km Denderleeuw-Zottegem
 CCS: 9.5km Los Teques 2010
 CHI: 7.6km Skokie Swift pre-2015
 CSX: 7.6km S2 maglev Changshannan-Langli
@@ -26,7 +16,8 @@ FRA: 5.9km Mainz RömischeTh-Bischofsheim in some years?
 FSZ: 5.5km (Atami-)Mishima-Numazu 2005?
 FUK: 5.2km (Hakata-)Orio-Kurosaki(-Kokura), 7.1km Tosu-Kurume(-Omuta) 2000, 28.6km Tosu-Hakata
 GLA: 7.3km PaisleyG-Johnstone(-Killwinning), 9.3km PaisleyG-Bishopton(-Port Glasgow)
-GVA: 5.9km airport-Cornavin(-Lausanne)
+GNE: 6.5km Gent-Dampoort(-Lokeren), 12.5km Gent-Wetteren
+GVA: 5.9km airport-Cornavin(-Lausanne?)
 HB_: 5.6km Bad Friedrichshall Hbf-Neckarsulm
 HKG: 5.7km Ngong Ping, ~22km Airport-Tsing Yi 2000, 40km WKowloon-ShenzhenN
 JKT: 6.6km (Duri-)Rawa Buaya-Batu Ceper
@@ -45,14 +36,17 @@ NYC: 6.6km GCT-Harlem, 8.2km Penn-Woodside(-Jamaica), 16km JFK Exp Jay-HB
 OPO: 8.5km Campanha-Ermesinde
 PAR: 5.8km StL-Bois Colombes 1925, 13.7km Rueil 1935, 14.1km St Cloud 1935, 14.km VilleneuveSG 1955, 20.5km St Germain 1935
 PME: 9.4km (Southampton-)Fareham-Cosham, 10.1km Barnham-Chicester, 14.3km Chicester-Havant
+QLS: 6.1km Vevey-Montreux(-Aigle), 8.5km Puidoux-Palezieux, 39.1km Yverdon les Bains
 SEL: 6.7km GTX-A Unjeongjungang-KINTEX, 10.7km GTX-A Suseo-Seongnam
 SFO: 5.7km Key Pier-Hollis 1935?, 9.3km IER TBT-Bridge Yd 1940, 11.9km Key System TBT-Hollis
+SMV: 6.4km Chur-Domat Ems, 6.6km Bad Ragaz-Landquart 2020 (and opening date)
 SOU: 7.1km Southampton Airport Parkway
 SZD: 5.4km Meadowhall
 THR: 7.9km line 5 Sadegieh-Vardavard(-Karaj) 2000
 TYO: 5.5km Yugawara-Atami 1995, 9.8km (Omiya-)Akabane-Ueno via Tohoku Line 1975, 18.7km Shinagawa-ShinYokohama, 27.7km Ueno-Omiya
 VIE: 5.2km AspernN-Stadlau 2020, 7.1km Purkersdorf-Tullnerbach Pressbaum, 19.5km Landstr-Flughafen
 YTO: 5.3km Union-Bloor on UPX and yes they will sell you a ticket for that
+ZRH: 5.5km Effretikon-Bassersdorf, 8.7km (Zürich-)Baden-Brugg, 10.2km HB-airport via Wipkingen, 12km HB-Thalwil via basistunnel, 27.2km Wil-Winterthur (3.8km Turgi-Brugg & 4.9km Baden-Turgi but not thru)
 ===== OVER 10KM =====
 BRN: 10.2km Biel-Lyss(-Bern), 25.6km Solothurn-Biel, 31.2km Bern-Fribourg
 BRS: 18.5km Temple Meads-Bath Spa
@@ -77,6 +71,10 @@ BRU: 52.1km Midi-Gent
 CPH: 32.6km Roskilde-Ringsted 2015
 GLA: 35.1km FalkirkH-GlasgowQ
 KUL: 57km KLIA1-Sentral
-LON: 26.1km ECroydon-Gatwick, 38.7km Gatwick-Brighton
+LON: 38.7km Gatwick-Brighton, 26.1km ECroydon-Gatwick
 THR: 25.6km Golshahr-Hastgerd
 VIE; 30.4km Tulln-Heiligenstadt
+===== THRU SERVICE NOT SHOWN DUE TO 40KM GAP =====
+AMS: 48.1km Utrecht-sHertogenbosch(-Sittard) thru from 4.5km Sloterdijk-Centraal
+BRU: 40.1km Gent-Brugge thru from 1.3km Central-Midi
+QLS: 55.8km Renens-Genève thru from 4.5km Lausanne-Renens

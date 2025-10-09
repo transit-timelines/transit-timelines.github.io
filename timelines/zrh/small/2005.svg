@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
    width="5700"
-   height="5750"
-   viewBox="0 -450 5700 5750">
+   height="5950"
+   viewBox="0 0 5700 0"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,7 +19,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -28,7 +27,7 @@
   <image
      style="display:none"
      width="5713.54"
-     height="5942.08"
+     height="6170.62"
      preserveAspectRatio="none"
      xlink:href="../basemap/zrhosm.png"
      id="image10"
@@ -108,24 +107,28 @@
      id="path4835" />
   <text
      x="89.45"
-     y="-243.04"
+     y="-233.04"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="-243.04"
+       y="-233.04"
        id="tspan1">2005</tspan></text>
   <text
      x="89.45"
-     y="5197.96"
+     y="5407.96"
      id="text3019-6"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="5197.96"
+       y="5407.96"
        id="tspan2"></tspan></text>
   <path
      id="path4679"
      d="m 2783.54,1045.5 -48,-15.5 -420.78,10.08 -44.9,18.67 -27.86,21.18 -19.24,17.37 -10.85,17.86 -12.35,34.51 -12.78,32.9 -63.53,166.97 -24.15,61.79 -13.33,15.09 -37.9,20.7 -12.98,15.09 -2.46,21.76 4.56,14.74 13.33,17.9 51.25,10.33"
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#5d2082;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;fill-opacity:0.25;stroke:#ac99c9;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 4132.03,4958.06 0.2,22.34 2.35,8.62 6.47,6.07 31.35,10.78 17.24,18.62 18.22,14.5 13.32,23.32 10.19,7.45 12.54,1.96 31.94,-0.59 19.4,-10.39 19.4,-3.53 28.61,-14.11 12.54,-9.21 10.39,-2.16 11.56,3.53 10.58,11.76 7.45,13.13 14.7,10.78 4.51,8.43 6.86,43.11 -1.37,7.45 -7.64,16.66 -0.2,9.21 6.07,16.46 0.98,9.41 -1.76,15.68 -2.55,8.62 -20.38,31.74 -4.31,13.91 -3.53,89.16 -2.35,9.01 -28.41,53.49"
+     id="path1" />
 </svg>
