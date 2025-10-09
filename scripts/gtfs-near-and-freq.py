@@ -101,7 +101,7 @@ for line in caldates[1:]:
     if lineArray[caldatePos] == date:
         if lineArray[caldateTypePos] == '1':
             relevantServids.add(lineArray[caldateServidPos])
-        if lineArray[caldateTypePos] == '2':
+        if lineArray[caldateTypePos] == '2' and lineArray[caldateTypePos] in relevantServids:
             relevantServids.remove(lineArray[caldateServidPos])
 
 routeidTypes = {}
