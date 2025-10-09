@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 10000 10400"
-   height="10400"
-   width="10000"
+   viewBox="3500 -75 6500 10450"
+   height="10450"
+   width="6500"
    id="svg2"
    version="1.1">
   <metadata
@@ -51,23 +51,23 @@
      d="m 6194.71,6436.08 4.81,-9.93 6.13,-6.29 51.77,-88.09 3.88,-0.62 13.66,8.54 11.18,1.4 15.37,-27.48 7.21,-5.33 59,23.36 119.13,56 2.89,2.89 12.78,71.37 -2.41,11.33 -31.83,94.03 -11.33,11.81 -35.65,27.89"
      id="path4614" />
   <text
-     x="89.45"
-     y="206.96"
+     x="3589.45"
+     y="131.96"
      id="text3019"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="89.45"
-       y="206.96"
+       x="3589.45"
+       y="131.96"
        id="tspan1">1960</tspan></text>
   <text
-     x="89.45"
-     y="10297.96"
+     x="3589.45"
+     y="10272.96"
      id="text3019-6"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="89.45"
-       y="10297.96"
-       id="tspan2">1960</tspan></text>
+       x="3589.45"
+       y="10272.96"
+       id="tspan2"></tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#c1ce23;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 6188.09,6595.7 -3.47,2.68 -3.5,0.04 -4.38,-3.13 -0.17,-2.47 0.6,-2.13 -0.63,-4.13 -119.1,-98.85 -6.99,-7.96 -6.27,-11.33 -2.17,-12.78 1.61,-9.05 -3.08,-3.65 -10.06,1.37 -34.77,-25.46 -3.88,-5.43 -0.47,-4.66 1.4,-5.59 v -5.12 l -10.56,-49.67 24.99,-38.03 1.29,-8.23 -18.07,-79.14 2.04,-38.47 -0.85,-0.94 -9.21,-2.81 -6.9,-5.11 -3.58,-6.82 -0.43,-12.45"

@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="10000"
-   height="10400"
-   viewBox="0 0 10000 10400">
+   width="6500"
+   height="10450"
+   viewBox="3500 -75 6500 10450">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -222,20 +222,20 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019"
-     y="206.96"
-     x="89.45"><tspan
+     y="131.96"
+     x="3589.45"><tspan
        id="tspan1"
-       y="206.96"
-       x="89.45">2000</tspan></text>
+       y="131.96"
+       x="3589.45">2000</tspan></text>
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3019-6"
-     y="10297.96"
-     x="89.45"><tspan
+     y="10272.96"
+     x="3589.45"><tspan
        id="tspan2"
-       y="10297.96"
-       x="89.45">2000</tspan></text>
+       y="10272.96"
+       x="3589.45"></tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fade4e;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 6578.82,6067.7 -1.33,-6.51 22.78,-61.12 9.89,-8.92 3.01,-0.24 1.45,1.33 -0.6,2.77 -9.16,9.89 -7.47,3.13"
