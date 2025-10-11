@@ -1,9 +1,15 @@
-https://web.archive.org/web/20160109203610/http://www3.rtd-denver.com:80/schedules/getSchedule.action?runboardId=161&routeId=101&routeType=2&branch=C&lineName=SW&direction=S-Bound&serviceType=4#direction
-https://web.archive.org/web/20160109010932/http://www3.rtd-denver.com:80/schedules/getSchedule.action?runboardId=161&routeId=101&routeType=2&branch=F&lineName=SE&direction=S-Bound&serviceType=4#direction
-
 https://web.archive.org/web/20050909142415/http://www.rtd-denver.com:80/Routes/Route101/101Weekdays.html
 
+https://web.archive.org/web/20101028100457/http://www3.rtd-denver.com/schedules/getSchedule.action?routeType=2&routeId=101&lineName=SW
+https://web.archive.org/web/20110203110400/http://www3.rtd-denver.com/schedules/getSchedule.action?routeType=2&routeId=101&lineName=SE
+
+https://web.archive.org/web/20160109203610/http://www3.rtd-denver.com:80/schedules/getSchedule.action?runboardId=161&routeId=101&routeType=2&branch=C&lineName=SW&direction=S-Bound&serviceType=4#direction
+https://web.archive.org/web/20160109010932/http://www3.rtd-denver.com:80/schedules/getSchedule.action?runboardId=161&routeId=101&routeType=2&branch=F&lineName=SE&direction=S-Bound&serviceType=4#direction
+https://web.archive.org/web/20160113182858/http://www3.rtd-denver.com/schedules/getSchedule.action?runboardId=161&routeId=101&routeType=2&branch=D&lineName=SW&direction=S-Bound&serviceType=4#direction
 https://web.archive.org/web/20160304002512/http://www3.rtd-denver.com/schedules/getSchedule.action?routeId=103&routeType=2&serviceType=3&lineName=W&branch=W
+
+covid service changes: https://web.archive.org/web/20210118104051/https://www.rtd-denver.com/service-changes/combined-covid-19-n-line
+https://web.archive.org/web/20200430084451/https://www.rtd-denver.com/app/route/W/schedule
 
 
 Schedules at I-25 & Broadway:
@@ -15,9 +21,6 @@ southbound
 :17 D
 :20 E
 :05 F
-
-C to F which combines with E
-D to E which combines with F
 
 northbound
 :12 D
