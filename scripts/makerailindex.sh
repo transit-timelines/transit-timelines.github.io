@@ -3,7 +3,15 @@ pushd $1 >/dev/null
 
 START=$(basename $(grep -l 'stroke-width:5' [0-9]*.svg | sort -g | head -n1) .svg)
 END=$(basename $(grep -l 'stroke-width:5' [0-9]*.svg | sort -g | tail -n1) .svg)
-COUNT=$(expr 1 + \( $END - $START \) / 25)
+STEP=25
+FINALSTEP=$((($END - $START) % $STEP))
+if [ $FINALSTEP -gt 0 ] && [ $END != $START ]; then
+	COUNT=$((2 + ( $END - $FINALSTEP - $START ) / $STEP))
+else    
+	COUNT=$((1 + ( $END - $START ) / $STEP))
+fi
+INDEX="count-1"
+DISPLAY=$END
 NAME=`cat name | sed -e's/<br>/ /'`
 SCALE=$2
 NATIVEW=$(grep '^   width=' ${END}.svg | head -n1 | sed -e's/"$//; s/.*"//;')
@@ -14,11 +22,14 @@ PREVDIM=$(file preview.gif | sed -e's/.* \([0-9]* x [0-9]*\).*/\1/')
 cat <<HEREDOC | sed -e"s/START/${START}/g;
 s/COUNT/${COUNT}/g; 
 s!NAME!${NAME}!g;
+s/DISPLAY/${DISPLAY}/g;
+s/INDEX/${INDEX}/g;
 s/URL/${DIRNAME}/g;
 s/PREVW/${PREVDIM% x*}/g;
 s/PREVH/${PREVDIM#*x }/g;
 s/START/${START}/g;
-s/END/${END}/g;"
+s/END/${END}/g;
+s/STEP/${STEP}/g;"
 <!DOCTYPE HTML>
 <html>
 <head><title>NAME Passenger Rail Timeline</title>
@@ -29,7 +40,7 @@ s/END/${END}/g;"
 <meta property="og:image:width" content="PREVW" />
 <meta property="og:image:height" content="PREVH" />
 <meta property="og:url" content="https://alexander.co.tz/timelines/misc/URL/preview.gif" />
-<meta property="og:description" content="Maps every 25 years, START-END" />
+<meta property="og:description" content="Maps every STEP years, START-END" />
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
 div#preloader {
@@ -50,14 +61,20 @@ body {
 <script language="JavaScript" type="text/javascript">
 start=START;
 count=COUNT;
-step=25;
+step=STEP;
+end=END;
 index=count-1;
 function update() {
+	if (index == count - 1) {
+		year = end;
+	} else {
+		year = start+step*index;
+	}
 	map = document.getElementById("map");
-	map.src=(start+step*index) + ".svg";
-	map.title=start+step*index;
-	map.alt=start+step*index + " map";
-	location.replace("#" + (start+step*index));
+	map.src=year + ".svg";
+	map.title=year;
+	map.alt=year + " map";
+	location.replace("#" + (year));
 }
 function nextmap() {
 	index=(index+1)%count;
@@ -116,25 +133,28 @@ if [ $SCALE = 2 ]; then
 else
   echo '<a href=".">smaller version</a> --- larger version'
 fi
-cat <<HEREDOC
+cat <<HEREDOC | sed -e"s/STEP/${STEP}/g"
 <p>
-<a href="javascript:" onclick="prevmap()">25 years earlier (or press a)</a> ---
-<a href="javascript:" onclick="nextmap()">25 years later (or press s)</a>
+<a href="javascript:" onclick="prevmap()">STEP years earlier (or press a)</a> ---
+<a href="javascript:" onclick="nextmap()">STEP years later (or press s)</a>
 <br>
 <a id="animbutton" href="javascript:" onclick="startanim()">click here to animate</a>
 <p>
 <a href="javascript:" onclick="nextmap()">
 HEREDOC
-echo '<img id="map" src="2010.svg" title="2010" alt="2010 map" width="'${W}'" height="'${H}'">'
+echo '<img id="map" src="'$END'.svg" title="'$END'" alt="'$END' map" width="'${W}'" height="'${H}'">'
 echo '</a>'
 echo '<p>'
-for year in $(seq $START 25 $END); do
+for year in $(seq $START $STEP $END); do
 	echo \<a href=\"#${year}\" onclick=\"gotoyear\(${year}\)\"\>${year}\</a\>
 done
-cat <<HEREDOC
+if [ $FINALSTEP -gt 0 ] && [ $END != $START ]; then
+	echo \<a href=\"#${END}\" onclick=\"gotoyear\(${END}\)\"\>${END}\</a\>
+fi
+cat <<HEREDOC | sed -e"s/STEP/${STEP}/g"
 <p>
-<a href="javascript:" onclick="prevmap()">25 years earlier (or press a)</a> --- 
-<a href="javascript:" onclick="nextmap()">25 years later (or press s)</a>
+<a href="javascript:" onclick="prevmap()">STEP years earlier (or press a)</a> --- 
+<a href="javascript:" onclick="nextmap()">STEP years later (or press s)</a>
 <p>
 Showing rail lines with at least three trains each weekday.  Lines coloured by operator (<a href="colours.html">key</a>).<br>
 Local tramways (without priority at road crossings) and horse-drawn lines not shown.<br>
@@ -146,7 +166,7 @@ Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
 <div id="preloader">
 HEREDOC
-for year in $(seq $START 25 $END); do
+for year in $(seq $START $STEP $END); do
 	echo \<img src=\"${year}.svg\" width=\"1\" height=\"1\" alt=\"\"\>
 done
 echo '</div>'

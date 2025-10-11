@@ -6,11 +6,11 @@ START=$(basename $(grep -l 'stroke-width:[3-7]' [0-9]*.svg | sort -g | head -n1)
 END=$(basename $(ls [0-9]*.svg | sort -g | tail -n1) .svg)
 STEP=5
 SNAME="five years"
-FINALSTEP=$(($END % 5))
+FINALSTEP=$(($END % $STEP))
 if [ $FINALSTEP -gt 0 ] && [ $END != $START ]; then
-	COUNT=$((2 + ( $END - $FINALSTEP - $START ) / 5))
+	COUNT=$((2 + ( $END - $FINALSTEP - $START ) / $STEP))
 else
-	COUNT=$((1 + ( $END - $START ) / 5))
+	COUNT=$((1 + ( $END - $START ) / $STEP))
 fi
 INDEX="count-1"
 DISPLAY=$END
@@ -62,7 +62,7 @@ for year in $(seq $START $STEP $END); do
 	echo \<a href=\"#${year}\" onclick=\"gotoyear\(${year}\)\"\>${year}\</a\>
 done
 if [ $FINALSTEP -gt 0 ] && [ $END != $START ]; then
-	echo \<a href=\"#${END}\" onclick=\"gotoEND\(${END}\)\"\>${END}\</a\>
+	echo \<a href=\"#${END}\" onclick=\"gotoyear\(${END}\)\"\>${END}\</a\>
 fi
 echo '<p>'
 grep earlier ${SCRIPTDIR}/template/part1 | sed -e"s/SNAME/${SNAME}/g"

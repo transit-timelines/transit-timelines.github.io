@@ -30,13 +30,19 @@ body {
 start=1935;
 count=4;
 step=25;
+end=2010;
 index=count-1;
 function update() {
+	if (index == count - 1) {
+		year = end;
+	} else {
+		year = start+step*index;
+	}
 	map = document.getElementById("map");
-	map.src=(start+step*index) + ".svg";
-	map.title=start+step*index;
-	map.alt=start+step*index + " map";
-	location.replace("#" + (start+step*index));
+	map.src=year + ".svg";
+	map.title=year;
+	map.alt=year + " map";
+	location.replace("#" + (year));
 }
 function nextmap() {
 	index=(index+1)%count;
@@ -128,7 +134,7 @@ rapid transit timelines for <a href="../../lon">London</a> -
 <a href="../../lpl">Liverpool</a> - 
 <a href="../../man">Manchester</a> - 
 <a href="../../ncl">Newcastle</a> - 
-<a href="../../gla">Glasgow</a>
+<a href="../../gla">Glasgow / Edinburgh</a>
 <br>
 <a href="../..">other rapid transit timelines</a> -
 <a href="..">miscellaneous timelines and maps</a>

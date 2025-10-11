@@ -62,7 +62,7 @@
      transform="matrix(1.02,0,0,1.2,-20,-70)"
      style="display:none">
     <image
-       xlink:href="basemap/osm.png"
+       xlink:href="basemap/gbosm.png"
        y="-4.67"
        x="0"
        id="image10"

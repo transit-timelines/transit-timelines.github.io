@@ -85,8 +85,8 @@
      id="g1626"
      transform="matrix(1.02,0,0,1.2,-20,-70)">
     <image
-       sodipodi:absref="/home/lexande/timelines/timelines/misc/gbrail/basemap/osm.png"
-       xlink:href="basemap/osm.png"
+       sodipodi:absref="/home/lexande/timelines/timelines/misc/gbrail/basemap/gbosm.png"
+       xlink:href="basemap/gbosm.png"
        width="8824"
        height="10294.67"
        preserveAspectRatio="none"
