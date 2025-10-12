@@ -30,7 +30,7 @@
      y="-42"
      x="-50"
      id="image10"
-     xlink:href="basemap/pusosm.png"
+     xlink:href="../basemap/pusosm.png"
      preserveAspectRatio="none"
      height="4142"
      width="4694.27" />

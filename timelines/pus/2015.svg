@@ -26,7 +26,7 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="basemap/pusosm.png"
+     xlink:href="../basemap/pusosm.png"
      style="display:none"
      y="-42"
      x="-50"

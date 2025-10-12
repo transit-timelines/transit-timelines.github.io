@@ -25,7 +25,7 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="../../tramscale/basemap/nbcosm.png"
+     xlink:href="../basemap/nbcosm.png"
      width="6848"
      height="3424"
      preserveAspectRatio="none"

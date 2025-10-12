@@ -30,7 +30,7 @@
      y="48.5"
      x="-1486.25"
      id="image10"
-     xlink:href="basemap/xmnosm.png"
+     xlink:href="../basemap/xmnosm.png"
      preserveAspectRatio="none"
      height="4608.75"
      width="5530.5" />

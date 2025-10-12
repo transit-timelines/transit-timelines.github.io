@@ -26,7 +26,7 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="basemap/gotosm.png"
+     xlink:href="../basemap/gotosm.png"
      width="1983"
      height="2704.09"
      preserveAspectRatio="none"
