@@ -44,6 +44,12 @@ fi
 
 PREVDIM=$(file preview.gif | sed -e's/.* \([0-9]* x [0-9]*\).*/\1/')
 
+if [ -f bg.png ]; then
+	BGIMG='<img id="bg" src="bg.png" style="position:absolute; z-index: -1; display:none" width="'${W}'" height="'${H}'">\n'
+else
+	BGIMG=''
+fi
+
 sed -e"s/START/${START}/g; 
 s/END/${END}/g;
 s/STEP/${STEP}/g; 
@@ -57,6 +63,7 @@ s/HEIGHT/${H}/g;
 s/PREVW/${PREVDIM% x*}/g;
 s/PREVH/${PREVDIM#*x }/g;
 s!URL!${URL}!g;
+s/BGIMG/${BGIMG}/g;
 s/MODE/${MODE}/g;" ${SCRIPTDIR}/template/part1
 for year in $(seq $START $STEP $END); do
 	echo \<a href=\"#${year}\" onclick=\"gotoyear\(${year}\)\"\>${year}\</a\>
@@ -68,6 +75,9 @@ echo '<p>'
 grep earlier ${SCRIPTDIR}/template/part1 | sed -e"s/SNAME/${SNAME}/g"
 grep later ${SCRIPTDIR}/template/part1 | sed -e"s/SNAME/${SNAME}/g"
 echo '<p>'
+if [ -f bg.png ]; then
+	echo '<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day streets and waterlines</a><p>'
+fi
 if [ -d uncropped ]; then
 	echo '<a href="uncropped">click here for uncropped version</a><p>'
 fi
@@ -102,5 +112,9 @@ else
 	fi
 fi
 
-cat ${SCRIPTDIR}/template/part4
+if [ -f bg.png ]; then
+	sed -e's!sources.!sources. Background map image <a href="https://www.maptiler.com/copyright/">copyright MapTiler</a>.!' ${SCRIPTDIR}/template/part4
+else
+	cat ${SCRIPTDIR}/template/part4
+fi
 popd >/dev/null

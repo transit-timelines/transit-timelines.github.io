@@ -6,7 +6,7 @@ $(1)/small/%.svg: ;
 $(1)/%.svg:: $(1)/uncropped/%.svg $(1)/crop.pl
 	$(1)/crop.pl $$< > $$@
 
-$(1)/index.html: $(1)/name $(subst uncropped/,,$(wildcard $(1)/uncropped/*.svg)) ~/timelines/scripts/makeindex.sh $(wildcard ~/timelines/scripts/template/*) $(wildcard $(1)/seealso) $(1)/preview.gif
+$(1)/index.html: $(1)/name $(subst uncropped/,,$(wildcard $(1)/uncropped/*.svg)) ~/timelines/scripts/makeindex.sh $(wildcard ~/timelines/scripts/template/* $(1)/seealso $(1)/bg.png) $(1)/preview.gif
 	~/timelines/scripts/makeindex.sh $(1) > $$@
 
 
@@ -18,7 +18,7 @@ $(1)/small/%.svg: $(1)/%.svg $1/%.svg.gz $(wildcard $(1)/cropsmall.pl)
 	if [ -f $(1)/cropsmall.pl ]; then $(1)/cropsmall.pl $$<; else cat $$<; fi | ~/timelines/scripts/hideyear.pl > $$@
 	~/timelines/scripts/from-year-range.sh $(1)
 
-$(1)/index.html: $(wildcard $(1)/name $(1)/../name $(1)/seealso $(1)/../seealso) $(1)/preview.gif $(wildcard $(1)/*.svg) ~/timelines/scripts/makeindex.sh $(wildcard ~/timelines/scripts/template/*)
+$(1)/index.html: $(wildcard $(1)/name $(1)/../name $(1)/seealso $(1)/../seealso $(1)/*.svg $(1)/bg.png ~/timelines/scripts/template/*) $(1)/preview.gif ~/timelines/scripts/makeindex.sh
 	~/timelines/scripts/makeindex.sh $(1) > $$@
 
 $(1): $(patsubst %.svg,%.svg.gz,$(wildcard $(1)/*.svg)) $(subst $(1),$(1)/small, $(wildcard $(1)/*.svg) $(patsubst %.svg,%.svg.gz,$(wildcard $(1)/*.svg))) $(1)/index.html $(1)/preview.gif;

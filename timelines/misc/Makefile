@@ -9,7 +9,7 @@ regrail: $(regrail)
 define bymoderule
 $(1): $(patsubst %.svg,%.svg.gz,$(wildcard $(1)/*.svg)) $(1)/preview.gif $(1)/index.html
 
-$(1)/index.html: $(1)/name $(1)/seealso $(1)/key $(1)/preview.gif $(wildcard $(1)/*.svg) ~/timelines/scripts/makeindex.sh $(wildcard ~/timelines/scripts/template/*)
+$(1)/index.html: $(1)/name $(1)/key $(1)/preview.gif $(wildcard $(1)/*.svg $(1)/seealso $(1)/bg.png ~/timelines/scripts/template/*) ~/timelines/scripts/makeindex.sh
 	~/timelines/scripts/makeindex.sh $(1) > $$@
 endef
 
