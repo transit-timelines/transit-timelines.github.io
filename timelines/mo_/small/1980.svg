@@ -27,13 +27,13 @@
      id="defs6" />
   <image
      style="display:none"
-     width="858.5"
-     height="2146.25"
+     width="1073.12"
+     height="2360.88"
      preserveAspectRatio="none"
      xlink:href="../basemap/mo_osm.png"
      id="image10"
      x="-50"
-     y="203.75" />
+     y="-10.88" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#d72817;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 591.02,1722.71 14.24,-27.8 v -8.47 l -3.22,-4.24 -9.66,-1.19 -4.92,-5.08 -3.56,-14.92 -4.75,-6.78 -15.93,-14.24 -11.86,-16.1 -17.97,-40 -11.36,-19.66 -14.41,-12.71 -60.34,-29.83 -12.03,-9.15 -3.56,-5.25"

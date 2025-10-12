@@ -25,7 +25,7 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
+  
      id="g10">
     <image
        xlink:href="../basemap/so_osm.png"
@@ -61,5 +61,5 @@
          id="tspan1"
          y="206.96"
          x="89.45">1990</tspan></text>
-  </g>
+  
 </svg>

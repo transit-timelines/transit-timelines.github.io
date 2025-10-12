@@ -28,12 +28,12 @@
   <image
      xlink:href="../basemap/budosm.png"
      style="display:none"
-     width="2736"
-     height="4560"
+     width="3192"
+     height="5928"
      preserveAspectRatio="none"
      id="image10"
-     x="100"
-     y="-20" />
+     x="-128"
+     y="-1160" />
   <path
      id="path4512"
      d="m 1321.16,1343.92 -8,-10.38 -6.04,-0.66 -4.18,3.68 -3.44,12.9 1,16.54 -4,18.5 -235,231.5 -1.95,4.75 -0.3,21.25 -2.25,3 -28.75,6 -8.25,2.25 -2.75,6 -6.5,4"

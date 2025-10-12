@@ -113,10 +113,10 @@ image/svg+xml</dc:format>
   </g>
   <image
      xlink:href="../../basemap/nycosm.png"
-     x="-2304"
-     y="0"
-     width="5888"
-     height="5376"
+     x="-1280"
+     y="-2048"
+     width="6656"
+     height="8448"
      id="basemap"
      style="display:none;fill:#ff0000" />
   <path

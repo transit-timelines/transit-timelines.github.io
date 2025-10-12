@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    version="1.1"
    id="svg1"
@@ -13,12 +11,12 @@
   <defs
      id="defs1" />
   <image
-     width="1813"
+     width="2115.17"
      height="1510.83"
      preserveAspectRatio="none"
      xlink:href="../basemap/knuosm.png"
      id="image1"
-     x="50"
+     x="-252.17"
      y="-50"
      style="display:none" />
   <path

@@ -17,12 +17,12 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs6" /><image
      xlink:href="../basemap/budosm.png"
-     width="2736"
-     height="4560"
+     width="3192"
+     height="5928"
      preserveAspectRatio="none"
      id="image10"
-     x="100"
-     y="-20"
+     x="-128"
+     y="-1160"
      style="display:none" /><path
      style="fill:none;fill-rule:evenodd;stroke:#43a842;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 684.5,2158 63.5,6 36,-3 36.5,-9.5 41,-12.5 37,-16.5 33,-24 19,-22 11.5,-24 22.5,-94.5 15,-30 21,-21 34.5,-32.5 37,-47.5 10.5,-28 39.5,-28 75.5,-43 46.5,-13 16,-10 8,-12 30,-70 7,-10 22.5,-15"

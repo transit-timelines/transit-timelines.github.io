@@ -28,9 +28,9 @@
   <image
      xlink:href="../basemap/mdeosm.png"
      style="display:none"
-     x="50"
+     x="-285.5"
      y="-230"
-     width="2013"
+     width="2684"
      height="3355"
      id="image10" />
   <path

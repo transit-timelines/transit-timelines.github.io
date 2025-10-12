@@ -28,12 +28,12 @@
   <image
      style="display:none"
      width="3048"
-     height="1741.71"
+     height="1959.42"
      preserveAspectRatio="none"
      xlink:href="../basemap/osrosm.png"
      id="image10"
      x="-1050"
-     y="58.29" />
+     y="-159.42" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ee1d23;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1317.25,698.93 2.49,-74.4 0.58,-24.74 2.68,-5.94 92.24,-23.2 2.49,-5.94 -7.86,-20.9 -15.53,-20.13 -8.63,-22.63 -6.52,-14.38 -4.79,-15.53 -15.72,-34.52 -9.59,-28.19 -7.48,-13.04 -3.84,-9.97 -1.73,-11.31 -6.9,-22.24 -9.59,-17.64 -14.73,-22.95 -5.02,-2.36 -71.72,-2.11 -3.45,-1.53 -8.82,-9.59"

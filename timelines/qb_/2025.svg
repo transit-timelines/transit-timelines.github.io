@@ -27,12 +27,12 @@
   <image
      xlink:href="../basemap/qb_osm.png"
      y="-45"
-     x="70"
+     x="-238.2"
      id="image12"
      style="display:none;image-rendering:optimizeSpeed"
      preserveAspectRatio="none"
-     height="1849.2"
-     width="616.4" />
+     height="2157.4"
+     width="924.6" />
   <path
      style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none"
      d="m 411.33,1692.41 7.28,24.23"

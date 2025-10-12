@@ -28,10 +28,10 @@
      xlink:href="../../basemap/nycosm.png"
      style="display:none"
      id="image12"
-     height="5376"
-     width="5888"
-     y="0"
-     x="-512" />
+     height="8448"
+     width="6656"
+     y="-2048"
+     x="-1280" />
   <path
      d="m 2824.48,3150.95 88.52,39.05 154,115 72,55 320,239 13.26,10.28"
      id="path3619-9"

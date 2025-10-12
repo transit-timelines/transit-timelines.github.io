@@ -26,10 +26,10 @@
      id="defs6" />
   <image
      xlink:href="../../basemap/nycosm.png"
-     x="-512"
-     y="0"
-     width="5888"
-     height="5376"
+     x="-1280"
+     y="-2048"
+     width="6656"
+     height="8448"
      id="image12"
      style="display:none" />
   <path

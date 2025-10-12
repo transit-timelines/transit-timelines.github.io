@@ -28,12 +28,12 @@
   <image
      style="display:none"
      y="-181.5"
-     x="150"
+     x="-116.5"
      id="image10"
      xlink:href="../basemap/kyaosm.png"
      preserveAspectRatio="none"
      height="2931.5"
-     width="1066" />
+     width="1332.5" />
   <path
      id="path836"
      d="m 673.64,418.13 -27.69,-112.59 -3.43,-30.32 -1.58,-6.59 -10.81,-10.81 -3.3,-2.61 -7.87,-0.33 -10.18,9.79 0.26,6.33 3.96,5.8 11.34,1.85 7.38,3.16 13.45,15.29"

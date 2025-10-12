@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    viewBox="0 0 650 550"
    height="550"
    width="650"
    id="svg2"
-   version="1.1">
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,7 +19,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -27,13 +27,13 @@
      id="defs6" />
   <image
      style="display:none"
-     y="203.6"
-     x="50"
+     y="-42.8"
+     x="-196.4"
      id="image10"
      xlink:href="../basemap/pegosm.png"
      preserveAspectRatio="none"
-     height="246.4"
-     width="492.8" />
+     height="739.2"
+     width="985.6" />
   <path
      id="path817"
      d="m 186.03,324.86 38.02,47.06 5.17,6.83 2.4,15.32 4.8,4.98 5.72,3.88 4.61,0.55 24.55,-5.91 10.15,-1.11 10.7,2.58 9.97,2.58 7.2,1.48 6.09,-1.85 9.04,-11.44 14.21,-13.84 15.13,-16.8 10.7,-7.94 9.41,-23.07 14.77,-11.63 69.77,-11.63 29.9,-2.03 34.33,6.28"

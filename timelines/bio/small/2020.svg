@@ -28,12 +28,12 @@
   <image
      xlink:href="../basemap/bioosm.png"
      style="display:none"
-     y="54"
+     y="-191.85"
      x="50"
      id="image10"
      preserveAspectRatio="none"
-     height="3196"
-     width="3196" />
+     height="3441.85"
+     width="2950.15" />
   <path
      style="opacity:1;fill:none;fill-opacity:0.38;fill-rule:nonzero;stroke:#ee1d23;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1485.07,2151.16 33.94,-31.47 29.7,-48.44"

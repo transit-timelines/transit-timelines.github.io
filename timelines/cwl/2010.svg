@@ -26,12 +26,12 @@
      id="defs6" />
   <image
      style="display:none"
-     y="20"
+     y="-190"
      x="-75"
      id="image10"
      xlink:href="../basemap/cwlosm.png"
      preserveAspectRatio="none"
-     height="4830"
+     height="5040"
      width="2100" />
   <path
      id="path4487"

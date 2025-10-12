@@ -39,19 +39,19 @@
        xlink:href="../../basemap/nycosm.png"
        style="fill:#330000"
        id="image10"
-       height="5376"
-       width="5888"
-       y="0"
-       x="-2304" />
+       height="8448"
+       width="6656"
+       y="-2048"
+       x="-1280" />
     <image
        xlink:href="railosm.png"
        style="opacity:0.5"
-       width="5888"
-       height="5376"
+       width="6656"
+       height="8448"
        preserveAspectRatio="none"
        id="image1296"
-       x="-2304"
-       y="0" />
+       x="-1280"
+       y="-2048" />
   </g>
   <path
      style="fill:none;stroke:#0000ff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

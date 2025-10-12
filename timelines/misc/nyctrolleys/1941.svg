@@ -490,10 +490,10 @@ image/svg+xml</dc:format>
      xlink:href="../../basemap/nycosm.png"
      style="display:none;fill:#ff0000"
      id="basemap"
-     height="5376"
-     width="5888"
-     y="0"
-     x="-2304" />
+     height="8448"
+     width="6656"
+     y="-2048"
+     x="-1280" />
   <path
      d="m 979.5,2351 299,172 7.5,8.5"
      id="Queensboro_Bridge_Shuttle"

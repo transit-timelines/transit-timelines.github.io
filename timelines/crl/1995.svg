@@ -28,11 +28,11 @@
   <image
      xlink:href="../basemap/crlosm.png"
      y="-30"
-     x="25"
+     x="-190"
      id="image10"
      preserveAspectRatio="none"
      height="1505"
-     width="2365"
+     width="2795"
      style="display:none" />
   <path
      id="path838"

@@ -27,12 +27,12 @@
   <image
      style="display:none"
      width="2310"
-     height="3960"
+     height="4620"
      preserveAspectRatio="none"
      xlink:href="../basemap/limosm.png"
      id="image10"
      x="-200"
-     y="40" />
+     y="-290" />
   <path
      style="opacity:1;fill:none;fill-opacity:0.38;fill-rule:nonzero;stroke:#023a84;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 340.76,1238.4 24.45,297.13"

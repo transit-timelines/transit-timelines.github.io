@@ -25,17 +25,17 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
+  
      id="g10">
     <image
        xlink:href="../basemap/rmiosm.png"
        style="display:none"
-       y="125"
-       x="50"
+       y="-117.6"
+       x="-192.6"
        id="image12"
        preserveAspectRatio="none"
-       height="1213"
-       width="1213" />
+       height="1698.2"
+       width="1455.6" />
     <path
        style="fill:none;stroke:#c30042;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 120.79,257.94 14.02,8.39 22.26,6.38 22.43,13.5 10.83,4.13 89.99,57.87 10.78,8.81 15.47,16.33 10.7,14.43 170.65,246.36 18.27,25.73 18.34,21.95 40.6,44.53 116.35,129.3 174.57,192.29 20.74,21.44 15.48,13.92 69.18,60.06 9.14,9.75 12.79,14.87 56.59,69.8"
@@ -49,5 +49,5 @@
          id="tspan1"
          y="206.96"
          x="89.45">2020</tspan></text>
-  </g>
+  
 </svg>

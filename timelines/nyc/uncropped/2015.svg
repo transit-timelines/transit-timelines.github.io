@@ -27,10 +27,10 @@
   <image
      xlink:href="../../basemap/nycosm.png"
      style="display:none"
-     x="-512"
-     y="0"
-     width="5888"
-     height="5376"
+     x="-1280"
+     y="-2048"
+     width="6656"
+     height="8448"
      id="image12" />
   <path
      style="fill:none;stroke:#ffcd02;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"

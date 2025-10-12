@@ -28,19 +28,19 @@
   <image
      xlink:href="osm.png"
      y="-1240.5"
-     x="100"
+     x="-101.12"
      id="image866"
      preserveAspectRatio="none"
      height="7240.5"
-     width="5631.5"
+     width="5832.62"
      style="display:none" />
   <image
      style="display:none"
      id="image10"
      height="7240.5"
-     width="5631.5"
+     width="5832.62"
      y="-1240.5"
-     x="100"
+     x="-101.12"
      xlink:href="../basemap/lplosm.png" />
   <path
      style="fill:none;stroke:#00a650;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"

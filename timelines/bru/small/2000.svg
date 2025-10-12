@@ -26,13 +26,13 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="../../basemap/bruosm.png"
+     xlink:href="../basemap/bruosm.png"
      y="-144"
      x="-75"
      id="image10"
      preserveAspectRatio="none"
-     height="10444"
-     width="10017.71"
+     height="10657.14"
+     width="10230.85"
      style="display:none" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#7b7879;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

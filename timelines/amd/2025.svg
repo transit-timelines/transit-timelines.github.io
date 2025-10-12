@@ -12,8 +12,8 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
-  <g
-     id="g1">
+  
+     
     <image
        width="3106"
        height="3727.2"
@@ -40,5 +40,5 @@
          x="89.45"
          y="206.96"
          id="tspan1">2025</tspan></text>
-  </g>
+  
 </svg>

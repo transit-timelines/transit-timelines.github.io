@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    version="1.1"
    width="850"
@@ -30,10 +28,10 @@
      xlink:href="../basemap/bufosm.png"
      style="display:none"
      id="image10"
-     height="1236.67"
-     width="742"
-     y="43.33"
-     x="0" />
+     height="1731.34"
+     width="1236.67"
+     y="-204"
+     x="-247.33" />
   <path
      d="m 696,70 -50,36 -450,569 -87.5,352.5"
      id="path2987"

@@ -28,11 +28,11 @@
   <image
      xlink:href="../basemap/bodosm.png"
      width="2393.33"
-     height="2393.33"
+     height="2872"
      preserveAspectRatio="none"
      id="image10"
      x="-714.33"
-     y="256.67"
+     y="-222"
      style="display:none" />
   <path
      id="path821"

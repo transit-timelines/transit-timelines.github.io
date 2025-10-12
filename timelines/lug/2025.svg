@@ -17,12 +17,12 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs6" /><image
      width="3750"
-     height="6796.88"
+     height="7031.26"
      preserveAspectRatio="none"
      xlink:href="../basemap/lugosm.png"
      id="image10"
      x="-853.12"
-     y="-2875"
+     y="-3109.38"
      style="display:none" /><path
      style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#030405;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1342.99,249.29 43.96,-40.39 18.98,-4.75 8.81,-7.12 13.22,-10.17 10.17,-5.42 10.51,-1.02 15.25,6.44 7.46,5.76 12.88,26.78"

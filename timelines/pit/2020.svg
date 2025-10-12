@@ -26,10 +26,10 @@
      id="defs6" />
   <image
      xlink:href="../basemap/pitosm.png"
-     x="0"
-     y="34"
-     width="2816"
-     height="2816"
+     x="-1024"
+     y="-222"
+     width="4096"
+     height="3072"
      id="image10"
      style="display:none" />
   <path

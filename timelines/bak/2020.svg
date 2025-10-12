@@ -26,12 +26,12 @@
      id="defs6" />
   <image
      xlink:href="../basemap/bakosm.png"
-     y="165"
-     x="0"
+     y="-349"
+     x="-257"
      id="image10"
      preserveAspectRatio="none"
-     height="1285"
-     width="2056"
+     height="1799"
+     width="2313"
      style="display:none" />
   <path
      style="opacity:1;fill:none;fill-opacity:0.02;fill-rule:nonzero;stroke:#0089b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

@@ -28,12 +28,12 @@
   <image
      style="display:none"
      y="-91.67"
-     x="-50"
+     x="-2022.5"
      id="image10"
      xlink:href="../basemap/mhgosm.png"
      preserveAspectRatio="none"
      height="3068.33"
-     width="3945.01" />
+     width="6575" />
   <path
      id="path840"
      d="m 868,1072.59 -8.39,8.47 -7.26,1.59 -16.47,-1.95 -16.73,-3.05 -10.17,-3.84 -4.6,-8.18 -3.33,-12.11 -7.87,-35.72 -5.31,-5.81 -11.64,-10.33 -11.17,-7.24"

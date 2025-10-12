@@ -28,12 +28,12 @@
   <image
      style="display:none;fill:#c8b7b7"
      y="-2376.04"
-     x="50"
+     x="-161.29"
      id="image10"
      xlink:href="../basemap/dusosm.png"
      preserveAspectRatio="none"
      height="17326.03"
-     width="12255" />
+     width="12466.29" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#006bb4;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      d="m 2774.97,5529.6 211.36,114.14 4.88,5.74 12.62,29.25 13.19,11.18 15.49,8.32 78.22,-1.35 57.11,-0.18"

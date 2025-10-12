@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="6050"
    height="4000"
    viewBox="0, 0, 6050, 4000"
-   id="svg2">
+   id="svg2"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -21,7 +19,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -31,9 +29,9 @@
      xlink:href="../basemap/stlosm.png"
      style="display:none"
      id="image10"
-     height="3954.13"
+     height="4217.74"
      width="6063"
-     y="45.87"
+     y="-217.74"
      x="0" />
   <path
      d="m 106,242 5,18 22,17 94,55 32,8 36,20 36,3 26,-3 45,14 45,7 15,12 17,32 59,41 37,33 40,40 34,22 38,10 30,2 15,10 12,40 9,21 64,41 12,20 -10,57 4,54 91,630 15,64 34,86 45,53 34,24.5 35,6.5 83,14 27,26 14,16 56,19 14,17 12,50 13,23 32,15 255,70 39,22 50,12 42,22 94,34 81,18 33,-4 12,-10 11,-26 15,-5 82,22 4,10 -4,25 12,10 62,11 21,-2 10,-6 36,-107 10,-9 71,15 149,20 67,11 52,49 22,1 93,-89 44,-25 16,3 18,18 23,11 17,1 51,-12 18,12 34,39 169,76 49,26 345,136 113,63 57,19 155,59 116,74 29,45 50,94 26,84 -11,48 -9,26 7,31 30,41 28,9 37,9 29,29 23,69 12,28 23,13 68,11 22,24 21,37 28,9 43,10 69,69 55,49 24,14 32,48 55,38 72,108 15,17 5,36 8,22 31,33 39,67 260,196 67,40 30,9 26,-4 297,-17 25,-16 8,-21 1,-149 11,-83 20,-27 32,-25 37,-3 210,1 28,-18 38,-18 36,-8 63,1 22,-13 6,-22 -26,-58"

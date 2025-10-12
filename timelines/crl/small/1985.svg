@@ -29,11 +29,11 @@
      xlink:href="../basemap/crlosm.png"
      style="display:none"
      y="-30"
-     x="25"
+     x="-190"
      id="image10"
      preserveAspectRatio="none"
      height="1505"
-     width="2365" />
+     width="2795" />
   <path
      style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#716b9f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 647.66,1174.66 1.73,1.38 3.47,5.5 39.6,25.17 14.26,2.18 14.6,-0.84 31.54,-3.36 20.47,-4.19 9.56,2.18 8.39,6.38 41.28,40.44 9.9,5.37 48.49,15.77 18.96,2.35 14.6,-2.18 16.78,-7.21 41.95,-35.07 8.56,-4.53 8.22,-2.52 40.27,-4.36 59.73,-21.48 53.44,-20.91 3.97,0.46"

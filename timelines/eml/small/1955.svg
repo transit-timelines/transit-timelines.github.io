@@ -28,12 +28,12 @@
   <image
      xlink:href="../basemap/emlosm.png"
      style="display:none"
-     width="919.6"
-     height="1841.4"
+     width="1149.5"
+     height="2071.3"
      preserveAspectRatio="none"
      id="image10"
      x="0"
-     y="208.6" />
+     y="-21.3" />
   <path
      id="path846"
      d="M 122.45,1656.47 259.59,1299.41 400.17,1048.6"

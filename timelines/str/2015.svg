@@ -28,12 +28,12 @@
   <image
      xlink:href="../basemap/strosm.png"
      style="display:none"
-     width="6892.33"
-     height="5558.33"
+     width="7337"
+     height="6003"
      preserveAspectRatio="none"
      id="image10"
-     x="-667"
-     y="-799.33" />
+     x="-889.33"
+     y="-1021.66" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00aeef;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 2414.71,2101.69 12.94,-6.11 39.91,-10.43 29.3,-6.83 4.13,1.44 7.91,-1.26 5.39,-3.6 23.55,-46.56 19.06,-27.51 37.21,-33.08 12.4,-16.36 24.45,-31.28 17.44,-17.08 52.49,-114.7 22.83,-46.92 59.15,-49.8"

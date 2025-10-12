@@ -28,12 +28,12 @@
   <image
      style="display:none"
      y="-561.17"
-     x="50"
+     x="-180.17"
      id="image10"
      xlink:href="../basemap/qncosm.png"
      preserveAspectRatio="none"
      height="1611.17"
-     width="1381" />
+     width="1611.17" />
   <path
      id="path1924"
      d="m 1032.14,103.46 -0.24,53.39"

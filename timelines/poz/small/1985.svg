@@ -28,12 +28,12 @@
   <image
      xlink:href="../basemap/pozosm.png"
      style="display:none"
-     y="28"
-     x="75"
+     y="-177.88"
+     x="-130.88"
      id="image10"
      preserveAspectRatio="none"
-     height="1647"
-     width="1647" />
+     height="2058.75"
+     width="2058.75" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00a0d8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1124.05,1401.71 -3.97,17.29 -7.48,15.72 -48.32,72.29 -32.79,51.97 -6.52,9.2 -6.14,11.89"

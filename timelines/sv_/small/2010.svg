@@ -25,17 +25,17 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
+  
      id="g10">
     <image
        xlink:href="../basemap/sv_osm.png"
        y="-50"
-       x="200"
+       x="-1.37"
        id="image12"
        style="display:none;image-rendering:optimizeSpeed"
        preserveAspectRatio="none"
-       height="1208.2"
-       width="604.1" />
+       height="1409.57"
+       width="805.47" />
     <path
        style="fill:none;stroke:#ff9900;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
        d="m 327.77,1117.76 2.75,1.37 33.27,-11.6 184.74,-2.53 28.73,2.25 7.16,-2.77 4.68,-5.55 1.8,-6.76 2.39,-68.05 -1.83,-3.37 -7.1,-7.02 -0.95,-5.79 1.75,-39.36 2.03,-52.85"
@@ -65,5 +65,5 @@
          id="tspan1"
          y="206.96"
          x="89.45">2010</tspan></text>
-  </g>
+  
 </svg>

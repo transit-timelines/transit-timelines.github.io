@@ -28,12 +28,12 @@
   <image
      style="display:none"
      width="3048"
-     height="1741.71"
+     height="1959.42"
      preserveAspectRatio="none"
      xlink:href="../basemap/osrosm.png"
      id="image10"
      x="-1050"
-     y="58.29" />
+     y="-159.42" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ee1d23;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1171.51,1296.83 -63.66,20.13 -9.59,4.6 -1.92,3.45 -5.01,8.84"

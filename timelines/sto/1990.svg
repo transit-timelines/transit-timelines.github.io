@@ -27,12 +27,12 @@
      id="defs6" />
   <image
      style="display:none"
-     width="5509"
-     height="8435.66"
+     width="5853.31"
+     height="8607.82"
      preserveAspectRatio="none"
      xlink:href="../basemap/stoosm.png"
      id="image10"
-     x="41"
+     x="-131.16"
      y="-535.66" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#0691d2;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -82,13 +82,13 @@
      style="fill:none;fill-rule:evenodd;stroke:#b56631;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 3827.57,4239.66 67.88,-62.93 11.67,-2.12 13.44,5.3 6.01,7.78 v 8.49 l -0.35,19.45 3.54,8.84 7.42,9.55 24.04,17.32 18.74,5.3 20.86,-0.71 46.67,7.42 16.97,8.49 7.07,12.37 22.63,43.49 8.84,8.49 8.84,8.49 24.4,10.25 22.63,16.97 10.96,11.31 10.25,12.37 24.75,13.79 9.9,12.73 20.51,7.42 19.09,16.26 16.97,7.42 58.69,18.38 h 17.32 l 24.4,-3.54 17.68,-10.25 16.97,-1.41 12.02,1.06 18.38,8.13 19.45,9.55 12.37,4.24 15.91,-0.71 15.91,-4.6 9.19,-4.6 12.02,-12.73 55.51,-53.74 16.62,-7.07 28.28,-6.01 15.2,-8.84 13.08,-14.5 8.49,-5.66 14.85,-3.54 15.56,-7.07 17.32,-20.86 20.51,-12.73 10.25,-10.25 7.78,-19.45 11.31,-9.55 7.78,-5.3 43.49,-10.25 19.8,3.18 h 11.67"
      id="path4732" />
-  <g
+  
      id="g4502">
     <path
        id="path4831"
        d="m 3559,4426.75 -36.75,-35 -4.25,-12.25 -10.75,-36 -6.25,-9.5 -17.25,-12 -9.25,-11 -4.75,-15.25 1.25,-12.5 2.75,-13.75 -2.75,-13.25 -5.75,-13.25 -39,-68.75 -33.5,-49.75 -6.25,-14 -2.5,-18.5 v -14.25 l 9.25,-35 -1.25,-16.5 -6.75,-17.75 -14.25,-18.5 -17.75,-35.75 -8.25,-23.25 -3.37,-12.08 3.16,-16.79 8.66,-10.66 14.73,-13.97 7.85,-15.4 -1.79,-7.62 -4.74,-9.97 -7.45,-10 -11.9,-12.79 -2.66,-12.24 2.5,-16 20.5,-71 11.5,-14.5 13,-15.5 19,-11 23,-9.5 15.5,-16 9,-23.5 2.97,-24.28 2.03,-56.22 13,-41 v -10.5 l -29.5,-112 -7,-13 -18,-15.5 -9.5,-12 -21.5,-41.5 -2.5,-21 5,-26.5 6.5,-22 2.5,-17.5 -3.5,-78 5,-24.5 9,-14 38.89,-47.33"
        style="fill:none;fill-rule:evenodd;stroke:#a05ea6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  </g>
+  
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"

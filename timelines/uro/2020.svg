@@ -27,13 +27,13 @@
      id="defs6" />
   <image
      style="display:none"
-     y="52.75"
-     x="50"
+     y="-166.7"
+     x="-169.45"
      id="image10"
      xlink:href="../basemap/uroosm.png"
      preserveAspectRatio="none"
-     height="1097.25"
-     width="877.8" />
+     height="1536.15"
+     width="1097.25" />
   <path
      id="path817"
      d="m 611.02,278.47 52.88,-136.27 5.08,-6.1 3.73,-3.73 h 4.07 l 20,11.53 6.44,-0.34 15.25,-8.81 7.46,1.02 53.22,24.07"

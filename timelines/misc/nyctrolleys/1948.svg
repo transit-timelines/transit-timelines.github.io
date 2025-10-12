@@ -456,10 +456,10 @@ image/svg+xml</dc:format>
      d="m 884.75,1347.57 c 85.83,41.64 29.94,76.76 120.87,118.87" />
   <image
      xlink:href="../../basemap/nycosm.png"
-     x="0"
-     y="0"
-     width="5376"
-     height="5376"
+     x="-1280"
+     y="-2048"
+     width="6656"
+     height="8448"
      id="basemap"
      style="display:none;fill:#ff0000" />
   <path

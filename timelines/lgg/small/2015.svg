@@ -12,15 +12,15 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
-  <g
-     id="g1">
+  
+     
     <image
-       width="1498"
+       width="1712"
        height="1498"
        preserveAspectRatio="none"
        xlink:href="../basemap/lggosm.png"
        id="image1"
-       x="60"
+       x="-154"
        y="-50"
        style="display:none" />
     <path
@@ -56,5 +56,5 @@
          x="89.45"
          y="206.96"
          id="tspan1">2015</tspan></text>
-  </g>
+  
 </svg>

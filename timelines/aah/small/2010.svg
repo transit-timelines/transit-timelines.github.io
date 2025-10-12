@@ -12,16 +12,16 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
-  <g
-     id="g1">
+  
+     
     <image
-       width="1921"
-       height="1921"
+       width="2134.44"
+       height="2134.44"
        preserveAspectRatio="none"
        xlink:href="../basemap/aahosm.png"
        id="image1"
-       x="25"
-       y="75"
+       x="-188.44"
+       y="-138.44"
        style="display:none" />
     <path
        style="fill:none;stroke:#4b76ba;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
@@ -36,5 +36,5 @@
          x="89.45"
          y="206.96"
          id="tspan1">2010</tspan></text>
-  </g>
+  
 </svg>

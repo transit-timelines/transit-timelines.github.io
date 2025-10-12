@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    viewBox="0 0 1000 600"
    height="600"
    width="1000"
    id="svg2"
-   version="1.1">
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,7 +19,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -28,12 +28,12 @@
   <image
      style="display:none"
      y="-194.8"
-     x="50"
+     x="-281.6"
      id="image10"
      xlink:href="../basemap/marosm.png"
      preserveAspectRatio="none"
      height="994.8"
-     width="994.8" />
+     width="1326.4" />
   <path
      id="path836"
      d="m 141.93,495.73 c 0.41,-1.63 48.41,-64.68 48.41,-64.68 l 23.59,-23.59 22.37,-17.08 37.42,-16.27 72,-19.12 56.54,-11.8 32.14,-11.8 93.15,-43.93 41.9,-12.2 20.75,-2.85 42.71,-19.93 32.54,-21.97 30.1,-15.86 17.49,-16.27 21.97,-25.22 15.05,-12.2 21.97,-12.2 20.34,-3.25 37.42,-4.88 14.24,-2.85 20.34,-5.69"

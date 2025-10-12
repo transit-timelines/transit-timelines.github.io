@@ -26,13 +26,13 @@
   <defs
      id="defs6" />
   <image
-     width="2736"
-     height="4560"
+     width="3192"
+     height="5928"
      preserveAspectRatio="none"
      xlink:href="../basemap/budosm.png"
      id="image10"
-     x="100"
-     y="-20"
+     x="-128"
+     y="-1160"
      style="display:none" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#0067b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

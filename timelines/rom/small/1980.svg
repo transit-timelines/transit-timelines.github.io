@@ -28,12 +28,12 @@
   <image
      style="display:none"
      width="5527"
-     height="7034.36"
+     height="7536.81"
      preserveAspectRatio="none"
      xlink:href="../basemap/romosm.png"
      id="image10"
      x="0"
-     y="0.64" />
+     y="-250.59" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#f37027;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="M 2505.79,3911.38 2642.5,3866.5 l 12,4.5 15.5,-2.5 43,-15.5 28,19 41,51 28,26 9.5,21.5 41.5,27.5 94,17.5 20,2 26,14.5 14.5,23.5 35,114 38.5,97 233,253.5 32.5,17.5 14,19 43.5,30 15.5,8 87.5,6.5 52.5,20.5 199.5,147 88.5,82 60,56 61,33.5"

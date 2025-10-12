@@ -28,12 +28,12 @@
   <image
      style="display:none"
      width="4737"
-     height="2786.47"
+     height="3065.12"
      preserveAspectRatio="none"
      xlink:href="../basemap/takosm.png"
      id="image10"
      x="-2475"
-     y="63.53" />
+     y="-215.12" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffb20e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 430.65,1264.09 9.27,-29.35 24.07,-149.49 64.41,-444.41 12.88,-83.05 -2.03,-15.59 -2.71,-27.8 1.02,-12.2 25.08,-44.07 0.68,-10.17 -7.33,-26.82 -0.72,-12.46 25.41,-116.97 -2.4,-9.35 -11.03,-11.51 -13.66,-4.07 -23.97,-1.68 -9.83,-6.47 -4.55,-7.43 -0.24,-20.85"

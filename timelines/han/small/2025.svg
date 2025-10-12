@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    version="1.1"
    id="svg2"
@@ -14,13 +12,13 @@
      id="defs6" />
   <image
      width="1890"
-     height="1890"
+     height="2205"
      preserveAspectRatio="none"
      style="display:none;image-rendering:optimizeSpeed"
      xlink:href="../basemap/hanosm.png"
      id="image10"
      x="-225"
-     y="85" />
+     y="-230" />
   <path
      style="fill:none;stroke:#b8b803;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
      d="m 123.85,255.16 45.77,33 206.38,87.67 136.25,54.6 220.64,72.41 16.45,2.48 76.94,-0.48 90.36,4.68 99.55,34.87 9.61,6.7 44.83,48.05 10.89,6.82 32.98,17.2"

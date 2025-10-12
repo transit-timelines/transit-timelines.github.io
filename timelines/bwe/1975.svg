@@ -28,12 +28,12 @@
   <image
      style="display:none"
      y="-15"
-     x="50"
+     x="-156.5"
      id="image10"
      xlink:href="../basemap/bweosm.png"
      preserveAspectRatio="none"
-     height="2065"
-     width="1239" />
+     height="2271.5"
+     width="1652" />
   <path
      id="path838"
      d="m 711.36,1282.54 3.39,22.37 -1.02,8.98 -10.34,58.64 -8.47,44.07 0.17,13.56 4.58,77.8 2.88,20.51 13.22,45.25 16.44,52.54 2.37,1.53 2.71,-1.02"

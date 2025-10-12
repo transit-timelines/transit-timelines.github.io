@@ -28,12 +28,12 @@
   <image
      style="display:none"
      y="-65"
-     x="-75"
+     x="-326.88"
      id="image10"
      xlink:href="../basemap/tbsosm.png"
      preserveAspectRatio="none"
      height="2015"
-     width="2015" />
+     width="2266.88" />
   <path
      id="path911"
      d="m 753.32,1611.56 61.56,-4.88"

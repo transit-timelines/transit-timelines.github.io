@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="600"
    height="1150"
    viewBox="-75, 0, 600, 1150"
-   id="svg2">
+   id="svg2"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -32,18 +29,16 @@
      xlink:href="../basemap/lasosm.png"
      style="display:none"
      id="image10"
-     height="1090"
-     width="545"
-     y="100"
-     x="0" />
+     height="1362.5"
+     width="817.5"
+     y="-172.5"
+     x="-272.5" />
   <path
      d="m 160,925.5 -1,-16.5 3.5,-7 5.5,-9.5 -3.5,-20 -1,-116 3,-4 -1,-14.5 -2,-4 -11,-4 -2.5,-4 1.5,-73 5,-6.5 45,0.5 5,-3.5 0,-29.5 5.5,-3.5 100,4.5 6,-2.5 2.5,-4.5 0,-83.5 6,-10 -1.5,-18.5 -1.5,-11 1.5,-60 3,-6 17.5,-13 2.5,-6 0,-10 -3.5,-6 -17.5,-23.5 -1,-7.5 -2,-60"
-     inkscape:connector-curvature="0"
      id="path2987"
      style="fill:none;stroke:#133c8c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <path
      d="m 90,953.5 -9.5,19.5 1,10.5 -0.5,12 5,14 1,26.5 -3.5,10 -9,17"
-     inkscape:connector-curvature="0"
      id="path3776"
      style="fill:none;stroke:#c5a846;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <text
@@ -57,12 +52,10 @@
        id="tspan3780">2025</tspan></text>
   <path
      d="m 39.5,795.5 0.5,11 3.5,4.5 14,4 5,2.5 4,6 0,12.5 -2.5,10.5 -6.5,9.5 -4,5"
-     inkscape:connector-curvature="0"
      id="path2986"
      style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <path
      d="m 90,621.5 4.5,-9 2.5,-7 -0.5,-38"
-     inkscape:connector-curvature="0"
      id="path2988"
      style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
 </svg>

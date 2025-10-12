@@ -27,13 +27,13 @@
      id="defs6" />
   <image
      style="display:none"
-     width="1201"
-     height="1601.33"
+     width="1401.17"
+     height="1801.5"
      preserveAspectRatio="none"
      xlink:href="../basemap/szwosm.png"
      id="image10"
-     x="100"
-     y="198.67" />
+     x="-100.17"
+     y="-1.5" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#dd2b1c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 912.77,1092.92 -92.23,-51.42 -15.46,-5.15 -52.36,-4.55"

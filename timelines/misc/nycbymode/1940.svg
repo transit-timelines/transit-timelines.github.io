@@ -29,20 +29,20 @@
      style="display:none">
     <image
        xlink:href="../../basemap/nycosm.png"
-       x="-2304"
-       y="0"
-       width="5888"
-       height="5376"
+       x="-1280"
+       y="-2048"
+       width="6656"
+       height="8448"
        id="image10"
        style="fill:#330000" />
     <image
        xlink:href="railosm.png"
-       y="0"
-       x="-2304"
+       y="-2048"
+       x="-1280"
        id="image1296"
        preserveAspectRatio="none"
-       height="5376"
-       width="5888"
+       height="8448"
+       width="6656"
        style="opacity:0.5" />
   </g>
   <path

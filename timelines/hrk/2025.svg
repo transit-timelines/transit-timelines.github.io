@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
    width="2550"
    height="2000"
-   viewBox="-50 -100 2550 2000">
+   viewBox="-50 -100 2550 2000"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,7 +19,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -28,12 +28,12 @@
   <image
      xlink:href="../basemap/hrkosm.png"
      style="display:none"
-     width="2387"
-     height="1953"
+     width="2821"
+     height="2170"
      preserveAspectRatio="none"
      id="image10"
-     x="100"
-     y="-53" />
+     x="-117"
+     y="-270" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#04923c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1040.5,1272.5 22,-85 4.5,-59.5 v -23.5 l -3.5,-22.5 -6,-15.5 -11,-18.5 -20,-14 -118,-50 L 869,963.5 785.5,922.5 767,909 760,898 755.5,876 744,859 722,834.5 711.5,820 706,804 628.5,404 623,384 614,364 601,344.5 582,331 l -16.5,-8.5 -15,-2 L 542,316 529,303.5 520,288 514.5,270.5 490.5,159 466.45,59.09 455.78,37.74 442.97,17.46"

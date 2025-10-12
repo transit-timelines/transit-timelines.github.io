@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    viewBox="0 0 2600 2350"
    height="2350"
    width="2600"
    id="svg2"
-   version="1.1">
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,7 +19,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -27,13 +27,13 @@
      id="defs6" />
   <image
      style="display:none"
-     y="207.33"
-     x="50"
+     y="-73"
+     x="-230.33"
      id="image10"
      xlink:href="../basemap/myjosm.png"
      preserveAspectRatio="none"
-     height="2242.67"
-     width="2523" />
+     height="2523"
+     width="3083.67" />
   <path
      id="path838"
      d="m 926.72,1020.64 -17.26,4.22 -13.42,11.89 -300.29,251.59 -14.96,18.41 -19.18,32.98 -65.96,125.41 -22.24,80.92 -10.35,17.64 -60.21,90.89 -18.03,14.57 -28,15.34 -126.18,71.33 -14.19,13.42 -11.12,15.72 -7.29,19.18 -1.92,15.34 v 87.44 l -6.52,34.9 2.68,66.73 -0.38,23.01 1.53,123.49 -0.77,14.57 -15.72,60.98 -10.35,15.34"

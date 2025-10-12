@@ -28,12 +28,12 @@
   <image
      style="display:none"
      y="-118"
-     x="200"
+     x="-83.5"
      id="image10"
      xlink:href="../basemap/mdzosm.png"
      preserveAspectRatio="none"
      height="2268"
-     width="1134" />
+     width="1701" />
   <path
      id="path836"
      d="m 376.81,805.46 4.08,-18.63"

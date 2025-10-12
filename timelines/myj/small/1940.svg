@@ -26,13 +26,13 @@
   <defs
      id="defs6" />
   <image
-     width="2523"
-     height="2242.67"
+     width="3083.67"
+     height="2523"
      preserveAspectRatio="none"
      xlink:href="../basemap/myjosm.png"
      id="image10"
-     x="50"
-     y="207.33"
+     x="-230.33"
+     y="-73"
      style="display:none" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#e5994d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

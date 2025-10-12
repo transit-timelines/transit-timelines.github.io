@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    version="1.1"
    id="svg1"
@@ -11,24 +9,23 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
-     id="defs1" /><g
-     id="g1"><image
-       width="2321"
-       height="1989.43"
-       preserveAspectRatio="none"
-       xlink:href="../basemap/sgnosm.png"
-       id="image1"
-       x="-150"
-       y="-150"
-       style="display:none" /><path
-       style="fill:none;stroke:#0079b8;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
-       d="m 150.84,1809.04 220.3,-232.15 11.55,-13.62 4.74,-12.14 8.88,-50.63 1.48,-41.75 5.63,-17.17 7.7,-11.25 39.38,-31.39 12.77,-8.01 246.86,-44.49 221.94,-43.76 25.33,-10.89 22.61,-13.4 16.12,-18.22 22.61,-19.89 17.17,-33.5 4.82,-18.63 30.99,-161.43 6.07,-22.61 13.4,-30.36 72.03,-127.93 117.88,-212.73 16.96,-27.01 18.84,-21.36 21.57,-17.38 203.93,-123.11 195.56,-115.79 21.15,-16.33 24.29,-22.61 74.96,-98.83 30.78,-16.12 30.99,-46.48"
-       id="path1" /><text
+     id="defs1" /><image
+     width="2321"
+     height="2321"
+     preserveAspectRatio="none"
+     xlink:href="../basemap/sgnosm.png"
+     id="image1"
+     x="-150"
+     y="-150"
+     style="display:none" /><path
+     style="fill:none;stroke:#0079b8;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 150.84,1809.04 220.3,-232.15 11.55,-13.62 4.74,-12.14 8.88,-50.63 1.48,-41.75 5.63,-17.17 7.7,-11.25 39.38,-31.39 12.77,-8.01 246.86,-44.49 221.94,-43.76 25.33,-10.89 22.61,-13.4 16.12,-18.22 22.61,-19.89 17.17,-33.5 4.82,-18.63 30.99,-161.43 6.07,-22.61 13.4,-30.36 72.03,-127.93 117.88,-212.73 16.96,-27.01 18.84,-21.36 21.57,-17.38 203.93,-123.11 195.56,-115.79 21.15,-16.33 24.29,-22.61 74.96,-98.83 30.78,-16.12 30.99,-46.48"
+     id="path1" /><text
+     x="89.45"
+     y="206.96"
+     id="text3019"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
        y="206.96"
-       id="text3019"
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="89.45"
-         y="206.96"
-         id="tspan1">2025</tspan></text></g></svg>
+       id="tspan1">2025</tspan></text></svg>

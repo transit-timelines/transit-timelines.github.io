@@ -28,12 +28,12 @@
   <image
      style="display:none"
      width="1187"
-     height="890.25"
+     height="1483.75"
      preserveAspectRatio="none"
      xlink:href="../basemap/tciosm.png"
      id="image10"
      x="0"
-     y="59.75" />
+     y="-237" />
   <path
      style="fill:none;stroke:#df020b;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 419.66,844.61 -8.25,-0.24 -1.89,-2.59 -10.88,-36.64 15.04,-6.15 3.02,-4.83 24.22,-58.77 -1.16,-39.12 4.78,-25.53 v -9.3 l -6.26,-24.13 2.48,-6.73 2.24,-6.05 -2.84,-4.13 -17.56,-1.3"

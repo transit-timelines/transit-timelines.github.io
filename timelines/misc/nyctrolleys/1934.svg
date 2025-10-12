@@ -446,10 +446,10 @@ image/svg+xml</dc:format>
      xlink:href="../../basemap/nycosm.png"
      style="display:none;fill:none"
      id="basemap"
-     height="5376"
-     width="5888"
-     y="0"
-     x="-2304" />
+     height="8448"
+     width="6656"
+     y="-2048"
+     x="-1280" />
   <path
      d="m 408.38,2186.14 c 55.78,25.8 85.45,112.76 130.29,143.62"
      id="Weehawken_Ferry"

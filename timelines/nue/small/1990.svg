@@ -28,12 +28,12 @@
   <image
      xlink:href="../basemap/nueosm.png"
      style="display:none"
-     width="3510"
-     height="2851.88"
+     width="3729.38"
+     height="4606.88"
      preserveAspectRatio="none"
      id="image10"
      x="0"
-     y="48.12" />
+     y="-1487.51" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ee1d23;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 886.36,1431.34 24.75,-1.77 18.38,-8.49 11.31,-11.31 28.99,-45.25 33.59,-35 28.28,-54.09 14.5,-28.99 11.31,-19.45 10.25,-33.59 13.08,-65.41 21.21,-34.65 36.97,-42.59 19,-42.5 12.5,-7.75 15.5,-1.5 65.5,25 126,12 58,-24 3.5,-8.75 v -47.5 l 2.5,-13.25 8.5,-23.75 10,-13.5 4.75,-10.75 1.5,-34.25 22.75,-34.25 75,-42.5 17.25,-33"

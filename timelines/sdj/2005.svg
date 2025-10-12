@@ -27,13 +27,13 @@
      id="defs6" />
   <image
      style="display:none"
-     width="2650"
-     height="2650"
+     width="4240"
+     height="3975"
      preserveAspectRatio="none"
      xlink:href="../basemap/sdjosm.png"
      id="image10"
-     x="-25"
-     y="-150" />
+     x="-1085"
+     y="-680" />
   <path
      style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00b0b0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 648.56,1094.24 23.39,-2.03 28.47,2.37 29.49,10.85 11.19,4.07 166.61,25.25 18.14,-4.92 17.63,-11.86 18.98,-21.36 36.61,-62.03 9.83,-11.19 12.54,-7.8 99.32,-33.22 15.25,-10.85 7.12,-11.86 10.85,-24.75 5.76,-7.8 12.2,-6.44 46.1,-11.53 384.75,-34.92 26.78,3.39 21.69,10.17 40.68,16.27 h 11.86 l 16.95,-5.42 188.81,-96.61 164.41,-110.85 18.3,-25.42 12.2,-22.37 8.14,-9.49 14.24,-4.75 46.44,-11.86 17.97,-6.1"

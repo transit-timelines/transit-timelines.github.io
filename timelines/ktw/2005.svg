@@ -28,11 +28,11 @@
   <image
      xlink:href="../basemap/ktwosm.png"
      style="display:none"
-     y="200"
+     y="-15.76"
      x="-1350"
      id="image12"
      preserveAspectRatio="none"
-     height="2804.88"
+     height="3020.64"
      width="5394" />
   <path
      id="path893"

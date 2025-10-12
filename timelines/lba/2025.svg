@@ -11,13 +11,13 @@
   <defs
      id="defs1" />
   <image
-     width="6577.31"
-     height="3986.25"
+     width="6776.62"
+     height="4185.56"
      preserveAspectRatio="none"
      xlink:href="../basemap/lbaosm.png"
      id="image1"
      x="0"
-     y="100"
+     y="-99.31"
      style="display:none" />
   <path
      style="fill:none;fill-opacity:0.25;stroke:#ed1b2d;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"

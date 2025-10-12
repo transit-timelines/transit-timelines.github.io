@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    version="1.1"
    id="svg1"
@@ -14,12 +12,12 @@
      id="defs1" />
   <image
      width="4839"
-     height="5470.17"
+     height="5680.56"
      preserveAspectRatio="none"
      xlink:href="../basemap/einosm.png"
      id="image1"
      x="-100"
-     y="150"
+     y="-60.39"
      style="display:none" />
   <path
      style="fill:none;stroke:#0173bc;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
