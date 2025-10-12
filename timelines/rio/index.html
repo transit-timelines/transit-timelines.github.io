@@ -83,14 +83,14 @@ function showbg() {
         bgimg.style.display = 'inline-block'
         bgbutton = document.getElementById("bgbutton");
         bgbutton.onclick = hidebg;
-        bgbutton.innerText = "click here to hide present-day streets and waterlines"
+        bgbutton.innerText = "click here to hide present-day labels and waterlines"
 }
 function hidebg() {
         bgimg = document.getElementById("bg");
         bgimg.style.display = 'none'
         bgbutton = document.getElementById("bgbutton");
         bgbutton.onclick = showbg;
-        bgbutton.innerText = "click here to show present-day streets and waterlines"
+        bgbutton.innerText = "click here to show present-day labels and waterlines"
 }
 window.onload=function() {
 	gotoyear(location.hash.substring(1));
@@ -117,6 +117,7 @@ window.onhashchange=function() {
 <a id="animbutton" href="javascript:" onclick="startanim()">click here to animate</a>
 <p>
 <a href="javascript:" onclick="nextmap()">
+<img id="bg" src="bg.png" style="position:absolute; z-index: -1; display:none" width="1674" height="1304">
 <img id="map" src="2025.svg" title="2025" alt="2025 map" width="1674" height="1304">
 </a>
 <p>
@@ -154,6 +155,7 @@ window.onhashchange=function() {
 <a href="javascript:" onclick="prevmap()">five years earlier (or press a)</a> ---
 <a href="javascript:" onclick="nextmap()">five years later (or press s)</a>
 <p>
+<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels and waterlines</a><p>
 Based on frequent midday service at the end of the year in question (<a href="../notes.html">notes</a>).<br>
 Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (30 CSS pixels per km)
 <p>
@@ -196,5 +198,5 @@ See also:
 <a href="../ber">Berlin</a> -
 <a href="../">more cities</a>
 <p>
-<div style="font-size: x-small;">By <a href="/">Alexander Rapp</a> (<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>) based on map data by <a href="http://www.openstreetmap.org">OpenStreetMap</a> contributors and historical sources.</div>
+<div style="font-size: x-small;">By <a href="/">Alexander Rapp</a> (<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>) based on map data by <a href="http://www.openstreetmap.org">OpenStreetMap</a> contributors and historical sources. Background map image <a href="https://www.maptiler.com/copyright/">copyright MapTiler</a>.</div>
 </body></html>

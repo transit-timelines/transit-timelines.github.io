@@ -33,7 +33,7 @@
      transform="translate(-120,200)"
      style="display:none">
     <image
-       xlink:href="osm.png"
+       xlink:href="basemap/osm.png"
        y="-350"
        x="-50"
        id="image10"
@@ -41,7 +41,7 @@
        height="2488.89"
        width="2737.78" />
     <image
-       xlink:href="raillayerosm.png"
+       xlink:href="basemap/railosm.png"
        y="-350"
        x="-50"
        id="image5"

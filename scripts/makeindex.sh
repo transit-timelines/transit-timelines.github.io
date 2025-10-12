@@ -76,7 +76,7 @@ grep earlier ${SCRIPTDIR}/template/part1 | sed -e"s/SNAME/${SNAME}/g"
 grep later ${SCRIPTDIR}/template/part1 | sed -e"s/SNAME/${SNAME}/g"
 echo '<p>'
 if [ -f bg.png ]; then
-	echo '<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day streets and waterlines</a><p>'
+	echo '<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels and waterlines</a><p>'
 fi
 if [ -d uncropped ]; then
 	echo '<a href="uncropped">click here for uncropped version</a><p>'

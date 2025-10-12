@@ -83,14 +83,14 @@ function showbg() {
         bgimg.style.display = 'inline-block'
         bgbutton = document.getElementById("bgbutton");
         bgbutton.onclick = hidebg;
-        bgbutton.innerText = "click here to hide present-day streets and waterlines"
+        bgbutton.innerText = "click here to hide present-day labels and waterlines"
 }
 function hidebg() {
         bgimg = document.getElementById("bg");
         bgimg.style.display = 'none'
         bgbutton = document.getElementById("bgbutton");
         bgbutton.onclick = showbg;
-        bgbutton.innerText = "click here to show present-day streets and waterlines"
+        bgbutton.innerText = "click here to show present-day labels and waterlines"
 }
 window.onload=function() {
 	gotoyear(location.hash.substring(1));
@@ -163,7 +163,7 @@ window.onhashchange=function() {
 <a href="javascript:" onclick="prevmap()">five years earlier (or press a)</a> ---
 <a href="javascript:" onclick="nextmap()">five years later (or press s)</a>
 <p>
-<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day streets and waterlines</a><p>
+<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels and waterlines</a><p>
 <table style="margin-left:auto; margin-right:auto; text-align:left;"><tr>
 <td rowspan="2">Key:&nbsp;</td><td></td>
 <td width="16" bgcolor="#eebb00"></td><td>horsecars</td><td></td>

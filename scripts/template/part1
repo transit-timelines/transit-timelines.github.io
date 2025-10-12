@@ -83,14 +83,14 @@ function showbg() {
         bgimg.style.display = 'inline-block'
         bgbutton = document.getElementById("bgbutton");
         bgbutton.onclick = hidebg;
-        bgbutton.innerText = "click here to hide present-day streets and waterlines"
+        bgbutton.innerText = "click here to hide present-day labels and waterlines"
 }
 function hidebg() {
         bgimg = document.getElementById("bg");
         bgimg.style.display = 'none'
         bgbutton = document.getElementById("bgbutton");
         bgbutton.onclick = showbg;
-        bgbutton.innerText = "click here to show present-day streets and waterlines"
+        bgbutton.innerText = "click here to show present-day labels and waterlines"
 }
 window.onload=function() {
 	gotoyear(location.hash.substring(1));

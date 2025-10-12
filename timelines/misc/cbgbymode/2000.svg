@@ -20,7 +20,7 @@
          height="3723.43"
          preserveAspectRatio="none"
          style="display:inline;image-rendering:optimizeSpeed"
-         xlink:href="osm.png"
+         xlink:href="basemap/osm.png"
          id="image4569"
          x="0"
          y="0" /><image
@@ -28,7 +28,7 @@
          height="3723.43"
          preserveAspectRatio="none"
          style="opacity:0.5;image-rendering:optimizeSpeed"
-         xlink:href="raillayerosm.png"
+         xlink:href="basemap/railosm.png"
          id="image97097"
          x="0"
          y="0" /></g><path
