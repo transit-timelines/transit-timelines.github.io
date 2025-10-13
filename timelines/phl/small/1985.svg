@@ -21,7 +21,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -100,7 +99,7 @@
      id="path3658"
      style="fill:none;stroke:#6ea516;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
   <path
-     d="m 2498.5,2093.71 -17,-40.5 -22.5,-38 -12.5,-21 -10,-40 -30.5,-127 0.5,-33 -1,-112 6,-26.5 14,-22 21,-24 143.5,-99.5 83,-59 21.5,-19 16.5,-23.5 12,-33 1,-36.5 1.5,-124.5 5,-21 29,-62 54,-117.5 6.5,-23 3,-18.5 -2,-18 -20,-120 -8.5,-24 -13.5,-31.5 -37,-75 -53.5,-166"
+     d="m 2498.5,2093.71 -17,-40.5 -22.5,-38 -12.5,-21 -10,-40 -30.5,-127 0.5,-33 -1,-112 6,-26.5 14,-22 21,-24 143.5,-99.5 83,-59 21.5,-19 16.5,-23.5 12,-33 1,-36.5 1.5,-124.5 5,-21 29,-62 54,-117.5 6.5,-23 3,-18.5 -2,-18 -20,-120 -8.5,-24 -13.5,-31.5 -37,-75 -53.5,-166 -7.28,-19.19 -14.19,-21.04 -16.39,-17.61 -19.57,-13.45 -17.12,-7.83 -117.9,-43.54"
      id="path3662"
      style="fill:none;stroke:#42647a;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <text

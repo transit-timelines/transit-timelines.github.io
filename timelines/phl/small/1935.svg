@@ -19,7 +19,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -31,12 +30,12 @@
      d="m 2110.22,2664.59 -230.26,-36.9 -79.58,-11.4 -380.92,-60.19 -11.57,-2.47 -2.38,-3.42 4.18,-24.89" />
   <image
      xlink:href="../basemap/phlosm.png"
-     style="display:none"
      id="image12"
      height="4656.71"
      width="5432.82"
      y="0"
-     x="-776.12" />
+     x="-776.12"
+     style="display:none" />
   <path
      style="fill:none;stroke:#ff6600;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="path3636"
@@ -106,4 +105,12 @@
      id="path4503"
      d="m 2400.92,2708.72 -5.51,-2.03 -2.23,-7.15 -11.66,-2.29 -11.02,6.45"
      style="fill:none;fill-rule:evenodd;stroke:#009bde;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 2498.5,2093.71 -17,-40.5 -22.5,-38 -12.5,-21 -10,-40 -30.5,-127 0.5,-33 -1,-112 6,-26.5 14,-22 8.7,-9.95"
+     id="path3662"
+     style="fill:none;stroke:#42647a;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 2159.5,2643.71 18,3.5 23,4 17.5,10 118.5,19 24.31,4.05"
+     id="path3660-7"
+     style="fill:none;stroke:#42647a;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>
