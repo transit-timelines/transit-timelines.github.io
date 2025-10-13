@@ -16,10 +16,10 @@
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs6" /><image
-     xlink:href="../../basemap/nycosm.png"
+     xlink:href="../../timelines/basemap/nycosm.png"
      x="-1280"
      y="-2048"
-     width="6656"
+     width="7168"
      height="8448"
      id="image12"
      style="display:none" /><path

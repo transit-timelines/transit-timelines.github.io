@@ -48,13 +48,13 @@
        style="fill:#330000"
        id="image10"
        height="8448"
-       width="6656"
+       width="7168"
        y="-2048"
        x="-1280" />
     <image
        xlink:href="railosm.png"
        style="opacity:0.5"
-       width="6656"
+       width="7168"
        height="8448"
        preserveAspectRatio="none"
        id="image1296"

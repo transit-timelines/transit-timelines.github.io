@@ -31,7 +31,7 @@
        xlink:href="../../basemap/nycosm.png"
        x="-1280"
        y="-2048"
-       width="6656"
+       width="7168"
        height="8448"
        id="image10"
        style="fill:#330000" />
@@ -42,7 +42,7 @@
        id="image1296"
        preserveAspectRatio="none"
        height="8448"
-       width="6656"
+       width="7168"
        style="opacity:0.5" />
   </g>
   <path

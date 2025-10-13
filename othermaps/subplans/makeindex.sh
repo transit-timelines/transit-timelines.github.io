@@ -10,7 +10,7 @@ span {
         margin-top: 10px;
         margin-bottom: 10px;
 }
-.map {
+.map, .bgmap {
         border: 1px solid;
         margin-left: 10px;
         margin-right: 10px;
@@ -54,6 +54,23 @@ function deselectall() {
                 }
         }
 }
+function showbg() {
+        for (bgimg of document.getElementsByClassName("bgmap")) {
+                bgimg.style.display = 'inline-block';
+        }
+        bgbutton = document.getElementById("bgbutton");
+        bgbutton.onclick = hidebg;
+        bgbutton.innterText = "click here to hide present-day labels and waterlines";
+}
+function hidebg() {
+        for (bgimg of document.getElementsByClassName("bgmap")) {
+                bgimg.style.display = 'none';
+        }
+        bgbutton = document.getElementById("bgbutton");
+        bgbutton.onclick = showbg;
+        bgbutton.innterText = "click here to show present-day labels and waterlines";
+}
+
 window.onload=function() {
 	var spans = document.getElementsByTagName('span');
 	for (var i=0; i<spans.length; i++) {
@@ -126,6 +143,9 @@ for file in $@ '<p>'; do
       fi
       echo '<span id="'$city'" style="display: inline-block; vertical-align: middle">'$NAME'<br>'
       echo '<a href="javascript:next('\'$city\'');">'
+      if [ $SCALE = 30 ]; then
+        echo '<img class="bgmap" src="'$city'-bg.png" style="position:absolute; z-index: -1; display:none" width="'$W'" height="'$H'">'
+      fi
       echo '<img class="map" src="'$file'" id="'$city'map" title="'$NAME'" alt="'$SNAME' map" width="'$W'" height="'$H'"></a><small>'
     fi
     if $br; then echo -n '<br>'; fi
@@ -172,8 +192,11 @@ cat <<HEREDOC
 <a href="javascript:selectall()">show all</a>
 <a href="javascript:deselectall()">hide all</a>
 <p>
-Based on planned frequent midday service (<a href="/timelines/notes.html">notes</a>).<br>
 HEREDOC
+if [ $SCALE = 30 ]; then
+  echo '<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels and waterlines</a><p>'
+fi
+echo 'Based on planned frequent midday service (<a href="/timelines/notes.html">notes</a>).<br>'
 if [ $SCALE = 10 ]; then
   echo 'Scale: <svg width="100px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (10 CSS pixels per km)'
 elif [ $SCALE = 30 ]; then
@@ -185,4 +208,4 @@ Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
 See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines/misc/">miscellaneous timelines and maps</a>
 HEREDOC
-cat ~/timelines/scripts/template/part4
+sed -e's!sources.!sources. Background map images <a href="https://www.maptiler.com/copyright/">copyright MapTiler</a>.!' ~/timelines/scripts/template/part4

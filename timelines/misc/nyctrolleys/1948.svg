@@ -458,7 +458,7 @@ image/svg+xml</dc:format>
      xlink:href="../../basemap/nycosm.png"
      x="-1280"
      y="-2048"
-     width="6656"
+     width="7168"
      height="8448"
      id="basemap"
      style="display:none;fill:#ff0000" />

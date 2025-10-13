@@ -9,7 +9,7 @@ span {
         margin-top: 10px;
         margin-bottom: 10px;
 }
-.map {
+.map, .bgmap {
         border: 1px solid;
         margin-left: 10px;
         margin-right: 10px;
@@ -19,6 +19,22 @@ span {
 function toggleshow(x) {
 	if(document.getElementById(x).style.display=='inline-block') document.getElementById(x).style.display = 'none';
 	else document.getElementById(x).style.display = 'inline-block';
+}
+function showbg() {
+	for (bgimg of document.getElementsByClassName("bgmap")) {
+		bgimg.style.display = 'inline-block';
+	}
+	bgbutton = document.getElementById("bgbutton");
+	bgbutton.onclick = hidebg;
+	bgbutton.innterText = "click here to hide present-day labels and waterlines";
+}
+function hidebg() {
+	for (bgimg of document.getElementsByClassName("bgmap")) {
+		bgimg.style.display = 'none';
+	}
+	bgbutton = document.getElementById("bgbutton");
+	bgbutton.onclick = showbg;
+	bgbutton.innterText = "click here to show present-day labels and waterlines";
 }
 </script>
 <script type="text/javascript">
@@ -64,6 +80,9 @@ for file in $@; do
         echo $NAME'<br>'
       fi
     fi
+    if [ $SCALE = 30 ]; then
+      echo '  <img class="bgmap" src="'$city'-bg.png" style="position:absolute; z-index: -1; display:none" width="'$W'" height="'$H'">'
+    fi
     echo -n '  <img class="map" src="'$file'" title="'$NAME'" alt="'$NAME' map" width="'$W'" height="'$H'">'
     if [ ! -z "$URL" ]; then
       echo '</a></span>'
@@ -86,7 +105,7 @@ for file in $@; do
 done
 if [ $SCALE = 10 ]; then
   cat <<HEREDOC
-</form>-->
+</form><p>-->
 Based on frequent midday service at the end of the year in question (<a href="/timelines/notes.html">notes</a>).<br>
 Scale: <svg width="100px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (10 CSS pixels per km)
 <p>
@@ -96,7 +115,8 @@ See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines
 HEREDOC
 elif [ $SCALE = 30 ]; then
   cat <<HEREDOC
-</form>-->
+</form><p>-->
+<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels and waterlines</a><p>
 Based on frequent midday service at the end of the year in question (<a href="/timelines/notes.html">notes</a>).<br>
 Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (30 CSS pixels per km)
 <p>
@@ -105,4 +125,4 @@ Please send any corrections or questions to threestationsquare at gmail dot com.
 See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines/misc/">miscellaneous timelines and maps</a>
 HEREDOC
 fi
-cat ~/timelines/scripts/template/part4
+sed -e's!sources.!sources. Background map images <a href="https://www.maptiler.com/copyright/">copyright MapTiler</a>.!' ~/timelines/scripts/template/part4
