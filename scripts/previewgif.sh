@@ -4,7 +4,15 @@ mkdir -p anim
 nonempty=false
 for i in [0-9]*.svg; do
   if grep 'stroke-width:[2-5]' $i | grep -v 'stroke:none' >/dev/null; then nonempty=true; fi
-  if $nonempty; then ~/timelines/scripts/hideyear.pl $i > anim/`basename $i`; fi
+  if $nonempty; then
+    if [ -f anim/`basename $i` ]; then
+      rm anim/`basename $i`
+    fi
+    if [ -f water.svg ]; then
+      sed -e's!</svg>!!' water.svg > anim/`basename $i`
+    fi
+    ~/timelines/scripts/hideyear.pl $i >> anim/`basename $i`
+  fi
 done
 cd anim
 for i in `ls *.svg | sort -g`; do

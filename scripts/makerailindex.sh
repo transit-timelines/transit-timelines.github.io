@@ -6,9 +6,9 @@ END=$(basename $(grep -l 'stroke-width:5' [0-9]*.svg | sort -g | tail -n1) .svg)
 STEP=25
 FINALSTEP=$((($END - $START) % $STEP))
 if [ $FINALSTEP -gt 0 ] && [ $END != $START ]; then
-	COUNT=$((2 + ( $END - $FINALSTEP - $START ) / $STEP))
+  COUNT=$((2 + ( $END - $FINALSTEP - $START ) / $STEP))
 else    
-	COUNT=$((1 + ( $END - $START ) / $STEP))
+  COUNT=$((1 + ( $END - $START ) / $STEP))
 fi
 INDEX="count-1"
 DISPLAY=$END
@@ -24,7 +24,7 @@ s/COUNT/${COUNT}/g;
 s!NAME!${NAME}!g;
 s/DISPLAY/${DISPLAY}/g;
 s/INDEX/${INDEX}/g;
-s/URL/${DIRNAME}/g;
+s!URL!${DIRNAME}!g;
 s/PREVW/${PREVDIM% x*}/g;
 s/PREVH/${PREVDIM#*x }/g;
 s/START/${START}/g;
@@ -108,6 +108,20 @@ function stopanim() {
 	animbutton.onclick = startanim;
 	animbutton.innerText = "click here to animate";
 }
+function showbg() {
+	bgimg = document.getElementById("bg");
+	bgimg.style.display = 'inline-block'
+	bgbutton = document.getElementById("bgbutton");
+	bgbutton.onclick = hidebg;
+	bgbutton.innerText = "click here to hide present-day labels"
+}
+function hidebg() {
+	bgimg = document.getElementById("bg");
+	bgimg.style.display = 'none'
+	bgbutton = document.getElementById("bgbutton");
+	bgbutton.onclick = showbg;
+	bgbutton.innerText = "click here to show present-day labels"
+}
 window.onload=function() {
 	gotoyear(location.hash.substring(1));
 }
@@ -142,20 +156,33 @@ cat <<HEREDOC | sed -e"s/STEP/${STEP}/g"
 <p>
 <a href="javascript:" onclick="nextmap()">
 HEREDOC
+if [ -f water.svg ]; then
+  echo '<img id="water" src="water.svg" style="position:absolute; z-index: -2" width="'${W}'" height="'${H}'">'
+fi
+if [ -f bg.png ] && [ $SCALE = 2 ]; then
+  echo '<img id="bg" src="bg.png" style="position:absolute; z-index: -1; display:none" width="'${W}'" height="'${H}'">'
+elif [ -f large-bg.png ]; then
+    echo '<img id="bg" src="large-bg.png" style="position:absolute; z-index: -1; display:none" width="'${W}'" height="'${H}'">'
+fi
 echo '<img id="map" src="'$END'.svg" title="'$END'" alt="'$END' map" width="'${W}'" height="'${H}'">'
 echo '</a>'
 echo '<p>'
 for year in $(seq $START $STEP $END); do
-	echo \<a href=\"#${year}\" onclick=\"gotoyear\(${year}\)\"\>${year}\</a\>
+  echo \<a href=\"#${year}\" onclick=\"gotoyear\(${year}\)\"\>${year}\</a\>
 done
 if [ $FINALSTEP -gt 0 ] && [ $END != $START ]; then
-	echo \<a href=\"#${END}\" onclick=\"gotoyear\(${END}\)\"\>${END}\</a\>
+  echo \<a href=\"#${END}\" onclick=\"gotoyear\(${END}\)\"\>${END}\</a\>
 fi
 cat <<HEREDOC | sed -e"s/STEP/${STEP}/g"
 <p>
 <a href="javascript:" onclick="prevmap()">STEP years earlier (or press a)</a> --- 
 <a href="javascript:" onclick="nextmap()">STEP years later (or press s)</a>
 <p>
+HEREDOC
+if [ -f bg.png ]; then
+  echo '<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels</a><p>'
+fi
+cat <<HEREDOC
 Showing rail lines with at least three trains each weekday.  Lines coloured by operator (<a href="colours.html">key</a>).<br>
 Local tramways (without priority at road crossings) and horse-drawn lines not shown.<br>
 HEREDOC
@@ -167,7 +194,7 @@ Please send any corrections or questions to threestationsquare at gmail dot com.
 <div id="preloader">
 HEREDOC
 for year in $(seq $START $STEP $END); do
-	echo \<img src=\"${year}.svg\" width=\"1\" height=\"1\" alt=\"\"\>
+  echo \<img src=\"${year}.svg\" width=\"1\" height=\"1\" alt=\"\"\>
 done
 echo '</div>'
 first=1
