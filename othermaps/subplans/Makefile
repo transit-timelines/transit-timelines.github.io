@@ -6,7 +6,6 @@ all: large.html index.html $(patsubst %.svg,%.svg.gz,$(wildcard *.svg))
 	gzip -f --keep $<
 
 NYC=nyc1935a.svg nyc1939plan.svg nyc1965a.svg nyc1968plan.svg nyc2025a.svg
-CHI=chi1975a.svg chi1976plan.svg chi2025a.svg
 BOS=bos1892plan.svg bos1915a.svg bos1917plan.svg bos1945a.svg bos1945plan.svg bos2025a.svg
 PIT=pit1965a.svg pit1967plan.svg pit1970plan.svg pit2025a.svg
 SFO=sfo1960a.svg sfo1961plan.svg sfo1966plan.svg sfo2025a.svg
@@ -17,19 +16,15 @@ PVD=pvd1914.svg pvd1914plan.svg pvd2025.svg
 CVG=cvg1920plan.svg
 MSY=msy1959plan.svg
 MAN=man1970a.svg man1971plan.svg man2025a.svg
-CRL=crl2009plan.svg ../../timelines/crl/small/2025.svg
 BER=../../timelines/ber/small/1955.svg ber1955plan.svg ber1989.svg ber1989west.svg ber1989east.svg ../../timelines/ber/small/1995.svg ber1996plan.svg ../../timelines/ber/small/2025.svg
 YMQ=ymq1961plan.svg ymq1970a.svg ymq2015a.svg ymq2016plan.svg ymq2025a.svg
 
-SVGS=$(NYC) $(BER) $(BOS) $(CHI) $(PIT) $(MAN) $(SFO) $(YMQ) $(SEA) $(ZRH) $(CRL) $(HNL) $(PVD) $(CVG) $(MSY)
+SVGS=$(NYC) $(BER) $(BOS) $(PIT) $(MAN) $(SFO) $(YMQ) $(SEA) $(ZRH) $(HNL) $(PVD) $(CVG) $(MSY)
 
-RECROPPED=chi1975a.svg chi2025a.svg bos1915a.svg bos1945a.svg bos2025a.svg pit1965a.svg pit2025a.svg sfo2025a.svg sea2000a.svg sea2015a.svg hnl2025a.svg
+RECROPPED=bos1915a.svg bos1945a.svg bos2025a.svg pit1965a.svg pit2025a.svg sfo2025a.svg sea2000a.svg sea2015a.svg hnl2025a.svg
 
 nyc%a.svg : ../../timelines/nyc/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 0 1950 450 0 $< > $@
-
-chi%a.svg : ../../timelines/chi/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl 0 0 -400 -550 $< > $@
 
 bos%a.svg : ../../timelines/bos/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 0 -600 0 0 $< > $@
@@ -54,7 +49,7 @@ man%a.svg : ../../timelines/man/small/%.svg Makefile
 
 
 index.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
-	./makeindex.sh 10 $(NYC) $(BER) '<br>' $(BOS) $(CHI) $(PIT) $(MAN) '<br>' $(SFO) $(YMQ) $(SEA) $(ZRH) '<br>' $(CRL) $(HNL) $(PVD) $(CVG) $(MSY) > $@
+	./makeindex.sh 10 $(NYC) $(BER) $(BOS) '<br>' $(PIT) $(MAN) $(SFO) '<br>' $(YMQ) $(SEA) $(ZRH) $(HNL) '<br>' $(PVD) $(CVG) $(MSY) > $@
 
 large.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
-	./makeindex.sh 30 $(NYC) $(BER) $(BOS) $(CHI) $(PIT) $(MAN) $(SFO) $(YMQ) $(SEA) $(ZRH) $(CRL) $(HNL) $(PVD) $(CVG) $(MSY) > $@
+	./makeindex.sh 30 $(NYC) $(BER) $(BOS) $(PIT) $(MAN) $(SFO) $(YMQ) $(SEA) $(ZRH) $(HNL) $(PVD) $(CVG) $(MSY) > $@
