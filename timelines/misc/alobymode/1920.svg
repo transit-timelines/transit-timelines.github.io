@@ -29,20 +29,19 @@
    id="path2748" />
 <g
    id="g856"
-   transform="translate(-120,200)"
    style="display:none">
   <image
      xlink:href="basemap/osm.png"
-     y="-350"
-     x="-50"
+     y="-150"
+     x="-170"
      id="image10"
      preserveAspectRatio="none"
      height="2488.89"
      width="2737.78" />
   <image
      xlink:href="basemap/railosm.png"
-     y="-350"
-     x="-50"
+     y="-150"
+     x="-170"
      id="image5"
      preserveAspectRatio="none"
      height="2488.89"

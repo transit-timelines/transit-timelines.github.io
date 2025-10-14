@@ -29,20 +29,19 @@
    id="path2748" />
 <g
    id="g856"
-   transform="translate(-120,200)"
    style="display:none">
   <image
      xlink:href="basemap/osm.png"
-     y="-350"
-     x="-50"
+     y="-150"
+     x="-170"
      id="image10"
      preserveAspectRatio="none"
      height="2488.89"
      width="2737.78" />
   <image
      xlink:href="basemap/railosm.png"
-     y="-350"
-     x="-50"
+     y="-150"
+     x="-170"
      id="image5"
      preserveAspectRatio="none"
      height="2488.89"
@@ -73,7 +72,6 @@
    style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    d="M 1813.73,941.1 1615.83,940.15 1616,970 l -20.1,-0.42 -19.06,23.64"
    id="path7176" />
-
 &quot;
      id=&quot;path840&quot; /&gt;
   <path

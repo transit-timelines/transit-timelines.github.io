@@ -26,7 +26,7 @@
   <defs
      id="defs6" />
   <g
-     transform="translate(200,0)"
+     
      id="g4272"
      style="display:none">
     <image
@@ -35,7 +35,7 @@
        height="12304.69"
        preserveAspectRatio="none"
        id="image4235"
-       x="-564.31"
+       x="-364.31"
        y="-204.69" />
     <image
        xlink:href="basemap/railosm.png"
@@ -44,7 +44,7 @@
        height="12304.69"
        preserveAspectRatio="none"
        id="image4234"
-       x="-564.31"
+       x="-364.31"
        y="-204.69" />
   </g>
   <path

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    version="1.1"
    id="svg4561"
@@ -13,7 +12,6 @@
    xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs4565" /><g
      id="g97103"
-     transform="translate(-2050,-1400)"
      style="display:none"><image
        width="4344"
        height="3723.43"
@@ -21,16 +19,16 @@
        style="display:inline;image-rendering:optimizeSpeed"
        xlink:href="basemap/osm.png"
        id="image4569"
-       x="0"
-       y="0" /><image
+       x="-2050"
+       y="-1400" /><image
        width="4344"
        height="3723.43"
        preserveAspectRatio="none"
        style="opacity:0.5;image-rendering:optimizeSpeed"
        xlink:href="basemap/railosm.png"
        id="image97097"
-       x="0"
-       y="0" /></g><path
+       x="-2050"
+       y="-1400" /></g><path
      style="color:#000000;fill:none;stroke:#999999;stroke-width:3;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      d="m 1492.63,2322.84 -20.91,-47.73 -22.87,-53.61 -0.01,-0.02 -17.12,-38.4 -0.06,-0.12 -9.81,-17.65 -0.08,-0.13 -10.82,-15.35 -0.11,-0.14 -25.5,-28.21 -19.61,-30.48 -14.08,-31.59 -8.59,-29.79 -3.15,-20.02 -1.48,-25.46 2.68,-35.33 v -0.05 l 1.53,-38.36 -0.02,-0.28 -3.48,-23.38 v -0.03 l -3.67,-21.73 -0.03,-0.14 -5.01,-18.36 -0.09,-0.24 -10.33,-22.32 -16.07,-35.81 -11.22,-32.69 -10.89,-35.91 -8.47,-39.82 -4.99,-29.2 -2.99,-36.6 -7.5,-96.48 -7.79,-105.11 1.33,-35.97 3.9,-29.36 5.56,-25.49 15.34,-47.09 26.7,-58.27 0.01,-0.02 53.37,-120.59 50.44,-111.83 v -0.01 l 59.72,-134.42 0.02,-0.04 28.05,-68.06 0.05,-0.15 11.66,-39.57 13.38,-32.83 14.27,-29.57 108.07,-174.11 251.97,-400.12 0.03,-0.04 21.96,-37.64 0.08,-0.17 14.98,-35.1 0.04,-0.11 214.97,-634.61 65.27,-187.75 0.01,-0.02 84.17,-252.25"
      id="path6792" /><path

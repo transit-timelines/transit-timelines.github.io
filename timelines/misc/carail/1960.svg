@@ -27,11 +27,11 @@
   <g
      style="display:none"
      id="g4272"
-     transform="translate(200)">
+     >
     <image
        xlink:href="basemap/caosm.png"
        y="-204.69"
-       x="-564.31"
+       x="-364.31"
        id="image4235"
        preserveAspectRatio="none"
        height="12304.69"
@@ -39,7 +39,7 @@
     <image
        xlink:href="basemap/railosm.png"
        y="-204.69"
-       x="-564.31"
+       x="-364.31"
        id="image4234"
        preserveAspectRatio="none"
        height="12304.69"
