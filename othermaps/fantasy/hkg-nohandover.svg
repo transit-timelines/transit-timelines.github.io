@@ -25,7 +25,7 @@
   <defs
      id="defs6" />
   <path
-     style="fill:#ececec;stroke:none;stroke-width:2;stroke-linejoin:round"
+     style="fill:#dddddd;stroke:none;stroke-width:2;stroke-linejoin:round;fill-opacity:0.25098041"
      d="m 4223.82,3839.94 -258.33,-309.95 -0.11,-420.09 -601.29,-349.12 0.36,-184.25 -294.69,-304.25 -1263.64,37.13 6.95,983.82 710,583.7 z"
      id="path1191" />
   <path
@@ -107,10 +107,10 @@
   <image
      xlink:href="../../timelines/basemap/hkgosm.png"
      id="image12"
-     height="8748.44"
-     width="6873.78"
-     y="-4948.44"
-     x="-2962.22"
+     height="9373.3203"
+     width="9998.208"
+     y="-5573.3281"
+     x="-3587.1079"
      style="display:none" />
   <path
      style="fill:none;stroke:#ee2722;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
