@@ -28,18 +28,18 @@
      width="2247.23"
      height="3246"
      preserveAspectRatio="none"
-     style="image-rendering:optimizeSpeed"
+     style="display:none;image-rendering:optimizeSpeed"
      xlink:href="../../timelines/basemap/pvdosm.png"
      id="image3025"
-     x="4053.14"
+     x="4053.1399"
      y="12739.28" />
   <image
      xlink:href="../../timelines/basemap/bososm.png"
      id="image12"
-     height="4744.15"
-     width="3995.08"
-     y="3501.24"
-     x="6550.31"
+     height="5243.5298"
+     width="4244.77"
+     y="3001.8601"
+     x="6550.3101"
      style="display:none" />
   <path
      style="fill:none;stroke:#e02826;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

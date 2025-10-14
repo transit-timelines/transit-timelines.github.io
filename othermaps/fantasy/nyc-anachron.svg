@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.2"
-   width="5376"
-   height="5376"
-   viewBox="0 0 5376 5376"
+   width="5400"
+   height="5350"
+   viewBox="-50 16 5400 5350"
    id="svg2">
   <metadata
      id="metadata70">
@@ -31,10 +31,10 @@
      xlink:href="../../timelines/basemap/nycosm.png"
      style="display:none"
      id="image12"
-     height="5376"
-     width="3584"
-     y="0"
-     x="1792" />
+     height="8448"
+     width="7168"
+     y="-2048"
+     x="-1280" />
   <path
      d="m 3233.68,2463.43 51.88,-80.48 6.29,-5.56 8.67,0.64 121.53,77.19"
      id="path3638-9"
@@ -292,13 +292,13 @@
      id="path3642"
      style="fill:none;stroke:#fff104;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <text
-     x="89.45"
-     y="206.96"
+     x="39.45"
+     y="222.96"
      id="text3652"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-       x="89.45"
-       y="206.96"
+       x="39.45"
+       y="222.96"
        id="tspan1">Fantasy Map - no construction</tspan></text>
   <path
      d="m 3027,2494 49,30 20,-3 48,-63 125,-203 8,-16 107,-117"
