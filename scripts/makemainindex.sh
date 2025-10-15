@@ -305,5 +305,5 @@ for city in $@; do if [ -f $city/s ]; then
     done
     echo '</div>'
 fi; done
-echo '</div></div>'
-cat ${SCRIPTDIR}/template/part4
+echo '</div>'
+sed -e's!</div>!</div></div>!' ${SCRIPTDIR}/template/part4

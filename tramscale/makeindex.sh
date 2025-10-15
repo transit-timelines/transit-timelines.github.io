@@ -189,6 +189,5 @@ Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-wid
 Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
 See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines/misc/">miscellaneous timelines and maps</a>
-</div>
 HEREDOC
-cat ../scripts/template/part4
+sed -e's!</div>!</div></div>!' ../scripts/template/part4

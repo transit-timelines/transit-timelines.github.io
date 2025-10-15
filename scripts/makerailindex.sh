@@ -150,9 +150,9 @@ HEREDOC
 if [ -f water.svg ]; then
     echo '<img id="water" src="water.svg" style="position:absolute; z-index: -2" width="'${W}'" height="'${H}'">'
 fi
-if [ -f bg.png ] && [ $SCALE = 2 ]; then
+if [ $SCALE = 2 ]; then
     echo '<img id="bg" src="bg.png" style="position:absolute; z-index: -1; display:none" width="'${W}'" height="'${H}'">'
-elif [ -f large-bg.png ]; then
+else
     echo '<img id="bg" src="large-bg.png" style="position:absolute; z-index: -1; display:none" width="'${W}'" height="'${H}'">'
 fi
 echo '<img id="map" src="'$END'.svg" title="'$END'" alt="'$END' map" width="'${W}'" height="'${H}'">'
@@ -169,11 +169,8 @@ cat <<HEREDOC | sed -e"s/STEP/${STEP}/g"
 <a href="javascript:" onclick="prevmap()">STEP years earlier (or press a)</a> --- 
 <a href="javascript:" onclick="nextmap()">STEP years later (or press s)</a>
 <p>
-HEREDOC
-if [ -f bg.png ]; then
-    echo '<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels</a><p>'
-fi
-cat <<HEREDOC
+<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels</a>
+<p>
 Showing rail lines with at least three trains each weekday.  Lines coloured by operator (<a href="colours.html">key</a>).<br>
 Local tramways (without priority at road crossings) and horse-drawn lines not shown.<br>
 HEREDOC
@@ -220,6 +217,6 @@ cat <<HEREDOC
 <a href="../..">other rapid transit timelines</a> -
 <a href="..">miscellaneous timelines and maps</a>
 HEREDOC
-cat ${SCRIPTDIR}/template/part4
+cat ${SCRIPTDIR}/template/part4b
 
 popd >/dev/null
