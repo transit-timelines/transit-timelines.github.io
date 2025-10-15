@@ -9,73 +9,73 @@
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
 div#preloader {
-	position: absolute;
-	left: -9999px;
-	top:  -9999px;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
 }
 div#preloader img {
-	width: 1px;
-	height: 1px;
-	display: block;
+    width: 1px;
+    height: 1px;
+    display: block;
 }
 a:link.map-wrap {
-	text-decoration: none;
+    text-decoration: none;
 }
 div#sidebar {
-	float: left;
-	background: #ffffff;
-	border: 1px solid;
-	width: 10.5em;
-	max-height: calc(100% - 22px);
-	top: 0;
-	left: 0;
-	margin: 5px;
-	padding: 5px;
-	position: fixed;
-	display: flex;
-	flex-flow: column;
-	text-align: left;
+    float: left;
+    background: #ffffff;
+    border: 1px solid;
+    width: 10.5em;
+    max-height: calc(100% - 22px);
+    top: 0;
+    left: 0;
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    text-align: left;
 }
 div#form {
-	flex: 1;
-	overflow: auto;
+    flex: 1;
+    overflow: auto;
 }
 div#button a:link {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 div#button a:visited {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 span {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
 }
 .map {
-	border: 1px solid;
-	margin-left: 10px;
-	margin-right: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .headerfooter {
-	padding-left: calc(10.5em + 22px);
-	padding-right: calc(10.5em + 22px);
-	white-space: nowrap;
+    padding-left: calc(10.5em + 22px);
+    padding-right: calc(10.5em + 22px);
+    white-space: nowrap;
 }
 body {
-	text-align: center;
+    text-align: center;
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	/* styles for IE since flex is broken */
-	div#sidebar {
-		line-height: 1.2em;
-		display: block;
-		max-height: calc(100% - 22px);
-	}
-	div#form {
-		height: calc(100vh - 22px - 3.6em);
-	}
+    /* styles for IE since flex is broken */
+    div#sidebar {
+        line-height: 1.2em;
+        display: block;
+        max-height: calc(100% - 22px);
+    }
+    div#form {
+        height: calc(100vh - 22px - 3.6em);
+    }
 }
 </style>
 <script type="text/javascript">
@@ -86,136 +86,136 @@ citystartyears = { lon: 1840, nyc: 1875, par: 1875, mel: 1880, ber: 1885, lpl: 1
 step=5;
 index=count-1;
 function update(city) {
-	yr = start+step*index;
-	mapimg = document.getElementById(city + "map");
-	if (yr < citystartyears[city.toLowerCase()]) {
-                mapimg.src = encodeURI('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + mapimg.width + ' ' + mapimg.height + '"><text style="font-size:10.435;font-family:Sans;fill:%23000000" x="6.482" y="14.997"><tspan>' + yr + '</tspan></text></svg>');
-        } else {
-                mapimg.src = (city.toLowerCase() + "/small/" + (yr) + ".svg");
-        }
-        mapimg.setAttribute("title", yr);
-        mapimg.setAttribute("alt", yr + " map");
+    yr = start+step*index;
+    mapimg = document.getElementById(city + "map");
+    if (yr < citystartyears[city.toLowerCase()]) {
+        mapimg.src = encodeURI('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + mapimg.width + ' ' + mapimg.height + '"><text style="font-size:10.435;font-family:Sans;fill:%23000000" x="6.482" y="14.997"><tspan>' + yr + '</tspan></text></svg>');
+    } else {
+        mapimg.src = (city.toLowerCase() + "/small/" + (yr) + ".svg");
+    }
+    mapimg.setAttribute("title", yr);
+    mapimg.setAttribute("alt", yr + " map");
 }
 function updateall() {
-	citylist.forEach(function (city) {
-		if (document.getElementById(city).style.display == "inline-block") {
-			update(city);
-		}
-	});
+    citylist.forEach(function (city) {
+        if (document.getElementById(city).style.display == "inline-block") {
+            update(city);
+        }
+    });
 }
 function nextmap() {
-	index = (index+1)%count;
-	updateall();
+    index = (index+1)%count;
+    updateall();
 }
 function prevmap() {
-	index = (index+count-1)%count;
-	updateall();
+    index = (index+count-1)%count;
+    updateall();
 }
 function toggleshow(x) {
-	span = document.getElementById(x);
-	checkboxes = document.getElementsByClassName(x + "checkbox");
-	if (span.style.display == 'inline-block') {
-		mapimg = document.getElementById(x + "map");
-		span.style.display = 'none';
-		if (mapimg.tagName.toUpperCase() == "IMG") mapimg.src = "/0";
-		prediv = document.getElementById(x + "pre");
-		prediv.parentNode.removeChild(prediv);
-		for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = false; }
-	} else {
-		update(x);
-		for (var i = citystartyears[x.toLowerCase()]; i < start + count*step; i+=step) {
-			prediv = document.createElement("div");
-			prediv.id = x + "pre";
-			img = document.createElement("img");
-			img.src = x.toLowerCase() + '/small/' + i + '.svg';
-			img.width = "1"; img.height = "1"; img.alt = "";
-			prediv.appendChild(img);
-			document.getElementById("preloader").appendChild(prediv);
-		}
-		span.style.display = 'inline-block';
-		for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = true; }
-	}
+    span = document.getElementById(x);
+    checkboxes = document.getElementsByClassName(x + "checkbox");
+    if (span.style.display == 'inline-block') {
+        mapimg = document.getElementById(x + "map");
+        span.style.display = 'none';
+        if (mapimg.tagName.toUpperCase() == "IMG") mapimg.src = "/0";
+        prediv = document.getElementById(x + "pre");
+        prediv.parentNode.removeChild(prediv);
+        for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = false; }
+    } else {
+        update(x);
+        for (var i = citystartyears[x.toLowerCase()]; i < start + count*step; i+=step) {
+            prediv = document.createElement("div");
+            prediv.id = x + "pre";
+            img = document.createElement("img");
+            img.src = x.toLowerCase() + '/small/' + i + '.svg';
+            img.width = "1"; img.height = "1"; img.alt = "";
+            prediv.appendChild(img);
+            document.getElementById("preloader").appendChild(prediv);
+        }
+        span.style.display = 'inline-block';
+        for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = true; }
+    }
 }
 function togglesidebar() {
-	f = document.getElementById("form");
-	s = document.getElementById("showall");
-	h = document.getElementById("hideall");
-	a = document.getElementById("collapse");
-	m = document.getElementById("maps");
-	if (f.style.display == 'block') {
-		f.style.display = 'none';
-		s.style.display = 'none';
-		h.style.display = 'none';
-		a.innerHTML = "[+]";
-		m.style.paddingLeft = "0";
-	} else {
-		f.style.display = 'block';
-		s.style.display = 'block';
-		h.style.display = 'block';
-		a.innerHTML = "[&minus;]";
-		m.style.paddingLeft = "calc(10.5em + 22px)";
-	}
+    f = document.getElementById("form");
+    s = document.getElementById("showall");
+    h = document.getElementById("hideall");
+    a = document.getElementById("collapse");
+    m = document.getElementById("maps");
+    if (f.style.display == 'block') {
+        f.style.display = 'none';
+        s.style.display = 'none';
+        h.style.display = 'none';
+        a.innerHTML = "[+]";
+        m.style.paddingLeft = "0";
+    } else {
+        f.style.display = 'block';
+        s.style.display = 'block';
+        h.style.display = 'block';
+        a.innerHTML = "[&minus;]";
+        m.style.paddingLeft = "calc(10.5em + 22px)";
+    }
 }
 function selectall(i) {
-	spans = document.getElementsByTagName("span");
-	if (i < spans.length) {
-		if (spans[i].style.display == 'none') {
-			toggleshow(spans[i].id);
-		}
-		setTimeout(function(){ selectall(i+1) }, 1);
-	}
+    spans = document.getElementsByTagName("span");
+    if (i < spans.length) {
+        if (spans[i].style.display == 'none') {
+            toggleshow(spans[i].id);
+        }
+        setTimeout(function(){ selectall(i+1) }, 1);
+    }
 }
 function deselectall() {
-	spans = document.getElementsByTagName("span");
-	for (var i=0; i < spans.length; i++) {
-		if (spans[i].style.display == 'inline-block') {
-			toggleshow(spans[i].id);
-		}
-	}
+    spans = document.getElementsByTagName("span");
+    for (var i=0; i < spans.length; i++) {
+        if (spans[i].style.display == 'inline-block') {
+            toggleshow(spans[i].id);
+        }
+    }
 }
 function sidebarclick(x) {
-	span = document.getElementById(x);
-	if (span.style.display == 'none') {
-		toggleshow(x);
-	}
-	span.scrollIntoView();
+    span = document.getElementById(x);
+    if (span.style.display == 'none') {
+        toggleshow(x);
+    }
+    span.scrollIntoView();
 }
 intervalID=0;
 function startanim() {
-	intervalID = setInterval(nextmap, 1000);
-	animbutton = document.getElementById("animbutton");
-	animbutton.onclick = stopanim;
-	animbutton.innerText = "click here to stop animation";
+    intervalID = setInterval(nextmap, 1000);
+    animbutton = document.getElementById("animbutton");
+    animbutton.onclick = stopanim;
+    animbutton.innerText = "click here to stop animation";
 }
 function stopanim() {
-	clearInterval(intervalID);
-	animbutton = document.getElementById("animbutton");
-	animbutton.onclick = startanim;
-	animbutton.innerText = "click here to animate";
+    clearInterval(intervalID);
+    animbutton = document.getElementById("animbutton");
+    animbutton.onclick = startanim;
+    animbutton.innerText = "click here to animate";
 }
 
 document.onkeydown=function(keypress) {
-	if(keypress.which == 65) { prevmap(); }
-	if(keypress.which == 83) { nextmap(); }
+    if(keypress.which == 65) { prevmap(); }
+    if(keypress.which == 83) { nextmap(); }
 }
 window.onload=function() {
-	inyear = parseInt(location.hash.substring(1));
-	if( start < inyear & inyear < start+step*count & !(inyear % step) ) {
-		index = (inyear-start)/step;
-		updateall();
-	}
+    inyear = parseInt(location.hash.substring(1));
+    if( start < inyear & inyear < start+step*count & !(inyear % step) ) {
+        index = (inyear-start)/step;
+        updateall();
+    }
 }
 function clicktohide() {
-	citylist.forEach(function (city) {
-		imga = document.getElementById(city).getElementsByTagName("a")[1];
-		imga.href = "javascript:toggleshow('" + city + "')"
-	});
+    citylist.forEach(function (city) {
+        imga = document.getElementById(city).getElementsByTagName("a")[1];
+        imga.href = "javascript:toggleshow('" + city + "')"
+    });
 }
 function unclicktohide() {
-	citylist.forEach(function (city) {
-		span = document.getElementById(city);
-		span.getElementsByTagName("a")[1].href = span.getElementsByTagName("a")[0].href;
-	});
+    citylist.forEach(function (city) {
+        span = document.getElementById(city);
+        span.getElementsByTagName("a")[1].href = span.getElementsByTagName("a")[0].href;
+    });
 }
 </script>
 <script type="text/javascript">
@@ -242,659 +242,659 @@ function unclicktohide() {
 <div id="maps" style="padding-left: calc(10.5em + 22px);">
 <noscript>Sorry, the maps really don't work without javascript.</noscript>
 <span id="LON" style="display: inline-block;"><a href="lon">London</a><br>
-  <a href="lon" class="map-wrap"><img class="map" id="LONmap" src="lon/small/2025.svg" title="2025" alt="2025 map" width="1308" height="1489"></a></span>
+    <a href="lon" class="map-wrap"><img class="map" id="LONmap" src="lon/small/2025.svg" title="2025" alt="2025 map" width="1308" height="1489"></a></span>
 <span id="NYC" style="display: inline-block;"><a href="nyc">New York</a><br>
-  <a href="nyc" class="map-wrap"><img class="map" id="NYCmap" src="nyc/small/2025.svg" title="2025" alt="2025 map" width="464" height="595"></a></span>
+    <a href="nyc" class="map-wrap"><img class="map" id="NYCmap" src="nyc/small/2025.svg" title="2025" alt="2025 map" width="464" height="595"></a></span>
 <span id="PAR" style="display: inline-block;"><a href="par">Paris</a><br>
-  <a href="par" class="map-wrap"><img class="map" id="PARmap" src="par/small/2025.svg" title="2025" alt="2025 map" width="630" height="616"></a></span>
+    <a href="par" class="map-wrap"><img class="map" id="PARmap" src="par/small/2025.svg" title="2025" alt="2025 map" width="630" height="616"></a></span>
 <span id="MEL" style="display: none;"><a href="mel">Melbourne</a><br>
-  <a href="mel" class="map-wrap"><img class="map" id="MELmap" src="/0" title="2025" alt="2025 map" width="1036" height="638"></a></span>
+    <a href="mel" class="map-wrap"><img class="map" id="MELmap" src="/0" title="2025" alt="2025 map" width="1036" height="638"></a></span>
 <span id="BER" style="display: inline-block;"><a href="ber">Berlin</a><br>
-  <a href="ber" class="map-wrap"><img class="map" id="BERmap" src="ber/small/2025.svg" title="2025" alt="2025 map" width="623" height="529"></a></span>
+    <a href="ber" class="map-wrap"><img class="map" id="BERmap" src="ber/small/2025.svg" title="2025" alt="2025 map" width="623" height="529"></a></span>
 <span id="LPL" style="display: none;"><a href="lpl">Liverpool</a><br>
-  <a href="lpl" class="map-wrap"><img class="map" id="LPLmap" src="/0" title="2025" alt="2025 map" width="406" height="515"></a></span>
+    <a href="lpl" class="map-wrap"><img class="map" id="LPLmap" src="/0" title="2025" alt="2025 map" width="406" height="515"></a></span>
 <span id="CHI" style="display: inline-block;"><a href="chi">Chicago</a><br>
-  <a href="chi" class="map-wrap"><img class="map" id="CHImap" src="chi/small/2025.svg" title="2025" alt="2025 map" width="312" height="450"></a></span>
+    <a href="chi" class="map-wrap"><img class="map" id="CHImap" src="chi/small/2025.svg" title="2025" alt="2025 map" width="312" height="450"></a></span>
 <span id="BUD" style="display: none;"><a href="bud">Budapest</a><br>
-  <a href="bud" class="map-wrap"><img class="map" id="BUDmap" src="/0" title="2025" alt="2025 map" width="210" height="406"></a></span>
+    <a href="bud" class="map-wrap"><img class="map" id="BUDmap" src="/0" title="2025" alt="2025 map" width="210" height="406"></a></span>
 <span id="GLA" style="display: none;"><a href="gla">Glasgow / Edinburgh</a><br>
-  <a href="gla" class="map-wrap"><img class="map" id="GLAmap" src="/0" title="2025" alt="2025 map" width="1083" height="659"></a></span>
+    <a href="gla" class="map-wrap"><img class="map" id="GLAmap" src="/0" title="2025" alt="2025 map" width="1083" height="659"></a></span>
 <span id="BOS" style="display: inline-block;"><a href="bos">Boston</a><br>
-  <a href="bos" class="map-wrap"><img class="map" id="BOSmap" src="bos/small/2025.svg" title="2025" alt="2025 map" width="290" height="323"></a></span>
+    <a href="bos" class="map-wrap"><img class="map" id="BOSmap" src="bos/small/2025.svg" title="2025" alt="2025 map" width="290" height="323"></a></span>
 <span id="VIE" style="display: inline-block;"><a href="vie">Wien</a><br>
-  <a href="vie" class="map-wrap"><img class="map" id="VIEmap" src="vie/small/2025.svg" title="2025" alt="2025 map" width="355" height="438"></a></span>
+    <a href="vie" class="map-wrap"><img class="map" id="VIEmap" src="vie/small/2025.svg" title="2025" alt="2025 map" width="355" height="438"></a></span>
 <span id="OSL" style="display: none;"><a href="osl">Oslo</a><br>
-  <a href="osl" class="map-wrap"><img class="map" id="OSLmap" src="/0" title="2025" alt="2025 map" width="486" height="312"></a></span>
+    <a href="osl" class="map-wrap"><img class="map" id="OSLmap" src="/0" title="2025" alt="2025 map" width="486" height="312"></a></span>
 <span id="FRA" style="display: none;"><a href="fra">Frankfurt</a><br>
-  <a href="fra" class="map-wrap"><img class="map" id="FRAmap" src="/0" title="2025" alt="2025 map" width="420" height="293"></a></span>
+    <a href="fra" class="map-wrap"><img class="map" id="FRAmap" src="/0" title="2025" alt="2025 map" width="420" height="293"></a></span>
 <span id="TYO" style="display: inline-block;"><a href="tyo">Tokyo</a><br>
-  <a href="tyo" class="map-wrap"><img class="map" id="TYOmap" src="tyo/small/2025.svg" title="2025" alt="2025 map" width="1283" height="1446"></a></span>
+    <a href="tyo" class="map-wrap"><img class="map" id="TYOmap" src="tyo/small/2025.svg" title="2025" alt="2025 map" width="1283" height="1446"></a></span>
 <span id="DUS" style="display: none;"><a href="dus">Düsseldorf / Köln / Ruhr</a><br>
-  <a href="dus" class="map-wrap"><img class="map" id="DUSmap" src="/0" title="2025" alt="2025 map" width="895" height="1098"></a></span>
+    <a href="dus" class="map-wrap"><img class="map" id="DUSmap" src="/0" title="2025" alt="2025 map" width="895" height="1098"></a></span>
 <span id="NCL" style="display: none;"><a href="ncl">Newcastle</a><br>
-  <a href="ncl" class="map-wrap"><img class="map" id="NCLmap" src="/0" title="2025" alt="2025 map" width="228" height="177"></a></span>
+    <a href="ncl" class="map-wrap"><img class="map" id="NCLmap" src="/0" title="2025" alt="2025 map" width="228" height="177"></a></span>
 <span id="ATH" style="display: none;"><a href="ath">Athína</a><br>
-  <a href="ath" class="map-wrap"><img class="map" id="ATHmap" src="/0" title="2025" alt="2025 map" width="185" height="265"></a></span>
+    <a href="ath" class="map-wrap"><img class="map" id="ATHmap" src="/0" title="2025" alt="2025 map" width="185" height="265"></a></span>
 <span id="PIT" style="display: none;"><a href="pit">Pittsburgh</a><br>
-  <a href="pit" class="map-wrap"><img class="map" id="PITmap" src="/0" title="2025" alt="2025 map" width="264" height="213"></a></span>
+    <a href="pit" class="map-wrap"><img class="map" id="PITmap" src="/0" title="2025" alt="2025 map" width="264" height="213"></a></span>
 <span id="OSA" style="display: inline-block;"><a href="osa">Osaka</a><br>
-  <a href="osa" class="map-wrap"><img class="map" id="OSAmap" src="osa/small/2025.svg" title="2025" alt="2025 map" width="1402" height="1007"></a></span>
+    <a href="osa" class="map-wrap"><img class="map" id="OSAmap" src="osa/small/2025.svg" title="2025" alt="2025 map" width="1402" height="1007"></a></span>
 <span id="PHL" style="display: none;"><a href="phl">Philadelphia</a><br>
-  <a href="phl" class="map-wrap"><img class="map" id="PHLmap" src="/0" title="2025" alt="2025 map" width="366" height="330"></a></span>
+    <a href="phl" class="map-wrap"><img class="map" id="PHLmap" src="/0" title="2025" alt="2025 map" width="366" height="330"></a></span>
 <span id="LAX" style="display: none;"><a href="lax">Los Angeles</a><br>
-  <a href="lax" class="map-wrap"><img class="map" id="LAXmap" src="/0" title="2025" alt="2025 map" width="699" height="496"></a></span>
+    <a href="lax" class="map-wrap"><img class="map" id="LAXmap" src="/0" title="2025" alt="2025 map" width="699" height="496"></a></span>
 <span id="HAM" style="display: none;"><a href="ham">Hamburg</a><br>
-  <a href="ham" class="map-wrap"><img class="map" id="HAMmap" src="/0" title="2025" alt="2025 map" width="435" height="442"></a></span>
+    <a href="ham" class="map-wrap"><img class="map" id="HAMmap" src="/0" title="2025" alt="2025 map" width="435" height="442"></a></span>
 <span id="CAI" style="display: none;"><a href="cai">Qahirah</a><br>
-  <a href="cai" class="map-wrap"><img class="map" id="CAImap" src="/0" title="2025" alt="2025 map" width="616" height="442"></a></span>
+    <a href="cai" class="map-wrap"><img class="map" id="CAImap" src="/0" title="2025" alt="2025 map" width="616" height="442"></a></span>
 <span id="TAK" style="display: none;"><a href="tak">Takamatsu</a><br>
-  <a href="tak" class="map-wrap"><img class="map" id="TAKmap" src="/0" title="2025" alt="2025 map" width="159" height="119"></a></span>
+    <a href="tak" class="map-wrap"><img class="map" id="TAKmap" src="/0" title="2025" alt="2025 map" width="159" height="119"></a></span>
 <span id="KOJ" style="display: none;"><a href="koj">Kagoshima</a><br>
-  <a href="koj" class="map-wrap"><img class="map" id="KOJmap" src="/0" title="2025" alt="2025 map" width="80" height="98"></a></span>
+    <a href="koj" class="map-wrap"><img class="map" id="KOJmap" src="/0" title="2025" alt="2025 map" width="80" height="98"></a></span>
 <span id="YVR" style="display: none;"><a href="yvr">Vancouver</a><br>
-  <a href="yvr" class="map-wrap"><img class="map" id="YVRmap" src="/0" title="2025" alt="2025 map" width="297" height="152"></a></span>
+    <a href="yvr" class="map-wrap"><img class="map" id="YVRmap" src="/0" title="2025" alt="2025 map" width="297" height="152"></a></span>
 <span id="NGO" style="display: none;"><a href="ngo">Nagoya</a><br>
-  <a href="ngo" class="map-wrap"><img class="map" id="NGOmap" src="/0" title="2025" alt="2025 map" width="851" height="1199"></a></span>
+    <a href="ngo" class="map-wrap"><img class="map" id="NGOmap" src="/0" title="2025" alt="2025 map" width="851" height="1199"></a></span>
 <span id="BUE" style="display: none;"><a href="bue">Buenos Aires</a><br>
-  <a href="bue" class="map-wrap"><img class="map" id="BUEmap" src="/0" title="2025" alt="2025 map" width="551" height="540"></a></span>
+    <a href="bue" class="map-wrap"><img class="map" id="BUEmap" src="/0" title="2025" alt="2025 map" width="551" height="540"></a></span>
 <span id="FUK" style="display: none;"><a href="fuk">Fukuoka</a><br>
-  <a href="fuk" class="map-wrap"><img class="map" id="FUKmap" src="/0" title="2025" alt="2025 map" width="746" height="1039"></a></span>
+    <a href="fuk" class="map-wrap"><img class="map" id="FUKmap" src="/0" title="2025" alt="2025 map" width="746" height="1039"></a></span>
 <span id="MAN" style="display: none;"><a href="man">Manchester</a><br>
-  <a href="man" class="map-wrap"><img class="map" id="MANmap" src="/0" title="2025" alt="2025 map" width="192" height="301"></a></span>
+    <a href="man" class="map-wrap"><img class="map" id="MANmap" src="/0" title="2025" alt="2025 map" width="192" height="301"></a></span>
 <span id="SFO" style="display: inline-block;"><a href="sfo">San Francisco</a><br>
-  <a href="sfo" class="map-wrap"><img class="map" id="SFOmap" src="sfo/small/2025.svg" title="2025" alt="2025 map" width="656" height="892"></a></span>
+    <a href="sfo" class="map-wrap"><img class="map" id="SFOmap" src="sfo/small/2025.svg" title="2025" alt="2025 map" width="656" height="892"></a></span>
 <span id="VLC" style="display: none;"><a href="vlc">València ES</a><br>
-  <a href="vlc" class="map-wrap"><img class="map" id="VLCmap" src="/0" title="2025" alt="2025 map" width="145" height="268"></a></span>
+    <a href="vlc" class="map-wrap"><img class="map" id="VLCmap" src="/0" title="2025" alt="2025 map" width="145" height="268"></a></span>
 <span id="MAD" style="display: inline-block;"><a href="mad">Madrid</a><br>
-  <a href="mad" class="map-wrap"><img class="map" id="MADmap" src="mad/small/2025.svg" title="2025" alt="2025 map" width="471" height="496"></a></span>
+    <a href="mad" class="map-wrap"><img class="map" id="MADmap" src="mad/small/2025.svg" title="2025" alt="2025 map" width="471" height="496"></a></span>
 <span id="CLE" style="display: none;"><a href="cle">Cleveland</a><br>
-  <a href="cle" class="map-wrap"><img class="map" id="CLEmap" src="/0" title="2025" alt="2025 map" width="264" height="148"></a></span>
+    <a href="cle" class="map-wrap"><img class="map" id="CLEmap" src="/0" title="2025" alt="2025 map" width="264" height="148"></a></span>
 <span id="HIJ" style="display: none;"><a href="hij">Hiroshima</a><br>
-  <a href="hij" class="map-wrap"><img class="map" id="HIJmap" src="/0" title="2025" alt="2025 map" width="580" height="402"></a></span>
+    <a href="hij" class="map-wrap"><img class="map" id="HIJmap" src="/0" title="2025" alt="2025 map" width="580" height="402"></a></span>
 <span id="RIO" style="display: none;"><a href="rio">Rio de Janeiro</a><br>
-  <a href="rio" class="map-wrap"><img class="map" id="RIOmap" src="/0" title="2025" alt="2025 map" width="558" height="435"></a></span>
+    <a href="rio" class="map-wrap"><img class="map" id="RIOmap" src="/0" title="2025" alt="2025 map" width="558" height="435"></a></span>
 <span id="TOY" style="display: none;"><a href="toy">Toyama</a><br>
-  <a href="toy" class="map-wrap"><img class="map" id="TOYmap" src="/0" title="2025" alt="2025 map" width="290" height="123"></a></span>
+    <a href="toy" class="map-wrap"><img class="map" id="TOYmap" src="/0" title="2025" alt="2025 map" width="290" height="123"></a></span>
 <span id="BCN" style="display: none;"><a href="bcn">Barcelona</a><br>
-  <a href="bcn" class="map-wrap"><img class="map" id="BCNmap" src="/0" title="2025" alt="2025 map" width="612" height="420"></a></span>
+    <a href="bcn" class="map-wrap"><img class="map" id="BCNmap" src="/0" title="2025" alt="2025 map" width="612" height="420"></a></span>
 <span id="MUC" style="display: inline-block;"><a href="muc">München</a><br>
-  <a href="muc" class="map-wrap"><img class="map" id="MUCmap" src="muc/small/2025.svg" title="2025" alt="2025 map" width="601" height="608"></a></span>
+    <a href="muc" class="map-wrap"><img class="map" id="MUCmap" src="muc/small/2025.svg" title="2025" alt="2025 map" width="601" height="608"></a></span>
 <span id="FSZ" style="display: none;"><a href="fsz">Shizuoka</a><br>
-  <a href="fsz" class="map-wrap"><img class="map" id="FSZmap" src="/0" title="2025" alt="2025 map" width="1243" height="515"></a></span>
+    <a href="fsz" class="map-wrap"><img class="map" id="FSZmap" src="/0" title="2025" alt="2025 map" width="1243" height="515"></a></span>
 <span id="STO" style="display: none;"><a href="sto">Stockholm</a><br>
-  <a href="sto" class="map-wrap"><img class="map" id="STOmap" src="/0" title="2025" alt="2025 map" width="406" height="580"></a></span>
+    <a href="sto" class="map-wrap"><img class="map" id="STOmap" src="/0" title="2025" alt="2025 map" width="406" height="580"></a></span>
 <span id="SYD" style="display: inline-block;"><a href="syd">Sydney</a><br>
-  <a href="syd" class="map-wrap"><img class="map" id="SYDmap" src="syd/small/2025.svg" title="2025" alt="2025 map" width="529" height="446"></a></span>
+    <a href="syd" class="map-wrap"><img class="map" id="SYDmap" src="syd/small/2025.svg" title="2025" alt="2025 map" width="529" height="446"></a></span>
 <span id="MYJ" style="display: none;"><a href="myj">Matsuyama</a><br>
-  <a href="myj" class="map-wrap"><img class="map" id="MYJmap" src="/0" title="2025" alt="2025 map" width="188" height="170"></a></span>
+    <a href="myj" class="map-wrap"><img class="map" id="MYJmap" src="/0" title="2025" alt="2025 map" width="188" height="170"></a></span>
 <span id="BOM" style="display: none;"><a href="bom">Mumbai</a><br>
-  <a href="bom" class="map-wrap"><img class="map" id="BOMmap" src="/0" title="2025" alt="2025 map" width="413" height="609"></a></span>
+    <a href="bom" class="map-wrap"><img class="map" id="BOMmap" src="/0" title="2025" alt="2025 map" width="413" height="609"></a></span>
 <span id="ADL" style="display: none;"><a href="adl">Adelaide</a><br>
-  <a href="adl" class="map-wrap"><img class="map" id="ADLmap" src="/0" title="2025" alt="2025 map" width="254" height="675"></a></span>
+    <a href="adl" class="map-wrap"><img class="map" id="ADLmap" src="/0" title="2025" alt="2025 map" width="254" height="675"></a></span>
 <span id="CPH" style="display: none;"><a href="cph">København</a><br>
-  <a href="cph" class="map-wrap"><img class="map" id="CPHmap" src="/0" title="2025" alt="2025 map" width="721" height="659"></a></span>
+    <a href="cph" class="map-wrap"><img class="map" id="CPHmap" src="/0" title="2025" alt="2025 map" width="721" height="659"></a></span>
 <span id="MOW" style="display: inline-block;"><a href="mow">Moskva</a><br>
-  <a href="mow" class="map-wrap"><img class="map" id="MOWmap" src="mow/small/2025.svg" title="2025" alt="2025 map" width="754" height="667"></a></span>
+    <a href="mow" class="map-wrap"><img class="map" id="MOWmap" src="mow/small/2025.svg" title="2025" alt="2025 map" width="754" height="667"></a></span>
 <span id="PME" style="display: none;"><a href="pme">Portsmouth</a><br>
-  <a href="pme" class="map-wrap"><img class="map" id="PMEmap" src="/0" title="2025" alt="2025 map" width="170" height="98"></a></span>
+    <a href="pme" class="map-wrap"><img class="map" id="PMEmap" src="/0" title="2025" alt="2025 map" width="170" height="98"></a></span>
 <span id="NAP" style="display: none;"><a href="nap">Napoli</a><br>
-  <a href="nap" class="map-wrap"><img class="map" id="NAPmap" src="/0" title="2025" alt="2025 map" width="359" height="254"></a></span>
+    <a href="nap" class="map-wrap"><img class="map" id="NAPmap" src="/0" title="2025" alt="2025 map" width="359" height="254"></a></span>
 <span id="GDN" style="display: none;"><a href="gdn">Gdańsk</a><br>
-  <a href="gdn" class="map-wrap"><img class="map" id="GDNmap" src="/0" title="2025" alt="2025 map" width="341" height="345"></a></span>
+    <a href="gdn" class="map-wrap"><img class="map" id="GDNmap" src="/0" title="2025" alt="2025 map" width="341" height="345"></a></span>
 <span id="BRU" style="display: none;"><a href="bru">Bruxelles</a><br>
-  <a href="bru" class="map-wrap"><img class="map" id="BRUmap" src="/0" title="2025" alt="2025 map" width="471" height="757"></a></span>
+    <a href="bru" class="map-wrap"><img class="map" id="BRUmap" src="/0" title="2025" alt="2025 map" width="471" height="757"></a></span>
 <span id="YTO" style="display: none;"><a href="yto">Toronto</a><br>
-  <a href="yto" class="map-wrap"><img class="map" id="YTOmap" src="/0" title="2025" alt="2025 map" width="428" height="301"></a></span>
+    <a href="yto" class="map-wrap"><img class="map" id="YTOmap" src="/0" title="2025" alt="2025 map" width="428" height="301"></a></span>
 <span id="PER" style="display: none;"><a href="per">Perth</a><br>
-  <a href="per" class="map-wrap"><img class="map" id="PERmap" src="/0" title="2025" alt="2025 map" width="377" height="1135"></a></span>
+    <a href="per" class="map-wrap"><img class="map" id="PERmap" src="/0" title="2025" alt="2025 map" width="377" height="1135"></a></span>
 <span id="ROM" style="display: none;"><a href="rom">Roma</a><br>
-  <a href="rom" class="map-wrap"><img class="map" id="ROMmap" src="/0" title="2025" alt="2025 map" width="399" height="511"></a></span>
+    <a href="rom" class="map-wrap"><img class="map" id="ROMmap" src="/0" title="2025" alt="2025 map" width="399" height="511"></a></span>
 <span id="GOT" style="display: none;"><a href="got">Göteborg</a><br>
-  <a href="got" class="map-wrap"><img class="map" id="GOTmap" src="/0" title="2025" alt="2025 map" width="152" height="188"></a></span>
+    <a href="got" class="map-wrap"><img class="map" id="GOTmap" src="/0" title="2025" alt="2025 map" width="152" height="188"></a></span>
 <span id="LED" style="display: none;"><a href="led">Sankt-Peterburg</a><br>
-  <a href="led" class="map-wrap"><img class="map" id="LEDmap" src="/0" title="2025" alt="2025 map" width="185" height="290"></a></span>
+    <a href="led" class="map-wrap"><img class="map" id="LEDmap" src="/0" title="2025" alt="2025 map" width="185" height="290"></a></span>
 <span id="SV_" style="display: none;"><a href="sv_">Salavat</a><br>
-  <a href="sv_" class="map-wrap"><img class="map" id="SV_map" src="/0" title="2025" alt="2025 map" width="54" height="90"></a></span>
+    <a href="sv_" class="map-wrap"><img class="map" id="SV_map" src="/0" title="2025" alt="2025 map" width="54" height="90"></a></span>
 <span id="FKB" style="display: none;"><a href="fkb">Karlsruhe</a><br>
-  <a href="fkb" class="map-wrap"><img class="map" id="FKBmap" src="/0" title="2025" alt="2025 map" width="384" height="301"></a></span>
+    <a href="fkb" class="map-wrap"><img class="map" id="FKBmap" src="/0" title="2025" alt="2025 map" width="384" height="301"></a></span>
 <span id="MIL" style="display: inline-block;"><a href="mil">Milano</a><br>
-  <a href="mil" class="map-wrap"><img class="map" id="MILmap" src="mil/small/2025.svg" title="2025" alt="2025 map" width="333" height="290"></a></span>
+    <a href="mil" class="map-wrap"><img class="map" id="MILmap" src="mil/small/2025.svg" title="2025" alt="2025 map" width="333" height="290"></a></span>
 <span id="LIS" style="display: none;"><a href="lis">Lisboa</a><br>
-  <a href="lis" class="map-wrap"><img class="map" id="LISmap" src="/0" title="2025" alt="2025 map" width="333" height="261"></a></span>
+    <a href="lis" class="map-wrap"><img class="map" id="LISmap" src="/0" title="2025" alt="2025 map" width="333" height="261"></a></span>
 <span id="KBP" style="display: none;"><a href="kbp">Kyiv</a><br>
-  <a href="kbp" class="map-wrap"><img class="map" id="KBPmap" src="/0" title="2025" alt="2025 map" width="261" height="199"></a></span>
+    <a href="kbp" class="map-wrap"><img class="map" id="KBPmap" src="/0" title="2025" alt="2025 map" width="261" height="199"></a></span>
 <span id="AMS" style="display: none;"><a href="ams">Amsterdam / Rotterdam</a><br>
-  <a href="ams" class="map-wrap"><img class="map" id="AMSmap" src="/0" title="2025" alt="2025 map" width="1022" height="986"></a></span>
+    <a href="ams" class="map-wrap"><img class="map" id="AMSmap" src="/0" title="2025" alt="2025 map" width="1022" height="986"></a></span>
 <span id="SOF" style="display: none;"><a href="sof">Sofiya</a><br>
-  <a href="sof" class="map-wrap"><img class="map" id="SOFmap" src="/0" title="2025" alt="2025 map" width="163" height="210"></a></span>
+    <a href="sof" class="map-wrap"><img class="map" id="SOFmap" src="/0" title="2025" alt="2025 map" width="163" height="210"></a></span>
 <span id="BRN" style="display: none;"><a href="brn">Bern</a><br>
-  <a href="brn" class="map-wrap"><img class="map" id="BRNmap" src="/0" title="2025" alt="2025 map" width="203" height="370"></a></span>
+    <a href="brn" class="map-wrap"><img class="map" id="BRNmap" src="/0" title="2025" alt="2025 map" width="203" height="370"></a></span>
 <span id="TBS" style="display: none;"><a href="tbs">Tbilisi</a><br>
-  <a href="tbs" class="map-wrap"><img class="map" id="TBSmap" src="/0" title="2025" alt="2025 map" width="145" height="141"></a></span>
+    <a href="tbs" class="map-wrap"><img class="map" id="TBSmap" src="/0" title="2025" alt="2025 map" width="145" height="141"></a></span>
 <span id="YMQ" style="display: none;"><a href="ymq">Montréal</a><br>
-  <a href="ymq" class="map-wrap"><img class="map" id="YMQmap" src="/0" title="2025" alt="2025 map" width="246" height="192"></a></span>
+    <a href="ymq" class="map-wrap"><img class="map" id="YMQmap" src="/0" title="2025" alt="2025 map" width="246" height="192"></a></span>
 <span id="MAA" style="display: none;"><a href="maa">Chennai</a><br>
-  <a href="maa" class="map-wrap"><img class="map" id="MAAmap" src="/0" title="2025" alt="2025 map" width="225" height="308"></a></span>
+    <a href="maa" class="map-wrap"><img class="map" id="MAAmap" src="/0" title="2025" alt="2025 map" width="225" height="308"></a></span>
 <span id="BRE" style="display: none;"><a href="bre">Bremen</a><br>
-  <a href="bre" class="map-wrap"><img class="map" id="BREmap" src="/0" title="2025" alt="2025 map" width="167" height="167"></a></span>
+    <a href="bre" class="map-wrap"><img class="map" id="BREmap" src="/0" title="2025" alt="2025 map" width="167" height="167"></a></span>
 <span id="BAK" style="display: none;"><a href="bak">Bakı</a><br>
-  <a href="bak" class="map-wrap"><img class="map" id="BAKmap" src="/0" title="2025" alt="2025 map" width="167" height="105"></a></span>
+    <a href="bak" class="map-wrap"><img class="map" id="BAKmap" src="/0" title="2025" alt="2025 map" width="167" height="105"></a></span>
 <span id="SDJ" style="display: none;"><a href="sdj">Sendai</a><br>
-  <a href="sdj" class="map-wrap"><img class="map" id="SDJmap" src="/0" title="2025" alt="2025 map" width="279" height="275"></a></span>
+    <a href="sdj" class="map-wrap"><img class="map" id="SDJmap" src="/0" title="2025" alt="2025 map" width="279" height="275"></a></span>
 <span id="BFE" style="display: none;"><a href="bfe">Bielefeld</a><br>
-  <a href="bfe" class="map-wrap"><img class="map" id="BFEmap" src="/0" title="2025" alt="2025 map" width="116" height="105"></a></span>
+    <a href="bfe" class="map-wrap"><img class="map" id="BFEmap" src="/0" title="2025" alt="2025 map" width="116" height="105"></a></span>
 <span id="MHG" style="display: none;"><a href="mhg">Mannheim</a><br>
-  <a href="mhg" class="map-wrap"><img class="map" id="MHGmap" src="/0" title="2025" alt="2025 map" width="464" height="185"></a></span>
+    <a href="mhg" class="map-wrap"><img class="map" id="MHGmap" src="/0" title="2025" alt="2025 map" width="464" height="185"></a></span>
 <span id="MEX" style="display: inline-block;"><a href="mex">México</a><br>
-  <a href="mex" class="map-wrap"><img class="map" id="MEXmap" src="mex/small/2025.svg" title="2025" alt="2025 map" width="384" height="471"></a></span>
+    <a href="mex" class="map-wrap"><img class="map" id="MEXmap" src="mex/small/2025.svg" title="2025" alt="2025 map" width="384" height="471"></a></span>
 <span id="BWE" style="display: none;"><a href="bwe">Braunschweig</a><br>
-  <a href="bwe" class="map-wrap"><img class="map" id="BWEmap" src="/0" title="2025" alt="2025 map" width="98" height="152"></a></span>
+    <a href="bwe" class="map-wrap"><img class="map" id="BWEmap" src="/0" title="2025" alt="2025 map" width="98" height="152"></a></span>
 <span id="NUE" style="display: none;"><a href="nue">Nürnberg</a><br>
-  <a href="nue" class="map-wrap"><img class="map" id="NUEmap" src="/0" title="2025" alt="2025 map" width="257" height="319"></a></span>
+    <a href="nue" class="map-wrap"><img class="map" id="NUEmap" src="/0" title="2025" alt="2025 map" width="257" height="319"></a></span>
 <span id="SPK" style="display: none;"><a href="spk">Sapporo</a><br>
-  <a href="spk" class="map-wrap"><img class="map" id="SPKmap" src="/0" title="2025" alt="2025 map" width="417" height="435"></a></span>
+    <a href="spk" class="map-wrap"><img class="map" id="SPKmap" src="/0" title="2025" alt="2025 map" width="417" height="435"></a></span>
 <span id="STR" style="display: none;"><a href="str">Stuttgart</a><br>
-  <a href="str" class="map-wrap"><img class="map" id="STRmap" src="/0" title="2025" alt="2025 map" width="504" height="410"></a></span>
+    <a href="str" class="map-wrap"><img class="map" id="STRmap" src="/0" title="2025" alt="2025 map" width="504" height="410"></a></span>
 <span id="BJS" style="display: inline-block;"><a href="bjs">Beijing</a><br>
-  <a href="bjs" class="map-wrap"><img class="map" id="BJSmap" src="bjs/small/2025.svg" title="2025" alt="2025 map" width="678" height="663"></a></span>
+    <a href="bjs" class="map-wrap"><img class="map" id="BJSmap" src="bjs/small/2025.svg" title="2025" alt="2025 map" width="678" height="663"></a></span>
 <span id="NBC" style="display: none;"><a href="nbc">Naberezhnye Chelny</a><br>
-  <a href="nbc" class="map-wrap"><img class="map" id="NBCmap" src="/0" title="2025" alt="2025 map" width="174" height="127"></a></span>
+    <a href="nbc" class="map-wrap"><img class="map" id="NBCmap" src="/0" title="2025" alt="2025 map" width="174" height="127"></a></span>
 <span id="FNJ" style="display: none;"><a href="fnj">Pyongyang</a><br>
-  <a href="fnj" class="map-wrap"><img class="map" id="FNJmap" src="/0" title="2025" alt="2025 map" width="123" height="90"></a></span>
+    <a href="fnj" class="map-wrap"><img class="map" id="FNJmap" src="/0" title="2025" alt="2025 map" width="123" height="90"></a></span>
 <span id="PRG" style="display: none;"><a href="prg">Praha</a><br>
-  <a href="prg" class="map-wrap"><img class="map" id="PRGmap" src="/0" title="2025" alt="2025 map" width="326" height="199"></a></span>
+    <a href="prg" class="map-wrap"><img class="map" id="PRGmap" src="/0" title="2025" alt="2025 map" width="326" height="199"></a></span>
 <span id="SEL" style="display: inline-block;"><a href="sel">Seoul</a><br>
-  <a href="sel" class="map-wrap"><img class="map" id="SELmap" src="sel/small/2025.svg" title="2025" alt="2025 map" width="960" height="1177"></a></span>
+    <a href="sel" class="map-wrap"><img class="map" id="SELmap" src="sel/small/2025.svg" title="2025" alt="2025 map" width="960" height="1177"></a></span>
 <span id="SAO" style="display: inline-block;"><a href="sao">São Paulo</a><br>
-  <a href="sao" class="map-wrap"><img class="map" id="SAOmap" src="sao/small/2025.svg" title="2025" alt="2025 map" width="783" height="660"></a></span>
+    <a href="sao" class="map-wrap"><img class="map" id="SAOmap" src="sao/small/2025.svg" title="2025" alt="2025 map" width="783" height="660"></a></span>
 <span id="RLG" style="display: none;"><a href="rlg">Rostock</a><br>
-  <a href="rlg" class="map-wrap"><img class="map" id="RLGmap" src="/0" title="2025" alt="2025 map" width="105" height="156"></a></span>
+    <a href="rlg" class="map-wrap"><img class="map" id="RLGmap" src="/0" title="2025" alt="2025 map" width="105" height="156"></a></span>
 <span id="SZW" style="display: none;"><a href="szw">Schwerin</a><br>
-  <a href="szw" class="map-wrap"><img class="map" id="SZWmap" src="/0" title="2025" alt="2025 map" width="91" height="102"></a></span>
+    <a href="szw" class="map-wrap"><img class="map" id="SZWmap" src="/0" title="2025" alt="2025 map" width="91" height="102"></a></span>
 <span id="WAW" style="display: none;"><a href="waw">Warszawa</a><br>
-  <a href="waw" class="map-wrap"><img class="map" id="WAWmap" src="/0" title="2025" alt="2025 map" width="380" height="290"></a></span>
+    <a href="waw" class="map-wrap"><img class="map" id="WAWmap" src="/0" title="2025" alt="2025 map" width="380" height="290"></a></span>
 <span id="HRK" style="display: none;"><a href="hrk">Kharkiv</a><br>
-  <a href="hrk" class="map-wrap"><img class="map" id="HRKmap" src="/0" title="2025" alt="2025 map" width="185" height="145"></a></span>
+    <a href="hrk" class="map-wrap"><img class="map" id="HRKmap" src="/0" title="2025" alt="2025 map" width="185" height="145"></a></span>
 <span id="SCL" style="display: none;"><a href="scl">Santiago</a><br>
-  <a href="scl" class="map-wrap"><img class="map" id="SCLmap" src="/0" title="2025" alt="2025 map" width="217" height="315"></a></span>
+    <a href="scl" class="map-wrap"><img class="map" id="SCLmap" src="/0" title="2025" alt="2025 map" width="217" height="315"></a></span>
 <span id="HAJ" style="display: none;"><a href="haj">Hannover</a><br>
-  <a href="haj" class="map-wrap"><img class="map" id="HAJmap" src="/0" title="2025" alt="2025 map" width="192" height="239"></a></span>
+    <a href="haj" class="map-wrap"><img class="map" id="HAJmap" src="/0" title="2025" alt="2025 map" width="192" height="239"></a></span>
 <span id="BIO" style="display: none;"><a href="bio">Bilbao</a><br>
-  <a href="bio" class="map-wrap"><img class="map" id="BIOmap" src="/0" title="2025" alt="2025 map" width="185" height="203"></a></span>
+    <a href="bio" class="map-wrap"><img class="map" id="BIOmap" src="/0" title="2025" alt="2025 map" width="185" height="203"></a></span>
 <span id="BRQ" style="display: none;"><a href="brq">Brno</a><br>
-  <a href="brq" class="map-wrap"><img class="map" id="BRQmap" src="/0" title="2025" alt="2025 map" width="152" height="152"></a></span>
+    <a href="brq" class="map-wrap"><img class="map" id="BRQmap" src="/0" title="2025" alt="2025 map" width="152" height="152"></a></span>
 <span id="WAS" style="display: inline-block;"><a href="was">Washington</a><br>
-  <a href="was" class="map-wrap"><img class="map" id="WASmap" src="was/small/2025.svg" title="2025" alt="2025 map" width="580" height="413"></a></span>
+    <a href="was" class="map-wrap"><img class="map" id="WASmap" src="was/small/2025.svg" title="2025" alt="2025 map" width="580" height="413"></a></span>
 <span id="CRL" style="display: none;"><a href="crl">Charleroi</a><br>
-  <a href="crl" class="map-wrap"><img class="map" id="CRLmap" src="/0" title="2025" alt="2025 map" width="188" height="101"></a></span>
+    <a href="crl" class="map-wrap"><img class="map" id="CRLmap" src="/0" title="2025" alt="2025 map" width="188" height="101"></a></span>
 <span id="ZRH" style="display: none;"><a href="zrh">Zürich</a><br>
-  <a href="zrh" class="map-wrap"><img class="map" id="ZRHmap" src="/0" title="2025" alt="2025 map" width="413" height="431"></a></span>
+    <a href="zrh" class="map-wrap"><img class="map" id="ZRHmap" src="/0" title="2025" alt="2025 map" width="413" height="431"></a></span>
 <span id="GDL" style="display: none;"><a href="gdl">Guadalajara</a><br>
-  <a href="gdl" class="map-wrap"><img class="map" id="GDLmap" src="/0" title="2025" alt="2025 map" width="159" height="177"></a></span>
+    <a href="gdl" class="map-wrap"><img class="map" id="GDLmap" src="/0" title="2025" alt="2025 map" width="159" height="177"></a></span>
 <span id="TAS" style="display: none;"><a href="tas">Toshkent</a><br>
-  <a href="tas" class="map-wrap"><img class="map" id="TASmap" src="/0" title="2025" alt="2025 map" width="163" height="214"></a></span>
+    <a href="tas" class="map-wrap"><img class="map" id="TASmap" src="/0" title="2025" alt="2025 map" width="163" height="214"></a></span>
 <span id="MRS" style="display: none;"><a href="mrs">Marseille</a><br>
-  <a href="mrs" class="map-wrap"><img class="map" id="MRSmap" src="/0" title="2025" alt="2025 map" width="69" height="94"></a></span>
+    <a href="mrs" class="map-wrap"><img class="map" id="MRSmap" src="/0" title="2025" alt="2025 map" width="69" height="94"></a></span>
 <span id="YEG" style="display: none;"><a href="yeg">Edmonton</a><br>
-  <a href="yeg" class="map-wrap"><img class="map" id="YEGmap" src="/0" title="2025" alt="2025 map" width="94" height="177"></a></span>
+    <a href="yeg" class="map-wrap"><img class="map" id="YEGmap" src="/0" title="2025" alt="2025 map" width="94" height="177"></a></span>
 <span id="LYN" style="display: none;"><a href="lyn">Lyon</a><br>
-  <a href="lyn" class="map-wrap"><img class="map" id="LYNmap" src="/0" title="2025" alt="2025 map" width="199" height="134"></a></span>
+    <a href="lyn" class="map-wrap"><img class="map" id="LYNmap" src="/0" title="2025" alt="2025 map" width="199" height="134"></a></span>
 <span id="MO_" style="display: none;"><a href="mo_">Most</a><br>
-  <a href="mo_" class="map-wrap"><img class="map" id="MO_map" src="/0" title="2025" alt="2025 map" width="62" height="164"></a></span>
+    <a href="mo_" class="map-wrap"><img class="map" id="MO_map" src="/0" title="2025" alt="2025 map" width="62" height="164"></a></span>
 <span id="BHX" style="display: none;"><a href="bhx">Birmingham</a><br>
-  <a href="bhx" class="map-wrap"><img class="map" id="BHXmap" src="/0" title="2025" alt="2025 map" width="362" height="438"></a></span>
+    <a href="bhx" class="map-wrap"><img class="map" id="BHXmap" src="/0" title="2025" alt="2025 map" width="362" height="438"></a></span>
 <span id="OSR" style="display: none;"><a href="osr">Ostrava</a><br>
-  <a href="osr" class="map-wrap"><img class="map" id="OSRmap" src="/0" title="2025" alt="2025 map" width="134" height="130"></a></span>
+    <a href="osr" class="map-wrap"><img class="map" id="OSRmap" src="/0" title="2025" alt="2025 map" width="134" height="130"></a></span>
 <span id="LUG" style="display: none;"><a href="lug">Lugano</a><br>
-  <a href="lug" class="map-wrap"><img class="map" id="LUGmap" src="/0" title="2025" alt="2025 map" width="243" height="461"></a></span>
+    <a href="lug" class="map-wrap"><img class="map" id="LUGmap" src="/0" title="2025" alt="2025 map" width="243" height="461"></a></span>
 <span id="ATL" style="display: none;"><a href="atl">Atlanta</a><br>
-  <a href="atl" class="map-wrap"><img class="map" id="ATLmap" src="/0" title="2025" alt="2025 map" width="243" height="363"></a></span>
+    <a href="atl" class="map-wrap"><img class="map" id="ATLmap" src="/0" title="2025" alt="2025 map" width="243" height="363"></a></span>
 <span id="HKG" style="display: inline-block;"><a href="hkg">Hong Kong / Shenzhen</a><br>
-  <a href="hkg" class="map-wrap"><img class="map" id="HKGmap" src="hkg/small/2025.svg" title="2025" alt="2025 map" width="685" height="652"></a></span>
+    <a href="hkg" class="map-wrap"><img class="map" id="HKGmap" src="hkg/small/2025.svg" title="2025" alt="2025 map" width="685" height="652"></a></span>
 <span id="BUH" style="display: none;"><a href="buh">București</a><br>
-  <a href="buh" class="map-wrap"><img class="map" id="BUHmap" src="/0" title="2025" alt="2025 map" width="188" height="188"></a></span>
+    <a href="buh" class="map-wrap"><img class="map" id="BUHmap" src="/0" title="2025" alt="2025 map" width="188" height="188"></a></span>
 <span id="BNE" style="display: none;"><a href="bne">Brisbane</a><br>
-  <a href="bne" class="map-wrap"><img class="map" id="BNEmap" src="/0" title="2025" alt="2025 map" width="319" height="457"></a></span>
+    <a href="bne" class="map-wrap"><img class="map" id="BNEmap" src="/0" title="2025" alt="2025 map" width="319" height="457"></a></span>
 <span id="TUN" style="display: none;"><a href="tun">Tunis</a><br>
-  <a href="tun" class="map-wrap"><img class="map" id="TUNmap" src="/0" title="2025" alt="2025 map" width="341" height="221"></a></span>
+    <a href="tun" class="map-wrap"><img class="map" id="TUNmap" src="/0" title="2025" alt="2025 map" width="341" height="221"></a></span>
 <span id="KTW" style="display: none;"><a href="ktw">Katowice</a><br>
-  <a href="ktw" class="map-wrap"><img class="map" id="KTWmap" src="/0" title="2025" alt="2025 map" width="250" height="217"></a></span>
+    <a href="ktw" class="map-wrap"><img class="map" id="KTWmap" src="/0" title="2025" alt="2025 map" width="250" height="217"></a></span>
 <span id="SO_" style="display: none;"><a href="so_">Stary Oskol</a><br>
-  <a href="so_" class="map-wrap"><img class="map" id="SO_map" src="/0" title="2025" alt="2025 map" width="76" height="214"></a></span>
+    <a href="so_" class="map-wrap"><img class="map" id="SO_map" src="/0" title="2025" alt="2025 map" width="76" height="214"></a></span>
 <span id="EVN" style="display: none;"><a href="evn">Yerevan</a><br>
-  <a href="evn" class="map-wrap"><img class="map" id="EVNmap" src="/0" title="2025" alt="2025 map" width="72" height="83"></a></span>
+    <a href="evn" class="map-wrap"><img class="map" id="EVNmap" src="/0" title="2025" alt="2025 map" width="72" height="83"></a></span>
 <span id="YYC" style="display: none;"><a href="yyc">Calgary</a><br>
-  <a href="yyc" class="map-wrap"><img class="map" id="YYCmap" src="/0" title="2025" alt="2025 map" width="217" height="289"></a></span>
+    <a href="yyc" class="map-wrap"><img class="map" id="YYCmap" src="/0" title="2025" alt="2025 map" width="217" height="289"></a></span>
 <span id="QNC" style="display: none;"><a href="qnc">Neuchâtel</a><br>
-  <a href="qnc" class="map-wrap"><img class="map" id="QNCmap" src="/0" title="2025" alt="2025 map" width="91" height="69"></a></span>
+    <a href="qnc" class="map-wrap"><img class="map" id="QNCmap" src="/0" title="2025" alt="2025 map" width="91" height="69"></a></span>
 <span id="SAN" style="display: none;"><a href="san">San Diego</a><br>
-  <a href="san" class="map-wrap"><img class="map" id="SANmap" src="/0" title="2025" alt="2025 map" width="268" height="406"></a></span>
+    <a href="san" class="map-wrap"><img class="map" id="SANmap" src="/0" title="2025" alt="2025 map" width="268" height="406"></a></span>
 <span id="HEL" style="display: none;"><a href="hel">Helsinki</a><br>
-  <a href="hel" class="map-wrap"><img class="map" id="HELmap" src="/0" title="2025" alt="2025 map" width="319" height="312"></a></span>
+    <a href="hel" class="map-wrap"><img class="map" id="HELmap" src="/0" title="2025" alt="2025 map" width="319" height="312"></a></span>
 <span id="CCS" style="display: none;"><a href="ccs">Caracas</a><br>
-  <a href="ccs" class="map-wrap"><img class="map" id="CCSmap" src="/0" title="2025" alt="2025 map" width="326" height="312"></a></span>
+    <a href="ccs" class="map-wrap"><img class="map" id="CCSmap" src="/0" title="2025" alt="2025 map" width="326" height="312"></a></span>
 <span id="LIL" style="display: none;"><a href="lil">Lille</a><br>
-  <a href="lil" class="map-wrap"><img class="map" id="LILmap" src="/0" title="2025" alt="2025 map" width="163" height="170"></a></span>
+    <a href="lil" class="map-wrap"><img class="map" id="LILmap" src="/0" title="2025" alt="2025 map" width="163" height="170"></a></span>
 <span id="LBA" style="display: none;"><a href="lba">Leeds</a><br>
-  <a href="lba" class="map-wrap"><img class="map" id="LBAmap" src="/0" title="2025" alt="2025 map" width="478" height="293"></a></span>
+    <a href="lba" class="map-wrap"><img class="map" id="LBAmap" src="/0" title="2025" alt="2025 map" width="478" height="293"></a></span>
 <span id="BWI" style="display: none;"><a href="bwi">Baltimore</a><br>
-  <a href="bwi" class="map-wrap"><img class="map" id="BWImap" src="/0" title="2025" alt="2025 map" width="181" height="373"></a></span>
+    <a href="bwi" class="map-wrap"><img class="map" id="BWImap" src="/0" title="2025" alt="2025 map" width="181" height="373"></a></span>
 <span id="YOW" style="display: none;"><a href="yow">Ottawa</a><br>
-  <a href="yow" class="map-wrap"><img class="map" id="YOWmap" src="/0" title="2025" alt="2025 map" width="399" height="301"></a></span>
+    <a href="yow" class="map-wrap"><img class="map" id="YOWmap" src="/0" title="2025" alt="2025 map" width="399" height="301"></a></span>
 <span id="MIA" style="display: none;"><a href="mia">Miami</a><br>
-  <a href="mia" class="map-wrap"><img class="map" id="MIAmap" src="/0" title="2025" alt="2025 map" width="156" height="207"></a></span>
+    <a href="mia" class="map-wrap"><img class="map" id="MIAmap" src="/0" title="2025" alt="2025 map" width="156" height="207"></a></span>
 <span id="LGG" style="display: none;"><a href="lgg">Liège</a><br>
-  <a href="lgg" class="map-wrap"><img class="map" id="LGGmap" src="/0" title="2025" alt="2025 map" width="109" height="98"></a></span>
+    <a href="lgg" class="map-wrap"><img class="map" id="LGGmap" src="/0" title="2025" alt="2025 map" width="109" height="98"></a></span>
 <span id="MSQ" style="display: none;"><a href="msq">Minsk</a><br>
-  <a href="msq" class="map-wrap"><img class="map" id="MSQmap" src="/0" title="2025" alt="2025 map" width="185" height="134"></a></span>
+    <a href="msq" class="map-wrap"><img class="map" id="MSQmap" src="/0" title="2025" alt="2025 map" width="185" height="134"></a></span>
 <span id="DUB" style="display: none;"><a href="dub">Dublin</a><br>
-  <a href="dub" class="map-wrap"><img class="map" id="DUBmap" src="/0" title="2025" alt="2025 map" width="257" height="293"></a></span>
+    <a href="dub" class="map-wrap"><img class="map" id="DUBmap" src="/0" title="2025" alt="2025 map" width="257" height="293"></a></span>
 <span id="CCU" style="display: none;"><a href="ccu">Kolkata</a><br>
-  <a href="ccu" class="map-wrap"><img class="map" id="CCUmap" src="/0" title="2025" alt="2025 map" width="159" height="242"></a></span>
+    <a href="ccu" class="map-wrap"><img class="map" id="CCUmap" src="/0" title="2025" alt="2025 map" width="159" height="242"></a></span>
 <span id="BSL" style="display: none;"><a href="bsl">Basel</a><br>
-  <a href="bsl" class="map-wrap"><img class="map" id="BSLmap" src="/0" title="2025" alt="2025 map" width="225" height="319"></a></span>
+    <a href="bsl" class="map-wrap"><img class="map" id="BSLmap" src="/0" title="2025" alt="2025 map" width="225" height="319"></a></span>
 <span id="VOG" style="display: none;"><a href="vog">Volgograd</a><br>
-  <a href="vog" class="map-wrap"><img class="map" id="VOGmap" src="/0" title="2025" alt="2025 map" width="116" height="149"></a></span>
+    <a href="vog" class="map-wrap"><img class="map" id="VOGmap" src="/0" title="2025" alt="2025 map" width="116" height="149"></a></span>
 <span id="MNL" style="display: none;"><a href="mnl">Manila</a><br>
-  <a href="mnl" class="map-wrap"><img class="map" id="MNLmap" src="/0" title="2025" alt="2025 map" width="170" height="217"></a></span>
+    <a href="mnl" class="map-wrap"><img class="map" id="MNLmap" src="/0" title="2025" alt="2025 map" width="170" height="217"></a></span>
 <span id="TSN" style="display: none;"><a href="tsn">Tianjin</a><br>
-  <a href="tsn" class="map-wrap"><img class="map" id="TSNmap" src="/0" title="2025" alt="2025 map" width="598" height="413"></a></span>
+    <a href="tsn" class="map-wrap"><img class="map" id="TSNmap" src="/0" title="2025" alt="2025 map" width="598" height="413"></a></span>
 <span id="POA" style="display: none;"><a href="poa">Porto Alegre</a><br>
-  <a href="poa" class="map-wrap"><img class="map" id="POAmap" src="/0" title="2025" alt="2025 map" width="130" height="527"></a></span>
+    <a href="poa" class="map-wrap"><img class="map" id="POAmap" src="/0" title="2025" alt="2025 map" width="130" height="527"></a></span>
 <span id="REC" style="display: none;"><a href="rec">Recife</a><br>
-  <a href="rec" class="map-wrap"><img class="map" id="RECmap" src="/0" title="2025" alt="2025 map" width="167" height="178"></a></span>
+    <a href="rec" class="map-wrap"><img class="map" id="RECmap" src="/0" title="2025" alt="2025 map" width="167" height="178"></a></span>
 <span id="BUF" style="display: none;"><a href="buf">Buffalo</a><br>
-  <a href="buf" class="map-wrap"><img class="map" id="BUFmap" src="/0" title="2025" alt="2025 map" width="62" height="102"></a></span>
+    <a href="buf" class="map-wrap"><img class="map" id="BUFmap" src="/0" title="2025" alt="2025 map" width="62" height="102"></a></span>
 <span id="PUS" style="display: none;"><a href="pus">Busan</a><br>
-  <a href="pus" class="map-wrap"><img class="map" id="PUSmap" src="/0" title="2025" alt="2025 map" width="326" height="348"></a></span>
+    <a href="pus" class="map-wrap"><img class="map" id="PUSmap" src="/0" title="2025" alt="2025 map" width="326" height="348"></a></span>
 <span id="POZ" style="display: none;"><a href="poz">Poznań</a><br>
-  <a href="poz" class="map-wrap"><img class="map" id="POZmap" src="/0" title="2025" alt="2025 map" width="130" height="123"></a></span>
+    <a href="poz" class="map-wrap"><img class="map" id="POZmap" src="/0" title="2025" alt="2025 map" width="130" height="123"></a></span>
 <span id="DRS" style="display: none;"><a href="drs">Dresden</a><br>
-  <a href="drs" class="map-wrap"><img class="map" id="DRSmap" src="/0" title="2025" alt="2025 map" width="228" height="224"></a></span>
+    <a href="drs" class="map-wrap"><img class="map" id="DRSmap" src="/0" title="2025" alt="2025 map" width="228" height="224"></a></span>
 <span id="GOJ" style="display: none;"><a href="goj">Nizhny<br>Novgorod</a><br>
-  <a href="goj" class="map-wrap"><img class="map" id="GOJmap" src="/0" title="2025" alt="2025 map" width="145" height="141"></a></span>
+    <a href="goj" class="map-wrap"><img class="map" id="GOJmap" src="/0" title="2025" alt="2025 map" width="145" height="141"></a></span>
 <span id="OVB" style="display: none;"><a href="ovb">Novosibirsk</a><br>
-  <a href="ovb" class="map-wrap"><img class="map" id="OVBmap" src="/0" title="2025" alt="2025 map" width="94" height="116"></a></span>
+    <a href="ovb" class="map-wrap"><img class="map" id="OVBmap" src="/0" title="2025" alt="2025 map" width="94" height="116"></a></span>
 <span id="BHZ" style="display: none;"><a href="bhz">Belo Horizonte</a><br>
-  <a href="bhz" class="map-wrap"><img class="map" id="BHZmap" src="/0" title="2025" alt="2025 map" width="145" height="214"></a></span>
+    <a href="bhz" class="map-wrap"><img class="map" id="BHZmap" src="/0" title="2025" alt="2025 map" width="145" height="214"></a></span>
 <span id="PDX" style="display: none;"><a href="pdx">Portland</a><br>
-  <a href="pdx" class="map-wrap"><img class="map" id="PDXmap" src="/0" title="2025" alt="2025 map" width="464" height="210"></a></span>
+    <a href="pdx" class="map-wrap"><img class="map" id="PDXmap" src="/0" title="2025" alt="2025 map" width="464" height="210"></a></span>
 <span id="CWL" style="display: none;"><a href="cwl">Cardiff</a><br>
-  <a href="cwl" class="map-wrap"><img class="map" id="CWLmap" src="/0" title="2025" alt="2025 map" width="141" height="347"></a></span>
+    <a href="cwl" class="map-wrap"><img class="map" id="CWLmap" src="/0" title="2025" alt="2025 map" width="141" height="347"></a></span>
 <span id="KWG" style="display: none;"><a href="kwg">Kryvyi Rih</a><br>
-  <a href="kwg" class="map-wrap"><img class="map" id="KWGmap" src="/0" title="2025" alt="2025 map" width="101" height="148"></a></span>
+    <a href="kwg" class="map-wrap"><img class="map" id="KWGmap" src="/0" title="2025" alt="2025 map" width="101" height="148"></a></span>
 <span id="SAC" style="display: none;"><a href="sac">Sacramento</a><br>
-  <a href="sac" class="map-wrap"><img class="map" id="SACmap" src="/0" title="2025" alt="2025 map" width="221" height="228"></a></span>
+    <a href="sac" class="map-wrap"><img class="map" id="SACmap" src="/0" title="2025" alt="2025 map" width="221" height="228"></a></span>
 <span id="DTT" style="display: none;"><a href="dtt">Detroit</a><br>
-  <a href="dtt" class="map-wrap"><img class="map" id="DTTmap" src="/0" title="2025" alt="2025 map" width="40" height="44"></a></span>
+    <a href="dtt" class="map-wrap"><img class="map" id="DTTmap" src="/0" title="2025" alt="2025 map" width="40" height="44"></a></span>
 <span id="SIN" style="display: inline-block;"><a href="sin">Singapore</a><br>
-  <a href="sin" class="map-wrap"><img class="map" id="SINmap" src="sin/small/2025.svg" title="2025" alt="2025 map" width="413" height="246"></a></span>
+    <a href="sin" class="map-wrap"><img class="map" id="SINmap" src="sin/small/2025.svg" title="2025" alt="2025 map" width="413" height="246"></a></span>
 <span id="KUF" style="display: none;"><a href="kuf">Samara</a><br>
-  <a href="kuf" class="map-wrap"><img class="map" id="KUFmap" src="/0" title="2025" alt="2025 map" width="120" height="47"></a></span>
+    <a href="kuf" class="map-wrap"><img class="map" id="KUFmap" src="/0" title="2025" alt="2025 map" width="120" height="47"></a></span>
 <span id="IST" style="display: none;"><a href="ist">İstanbul</a><br>
-  <a href="ist" class="map-wrap"><img class="map" id="ISTmap" src="/0" title="2025" alt="2025 map" width="678" height="544"></a></span>
+    <a href="ist" class="map-wrap"><img class="map" id="ISTmap" src="/0" title="2025" alt="2025 map" width="678" height="544"></a></span>
 <span id="DAL" style="display: none;"><a href="dal">Dallas</a><br>
-  <a href="dal" class="map-wrap"><img class="map" id="DALmap" src="/0" title="2025" alt="2025 map" width="464" height="446"></a></span>
+    <a href="dal" class="map-wrap"><img class="map" id="DALmap" src="/0" title="2025" alt="2025 map" width="464" height="446"></a></span>
 <span id="GOA" style="display: none;"><a href="goa">Genova</a><br>
-  <a href="goa" class="map-wrap"><img class="map" id="GOAmap" src="/0" title="2025" alt="2025 map" width="243" height="149"></a></span>
+    <a href="goa" class="map-wrap"><img class="map" id="GOAmap" src="/0" title="2025" alt="2025 map" width="243" height="149"></a></span>
 <span id="SEA" style="display: none;"><a href="sea">Seattle</a><br>
-  <a href="sea" class="map-wrap"><img class="map" id="SEAmap" src="/0" title="2025" alt="2025 map" width="207" height="498"></a></span>
+    <a href="sea" class="map-wrap"><img class="map" id="SEAmap" src="/0" title="2025" alt="2025 map" width="207" height="498"></a></span>
 <span id="BKK" style="display: none;"><a href="bkk">Bangkok</a><br>
-  <a href="bkk" class="map-wrap"><img class="map" id="BKKmap" src="/0" title="2025" alt="2025 map" width="399" height="490"></a></span>
+    <a href="bkk" class="map-wrap"><img class="map" id="BKKmap" src="/0" title="2025" alt="2025 map" width="399" height="490"></a></span>
 <span id="MTY" style="display: none;"><a href="mty">Monterrey</a><br>
-  <a href="mty" class="map-wrap"><img class="map" id="MTYmap" src="/0" title="2025" alt="2025 map" width="279" height="145"></a></span>
+    <a href="mty" class="map-wrap"><img class="map" id="MTYmap" src="/0" title="2025" alt="2025 map" width="279" height="145"></a></span>
 <span id="SVX" style="display: none;"><a href="svx">Yekaterinburg</a><br>
-  <a href="svx" class="map-wrap"><img class="map" id="SVXmap" src="/0" title="2025" alt="2025 map" width="62" height="146"></a></span>
+    <a href="svx" class="map-wrap"><img class="map" id="SVXmap" src="/0" title="2025" alt="2025 map" width="62" height="146"></a></span>
 <span id="QLS" style="display: none;"><a href="qls">Lausanne</a><br>
-  <a href="qls" class="map-wrap"><img class="map" id="QLSmap" src="/0" title="2025" alt="2025 map" width="272" height="214"></a></span>
+    <a href="qls" class="map-wrap"><img class="map" id="QLSmap" src="/0" title="2025" alt="2025 map" width="272" height="214"></a></span>
 <span id="LEJ" style="display: none;"><a href="lej">Leipzig</a><br>
-  <a href="lej" class="map-wrap"><img class="map" id="LEJmap" src="/0" title="2025" alt="2025 map" width="174" height="228"></a></span>
+    <a href="lej" class="map-wrap"><img class="map" id="LEJmap" src="/0" title="2025" alt="2025 map" width="174" height="228"></a></span>
 <span id="KYA" style="display: none;"><a href="kya">Konya</a><br>
-  <a href="kya" class="map-wrap"><img class="map" id="KYAmap" src="/0" title="2025" alt="2025 map" width="65" height="191"></a></span>
+    <a href="kya" class="map-wrap"><img class="map" id="KYAmap" src="/0" title="2025" alt="2025 map" width="65" height="191"></a></span>
 <span id="EAS" style="display: none;"><a href="eas">Donostia</a><br>
-  <a href="eas" class="map-wrap"><img class="map" id="EASmap" src="/0" title="2025" alt="2025 map" width="203" height="98"></a></span>
+    <a href="eas" class="map-wrap"><img class="map" id="EASmap" src="/0" title="2025" alt="2025 map" width="203" height="98"></a></span>
 <span id="VCP" style="display: none;"><a href="vcp">Campinas</a><br>
-  <a href="vcp" class="map-wrap"><img class="map" id="VCPmap" src="/0" title="2025" alt="2025 map" width="145" height="73"></a></span>
+    <a href="vcp" class="map-wrap"><img class="map" id="VCPmap" src="/0" title="2025" alt="2025 map" width="145" height="73"></a></span>
 <span id="SHA" style="display: inline-block;"><a href="sha">Shanghai / Suzhou</a><br>
-  <a href="sha" class="map-wrap"><img class="map" id="SHAmap" src="sha/small/2025.svg" title="2025" alt="2025 map" width="1533" height="605"></a></span>
+    <a href="sha" class="map-wrap"><img class="map" id="SHAmap" src="sha/small/2025.svg" title="2025" alt="2025 map" width="1533" height="605"></a></span>
 <span id="TLS" style="display: none;"><a href="tls">Toulouse</a><br>
-  <a href="tls" class="map-wrap"><img class="map" id="TLSmap" src="/0" title="2025" alt="2025 map" width="91" height="116"></a></span>
+    <a href="tls" class="map-wrap"><img class="map" id="TLSmap" src="/0" title="2025" alt="2025 map" width="91" height="116"></a></span>
 <span id="STL" style="display: none;"><a href="stl">Saint Louis</a><br>
-  <a href="stl" class="map-wrap"><img class="map" id="STLmap" src="/0" title="2025" alt="2025 map" width="438" height="290"></a></span>
+    <a href="stl" class="map-wrap"><img class="map" id="STLmap" src="/0" title="2025" alt="2025 map" width="438" height="290"></a></span>
 <span id="SZD" style="display: none;"><a href="szd">Sheffield</a><br>
-  <a href="szd" class="map-wrap"><img class="map" id="SZDmap" src="/0" title="2025" alt="2025 map" width="127" height="123"></a></span>
+    <a href="szd" class="map-wrap"><img class="map" id="SZDmap" src="/0" title="2025" alt="2025 map" width="127" height="123"></a></span>
 <span id="DEN" style="display: none;"><a href="den">Denver</a><br>
-  <a href="den" class="map-wrap"><img class="map" id="DENmap" src="/0" title="2025" alt="2025 map" width="467" height="380"></a></span>
+    <a href="den" class="map-wrap"><img class="map" id="DENmap" src="/0" title="2025" alt="2025 map" width="467" height="380"></a></span>
 <span id="SXB" style="display: none;"><a href="sxb">Strasbourg</a><br>
-  <a href="sxb" class="map-wrap"><img class="map" id="SXBmap" src="/0" title="2025" alt="2025 map" width="109" height="113"></a></span>
+    <a href="sxb" class="map-wrap"><img class="map" id="SXBmap" src="/0" title="2025" alt="2025 map" width="109" height="113"></a></span>
 <span id="URO" style="display: none;"><a href="uro">Rouen</a><br>
-  <a href="uro" class="map-wrap"><img class="map" id="UROmap" src="/0" title="2025" alt="2025 map" width="65" height="87"></a></span>
+    <a href="uro" class="map-wrap"><img class="map" id="UROmap" src="/0" title="2025" alt="2025 map" width="65" height="87"></a></span>
 <span id="KSF" style="display: none;"><a href="ksf">Kassel</a><br>
-  <a href="ksf" class="map-wrap"><img class="map" id="KSFmap" src="/0" title="2025" alt="2025 map" width="138" height="138"></a></span>
+    <a href="ksf" class="map-wrap"><img class="map" id="KSFmap" src="/0" title="2025" alt="2025 map" width="138" height="138"></a></span>
 <span id="KUL" style="display: none;"><a href="kul">Kuala Lumpur</a><br>
-  <a href="kul" class="map-wrap"><img class="map" id="KULmap" src="/0" title="2025" alt="2025 map" width="627" height="685"></a></span>
+    <a href="kul" class="map-wrap"><img class="map" id="KULmap" src="/0" title="2025" alt="2025 map" width="627" height="685"></a></span>
 <span id="MDE" style="display: none;"><a href="mde">Medellín</a><br>
-  <a href="mde" class="map-wrap"><img class="map" id="MDEmap" src="/0" title="2025" alt="2025 map" width="152" height="221"></a></span>
+    <a href="mde" class="map-wrap"><img class="map" id="MDEmap" src="/0" title="2025" alt="2025 map" width="152" height="221"></a></span>
 <span id="DNK" style="display: none;"><a href="dnk">Dnipro</a><br>
-  <a href="dnk" class="map-wrap"><img class="map" id="DNKmap" src="/0" title="2025" alt="2025 map" width="91" height="84"></a></span>
+    <a href="dnk" class="map-wrap"><img class="map" id="DNKmap" src="/0" title="2025" alt="2025 map" width="91" height="84"></a></span>
 <span id="TPE" style="display: inline-block;"><a href="tpe">Taipei</a><br>
-  <a href="tpe" class="map-wrap"><img class="map" id="TPEmap" src="tpe/small/2025.svg" title="2025" alt="2025 map" width="442" height="304"></a></span>
+    <a href="tpe" class="map-wrap"><img class="map" id="TPEmap" src="tpe/small/2025.svg" title="2025" alt="2025 map" width="442" height="304"></a></span>
 <span id="ANK" style="display: none;"><a href="ank">Ankara</a><br>
-  <a href="ank" class="map-wrap"><img class="map" id="ANKmap" src="/0" title="2025" alt="2025 map" width="362" height="138"></a></span>
+    <a href="ank" class="map-wrap"><img class="map" id="ANKmap" src="/0" title="2025" alt="2025 map" width="362" height="138"></a></span>
 <span id="UIO" style="display: none;"><a href="uio">Quito</a><br>
-  <a href="uio" class="map-wrap"><img class="map" id="UIOmap" src="/0" title="2025" alt="2025 map" width="112" height="238"></a></span>
+    <a href="uio" class="map-wrap"><img class="map" id="UIOmap" src="/0" title="2025" alt="2025 map" width="112" height="238"></a></span>
 <span id="SSA" style="display: none;"><a href="ssa">Salvador</a><br>
-  <a href="ssa" class="map-wrap"><img class="map" id="SSAmap" src="/0" title="2025" alt="2025 map" width="214" height="176"></a></span>
+    <a href="ssa" class="map-wrap"><img class="map" id="SSAmap" src="/0" title="2025" alt="2025 map" width="214" height="176"></a></span>
 <span id="TAE" style="display: none;"><a href="tae">Daegu</a><br>
-  <a href="tae" class="map-wrap"><img class="map" id="TAEmap" src="/0" title="2025" alt="2025 map" width="359" height="192"></a></span>
+    <a href="tae" class="map-wrap"><img class="map" id="TAEmap" src="/0" title="2025" alt="2025 map" width="359" height="192"></a></span>
 <span id="JAX" style="display: none;"><a href="jax">Jacksonville</a><br>
-  <a href="jax" class="map-wrap"><img class="map" id="JAXmap" src="/0" title="2025" alt="2025 map" width="40" height="51"></a></span>
+    <a href="jax" class="map-wrap"><img class="map" id="JAXmap" src="/0" title="2025" alt="2025 map" width="40" height="51"></a></span>
 <span id="CTA" style="display: none;"><a href="cta">Catania</a><br>
-  <a href="cta" class="map-wrap"><img class="map" id="CTAmap" src="/0" title="2025" alt="2025 map" width="80" height="51"></a></span>
+    <a href="cta" class="map-wrap"><img class="map" id="CTAmap" src="/0" title="2025" alt="2025 map" width="80" height="51"></a></span>
 <span id="CAN" style="display: none;"><a href="can">Guangzhou</a><br>
-  <a href="can" class="map-wrap"><img class="map" id="CANmap" src="/0" title="2025" alt="2025 map" width="891" height="985"></a></span>
+    <a href="can" class="map-wrap"><img class="map" id="CANmap" src="/0" title="2025" alt="2025 map" width="891" height="985"></a></span>
 <span id="SLC" style="display: none;"><a href="slc">Salt Lake City</a><br>
-  <a href="slc" class="map-wrap"><img class="map" id="SLCmap" src="/0" title="2025" alt="2025 map" width="174" height="305"></a></span>
+    <a href="slc" class="map-wrap"><img class="map" id="SLCmap" src="/0" title="2025" alt="2025 map" width="174" height="305"></a></span>
 <span id="THR" style="display: none;"><a href="thr">Tehran</a><br>
-  <a href="thr" class="map-wrap"><img class="map" id="THRmap" src="/0" title="2025" alt="2025 map" width="768" height="652"></a></span>
+    <a href="thr" class="map-wrap"><img class="map" id="THRmap" src="/0" title="2025" alt="2025 map" width="768" height="652"></a></span>
 <span id="IZM" style="display: none;"><a href="izm">İzmir</a><br>
-  <a href="izm" class="map-wrap"><img class="map" id="IZMmap" src="/0" title="2025" alt="2025 map" width="199" height="394"></a></span>
+    <a href="izm" class="map-wrap"><img class="map" id="IZMmap" src="/0" title="2025" alt="2025 map" width="199" height="394"></a></span>
 <span id="BOG" style="display: none;"><a href="bog">Bogotá</a><br>
-  <a href="bog" class="map-wrap"><img class="map" id="BOGmap" src="/0" title="2025" alt="2025 map" width="217" height="282"></a></span>
+    <a href="bog" class="map-wrap"><img class="map" id="BOGmap" src="/0" title="2025" alt="2025 map" width="217" height="282"></a></span>
 <span id="BSB" style="display: none;"><a href="bsb">Brasília</a><br>
-  <a href="bsb" class="map-wrap"><img class="map" id="BSBmap" src="/0" title="2025" alt="2025 map" width="272" height="109"></a></span>
+    <a href="bsb" class="map-wrap"><img class="map" id="BSBmap" src="/0" title="2025" alt="2025 map" width="272" height="109"></a></span>
 <span id="SCN" style="display: none;"><a href="scn">Saarbrücken</a><br>
-  <a href="scn" class="map-wrap"><img class="map" id="SCNmap" src="/0" title="2025" alt="2025 map" width="76" height="116"></a></span>
+    <a href="scn" class="map-wrap"><img class="map" id="SCNmap" src="/0" title="2025" alt="2025 map" width="76" height="116"></a></span>
 <span id="RNS" style="display: none;"><a href="rns">Rennes</a><br>
-  <a href="rns" class="map-wrap"><img class="map" id="RNSmap" src="/0" title="2025" alt="2025 map" width="87" height="65"></a></span>
+    <a href="rns" class="map-wrap"><img class="map" id="RNSmap" src="/0" title="2025" alt="2025 map" width="87" height="65"></a></span>
 <span id="BTZ" style="display: none;"><a href="btz">Bursa</a><br>
-  <a href="btz" class="map-wrap"><img class="map" id="BTZmap" src="/0" title="2025" alt="2025 map" width="304" height="192"></a></span>
+    <a href="btz" class="map-wrap"><img class="map" id="BTZmap" src="/0" title="2025" alt="2025 map" width="304" height="192"></a></span>
 <span id="OPO" style="display: none;"><a href="opo">Porto</a><br>
-  <a href="opo" class="map-wrap"><img class="map" id="OPOmap" src="/0" title="2025" alt="2025 map" width="199" height="336"></a></span>
+    <a href="opo" class="map-wrap"><img class="map" id="OPOmap" src="/0" title="2025" alt="2025 map" width="199" height="336"></a></span>
 <span id="CGQ" style="display: none;"><a href="cgq">Changchun</a><br>
-  <a href="cgq" class="map-wrap"><img class="map" id="CGQmap" src="/0" title="2025" alt="2025 map" width="330" height="301"></a></span>
+    <a href="cgq" class="map-wrap"><img class="map" id="CGQmap" src="/0" title="2025" alt="2025 map" width="330" height="301"></a></span>
 <span id="DLC" style="display: none;"><a href="dlc">Dalian</a><br>
-  <a href="dlc" class="map-wrap"><img class="map" id="DLCmap" src="/0" title="2025" alt="2025 map" width="764" height="724"></a></span>
+    <a href="dlc" class="map-wrap"><img class="map" id="DLCmap" src="/0" title="2025" alt="2025 map" width="764" height="724"></a></span>
 <span id="AAH" style="display: none;"><a href="aah">Aachen</a><br>
-  <a href="aah" class="map-wrap"><img class="map" id="AAHmap" src="/0" title="2025" alt="2025 map" width="134" height="138"></a></span>
+    <a href="aah" class="map-wrap"><img class="map" id="AAHmap" src="/0" title="2025" alt="2025 map" width="134" height="138"></a></span>
 <span id="DEL" style="display: inline-block;"><a href="del">Delhi</a><br>
-  <a href="del" class="map-wrap"><img class="map" id="DELmap" src="del/small/2025.svg" title="2025" alt="2025 map" width="714" height="649"></a></span>
+    <a href="del" class="map-wrap"><img class="map" id="DELmap" src="del/small/2025.svg" title="2025" alt="2025 map" width="714" height="649"></a></span>
 <span id="LIM" style="display: none;"><a href="lim">Lima</a><br>
-  <a href="lim" class="map-wrap"><img class="map" id="LIMmap" src="/0" title="2025" alt="2025 map" width="152" height="293"></a></span>
+    <a href="lim" class="map-wrap"><img class="map" id="LIMmap" src="/0" title="2025" alt="2025 map" width="152" height="293"></a></span>
 <span id="OKA" style="display: none;"><a href="oka">Naha</a><br>
-  <a href="oka" class="map-wrap"><img class="map" id="OKAmap" src="/0" title="2025" alt="2025 map" width="105" height="76"></a></span>
+    <a href="oka" class="map-wrap"><img class="map" id="OKAmap" src="/0" title="2025" alt="2025 map" width="105" height="76"></a></span>
 <span id="EIN" style="display: none;"><a href="ein">Eindhoven</a><br>
-  <a href="ein" class="map-wrap"><img class="map" id="EINmap" src="/0" title="2025" alt="2025 map" width="130" height="184"></a></span>
+    <a href="ein" class="map-wrap"><img class="map" id="EINmap" src="/0" title="2025" alt="2025 map" width="130" height="184"></a></span>
 <span id="JKT" style="display: none;"><a href="jkt">Jakarta</a><br>
-  <a href="jkt" class="map-wrap"><img class="map" id="JKTmap" src="/0" title="2025" alt="2025 map" width="518" height="547"></a></span>
+    <a href="jkt" class="map-wrap"><img class="map" id="JKTmap" src="/0" title="2025" alt="2025 map" width="518" height="547"></a></span>
 <span id="NQT" style="display: none;"><a href="nqt">Nottingham</a><br>
-  <a href="nqt" class="map-wrap"><img class="map" id="NQTmap" src="/0" title="2025" alt="2025 map" width="98" height="178"></a></span>
+    <a href="nqt" class="map-wrap"><img class="map" id="NQTmap" src="/0" title="2025" alt="2025 map" width="98" height="178"></a></span>
 <span id="KWJ" style="display: none;"><a href="kwj">Gwangju</a><br>
-  <a href="kwj" class="map-wrap"><img class="map" id="KWJmap" src="/0" title="2025" alt="2025 map" width="185" height="58"></a></span>
+    <a href="kwj" class="map-wrap"><img class="map" id="KWJmap" src="/0" title="2025" alt="2025 map" width="185" height="58"></a></span>
 <span id="MSP" style="display: none;"><a href="msp">Minneapolis</a><br>
-  <a href="msp" class="map-wrap"><img class="map" id="MSPmap" src="/0" title="2025" alt="2025 map" width="167" height="174"></a></span>
+    <a href="msp" class="map-wrap"><img class="map" id="MSPmap" src="/0" title="2025" alt="2025 map" width="167" height="174"></a></span>
 <span id="CLT" style="display: none;"><a href="clt">Charlotte</a><br>
-  <a href="clt" class="map-wrap"><img class="map" id="CLTmap" src="/0" title="2025" alt="2025 map" width="156" height="250"></a></span>
+    <a href="clt" class="map-wrap"><img class="map" id="CLTmap" src="/0" title="2025" alt="2025 map" width="156" height="250"></a></span>
 <span id="LAS" style="display: none;"><a href="las">Las<br>Vegas</a><br>
-  <a href="las" class="map-wrap"><img class="map" id="LASmap" src="/0" title="2025" alt="2025 map" width="43" height="82"></a></span>
+    <a href="las" class="map-wrap"><img class="map" id="LASmap" src="/0" title="2025" alt="2025 map" width="43" height="82"></a></span>
 <span id="WUH" style="display: none;"><a href="wuh">Wuhan</a><br>
-  <a href="wuh" class="map-wrap"><img class="map" id="WUHmap" src="/0" title="2025" alt="2025 map" width="656" height="703"></a></span>
+    <a href="wuh" class="map-wrap"><img class="map" id="WUHmap" src="/0" title="2025" alt="2025 map" width="656" height="703"></a></span>
 <span id="LNZ" style="display: none;"><a href="lnz">Linz</a><br>
-  <a href="lnz" class="map-wrap"><img class="map" id="LNZmap" src="/0" title="2025" alt="2025 map" width="116" height="149"></a></span>
+    <a href="lnz" class="map-wrap"><img class="map" id="LNZmap" src="/0" title="2025" alt="2025 map" width="116" height="149"></a></span>
 <span id="TLV" style="display: none;"><a href="tlv">Tel Aviv</a><br>
-  <a href="tlv" class="map-wrap"><img class="map" id="TLVmap" src="/0" title="2025" alt="2025 map" width="152" height="199"></a></span>
+    <a href="tlv" class="map-wrap"><img class="map" id="TLVmap" src="/0" title="2025" alt="2025 map" width="152" height="199"></a></span>
 <span id="SJU" style="display: none;"><a href="sju">San Juan</a><br>
-  <a href="sju" class="map-wrap"><img class="map" id="SJUmap" src="/0" title="2025" alt="2025 map" width="123" height="72"></a></span>
+    <a href="sju" class="map-wrap"><img class="map" id="SJUmap" src="/0" title="2025" alt="2025 map" width="123" height="72"></a></span>
 <span id="CKG" style="display: none;"><a href="ckg">Chongqing</a><br>
-  <a href="ckg" class="map-wrap"><img class="map" id="CKGmap" src="/0" title="2025" alt="2025 map" width="790" height="616"></a></span>
+    <a href="ckg" class="map-wrap"><img class="map" id="CKGmap" src="/0" title="2025" alt="2025 map" width="790" height="616"></a></span>
 <span id="BFS" style="display: none;"><a href="bfs">Belfast</a><br>
-  <a href="bfs" class="map-wrap"><img class="map" id="BFSmap" src="/0" title="2025" alt="2025 map" width="518" height="290"></a></span>
+    <a href="bfs" class="map-wrap"><img class="map" id="BFSmap" src="/0" title="2025" alt="2025 map" width="518" height="290"></a></span>
 <span id="NKG" style="display: none;"><a href="nkg">Nanjing</a><br>
-  <a href="nkg" class="map-wrap"><img class="map" id="NKGmap" src="/0" title="2025" alt="2025 map" width="851" height="971"></a></span>
+    <a href="nkg" class="map-wrap"><img class="map" id="NKGmap" src="/0" title="2025" alt="2025 map" width="851" height="971"></a></span>
 <span id="KZN" style="display: none;"><a href="kzn">Kazan</a><br>
-  <a href="kzn" class="map-wrap"><img class="map" id="KZNmap" src="/0" title="2025" alt="2025 map" width="116" height="178"></a></span>
+    <a href="kzn" class="map-wrap"><img class="map" id="KZNmap" src="/0" title="2025" alt="2025 map" width="116" height="178"></a></span>
 <span id="VAP" style="display: none;"><a href="vap">Valparaíso</a><br>
-  <a href="vap" class="map-wrap"><img class="map" id="VAPmap" src="/0" title="2025" alt="2025 map" width="344" height="105"></a></span>
+    <a href="vap" class="map-wrap"><img class="map" id="VAPmap" src="/0" title="2025" alt="2025 map" width="344" height="105"></a></span>
 <span id="TRN" style="display: none;"><a href="trn">Torino</a><br>
-  <a href="trn" class="map-wrap"><img class="map" id="TRNmap" src="/0" title="2025" alt="2025 map" width="130" height="152"></a></span>
+    <a href="trn" class="map-wrap"><img class="map" id="TRNmap" src="/0" title="2025" alt="2025 map" width="130" height="152"></a></span>
 <span id="CJJ" style="display: none;"><a href="cjj">Daejeon</a><br>
-  <a href="cjj" class="map-wrap"><img class="map" id="CJJmap" src="/0" title="2025" alt="2025 map" width="145" height="112"></a></span>
+    <a href="cjj" class="map-wrap"><img class="map" id="CJJmap" src="/0" title="2025" alt="2025 map" width="145" height="112"></a></span>
 <span id="VLN" style="display: none;"><a href="vln">Valencia VE</a><br>
-  <a href="vln" class="map-wrap"><img class="map" id="VLNmap" src="/0" title="2025" alt="2025 map" width="54" height="90"></a></span>
+    <a href="vln" class="map-wrap"><img class="map" id="VLNmap" src="/0" title="2025" alt="2025 map" width="54" height="90"></a></span>
 <span id="MAR" style="display: none;"><a href="mar">Maracaibo</a><br>
-  <a href="mar" class="map-wrap"><img class="map" id="MARmap" src="/0" title="2025" alt="2025 map" width="72" height="43"></a></span>
+    <a href="mar" class="map-wrap"><img class="map" id="MARmap" src="/0" title="2025" alt="2025 map" width="72" height="43"></a></span>
 <span id="EML" style="display: none;"><a href="eml">Luzern</a><br>
-  <a href="eml" class="map-wrap"><img class="map" id="EMLmap" src="/0" title="2025" alt="2025 map" width="72" height="137"></a></span>
+    <a href="eml" class="map-wrap"><img class="map" id="EMLmap" src="/0" title="2025" alt="2025 map" width="72" height="137"></a></span>
 <span id="GUA" style="display: none;"><a href="gua">Guatemala</a><br>
-  <a href="gua" class="map-wrap"><img class="map" id="GUAmap" src="/0" title="2025" alt="2025 map" width="83" height="94"></a></span>
+    <a href="gua" class="map-wrap"><img class="map" id="GUAmap" src="/0" title="2025" alt="2025 map" width="83" height="94"></a></span>
 <span id="PMI" style="display: none;"><a href="pmi">Palma</a><br>
-  <a href="pmi" class="map-wrap"><img class="map" id="PMImap" src="/0" title="2025" alt="2025 map" width="250" height="181"></a></span>
+    <a href="pmi" class="map-wrap"><img class="map" id="PMImap" src="/0" title="2025" alt="2025 map" width="250" height="181"></a></span>
 <span id="TCI" style="display: none;"><a href="tci">Tenerife</a><br>
-  <a href="tci" class="map-wrap"><img class="map" id="TCImap" src="/0" title="2025" alt="2025 map" width="83" height="72"></a></span>
+    <a href="tci" class="map-wrap"><img class="map" id="TCImap" src="/0" title="2025" alt="2025 map" width="83" height="72"></a></span>
 <span id="ALC" style="display: none;"><a href="alc">Alicante</a><br>
-  <a href="alc" class="map-wrap"><img class="map" id="ALCmap" src="/0" title="2025" alt="2025 map" width="123" height="109"></a></span>
+    <a href="alc" class="map-wrap"><img class="map" id="ALCmap" src="/0" title="2025" alt="2025 map" width="123" height="109"></a></span>
 <span id="INN" style="display: none;"><a href="inn">Innsbruck</a><br>
-  <a href="inn" class="map-wrap"><img class="map" id="INNmap" src="/0" title="2025" alt="2025 map" width="319" height="218"></a></span>
+    <a href="inn" class="map-wrap"><img class="map" id="INNmap" src="/0" title="2025" alt="2025 map" width="319" height="218"></a></span>
 <span id="PEG" style="display: none;"><a href="peg">Perugia</a><br>
-  <a href="peg" class="map-wrap"><img class="map" id="PEGmap" src="/0" title="2025" alt="2025 map" width="47" height="40"></a></span>
+    <a href="peg" class="map-wrap"><img class="map" id="PEGmap" src="/0" title="2025" alt="2025 map" width="47" height="40"></a></span>
 <span id="AKL" style="display: none;"><a href="akl">Auckland</a><br>
-  <a href="akl" class="map-wrap"><img class="map" id="AKLmap" src="/0" title="2025" alt="2025 map" width="344" height="409"></a></span>
+    <a href="akl" class="map-wrap"><img class="map" id="AKLmap" src="/0" title="2025" alt="2025 map" width="344" height="409"></a></span>
 <span id="KHH" style="display: none;"><a href="khh">Kaohsiung</a><br>
-  <a href="khh" class="map-wrap"><img class="map" id="KHHmap" src="/0" title="2025" alt="2025 map" width="138" height="272"></a></span>
+    <a href="khh" class="map-wrap"><img class="map" id="KHHmap" src="/0" title="2025" alt="2025 map" width="138" height="272"></a></span>
 <span id="XMN" style="display: none;"><a href="xmn">Xiamen</a><br>
-  <a href="xmn" class="map-wrap"><img class="map" id="XMNmap" src="/0" title="2025" alt="2025 map" width="366" height="344"></a></span>
+    <a href="xmn" class="map-wrap"><img class="map" id="XMNmap" src="/0" title="2025" alt="2025 map" width="366" height="344"></a></span>
 <span id="KRK" style="display: none;"><a href="krk">Kraków</a><br>
-  <a href="krk" class="map-wrap"><img class="map" id="KRKmap" src="/0" title="2025" alt="2025 map" width="185" height="116"></a></span>
+    <a href="krk" class="map-wrap"><img class="map" id="KRKmap" src="/0" title="2025" alt="2025 map" width="185" height="116"></a></span>
 <span id="ZDA" style="display: none;"><a href="zda">Aarau</a><br>
-  <a href="zda" class="map-wrap"><img class="map" id="ZDAmap" src="/0" title="2025" alt="2025 map" width="130" height="199"></a></span>
+    <a href="zda" class="map-wrap"><img class="map" id="ZDAmap" src="/0" title="2025" alt="2025 map" width="130" height="199"></a></span>
 <span id="QAR" style="display: none;"><a href="qar">Arnhem / Nijmegen</a><br>
-  <a href="qar" class="map-wrap"><img class="map" id="QARmap" src="/0" title="2025" alt="2025 map" width="406" height="529"></a></span>
+    <a href="qar" class="map-wrap"><img class="map" id="QARmap" src="/0" title="2025" alt="2025 map" width="406" height="529"></a></span>
 <span id="SDQ" style="display: none;"><a href="sdq">Santo Domingo</a><br>
-  <a href="sdq" class="map-wrap"><img class="map" id="SDQmap" src="/0" title="2025" alt="2025 map" width="221" height="123"></a></span>
+    <a href="sdq" class="map-wrap"><img class="map" id="SDQmap" src="/0" title="2025" alt="2025 map" width="221" height="123"></a></span>
 <span id="ADA" style="display: none;"><a href="ada">Adana</a><br>
-  <a href="ada" class="map-wrap"><img class="map" id="ADAmap" src="/0" title="2025" alt="2025 map" width="91" height="109"></a></span>
+    <a href="ada" class="map-wrap"><img class="map" id="ADAmap" src="/0" title="2025" alt="2025 map" width="91" height="109"></a></span>
 <span id="SVQ" style="display: none;"><a href="svq">Sevilla</a><br>
-  <a href="svq" class="map-wrap"><img class="map" id="SVQmap" src="/0" title="2025" alt="2025 map" width="123" height="80"></a></span>
+    <a href="svq" class="map-wrap"><img class="map" id="SVQmap" src="/0" title="2025" alt="2025 map" width="123" height="80"></a></span>
 <span id="JNB" style="display: none;"><a href="jnb">Johannesburg</a><br>
-  <a href="jnb" class="map-wrap"><img class="map" id="JNBmap" src="/0" title="2025" alt="2025 map" width="380" height="594"></a></span>
+    <a href="jnb" class="map-wrap"><img class="map" id="JNBmap" src="/0" title="2025" alt="2025 map" width="380" height="594"></a></span>
 <span id="DXB" style="display: none;"><a href="dxb">Dubai</a><br>
-  <a href="dxb" class="map-wrap"><img class="map" id="DXBmap" src="/0" title="2025" alt="2025 map" width="330" height="370"></a></span>
+    <a href="dxb" class="map-wrap"><img class="map" id="DXBmap" src="/0" title="2025" alt="2025 map" width="330" height="370"></a></span>
 <span id="AGB" style="display: none;"><a href="agb">Augsburg</a><br>
-  <a href="agb" class="map-wrap"><img class="map" id="AGBmap" src="/0" title="2025" alt="2025 map" width="127" height="102"></a></span>
+    <a href="agb" class="map-wrap"><img class="map" id="AGBmap" src="/0" title="2025" alt="2025 map" width="127" height="102"></a></span>
 <span id="GRQ" style="display: none;"><a href="grq">Groningen</a><br>
-  <a href="grq" class="map-wrap"><img class="map" id="GRQmap" src="/0" title="2025" alt="2025 map" width="236" height="178"></a></span>
+    <a href="grq" class="map-wrap"><img class="map" id="GRQmap" src="/0" title="2025" alt="2025 map" width="236" height="178"></a></span>
 <span id="AYT" style="display: none;"><a href="ayt">Antalya</a><br>
-  <a href="ayt" class="map-wrap"><img class="map" id="AYTmap" src="/0" title="2025" alt="2025 map" width="225" height="142"></a></span>
+    <a href="ayt" class="map-wrap"><img class="map" id="AYTmap" src="/0" title="2025" alt="2025 map" width="225" height="142"></a></span>
 <span id="BGO" style="display: none;"><a href="bgo">Bergen</a><br>
-  <a href="bgo" class="map-wrap"><img class="map" id="BGOmap" src="/0" title="2025" alt="2025 map" width="98" height="152"></a></span>
+    <a href="bgo" class="map-wrap"><img class="map" id="BGOmap" src="/0" title="2025" alt="2025 map" width="98" height="152"></a></span>
 <span id="CTU" style="display: none;"><a href="ctu">Chengdu</a><br>
-  <a href="ctu" class="map-wrap"><img class="map" id="CTUmap" src="/0" title="2025" alt="2025 map" width="884" height="819"></a></span>
+    <a href="ctu" class="map-wrap"><img class="map" id="CTUmap" src="/0" title="2025" alt="2025 map" width="884" height="819"></a></span>
 <span id="SHE" style="display: none;"><a href="she">Shenyang</a><br>
-  <a href="she" class="map-wrap"><img class="map" id="SHEmap" src="/0" title="2025" alt="2025 map" width="333" height="384"></a></span>
+    <a href="she" class="map-wrap"><img class="map" id="SHEmap" src="/0" title="2025" alt="2025 map" width="333" height="384"></a></span>
 <span id="SZF" style="display: none;"><a href="szf">Samsun</a><br>
-  <a href="szf" class="map-wrap"><img class="map" id="SZFmap" src="/0" title="2025" alt="2025 map" width="239" height="199"></a></span>
+    <a href="szf" class="map-wrap"><img class="map" id="SZFmap" src="/0" title="2025" alt="2025 map" width="239" height="199"></a></span>
 <span id="LUX" style="display: none;"><a href="lux">Luxembourg</a><br>
-  <a href="lux" class="map-wrap"><img class="map" id="LUXmap" src="/0" title="2025" alt="2025 map" width="236" height="418"></a></span>
+    <a href="lux" class="map-wrap"><img class="map" id="LUXmap" src="/0" title="2025" alt="2025 map" width="236" height="418"></a></span>
 <span id="MLH" style="display: none;"><a href="mlh">Mulhouse</a><br>
-  <a href="mlh" class="map-wrap"><img class="map" id="MLHmap" src="/0" title="2025" alt="2025 map" width="69" height="51"></a></span>
+    <a href="mlh" class="map-wrap"><img class="map" id="MLHmap" src="/0" title="2025" alt="2025 map" width="69" height="51"></a></span>
 <span id="ORF" style="display: none;"><a href="orf">Norfolk</a><br>
-  <a href="orf" class="map-wrap"><img class="map" id="ORFmap" src="/0" title="2025" alt="2025 map" width="120" height="47"></a></span>
+    <a href="orf" class="map-wrap"><img class="map" id="ORFmap" src="/0" title="2025" alt="2025 map" width="120" height="47"></a></span>
 <span id="MHD" style="display: none;"><a href="mhd">Mashhad</a><br>
-  <a href="mhd" class="map-wrap"><img class="map" id="MHDmap" src="/0" title="2025" alt="2025 map" width="228" height="163"></a></span>
+    <a href="mhd" class="map-wrap"><img class="map" id="MHDmap" src="/0" title="2025" alt="2025 map" width="228" height="163"></a></span>
 <span id="XIY" style="display: none;"><a href="xiy">Xi'an</a><br>
-  <a href="xiy" class="map-wrap"><img class="map" id="XIYmap" src="/0" title="2025" alt="2025 map" width="551" height="475"></a></span>
+    <a href="xiy" class="map-wrap"><img class="map" id="XIYmap" src="/0" title="2025" alt="2025 map" width="551" height="475"></a></span>
 <span id="AGP" style="display: none;"><a href="agp">Málaga</a><br>
-  <a href="agp" class="map-wrap"><img class="map" id="AGPmap" src="/0" title="2025" alt="2025 map" width="196" height="218"></a></span>
+    <a href="agp" class="map-wrap"><img class="map" id="AGPmap" src="/0" title="2025" alt="2025 map" width="196" height="218"></a></span>
 <span id="BLR" style="display: none;"><a href="blr">Bengaluru</a><br>
-  <a href="blr" class="map-wrap"><img class="map" id="BLRmap" src="/0" title="2025" alt="2025 map" width="351" height="282"></a></span>
+    <a href="blr" class="map-wrap"><img class="map" id="BLRmap" src="/0" title="2025" alt="2025 map" width="351" height="282"></a></span>
 <span id="ALG" style="display: none;"><a href="alg">Alger</a><br>
-  <a href="alg" class="map-wrap"><img class="map" id="ALGmap" src="/0" title="2025" alt="2025 map" width="120" height="138"></a></span>
+    <a href="alg" class="map-wrap"><img class="map" id="ALGmap" src="/0" title="2025" alt="2025 map" width="120" height="138"></a></span>
 <span id="ALA" style="display: none;"><a href="ala">Almaty</a><br>
-  <a href="ala" class="map-wrap"><img class="map" id="ALAmap" src="/0" title="2025" alt="2025 map" width="130" height="76"></a></span>
+    <a href="ala" class="map-wrap"><img class="map" id="ALAmap" src="/0" title="2025" alt="2025 map" width="130" height="76"></a></span>
 <span id="YWG" style="display: none;"><a href="ywg">Winnipeg</a><br>
-  <a href="ywg" class="map-wrap"><img class="map" id="YWGmap" src="/0" title="2025" alt="2025 map" width="257" height="174"></a></span>
+    <a href="ywg" class="map-wrap"><img class="map" id="YWGmap" src="/0" title="2025" alt="2025 map" width="257" height="174"></a></span>
 <span id="MDZ" style="display: none;"><a href="mdz">Mendoza</a><br>
-  <a href="mdz" class="map-wrap"><img class="map" id="MDZmap" src="/0" title="2025" alt="2025 map" width="101" height="152"></a></span>
+    <a href="mdz" class="map-wrap"><img class="map" id="MDZmap" src="/0" title="2025" alt="2025 map" width="101" height="152"></a></span>
 <span id="HGH" style="display: none;"><a href="hgh">Hangzhou</a><br>
-  <a href="hgh" class="map-wrap"><img class="map" id="HGHmap" src="/0" title="2025" alt="2025 map" width="1000" height="681"></a></span>
+    <a href="hgh" class="map-wrap"><img class="map" id="HGHmap" src="/0" title="2025" alt="2025 map" width="1000" height="681"></a></span>
 <span id="LHE" style="display: none;"><a href="lhe">Lahore</a><br>
-  <a href="lhe" class="map-wrap"><img class="map" id="LHEmap" src="/0" title="2025" alt="2025 map" width="199" height="257"></a></span>
+    <a href="lhe" class="map-wrap"><img class="map" id="LHEmap" src="/0" title="2025" alt="2025 map" width="199" height="257"></a></span>
 <span id="VBS" style="display: none;"><a href="vbs">Brescia</a><br>
-  <a href="vbs" class="map-wrap"><img class="map" id="VBSmap" src="/0" title="2025" alt="2025 map" width="72" height="104"></a></span>
+    <a href="vbs" class="map-wrap"><img class="map" id="VBSmap" src="/0" title="2025" alt="2025 map" width="72" height="104"></a></span>
 <span id="KMG" style="display: none;"><a href="kmg">Kunming</a><br>
-  <a href="kmg" class="map-wrap"><img class="map" id="KMGmap" src="/0" title="2025" alt="2025 map" width="333" height="340"></a></span>
+    <a href="kmg" class="map-wrap"><img class="map" id="KMGmap" src="/0" title="2025" alt="2025 map" width="333" height="340"></a></span>
 <span id="IFN" style="display: none;"><a href="ifn">Esfahan</a><br>
-  <a href="ifn" class="map-wrap"><img class="map" id="IFNmap" src="/0" title="2025" alt="2025 map" width="149" height="160"></a></span>
+    <a href="ifn" class="map-wrap"><img class="map" id="IFNmap" src="/0" title="2025" alt="2025 map" width="149" height="160"></a></span>
 <span id="CZL" style="display: none;"><a href="czl">Constantine</a><br>
-  <a href="czl" class="map-wrap"><img class="map" id="CZLmap" src="/0" title="2025" alt="2025 map" width="72" height="158"></a></span>
+    <a href="czl" class="map-wrap"><img class="map" id="CZLmap" src="/0" title="2025" alt="2025 map" width="72" height="158"></a></span>
 <span id="HRB" style="display: none;"><a href="hrb">Harbin</a><br>
-  <a href="hrb" class="map-wrap"><img class="map" id="HRBmap" src="/0" title="2025" alt="2025 map" width="174" height="326"></a></span>
+    <a href="hrb" class="map-wrap"><img class="map" id="HRBmap" src="/0" title="2025" alt="2025 map" width="174" height="326"></a></span>
 <span id="CGO" style="display: none;"><a href="cgo">Zhengzhou</a><br>
-  <a href="cgo" class="map-wrap"><img class="map" id="CGOmap" src="/0" title="2025" alt="2025 map" width="496" height="941"></a></span>
+    <a href="cgo" class="map-wrap"><img class="map" id="CGOmap" src="/0" title="2025" alt="2025 map" width="496" height="941"></a></span>
 <span id="PAC" style="display: none;"><a href="pac">Panamá</a><br>
-  <a href="pac" class="map-wrap"><img class="map" id="PACmap" src="/0" title="2025" alt="2025 map" width="236" height="178"></a></span>
+    <a href="pac" class="map-wrap"><img class="map" id="PACmap" src="/0" title="2025" alt="2025 map" width="236" height="178"></a></span>
 <span id="CSX" style="display: none;"><a href="csx">Changsha</a><br>
-  <a href="csx" class="map-wrap"><img class="map" id="CSXmap" src="/0" title="2025" alt="2025 map" width="391" height="434"></a></span>
+    <a href="csx" class="map-wrap"><img class="map" id="CSXmap" src="/0" title="2025" alt="2025 map" width="391" height="434"></a></span>
 <span id="NGB" style="display: none;"><a href="ngb">Ningbo</a><br>
-  <a href="ngb" class="map-wrap"><img class="map" id="NGBmap" src="/0" title="2025" alt="2025 map" width="424" height="399"></a></span>
+    <a href="ngb" class="map-wrap"><img class="map" id="NGBmap" src="/0" title="2025" alt="2025 map" width="424" height="399"></a></span>
 <span id="LPB" style="display: none;"><a href="lpb">La Paz</a><br>
-  <a href="lpb" class="map-wrap"><img class="map" id="LPBmap" src="/0" title="2025" alt="2025 map" width="145" height="83"></a></span>
+    <a href="lpb" class="map-wrap"><img class="map" id="LPBmap" src="/0" title="2025" alt="2025 map" width="145" height="83"></a></span>
 <span id="WUX" style="display: none;"><a href="wux">Wuxi</a><br>
-  <a href="wux" class="map-wrap"><img class="map" id="WUXmap" src="/0" title="2025" alt="2025 map" width="250" height="562"></a></span>
+    <a href="wux" class="map-wrap"><img class="map" id="WUXmap" src="/0" title="2025" alt="2025 map" width="250" height="562"></a></span>
 <span id="FOR" style="display: none;"><a href="for">Fortaleza</a><br>
-  <a href="for" class="map-wrap"><img class="map" id="FORmap" src="/0" title="2025" alt="2025 map" width="127" height="214"></a></span>
+    <a href="for" class="map-wrap"><img class="map" id="FORmap" src="/0" title="2025" alt="2025 map" width="127" height="214"></a></span>
 <span id="SYZ" style="display: none;"><a href="syz">Shiraz</a><br>
-  <a href="syz" class="map-wrap"><img class="map" id="SYZmap" src="/0" title="2025" alt="2025 map" width="159" height="181"></a></span>
+    <a href="syz" class="map-wrap"><img class="map" id="SYZmap" src="/0" title="2025" alt="2025 map" width="159" height="181"></a></span>
 <span id="HFD" style="display: none;"><a href="hfd">Hartford</a><br>
-  <a href="hfd" class="map-wrap"><img class="map" id="HFDmap" src="/0" title="2025" alt="2025 map" width="105" height="127"></a></span>
+    <a href="hfd" class="map-wrap"><img class="map" id="HFDmap" src="/0" title="2025" alt="2025 map" width="105" height="127"></a></span>
 <span id="JAI" style="display: none;"><a href="jai">Jaipur</a><br>
-  <a href="jai" class="map-wrap"><img class="map" id="JAImap" src="/0" title="2025" alt="2025 map" width="94" height="72"></a></span>
+    <a href="jai" class="map-wrap"><img class="map" id="JAImap" src="/0" title="2025" alt="2025 map" width="94" height="72"></a></span>
 <span id="ISB" style="display: none;"><a href="isb">Islamabad</a><br>
-  <a href="isb" class="map-wrap"><img class="map" id="ISBmap" src="/0" title="2025" alt="2025 map" width="159" height="177"></a></span>
+    <a href="isb" class="map-wrap"><img class="map" id="ISBmap" src="/0" title="2025" alt="2025 map" width="159" height="177"></a></span>
 <span id="PC_" style="display: none;"><a href="pc_">Pachuca</a><br>
-  <a href="pc_" class="map-wrap"><img class="map" id="PC_map" src="/0" title="2025" alt="2025 map" width="101" height="148"></a></span>
+    <a href="pc_" class="map-wrap"><img class="map" id="PC_map" src="/0" title="2025" alt="2025 map" width="101" height="148"></a></span>
 <span id="TBZ" style="display: none;"><a href="tbz">Tabriz</a><br>
-  <a href="tbz" class="map-wrap"><img class="map" id="TBZmap" src="/0" title="2025" alt="2025 map" width="130" height="112"></a></span>
+    <a href="tbz" class="map-wrap"><img class="map" id="TBZmap" src="/0" title="2025" alt="2025 map" width="130" height="112"></a></span>
 <span id="SZZ" style="display: none;"><a href="szz">Szczecin</a><br>
-  <a href="szz" class="map-wrap"><img class="map" id="SZZmap" src="/0" title="2025" alt="2025 map" width="120" height="113"></a></span>
+    <a href="szz" class="map-wrap"><img class="map" id="SZZmap" src="/0" title="2025" alt="2025 map" width="120" height="113"></a></span>
 <span id="ADD" style="display: none;"><a href="add">Addis Ababa</a><br>
-  <a href="add" class="map-wrap"><img class="map" id="ADDmap" src="/0" title="2025" alt="2025 map" width="181" height="138"></a></span>
+    <a href="add" class="map-wrap"><img class="map" id="ADDmap" src="/0" title="2025" alt="2025 map" width="181" height="138"></a></span>
 <span id="TAO" style="display: none;"><a href="tao">Qingdao</a><br>
-  <a href="tao" class="map-wrap"><img class="map" id="TAOmap" src="/0" title="2025" alt="2025 map" width="960" height="920"></a></span>
+    <a href="tao" class="map-wrap"><img class="map" id="TAOmap" src="/0" title="2025" alt="2025 map" width="960" height="920"></a></span>
 <span id="KHN" style="display: none;"><a href="khn">Nanchang</a><br>
-  <a href="khn" class="map-wrap"><img class="map" id="KHNmap" src="/0" title="2025" alt="2025 map" width="366" height="391"></a></span>
+    <a href="khn" class="map-wrap"><img class="map" id="KHNmap" src="/0" title="2025" alt="2025 map" width="366" height="391"></a></span>
 <span id="FOC" style="display: none;"><a href="foc">Fuzhou</a><br>
-  <a href="foc" class="map-wrap"><img class="map" id="FOCmap" src="/0" title="2025" alt="2025 map" width="554" height="308"></a></span>
+    <a href="foc" class="map-wrap"><img class="map" id="FOCmap" src="/0" title="2025" alt="2025 map" width="554" height="308"></a></span>
 <span id="NNG" style="display: none;"><a href="nng">Nanning</a><br>
-  <a href="nng" class="map-wrap"><img class="map" id="NNGmap" src="/0" title="2025" alt="2025 map" width="312" height="214"></a></span>
+    <a href="nng" class="map-wrap"><img class="map" id="NNGmap" src="/0" title="2025" alt="2025 map" width="312" height="214"></a></span>
 <span id="BOD" style="display: none;"><a href="bod">Bordeaux</a><br>
-  <a href="bod" class="map-wrap"><img class="map" id="BODmap" src="/0" title="2025" alt="2025 map" width="80" height="189"></a></span>
+    <a href="bod" class="map-wrap"><img class="map" id="BODmap" src="/0" title="2025" alt="2025 map" width="80" height="189"></a></span>
 <span id="HFE" style="display: none;"><a href="hfe">Hefei</a><br>
-  <a href="hfe" class="map-wrap"><img class="map" id="HFEmap" src="/0" title="2025" alt="2025 map" width="399" height="432"></a></span>
+    <a href="hfe" class="map-wrap"><img class="map" id="HFEmap" src="/0" title="2025" alt="2025 map" width="399" height="432"></a></span>
 <span id="MUX" style="display: none;"><a href="mux">Multan</a><br>
-  <a href="mux" class="map-wrap"><img class="map" id="MUXmap" src="/0" title="2025" alt="2025 map" width="72" height="126"></a></span>
+    <a href="mux" class="map-wrap"><img class="map" id="MUXmap" src="/0" title="2025" alt="2025 map" width="72" height="126"></a></span>
 <span id="SJW" style="display: none;"><a href="sjw">Shijiazhuang</a><br>
-  <a href="sjw" class="map-wrap"><img class="map" id="SJWmap" src="/0" title="2025" alt="2025 map" width="239" height="217"></a></span>
+    <a href="sjw" class="map-wrap"><img class="map" id="SJWmap" src="/0" title="2025" alt="2025 map" width="239" height="217"></a></span>
 <span id="COK" style="display: none;"><a href="cok">Kochi</a><br>
-  <a href="cok" class="map-wrap"><img class="map" id="COKmap" src="/0" title="2025" alt="2025 map" width="98" height="196"></a></span>
+    <a href="cok" class="map-wrap"><img class="map" id="COKmap" src="/0" title="2025" alt="2025 map" width="98" height="196"></a></span>
 <span id="LKO" style="display: none;"><a href="lko">Lucknow</a><br>
-  <a href="lko" class="map-wrap"><img class="map" id="LKOmap" src="/0" title="2025" alt="2025 map" width="138" height="156"></a></span>
+    <a href="lko" class="map-wrap"><img class="map" id="LKOmap" src="/0" title="2025" alt="2025 map" width="138" height="156"></a></span>
 <span id="GRX" style="display: none;"><a href="grx">Granada</a><br>
-  <a href="grx" class="map-wrap"><img class="map" id="GRXmap" src="/0" title="2025" alt="2025 map" width="72" height="122"></a></span>
+    <a href="grx" class="map-wrap"><img class="map" id="GRXmap" src="/0" title="2025" alt="2025 map" width="72" height="122"></a></span>
 <span id="HYD" style="display: none;"><a href="hyd">Hyderabad</a><br>
-  <a href="hyd" class="map-wrap"><img class="map" id="HYDmap" src="/0" title="2025" alt="2025 map" width="221" height="196"></a></span>
+    <a href="hyd" class="map-wrap"><img class="map" id="HYDmap" src="/0" title="2025" alt="2025 map" width="221" height="196"></a></span>
 <span id="KWE" style="display: none;"><a href="kwe">Guiyang</a><br>
-  <a href="kwe" class="map-wrap"><img class="map" id="KWEmap" src="/0" title="2025" alt="2025 map" width="377" height="370"></a></span>
+    <a href="kwe" class="map-wrap"><img class="map" id="KWEmap" src="/0" title="2025" alt="2025 map" width="377" height="370"></a></span>
 <span id="WLG" style="display: none;"><a href="wlg">Wellington</a><br>
-  <a href="wlg" class="map-wrap"><img class="map" id="WLGmap" src="/0" title="2025" alt="2025 map" width="272" height="482"></a></span>
+    <a href="wlg" class="map-wrap"><img class="map" id="WLGmap" src="/0" title="2025" alt="2025 map" width="272" height="482"></a></span>
 <span id="URC" style="display: none;"><a href="urc">Wulumuqi</a><br>
-  <a href="urc" class="map-wrap"><img class="map" id="URCmap" src="/0" title="2025" alt="2025 map" width="138" height="203"></a></span>
+    <a href="urc" class="map-wrap"><img class="map" id="URCmap" src="/0" title="2025" alt="2025 map" width="138" height="203"></a></span>
 <span id="PLM" style="display: none;"><a href="plm">Palembang</a><br>
-  <a href="plm" class="map-wrap"><img class="map" id="PLMmap" src="/0" title="2025" alt="2025 map" width="112" height="181"></a></span>
+    <a href="plm" class="map-wrap"><img class="map" id="PLMmap" src="/0" title="2025" alt="2025 map" width="112" height="181"></a></span>
 <span id="GVA" style="display: none;"><a href="gva">Genève</a><br>
-  <a href="gva" class="map-wrap"><img class="map" id="GVAmap" src="/0" title="2025" alt="2025 map" width="109" height="182"></a></span>
+    <a href="gva" class="map-wrap"><img class="map" id="GVAmap" src="/0" title="2025" alt="2025 map" width="109" height="182"></a></span>
 <span id="WNZ" style="display: none;"><a href="wnz">Wenzhou</a><br>
-  <a href="wnz" class="map-wrap"><img class="map" id="WNZmap" src="/0" title="2025" alt="2025 map" width="446" height="435"></a></span>
+    <a href="wnz" class="map-wrap"><img class="map" id="WNZmap" src="/0" title="2025" alt="2025 map" width="446" height="435"></a></span>
 <span id="KCO" style="display: none;"><a href="kco">İzmit</a><br>
-  <a href="kco" class="map-wrap"><img class="map" id="KCOmap" src="/0" title="2025" alt="2025 map" width="109" height="47"></a></span>
+    <a href="kco" class="map-wrap"><img class="map" id="KCOmap" src="/0" title="2025" alt="2025 map" width="109" height="47"></a></span>
 <span id="TNA" style="display: none;"><a href="tna">Jinan</a><br>
-  <a href="tna" class="map-wrap"><img class="map" id="TNAmap" src="/0" title="2025" alt="2025 map" width="409" height="413"></a></span>
+    <a href="tna" class="map-wrap"><img class="map" id="TNAmap" src="/0" title="2025" alt="2025 map" width="409" height="413"></a></span>
 <span id="AAR" style="display: none;"><a href="aar">Aarhus</a><br>
-  <a href="aar" class="map-wrap"><img class="map" id="AARmap" src="/0" title="2025" alt="2025 map" width="76" height="192"></a></span>
+    <a href="aar" class="map-wrap"><img class="map" id="AARmap" src="/0" title="2025" alt="2025 map" width="76" height="192"></a></span>
 <span id="DOH" style="display: none;"><a href="doh">Doha</a><br>
-  <a href="doh" class="map-wrap"><img class="map" id="DOHmap" src="/0" title="2025" alt="2025 map" width="286" height="286"></a></span>
+    <a href="doh" class="map-wrap"><img class="map" id="DOHmap" src="/0" title="2025" alt="2025 map" width="286" height="286"></a></span>
 <span id="YKF" style="display: none;"><a href="ykf">Waterloo CA</a><br>
-  <a href="ykf" class="map-wrap"><img class="map" id="YKFmap" src="/0" title="2025" alt="2025 map" width="101" height="119"></a></span>
+    <a href="ykf" class="map-wrap"><img class="map" id="YKFmap" src="/0" title="2025" alt="2025 map" width="101" height="119"></a></span>
 <span id="LHW" style="display: none;"><a href="lhw">Lanzhou</a><br>
-  <a href="lhw" class="map-wrap"><img class="map" id="LHWmap" src="/0" title="2025" alt="2025 map" width="250" height="105"></a></span>
+    <a href="lhw" class="map-wrap"><img class="map" id="LHWmap" src="/0" title="2025" alt="2025 map" width="250" height="105"></a></span>
 <span id="NCE" style="display: none;"><a href="nce">Nice</a><br>
-  <a href="nce" class="map-wrap"><img class="map" id="NCEmap" src="/0" title="2025" alt="2025 map" width="87" height="62"></a></span>
+    <a href="nce" class="map-wrap"><img class="map" id="NCEmap" src="/0" title="2025" alt="2025 map" width="87" height="62"></a></span>
 <span id="CZX" style="display: none;"><a href="czx">Changzhou</a><br>
-  <a href="czx" class="map-wrap"><img class="map" id="CZXmap" src="/0" title="2025" alt="2025 map" width="174" height="319"></a></span>
+    <a href="czx" class="map-wrap"><img class="map" id="CZXmap" src="/0" title="2025" alt="2025 map" width="174" height="319"></a></span>
 <span id="XUZ" style="display: none;"><a href="xuz">Xuzhou</a><br>
-  <a href="xuz" class="map-wrap"><img class="map" id="XUZmap" src="/0" title="2025" alt="2025 map" width="217" height="231"></a></span>
+    <a href="xuz" class="map-wrap"><img class="map" id="XUZmap" src="/0" title="2025" alt="2025 map" width="217" height="231"></a></span>
 <span id="RMI" style="display: none;"><a href="rmi">Rimini</a><br>
-  <a href="rmi" class="map-wrap"><img class="map" id="RMImap" src="/0" title="2025" alt="2025 map" width="83" height="97"></a></span>
+    <a href="rmi" class="map-wrap"><img class="map" id="RMImap" src="/0" title="2025" alt="2025 map" width="83" height="97"></a></span>
 <span id="MFM" style="display: none;"><a href="mfm">Macau</a><br>
-  <a href="mfm" class="map-wrap"><img class="map" id="MFMmap" src="/0" title="2025" alt="2025 map" width="65" height="83"></a></span>
+    <a href="mfm" class="map-wrap"><img class="map" id="MFMmap" src="/0" title="2025" alt="2025 map" width="65" height="83"></a></span>
 <span id="HET" style="display: none;"><a href="het">Huhehaote</a><br>
-  <a href="het" class="map-wrap"><img class="map" id="HETmap" src="/0" title="2025" alt="2025 map" width="232" height="152"></a></span>
+    <a href="het" class="map-wrap"><img class="map" id="HETmap" src="/0" title="2025" alt="2025 map" width="232" height="152"></a></span>
 <span id="MRU" style="display: none;"><a href="mru">Maurice</a><br>
-  <a href="mru" class="map-wrap"><img class="map" id="MRUmap" src="/0" title="2025" alt="2025 map" width="94" height="188"></a></span>
+    <a href="mru" class="map-wrap"><img class="map" id="MRUmap" src="/0" title="2025" alt="2025 map" width="94" height="188"></a></span>
 <span id="THQ" style="display: none;"><a href="thq">Tianshui</a><br>
-  <a href="thq" class="map-wrap"><img class="map" id="THQmap" src="/0" title="2025" alt="2025 map" width="239" height="62"></a></span>
+    <a href="thq" class="map-wrap"><img class="map" id="THQmap" src="/0" title="2025" alt="2025 map" width="239" height="62"></a></span>
 <span id="TXG" style="display: none;"><a href="txg">Taichung</a><br>
-  <a href="txg" class="map-wrap"><img class="map" id="TXGmap" src="/0" title="2025" alt="2025 map" width="116" height="109"></a></span>
+    <a href="txg" class="map-wrap"><img class="map" id="TXGmap" src="/0" title="2025" alt="2025 map" width="116" height="109"></a></span>
 <span id="BLQ" style="display: none;"><a href="blq">Bologna</a><br>
-  <a href="blq" class="map-wrap"><img class="map" id="BLQmap" src="/0" title="2025" alt="2025 map" width="58" height="54"></a></span>
+    <a href="blq" class="map-wrap"><img class="map" id="BLQmap" src="/0" title="2025" alt="2025 map" width="58" height="54"></a></span>
 <span id="TYN" style="display: none;"><a href="tyn">Taiyuan</a><br>
-  <a href="tyn" class="map-wrap"><img class="map" id="TYNmap" src="/0" title="2025" alt="2025 map" width="185" height="250"></a></span>
+    <a href="tyn" class="map-wrap"><img class="map" id="TYNmap" src="/0" title="2025" alt="2025 map" width="185" height="250"></a></span>
 <span id="LYA" style="display: none;"><a href="lya">Luoyang</a><br>
-  <a href="lya" class="map-wrap"><img class="map" id="LYAmap" src="/0" title="2025" alt="2025 map" width="228" height="148"></a></span>
+    <a href="lya" class="map-wrap"><img class="map" id="LYAmap" src="/0" title="2025" alt="2025 map" width="228" height="148"></a></span>
 <span id="QB_" style="display: none;"><a href="qb_">Qiubei</a><br>
-  <a href="qb_" class="map-wrap"><img class="map" id="QB_map" src="/0" title="2025" alt="2025 map" width="40" height="135"></a></span>
+    <a href="qb_" class="map-wrap"><img class="map" id="QB_map" src="/0" title="2025" alt="2025 map" width="40" height="135"></a></span>
 <span id="WHA" style="display: none;"><a href="wha">Wuhu</a><br>
-  <a href="wha" class="map-wrap"><img class="map" id="WHAmap" src="/0" title="2025" alt="2025 map" width="141" height="278"></a></span>
+    <a href="wha" class="map-wrap"><img class="map" id="WHAmap" src="/0" title="2025" alt="2025 map" width="141" height="278"></a></span>
 <span id="HAN" style="display: none;"><a href="han">Hanoi</a><br>
-  <a href="han" class="map-wrap"><img class="map" id="HANmap" src="/0" title="2025" alt="2025 map" width="116" height="141"></a></span>
+    <a href="han" class="map-wrap"><img class="map" id="HANmap" src="/0" title="2025" alt="2025 map" width="116" height="141"></a></span>
 <span id="DKR" style="display: none;"><a href="dkr">Dakar</a><br>
-  <a href="dkr" class="map-wrap"><img class="map" id="DKRmap" src="/0" title="2025" alt="2025 map" width="283" height="120"></a></span>
+    <a href="dkr" class="map-wrap"><img class="map" id="DKRmap" src="/0" title="2025" alt="2025 map" width="283" height="120"></a></span>
 <span id="KNU" style="display: none;"><a href="knu">Kanpur</a><br>
-  <a href="knu" class="map-wrap"><img class="map" id="KNUmap" src="/0" title="2025" alt="2025 map" width="130" height="90"></a></span>
+    <a href="knu" class="map-wrap"><img class="map" id="KNUmap" src="/0" title="2025" alt="2025 map" width="130" height="90"></a></span>
 <span id="HFA" style="display: none;"><a href="hfa">Haifa</a><br>
-  <a href="hfa" class="map-wrap"><img class="map" id="HFAmap" src="/0" title="2025" alt="2025 map" width="76" height="101"></a></span>
+    <a href="hfa" class="map-wrap"><img class="map" id="HFAmap" src="/0" title="2025" alt="2025 map" width="76" height="101"></a></span>
 <span id="YIW" style="display: none;"><a href="yiw">Jinhua</a><br>
-  <a href="yiw" class="map-wrap"><img class="map" id="YIWmap" src="/0" title="2025" alt="2025 map" width="670" height="319"></a></span>
+    <a href="yiw" class="map-wrap"><img class="map" id="YIWmap" src="/0" title="2025" alt="2025 map" width="670" height="319"></a></span>
 <span id="AMD" style="display: none;"><a href="amd">Ahmedabad</a><br>
-  <a href="amd" class="map-wrap"><img class="map" id="AMDmap" src="/0" title="2025" alt="2025 map" width="181" height="127"></a></span>
+    <a href="amd" class="map-wrap"><img class="map" id="AMDmap" src="/0" title="2025" alt="2025 map" width="181" height="127"></a></span>
 <span id="NTG" style="display: none;"><a href="ntg">Nantong</a><br>
-  <a href="ntg" class="map-wrap"><img class="map" id="NTGmap" src="/0" title="2025" alt="2025 map" width="225" height="247"></a></span>
+    <a href="ntg" class="map-wrap"><img class="map" id="NTGmap" src="/0" title="2025" alt="2025 map" width="225" height="247"></a></span>
 <span id="TZ_" style="display: none;"><a href="tz_">Taizhou</a><br>
-  <a href="tz_" class="map-wrap"><img class="map" id="TZ_map" src="/0" title="2025" alt="2025 map" width="109" height="396"></a></span>
+    <a href="tz_" class="map-wrap"><img class="map" id="TZ_map" src="/0" title="2025" alt="2025 map" width="109" height="396"></a></span>
 <span id="DAC" style="display: none;"><a href="dac">Dhaka</a><br>
-  <a href="dac" class="map-wrap"><img class="map" id="DACmap" src="/0" title="2025" alt="2025 map" width="76" height="185"></a></span>
+    <a href="dac" class="map-wrap"><img class="map" id="DACmap" src="/0" title="2025" alt="2025 map" width="76" height="185"></a></span>
 <span id="HNL" style="display: none;"><a href="hnl">Honolulu</a><br>
-  <a href="hnl" class="map-wrap"><img class="map" id="HNLmap" src="/0" title="2025" alt="2025 map" width="141" height="87"></a></span>
+    <a href="hnl" class="map-wrap"><img class="map" id="HNLmap" src="/0" title="2025" alt="2025 map" width="141" height="87"></a></span>
 <span id="PNQ" style="display: none;"><a href="pnq">Pune</a><br>
-  <a href="pnq" class="map-wrap"><img class="map" id="PNQmap" src="/0" title="2025" alt="2025 map" width="130" height="170"></a></span>
+    <a href="pnq" class="map-wrap"><img class="map" id="PNQmap" src="/0" title="2025" alt="2025 map" width="130" height="170"></a></span>
 <span id="GZT" style="display: none;"><a href="gzt">Gaziantep</a><br>
-  <a href="gzt" class="map-wrap"><img class="map" id="GZTmap" src="/0" title="2025" alt="2025 map" width="130" height="152"></a></span>
+    <a href="gzt" class="map-wrap"><img class="map" id="GZTmap" src="/0" title="2025" alt="2025 map" width="130" height="152"></a></span>
 <span id="AGR" style="display: none;"><a href="agr">Agra</a><br>
-  <a href="agr" class="map-wrap"><img class="map" id="AGRmap" src="/0" title="2025" alt="2025 map" width="58" height="51"></a></span>
+    <a href="agr" class="map-wrap"><img class="map" id="AGRmap" src="/0" title="2025" alt="2025 map" width="58" height="51"></a></span>
 <span id="STI" style="display: none;"><a href="sti">Santiago DR</a><br>
-  <a href="sti" class="map-wrap"><img class="map" id="STImap" src="/0" title="2025" alt="2025 map" width="40" height="65"></a></span>
+    <a href="sti" class="map-wrap"><img class="map" id="STImap" src="/0" title="2025" alt="2025 map" width="40" height="65"></a></span>
 <span id="CMN" style="display: none;"><a href="cmn">Casblanca</a><br>
-  <a href="cmn" class="map-wrap"><img class="map" id="CMNmap" src="/0" title="2025" alt="2025 map" width="112" height="61"></a></span>
+    <a href="cmn" class="map-wrap"><img class="map" id="CMNmap" src="/0" title="2025" alt="2025 map" width="112" height="61"></a></span>
 <span id="SKG" style="display: none;"><a href="skg">Thessaloniki</a><br>
-  <a href="skg" class="map-wrap"><img class="map" id="SKGmap" src="/0" title="2025" alt="2025 map" width="54" height="83"></a></span>
+    <a href="skg" class="map-wrap"><img class="map" id="SKGmap" src="/0" title="2025" alt="2025 map" width="54" height="83"></a></span>
 <span id="RUH" style="display: none;"><a href="ruh">Riyadh</a><br>
-  <a href="ruh" class="map-wrap"><img class="map" id="RUHmap" src="/0" title="2025" alt="2025 map" width="341" height="464"></a></span>
+    <a href="ruh" class="map-wrap"><img class="map" id="RUHmap" src="/0" title="2025" alt="2025 map" width="341" height="464"></a></span>
 <span id="SMV" style="display: none;"><a href="smv">Chur</a><br>
-  <a href="smv" class="map-wrap"><img class="map" id="SMVmap" src="/0" title="2025" alt="2025 map" width="109" height="240"></a></span>
+    <a href="smv" class="map-wrap"><img class="map" id="SMVmap" src="/0" title="2025" alt="2025 map" width="109" height="240"></a></span>
 <span id="ZQW" style="display: none;"><a href="zqw">Homburg</a><br>
-  <a href="zqw" class="map-wrap"><img class="map" id="ZQWmap" src="/0" title="2025" alt="2025 map" width="134" height="65"></a></span>
+    <a href="zqw" class="map-wrap"><img class="map" id="ZQWmap" src="/0" title="2025" alt="2025 map" width="134" height="65"></a></span>
 <span id="SGN" style="display: none;"><a href="sgn">Saigon</a><br>
-  <a href="sgn" class="map-wrap"><img class="map" id="SGNmap" src="/0" title="2025" alt="2025 map" width="149" height="142"></a></span>
+    <a href="sgn" class="map-wrap"><img class="map" id="SGNmap" src="/0" title="2025" alt="2025 map" width="149" height="142"></a></span>
 </div>
 <br>
 <div class="headerfooter">
@@ -1799,7 +1799,7 @@ See also: <a href="misc">miscellaneous timelines and maps</a>
 <img src="del/small/2020.svg" alt="">
 <img src="del/small/2025.svg" alt="">
 </div>
-</div>
+</div></div>
 <p>
 <div style="font-size: x-small;">By <a href="/">Alexander Rapp</a> (<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>) based on map data by <a href="http://www.openstreetmap.org">OpenStreetMap</a> contributors and historical sources.</div>
 </body></html>

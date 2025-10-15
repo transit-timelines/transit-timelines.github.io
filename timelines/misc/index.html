@@ -7,45 +7,45 @@
 <meta property="og:description" content="Trains, streetcars, trolleybuses, flights, and ancient cities" />
 <style type="text/css">
 span {
-	display: inline-block;
-	vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 .supercell {
-	margin-top: 20px;
-	margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .innercell, .bigcell, .medcell {
-	margin-top: 10px;
-	margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .innercell img {
-	margin-left: 10px;
-	margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .bigcell {
-	width: 520px;
+    width: 520px;
 }
 .medcell {
-	width: 422px;
+    width: 422px;
 }
 .subcell {
-	margin-top: 5px;
-	margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .subcell img {
-	margin-left: 2px;
-	margin-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 ul {
-	text-align: left;
-	margin-left: 10px;
-	margin-right: 10px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 img {
-	border: 1px solid;
+    border: 1px solid;
 }
 a:link.map-wrap {
-	text-decoration: none;
+    text-decoration: none;
 }
 </style>
 <script>
@@ -54,31 +54,31 @@ minyr = { "hsr/a": 1965, "hsr/e": 1965, "nerail": 1835, "carail": 1835, "nycbymo
 maxyr = { "hsr/a": 2020, "hsr/e": 2020, "nerail": 2010, "carail": 2010, "nycbymode": 2025, "bosbymode": 2025, "sfobymode": 2025, "berbymode": 2025, "nyctrolleys": 1957, "sandy": 32, "nycflights": 2020 };
 step = { "hsr/a": 5, "hsr/e": 5, "nerail": 25, "carail": 25, "nycbymode": 5, "bosbymode": 5, "sfobymode": 5, "berbymode": 5, "nyctrolleys": 1, "sandy": 1, "nycflights": 5 }
 function nextmap() {
-	for (map in mapyr) {
-		if (mapyr[map] == maxyr[map]) {
-			mapyr[map] = minyr[map];
-		} else {
-			mapyr[map] = mapyr[map] + step[map];
-		}
-		mapimg = document.getElementById(map + "map");
-		mapimg.src = map + "/" + mapyr[map] + ".svg";
-	}
+    for (map in mapyr) {
+        if (mapyr[map] == maxyr[map]) {
+            mapyr[map] = minyr[map];
+        } else {
+            mapyr[map] = mapyr[map] + step[map];
+        }
+        mapimg = document.getElementById(map + "map");
+        mapimg.src = map + "/" + mapyr[map] + ".svg";
+    }
 }
 function prevmap() {
-	for (map in mapyr) {
-		if (mapyr[map] == minyr[map]) {
-			mapyr[map] = maxyr[map];
-		} else {
-			mapyr[map] = mapyr[map] - step[map];
-		}
-		mapimg = document.getElementById(map + "map");
-		mapimg.src = map + "/" + mapyr[map] + ".svg";
-	}
+    for (map in mapyr) {
+        if (mapyr[map] == minyr[map]) {
+            mapyr[map] = maxyr[map];
+        } else {
+            mapyr[map] = mapyr[map] - step[map];
+        }
+        mapimg = document.getElementById(map + "map");
+        mapimg.src = map + "/" + mapyr[map] + ".svg";
+    }
 }
 
 document.onkeydown=function(keypress) {
-	if(keypress.which == 65) { prevmap(); }
-	if(keypress.which == 83) { nextmap(); }
+    if(keypress.which == 65) { prevmap(); }
+    if(keypress.which == 83) { nextmap(); }
 }
 </script>
 <script type="text/javascript">
@@ -96,103 +96,92 @@ document.onkeydown=function(keypress) {
 <div>
 <h3>Miscellaneous (not strictly rapid transit) timelines:</h3>
 <span class="supercell">
-  <a href="hsr">High-speed rail, 1965-2020</a><br>
-  <a href="hsr" class="map-wrap"><span class="subcell"><img id="hsr/amap" src="hsr/a/2020.svg" width="600" height="430" alt="sample Asia HSR map"></span>
-  <span class="subcell"><img id="hsr/emap" src="hsr/e/2020.svg" width="493" height="430" alt="sample Europe HSR map"></a></span></span><br>
+    <a href="hsr">High-speed rail, 1965-2020</a><br>
+    <a href="hsr" class="map-wrap">
+    <span class="subcell"><img id="hsr/amap" src="hsr/a/2020.svg" width="600" height="430" alt="sample Asia HSR map"></span>
+    <span class="subcell"><img id="hsr/emap" src="hsr/e/2020.svg" width="493" height="430" alt="sample Europe HSR map"></a></span></span><br>
 <span class="supercell">
-  Regional passenger rail timelines, 1835-2010:<br>
-<!--  <span class="innercell">
-    <a href="gbrail">Great Britain<br>
-    <img id="gbrailmap" src="gbrail/2010.svg" width="308" height="428" alt="sample Northeast passenger rail map"></a></span>-->
-  <span class="innercell">
-    <a href="nerail">Northeast US<br>
-    <img id="nerailwater" src="nerail/water.svg" style="position: absolute; z-index: -2" width="638" height="525"></a>
-    <img id="nerailmap" src="nerail/1910.svg" width="638" height="525" alt="sample Northeast passenger rail map"></a></span>
-  <span class="innercell">
-    <a href="carail">California<br>
-    <img id="carailwater" src="carail/water.svg" style="position: absolute; z-index: -2" width="539" height="692"></a>
-    <img id="carailmap" src="carail/1910.svg" width="539" height="692" alt="sample California passenger rail map"></a></span></span><br>
+    Regional passenger rail timelines, 1835-2010:<br>
+<!--    <span class="innercell">
+        <a href="gbrail">Great Britain<br>
+        <img id="gbrailmap" src="gbrail/2010.svg" width="513" height="713" alt="sample Britain passenger rail map"></a></span>-->
+    <span class="innercell">
+        <a href="nerail">Northeast US<br>
+        <img id="nerailwater" src="nerail/water.svg" style="position: absolute; z-index: -2" width="638" height="525"></a>
+        <img id="nerailmap" src="nerail/1910.svg" width="638" height="525" alt="sample Northeast passenger rail map"></a></span>
+    <span class="innercell">
+        <a href="carail">California<br>
+        <img id="carailwater" src="carail/water.svg" style="position: absolute; z-index: -2" width="539" height="692"></a>
+        <img id="carailmap" src="carail/1910.svg" width="539" height="692" alt="sample California passenger rail map"></a></span></span><br>
 <span class="supercell">
-  City rail (including streetcar) and trolleybus timelines, 1835-2025:<br>
-  <span class="innercell">
-    <a href="nycbymode">New York<br>
-    <img id="nycbymodemap" src="nycbymode/1925.svg" width="391" height="387" alt="sample New York rail & trolleybus map"></a></span>
-  <span class="innercell">
-    <a href="bosbymode">Boston<br>
-    <img id="bosbymodemap" src="bosbymode/1925.svg" width="290" height="323" alt="sample Boston rail & trolleybus map"></a></span>
-  <span class="innercell">
-    <a href="sfobymode">San Francisco<br>
-    <img id="sfobymodemap" src="sfobymode/1925.svg" width="391" height="387" alt="sample San Francisco rail & trolleybus map"></a></span><br>
-  <span class="innercell">
-    <a href="berbymode">Berlin<br>
-    <img id="berbymodemap" src="berbymode/1925.svg" width="623" height="529" alt="sample Berlin rail & trolleybus map"></a></span></span><br>
+    City rail (including streetcar) and trolleybus timelines, 1835-2025:<br>
+    <span class="innercell">
+        <a href="nycbymode">New York<br>
+        <img id="nycbymodemap" src="nycbymode/1925.svg" width="391" height="387" alt="sample New York rail & trolleybus map"></a></span>
+    <span class="innercell">
+        <a href="bosbymode">Boston<br>
+        <img id="bosbymodemap" src="bosbymode/1925.svg" width="290" height="323" alt="sample Boston rail & trolleybus map"></a></span>
+    <span class="innercell">
+        <a href="sfobymode">San Francisco<br>
+        <img id="sfobymodemap" src="sfobymode/1925.svg" width="391" height="387" alt="sample San Francisco rail & trolleybus map"></a></span><br>
+    <span class="innercell">
+        <a href="berbymode">Berlin<br>
+        <img id="berbymodemap" src="berbymode/1925.svg" width="623" height="529" alt="sample Berlin rail & trolleybus map"></a></span></span><br>
 <span class="supercell">
-  <span class="medcell">
-    <a href="nyctrolleys">New York trolley abandonment,<br>1932-1957<br>
-    <img id="nyctrolleysmap" src="nyctrolleys/1945.svg" width="391" height="387" alt="sample New York trolley map"></a></span>
-  <span class="medcell">
-    <a href="sandy">Hurricane Sandy rapid transit recovery,<br>October 2012-June 2013<br>
-    <img id="sandymap" src="sandy/8.svg" width="391" height="387" alt="sample Hurricane Sandy map"></a></span>
-  <span class="medcell">
-    <a href="nycflights">Nonstop flights from New York,<br>1930-2020<br>
-    <img id="nycflightsmap" src="nycflights/2020.svg" width="400" height="400" alt="sample New York nonstop flight map"></a></span>
+    <span class="medcell">
+        <a href="nyctrolleys">New York trolley abandonment,<br>1932-1957<br>
+        <img id="nyctrolleysmap" src="nyctrolleys/1945.svg" width="391" height="387" alt="sample New York trolley map"></a></span>
+    <span class="medcell">
+        <a href="sandy">Hurricane Sandy rapid transit recovery,<br>October 2012-June 2013<br>
+        <img id="sandymap" src="sandy/8.svg" width="391" height="387" alt="sample Hurricane Sandy map"></a></span>
+    <span class="medcell">
+        <a href="nycflights">Nonstop flights from New York,<br>1930-2020<br>
+        <img id="nycflightsmap" src="nycflights/2020.svg" width="400" height="400" alt="sample New York nonstop flight map"></a></span>
 </span>
 </div>
 <h3>Other maps:</h3>
 <div>
 <span class="bigcell">
-  <a href="../../tramscale">Scale comparison of tramway systems, 2024</a><br>
-<a href="../../tramscale" class="map-wrap">
-<span class="subcell"><img src="../../tramscale/hou.svg" width="111" alt="Houston"></span>
-<span class="subcell"><img src="../../tramscale/mel.svg" width="277" alt="Melbourne"></span>
-<span class="subcell"><img src="../../tramscale/msy.svg" width="76" alt="New Orleans"></span>
-<br>
-<span class="subcell"><img src="../../tramscale/sfo.svg" width="116" alt="San Francisco"></span>
-<span class="subcell"><img src="../../tramscale/sxb.svg" width="103" alt="Strasbourg"></span>
-<span class="subcell"><img src="../../tramscale/yto.svg" width="221" alt="Toronto"></span>
+    <a href="../../tramscale">Scale comparison of tramway systems, 2024</a><br>
+    <a href="../../tramscale" class="map-wrap">
+    <span class="subcell"><img src="../../tramscale/hou.svg" width="111" alt="Houston"></span>
+    <span class="subcell"><img src="../../tramscale/mel.svg" width="277" alt="Melbourne"></span>
+    <span class="subcell"><img src="../../tramscale/msy.svg" width="76" alt="New Orleans"></span>
+    <br>
+    <span class="subcell"><img src="../../tramscale/sfo.svg" width="116" alt="San Francisco"></span>
+    <span class="subcell"><img src="../../tramscale/sxb.svg" width="103" alt="Strasbourg"></span>
+    <span class="subcell"><img src="../../tramscale/yto.svg" width="221" alt="Toronto"></span>
 </a></span>
 <span class="bigcell">
-  <a href="../../walledcityscale">Scale comparison of selected walled cities,<br>500 BCE-1800 CE</a><br>
-<a href="../../walledcityscale" class="map-wrap">
-<span class="subcell"><img src="../../walledcityscale/alexandria-100.svg" width="154" alt="Alexandria 100 BCE"></span>
-<span class="subcell"><img src="../../walledcityscale/rome300.svg" width="112" alt="Rome 300 CE"></span>
-<span class="subcell"><img src="../../walledcityscale/constantinople500.svg" width="136" alt="Constantinope 500 CE"></span>
-<br>
-<span class="subcell"><img src="../../walledcityscale/paris1400.svg" width="70" alt="Paris 1400 CE"></span>
-<span class="subcell"><img src="../../walledcityscale/beijing1500.svg" width="158" alt="Beijing 1500 CE"></span>
-<span class="subcell"><img src="../../walledcityscale/tenochtitlan1500.svg" width="110" alt="Tenochtitlan 1500 CE"></span>
-</a></span><br>
-<span class="bigcell">
-Google maps:
-<ul>
-<li>
-  <a href="https://www.google.com/maps/d/viewer?mid=1JCl-hJ3LsQZBSY7hFgSq28lld3Q">Boston-New York by trolley, 1917</a>
-<li>
-  <a href="https://www.google.com/maps/d/viewer?mid=1ssLSKSbYD4NO4pBEQOGCPvzawPo6feqy">Boston-Chicago by trolley, 1917</a>
-<li>
-  Trolley systems in 1932:<ul>
-<li><a href="https://www.google.com/maps/d/viewer?mid=1YF-6azqoHFeCqTrtNDDWmKsFTRU">New York area</a>
-<li><a href="https://www.google.com/maps/d/viewer?mid=19mApGyHiIT2qbGbE3R_qqjtSLxR6UMXm">Boston area</a>
-<li><a href="https://www.google.com/maps/d/viewer?mid=1nQ-9vr-XDdkJR3Nc3nfjeiksuCY">San Francisco area</a>
-<li><a href="https://www.google.com/maps/d/viewer?mid=11uMSyEKrZEx2xlOfUDNEgCEFGKcpFu0">Berlin area</a>
-</ul>
-<li>
-  <a href="https://www.google.com/maps/d/viewer?mid=1dHRvqE8gEzzcc_AGAYBj1q-X-WH_CekB">All trolley lines in North America, 1957</a>
-<li>
-  <a href="https://www.google.com/maps/d/viewer?mid=1hCai9g3nMkvLQVNtjHENpksvFQN56uzS">All trolley lines in the Americas, 1967</a>
-<li>
-  <a href="https://www.google.com/maps/d/viewer?mid=1jpf5KDT8xYkBfyG1TyagMtOz1Jk">All trolleybus lines in the Americas, 2017</a>
-</ul>
-</span>
-<span class="bigcell">
-Google charts:
-<ul>
-<li><a href="https://docs.google.com/spreadsheets/d/1TkMGrHp17fUtjoqAPZJyxavicrdE032FEcdlJlGfi9I/view#gid=1229173968">Travel times from New York to Philadelphia, Washington, and Boston, 1835-2024</a>
-<li><a href="https://docs.google.com/spreadsheets/d/1gjQ0eGFmgd7MXMLBYypezH3PJmnO2SRStcvC-PQHa-8/edit#gid=2009565902">Trains per weekday through the New York Penn Station Hudson tunnel, 1912-2023</a>
-<li><a href="https://docs.google.com/spreadsheets/d/1TTBQRrPkAU1I7J93pN7j6SBbe2663_kmnr3bjnTSNoY/view#gid=970690919">Trains per weekday on the San Francisco Caltrain corridor, 1863-2024</a>
-<li><a href="https://docs.google.com/spreadsheets/d/1E_H9-4yuMO2RyJpF6noYIkHv10PMGRm5fXEdrQGMoDo/view#gid=536731106">Total US transit ridership by mode, 1860-2024</a>
-</ul>
-</span>
+    <a href="../../walledcityscale">Scale comparison of selected walled cities,<br>500 BCE-1800 CE</a><br>
+    <a href="../../walledcityscale" class="map-wrap">
+    <span class="subcell"><img src="../../walledcityscale/alexandria-100.svg" width="154" alt="Alexandria 100 BCE"></span>
+    <span class="subcell"><img src="../../walledcityscale/rome300.svg" width="112" alt="Rome 300 CE"></span>
+    <span class="subcell"><img src="../../walledcityscale/constantinople500.svg" width="136" alt="Constantinope 500 CE"></span>
+    <br>
+    <span class="subcell"><img src="../../walledcityscale/paris1400.svg" width="70" alt="Paris 1400 CE"></span>
+    <span class="subcell"><img src="../../walledcityscale/beijing1500.svg" width="158" alt="Beijing 1500 CE"></span>
+    <span class="subcell"><img src="../../walledcityscale/tenochtitlan1500.svg" width="110" alt="Tenochtitlan 1500 CE"></span>
+    </a></span><br>
+<span class="bigcell">Google maps:<ul>
+    <li><a href="https://www.google.com/maps/d/viewer?mid=1JCl-hJ3LsQZBSY7hFgSq28lld3Q">Boston-New York by trolley, 1917</a>
+    <li><a href="https://www.google.com/maps/d/viewer?mid=1ssLSKSbYD4NO4pBEQOGCPvzawPo6feqy">Boston-Chicago by trolley, 1917</a>
+    <li>Trolley systems in 1932:<ul>
+        <li><a href="https://www.google.com/maps/d/viewer?mid=1YF-6azqoHFeCqTrtNDDWmKsFTRU">New York area</a>
+        <li><a href="https://www.google.com/maps/d/viewer?mid=19mApGyHiIT2qbGbE3R_qqjtSLxR6UMXm">Boston area</a>
+        <li><a href="https://www.google.com/maps/d/viewer?mid=1nQ-9vr-XDdkJR3Nc3nfjeiksuCY">San Francisco area</a>
+        <li><a href="https://www.google.com/maps/d/viewer?mid=11uMSyEKrZEx2xlOfUDNEgCEFGKcpFu0">Berlin area</a>
+    </ul>
+    <li><a href="https://www.google.com/maps/d/viewer?mid=1dHRvqE8gEzzcc_AGAYBj1q-X-WH_CekB">All trolley lines in North America, 1957</a>
+    <li><a href="https://www.google.com/maps/d/viewer?mid=1hCai9g3nMkvLQVNtjHENpksvFQN56uzS">All trolley lines in the Americas, 1967</a>
+    <li><a href="https://www.google.com/maps/d/viewer?mid=1jpf5KDT8xYkBfyG1TyagMtOz1Jk">All trolleybus lines in the Americas, 2017</a>
+</ul></span>
+<span class="bigcell">Google charts:<ul>
+    <li><a href="https://docs.google.com/spreadsheets/d/1TkMGrHp17fUtjoqAPZJyxavicrdE032FEcdlJlGfi9I/view#gid=1229173968">Travel times from New York to Philadelphia, Washington, and Boston, 1835-2024</a>
+    <li><a href="https://docs.google.com/spreadsheets/d/1gjQ0eGFmgd7MXMLBYypezH3PJmnO2SRStcvC-PQHa-8/edit#gid=2009565902">Trains per weekday through the New York Penn Station Hudson tunnel, 1912-2023</a>
+    <li><a href="https://docs.google.com/spreadsheets/d/1TTBQRrPkAU1I7J93pN7j6SBbe2663_kmnr3bjnTSNoY/view#gid=970690919">Trains per weekday on the San Francisco Caltrain corridor, 1863-2024</a>
+    <li><a href="https://docs.google.com/spreadsheets/d/1E_H9-4yuMO2RyJpF6noYIkHv10PMGRm5fXEdrQGMoDo/view#gid=536731106">Total US transit ridership by mode, 1860-2024</a>
+</ul></span>
 <p>
 Note: above maps not all at same scale.
 <p>

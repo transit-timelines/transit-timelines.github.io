@@ -1,4 +1,5 @@
 #!/bin/bash
+SCRIPTDIR=$(dirname $0)
 cat <<HEREDOC
 <!DOCTYPE HTML>
 <html>
@@ -11,73 +12,73 @@ cat <<HEREDOC
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
 div#preloader {
-	position: absolute;
-	left: -9999px;
-	top:  -9999px;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
 }
 div#preloader img {
-	width: 1px;
-	height: 1px;
-	display: block;
+    width: 1px;
+    height: 1px;
+    display: block;
 }
 a:link.map-wrap {
-	text-decoration: none;
+    text-decoration: none;
 }
 div#sidebar {
-	float: left;
-	background: #ffffff;
-	border: 1px solid;
-	width: 10.5em;
-	max-height: calc(100% - 22px);
-	top: 0;
-	left: 0;
-	margin: 5px;
-	padding: 5px;
-	position: fixed;
-	display: flex;
-	flex-flow: column;
-	text-align: left;
+    float: left;
+    background: #ffffff;
+    border: 1px solid;
+    width: 10.5em;
+    max-height: calc(100% - 22px);
+    top: 0;
+    left: 0;
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    text-align: left;
 }
 div#form {
-	flex: 1;
-	overflow: auto;
+    flex: 1;
+    overflow: auto;
 }
 div#button a:link {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 div#button a:visited {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 span {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
 }
 .map {
-	border: 1px solid;
-	margin-left: 10px;
-	margin-right: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .headerfooter {
-	padding-left: calc(10.5em + 22px);
-	padding-right: calc(10.5em + 22px);
-	white-space: nowrap;
+    padding-left: calc(10.5em + 22px);
+    padding-right: calc(10.5em + 22px);
+    white-space: nowrap;
 }
 body {
-	text-align: center;
+    text-align: center;
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	/* styles for IE since flex is broken */
-	div#sidebar {
-		line-height: 1.2em;
-		display: block;
-		max-height: calc(100% - 22px);
-	}
-	div#form {
-		height: calc(100vh - 22px - 3.6em);
-	}
+    /* styles for IE since flex is broken */
+    div#sidebar {
+        line-height: 1.2em;
+        display: block;
+        max-height: calc(100% - 22px);
+    }
+    div#form {
+        height: calc(100vh - 22px - 3.6em);
+    }
 }
 </style>
 <script type="text/javascript">
@@ -98,136 +99,136 @@ cat <<HEREDOC
 step=5;
 index=count-1;
 function update(city) {
-	yr = start+step*index;
-	mapimg = document.getElementById(city + "map");
-	if (yr < citystartyears[city.toLowerCase()]) {
-                mapimg.src = encodeURI('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + mapimg.width + ' ' + mapimg.height + '"><text style="font-size:10.435;font-family:Sans;fill:%23000000" x="6.482" y="14.997"><tspan>' + yr + '</tspan></text></svg>');
-        } else {
-                mapimg.src = (city.toLowerCase() + "/small/" + (yr) + ".svg");
-        }
-        mapimg.setAttribute("title", yr);
-        mapimg.setAttribute("alt", yr + " map");
+    yr = start+step*index;
+    mapimg = document.getElementById(city + "map");
+    if (yr < citystartyears[city.toLowerCase()]) {
+        mapimg.src = encodeURI('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + mapimg.width + ' ' + mapimg.height + '"><text style="font-size:10.435;font-family:Sans;fill:%23000000" x="6.482" y="14.997"><tspan>' + yr + '</tspan></text></svg>');
+    } else {
+        mapimg.src = (city.toLowerCase() + "/small/" + (yr) + ".svg");
+    }
+    mapimg.setAttribute("title", yr);
+    mapimg.setAttribute("alt", yr + " map");
 }
 function updateall() {
-	citylist.forEach(function (city) {
-		if (document.getElementById(city).style.display == "inline-block") {
-			update(city);
-		}
-	});
+    citylist.forEach(function (city) {
+        if (document.getElementById(city).style.display == "inline-block") {
+            update(city);
+        }
+    });
 }
 function nextmap() {
-	index = (index+1)%count;
-	updateall();
+    index = (index+1)%count;
+    updateall();
 }
 function prevmap() {
-	index = (index+count-1)%count;
-	updateall();
+    index = (index+count-1)%count;
+    updateall();
 }
 function toggleshow(x) {
-	span = document.getElementById(x);
-	checkboxes = document.getElementsByClassName(x + "checkbox");
-	if (span.style.display == 'inline-block') {
-		mapimg = document.getElementById(x + "map");
-		span.style.display = 'none';
-		if (mapimg.tagName.toUpperCase() == "IMG") mapimg.src = "/0";
-		prediv = document.getElementById(x + "pre");
-		prediv.parentNode.removeChild(prediv);
-		for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = false; }
-	} else {
-		update(x);
-		for (var i = citystartyears[x.toLowerCase()]; i < start + count*step; i+=step) {
-			prediv = document.createElement("div");
-			prediv.id = x + "pre";
-			img = document.createElement("img");
-			img.src = x.toLowerCase() + '/small/' + i + '.svg';
-			img.width = "1"; img.height = "1"; img.alt = "";
-			prediv.appendChild(img);
-			document.getElementById("preloader").appendChild(prediv);
-		}
-		span.style.display = 'inline-block';
-		for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = true; }
-	}
+    span = document.getElementById(x);
+    checkboxes = document.getElementsByClassName(x + "checkbox");
+    if (span.style.display == 'inline-block') {
+        mapimg = document.getElementById(x + "map");
+        span.style.display = 'none';
+        if (mapimg.tagName.toUpperCase() == "IMG") mapimg.src = "/0";
+        prediv = document.getElementById(x + "pre");
+        prediv.parentNode.removeChild(prediv);
+        for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = false; }
+    } else {
+        update(x);
+        for (var i = citystartyears[x.toLowerCase()]; i < start + count*step; i+=step) {
+            prediv = document.createElement("div");
+            prediv.id = x + "pre";
+            img = document.createElement("img");
+            img.src = x.toLowerCase() + '/small/' + i + '.svg';
+            img.width = "1"; img.height = "1"; img.alt = "";
+            prediv.appendChild(img);
+            document.getElementById("preloader").appendChild(prediv);
+        }
+        span.style.display = 'inline-block';
+        for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = true; }
+    }
 }
 function togglesidebar() {
-	f = document.getElementById("form");
-	s = document.getElementById("showall");
-	h = document.getElementById("hideall");
-	a = document.getElementById("collapse");
-	m = document.getElementById("maps");
-	if (f.style.display == 'block') {
-		f.style.display = 'none';
-		s.style.display = 'none';
-		h.style.display = 'none';
-		a.innerHTML = "[+]";
-		m.style.paddingLeft = "0";
-	} else {
-		f.style.display = 'block';
-		s.style.display = 'block';
-		h.style.display = 'block';
-		a.innerHTML = "[&minus;]";
-		m.style.paddingLeft = "calc(10.5em + 22px)";
-	}
+    f = document.getElementById("form");
+    s = document.getElementById("showall");
+    h = document.getElementById("hideall");
+    a = document.getElementById("collapse");
+    m = document.getElementById("maps");
+    if (f.style.display == 'block') {
+        f.style.display = 'none';
+        s.style.display = 'none';
+        h.style.display = 'none';
+        a.innerHTML = "[+]";
+        m.style.paddingLeft = "0";
+    } else {
+        f.style.display = 'block';
+        s.style.display = 'block';
+        h.style.display = 'block';
+        a.innerHTML = "[&minus;]";
+        m.style.paddingLeft = "calc(10.5em + 22px)";
+    }
 }
 function selectall(i) {
-	spans = document.getElementsByTagName("span");
-	if (i < spans.length) {
-		if (spans[i].style.display == 'none') {
-			toggleshow(spans[i].id);
-		}
-		setTimeout(function(){ selectall(i+1) }, 1);
-	}
+    spans = document.getElementsByTagName("span");
+    if (i < spans.length) {
+        if (spans[i].style.display == 'none') {
+            toggleshow(spans[i].id);
+        }
+        setTimeout(function(){ selectall(i+1) }, 1);
+    }
 }
 function deselectall() {
-	spans = document.getElementsByTagName("span");
-	for (var i=0; i < spans.length; i++) {
-		if (spans[i].style.display == 'inline-block') {
-			toggleshow(spans[i].id);
-		}
-	}
+    spans = document.getElementsByTagName("span");
+    for (var i=0; i < spans.length; i++) {
+        if (spans[i].style.display == 'inline-block') {
+            toggleshow(spans[i].id);
+        }
+    }
 }
 function sidebarclick(x) {
-	span = document.getElementById(x);
-	if (span.style.display == 'none') {
-		toggleshow(x);
-	}
-	span.scrollIntoView();
+    span = document.getElementById(x);
+    if (span.style.display == 'none') {
+        toggleshow(x);
+    }
+    span.scrollIntoView();
 }
 intervalID=0;
 function startanim() {
-	intervalID = setInterval(nextmap, 1000);
-	animbutton = document.getElementById("animbutton");
-	animbutton.onclick = stopanim;
-	animbutton.innerText = "click here to stop animation";
+    intervalID = setInterval(nextmap, 1000);
+    animbutton = document.getElementById("animbutton");
+    animbutton.onclick = stopanim;
+    animbutton.innerText = "click here to stop animation";
 }
 function stopanim() {
-	clearInterval(intervalID);
-	animbutton = document.getElementById("animbutton");
-	animbutton.onclick = startanim;
-	animbutton.innerText = "click here to animate";
+    clearInterval(intervalID);
+    animbutton = document.getElementById("animbutton");
+    animbutton.onclick = startanim;
+    animbutton.innerText = "click here to animate";
 }
 
 document.onkeydown=function(keypress) {
-	if(keypress.which == 65) { prevmap(); }
-	if(keypress.which == 83) { nextmap(); }
+    if(keypress.which == 65) { prevmap(); }
+    if(keypress.which == 83) { nextmap(); }
 }
 window.onload=function() {
-	inyear = parseInt(location.hash.substring(1));
-	if( start < inyear & inyear < start+step*count & !(inyear % step) ) {
-		index = (inyear-start)/step;
-		updateall();
-	}
+    inyear = parseInt(location.hash.substring(1));
+    if( start < inyear & inyear < start+step*count & !(inyear % step) ) {
+        index = (inyear-start)/step;
+        updateall();
+    }
 }
 function clicktohide() {
-	citylist.forEach(function (city) {
-		imga = document.getElementById(city).getElementsByTagName("a")[1];
-		imga.href = "javascript:toggleshow('" + city + "')"
-	});
+    citylist.forEach(function (city) {
+        imga = document.getElementById(city).getElementsByTagName("a")[1];
+        imga.href = "javascript:toggleshow('" + city + "')"
+    });
 }
 function unclicktohide() {
-	citylist.forEach(function (city) {
-		span = document.getElementById(city);
-		span.getElementsByTagName("a")[1].href = span.getElementsByTagName("a")[0].href;
-	});
+    citylist.forEach(function (city) {
+        span = document.getElementById(city);
+        span.getElementsByTagName("a")[1].href = span.getElementsByTagName("a")[0].href;
+    });
 }
 </script>
 <script type="text/javascript">
@@ -256,18 +257,18 @@ function unclicktohide() {
 HEREDOC
 
 for city in $@; do
-  NAME=`cat $city/name`
-  UPPER=$(echo $city | tr 'a-z' 'A-Z')
-  NATIVEW=$(grep ' width="' $city/small/2025.svg | head -n1 | sed -e's/.* width="\([0-9\.]*\)".*/\1/;')
-  W=$(awk "BEGIN{print int(0.5+$NATIVEW*10/138)}")
-  H=$(awk "BEGIN{print int(0.5+$(grep ' height=' $city/small/2025.svg | head -n1 | sed -e's/.* height="\([0-9\.]*\)".*/\1/;')*$W/$NATIVEW)}")
-  if [ -f $city/s ]; then
-    echo '<span id="'$UPPER'" style="display: inline-block;"><a href="'$city'">'$NAME'</a><br>'
-    echo '  <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="'$city'/small/2025.svg" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
-  else
-    echo '<span id="'$UPPER'" style="display: none;"><a href="'$city'">'$NAME'</a><br>'
-    echo '  <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="/0" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
-  fi
+    NAME=`cat $city/name`
+    UPPER=$(echo $city | tr 'a-z' 'A-Z')
+    NATIVEW=$(grep ' width="' $city/small/2025.svg | head -n1 | sed -e's/.* width="\([0-9\.]*\)".*/\1/;')
+    W=$(awk "BEGIN{print int(0.5+$NATIVEW*10/138)}")
+    H=$(awk "BEGIN{print int(0.5+$(grep ' height=' $city/small/2025.svg | head -n1 | sed -e's/.* height="\([0-9\.]*\)".*/\1/;')*$W/$NATIVEW)}")
+    if [ -f $city/s ]; then
+        echo '<span id="'$UPPER'" style="display: inline-block;"><a href="'$city'">'$NAME'</a><br>'
+        echo '    <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="'$city'/small/2025.svg" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
+    else
+        echo '<span id="'$UPPER'" style="display: none;"><a href="'$city'">'$NAME'</a><br>'
+        echo '    <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="/0" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
+    fi
 done
 
 cat <<HEREDOC
@@ -283,21 +284,21 @@ cat <<HEREDOC
 <div id="form" style="display: block;">
 HEREDOC
 for city in $@; do
-  perl -e'
-    $city = $ARGV[0];
-    $upper = $city;
-    $upper =~ tr/a-z/A-Z/;
-    $name = `cat $city/name`;
-    $name =~ s/<br>/ /;
-    $name =~ s/Naberezhnye/Nab./;
-    chomp $name;
-    foreach ( split(/ \/ /, $name) ) {
-      if (-e "$city/s") {
-        print "$_ AA<input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"toggleshow(\x27${upper}\x27)\" autocomplete=\"off\" checked><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
-      } else {
-        print "$_ AA<input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"toggleshow(\x27${upper}\x27)\" autocomplete=\"off\"><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
-      }
-    }' $city
+    perl -e'
+        $city = $ARGV[0];
+        $upper = $city;
+        $upper =~ tr/a-z/A-Z/;
+        $name = `cat $city/name`;
+        $name =~ s/<br>/ /;
+        $name =~ s/Naberezhnye/Nab./;
+        chomp $name;
+        foreach ( split(/ \/ /, $name) ) {
+            if (-e "$city/s") {
+                print "$_ AA<input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"toggleshow(\x27${upper}\x27)\" autocomplete=\"off\" checked><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
+            } else {
+                print "$_ AA<input type=\"checkbox\" class=\"${upper}checkbox\" onclick=\"toggleshow(\x27${upper}\x27)\" autocomplete=\"off\"><a href=\"javascript:sidebarclick(\x27${upper}\x27)\">$_</a><br>\n";
+            }
+        }' $city
 done | sort | sed -e's/.* AA<input/<input/;'
 cat <<HEREDOC
 </div>
@@ -316,14 +317,14 @@ See also: <a href="misc">miscellaneous timelines and maps</a>
 <div id=preloader>
 HEREDOC
 for city in $@; do if [ -f $city/s ]; then
-  UPPER=`echo $city | tr 'a-z' 'A-Z'`
-  echo '<div id="'$UPPER'pre">'
-  for yr in $(seq ${start} 5 2025); do
-    if [ -f $city/small/$yr.svg ]; then
-      echo '<img src="'${city}'/small/'${yr}'.svg" alt="">'
-    fi
-  done
-  echo '</div>'
+    UPPER=`echo $city | tr 'a-z' 'A-Z'`
+    echo '<div id="'$UPPER'pre">'
+    for yr in $(seq ${start} 5 2025); do
+        if [ -f $city/small/$yr.svg ]; then
+            echo '<img src="'${city}'/small/'${yr}'.svg" alt="">'
+        fi
+    done
+    echo '</div>'
 fi; done
-echo '</div>'
-cat ~/timelines/scripts/template/part4
+echo '</div></div>'
+cat ${SCRIPTDIR}/template/part4

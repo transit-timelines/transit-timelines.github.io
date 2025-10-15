@@ -7,122 +7,122 @@
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
 span {
-	margin-top: 10px;
-	margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .map {
-	border: 1px solid;
-	margin-left: 10px;
-	margin-right: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 div#sidebar {
-	float: left;
-	background: #ffffff;
-	border: 1px solid;
-	width: 10.5em;
-	max-height: calc(100% - 22px);
-	top: 0;
-	left: 0;
-	margin: 5px;
-	padding: 5px;
-	position: fixed;
-	display: flex;
-	flex-flow: column;
-	text-align: left;
+    float: left;
+    background: #ffffff;
+    border: 1px solid;
+    width: 10.5em;
+    max-height: calc(100% - 22px);
+    top: 0;
+    left: 0;
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    text-align: left;
 }
 div#form {
-	flex: 1;
-	overflow: auto;
+    flex: 1;
+    overflow: auto;
 }
 div#button a:link {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 div#button a:visited {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 .headerfooter {
-	padding-left: calc(10.5em + 22px);
-	padding-right: calc(10.5em + 22px);
-	white-space: nowrap;
+    padding-left: calc(10.5em + 22px);
+    padding-right: calc(10.5em + 22px);
+    white-space: nowrap;
 }
 body {
-	text-align: center;
+    text-align: center;
 }
 </style>
 <script language="JavaScript" type="text/javascript">
 function toggleshow(x) {
-	span = document.getElementById(x);
-	checkboxes = document.getElementsByClassName(x + "checkbox");
-	if (span.style.display == 'inline-block') {
-		span.style.display = 'none';
-		for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = false; }
-	} else {
-		span.style.display = 'inline-block';
-		for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = true; }
-	}
+    span = document.getElementById(x);
+    checkboxes = document.getElementsByClassName(x + "checkbox");
+    if (span.style.display == 'inline-block') {
+        span.style.display = 'none';
+        for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = false; }
+    } else {
+        span.style.display = 'inline-block';
+        for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = true; }
+    }
 }
 function checkboxclick(x) {
-	location.replace("#");
-	toggleshow(x);
+    location.replace("#");
+    toggleshow(x);
 }
 function sidebarclick(x) {
-	span = document.getElementById(x);
-	if (span.style.display == 'none') {
-		toggleshow(x);
-	}
-	span.scrollIntoView();
-	location.replace("#" + (x));
+    span = document.getElementById(x);
+    if (span.style.display == 'none') {
+        toggleshow(x);
+    }
+    span.scrollIntoView();
+    location.replace("#" + (x));
 }
 function selectall() {
-	location.replace("#showall");
-	spans = document.getElementsByTagName("span");
-	for (var i=0; i < spans.length; i++) {
-		if (spans[i].style.display == 'none') {
-			toggleshow(spans[i].id);
-		}
-	}
+    location.replace("#showall");
+    spans = document.getElementsByTagName("span");
+    for (var i=0; i < spans.length; i++) {
+        if (spans[i].style.display == 'none') {
+            toggleshow(spans[i].id);
+        }
+    }
 }
 function deselectall() {
-	location.replace("#hideall");
-	spans = document.getElementsByTagName("span");
-	for (var i=0; i < spans.length; i++) {
-		if (spans[i].style.display == 'inline-block') {
-			toggleshow(spans[i].id);
-		}
-	}
+    location.replace("#hideall");
+    spans = document.getElementsByTagName("span");
+    for (var i=0; i < spans.length; i++) {
+        if (spans[i].style.display == 'inline-block') {
+            toggleshow(spans[i].id);
+        }
+    }
 }
 function togglesidebar() {
-	f = document.getElementById("form");
-	s = document.getElementById("showall");
-	h = document.getElementById("hideall");
-	a = document.getElementById("collapse");
-	m = document.getElementById("maps");
-	if (f.style.display == 'block') {
-		f.style.display = 'none';
-		s.style.display = 'none';
-		h.style.display = 'none';
-		a.innerHTML = "[+]";
-		m.style.paddingLeft = "0";
-	} else {
-		f.style.display = 'block';
-		s.style.display = 'block';
-		h.style.display = 'block';
-		a.innerHTML = "[&minus;]";
-		m.style.paddingLeft = "calc(10.5em + 22px)";
-	}
+    f = document.getElementById("form");
+    s = document.getElementById("showall");
+    h = document.getElementById("hideall");
+    a = document.getElementById("collapse");
+    m = document.getElementById("maps");
+    if (f.style.display == 'block') {
+        f.style.display = 'none';
+        s.style.display = 'none';
+        h.style.display = 'none';
+        a.innerHTML = "[+]";
+        m.style.paddingLeft = "0";
+    } else {
+        f.style.display = 'block';
+        s.style.display = 'block';
+        h.style.display = 'block';
+        a.innerHTML = "[&minus;]";
+        m.style.paddingLeft = "calc(10.5em + 22px)";
+    }
 }
 window.onhashchange=function() {
-	location.hash.split("#").forEach(function(x) {
-		if (x == "showall") {
-			selectall();
-		} else if (x == "hideall") {
-			deselectall();
-		} else if (x.length == 3) {
-			sidebarclick(x);
-		}
-	});
+    location.hash.split("#").forEach(function(x) {
+        if (x == "showall") {
+            selectall();
+        } else if (x == "hideall") {
+            deselectall();
+        } else if (x.length == 3) {
+            sidebarclick(x);
+        }
+    });
 }
 window.onload=window.onhashchange;
 </script>
@@ -140,747 +140,747 @@ window.onload=window.onhashchange;
 <h3>Tramway (Streetcar & Light Rail) Scale Comparison</h3>
 <div id="maps" style="padding-left: calc(10.5em + 22px);">
 <span id="ZDA" style="display: none; vertical-align: middle">Aarau<br>
-  <img class="map" src="zda.svg" title="Aarau" alt="Aarau map" width="364" height="538"></span>
+    <img class="map" src="zda.svg" title="Aarau" alt="Aarau map" width="364" height="538"></span>
 <span id="AAR" style="display: none; vertical-align: middle">Aarhus<br>
-  <img class="map" src="aar.svg" title="Aarhus" alt="Aarhus map" width="196" height="523"></span>
+    <img class="map" src="aar.svg" title="Aarhus" alt="Aarhus map" width="196" height="523"></span>
 <span id="ACS" style="display: none; vertical-align: middle">Achinsk<br>
-  <img class="map" src="acs.svg" title="Achinsk" alt="Achinsk map" width="201" height="212"></span>
+    <img class="map" src="acs.svg" title="Achinsk" alt="Achinsk map" width="201" height="212"></span>
 <span id="ADD" style="display: none; vertical-align: middle">Addis Ababa<br>
-  <img class="map" src="add.svg" title="Addis Ababa" alt="Addis Ababa map" width="522" height="359"></span>
+    <img class="map" src="add.svg" title="Addis Ababa" alt="Addis Ababa map" width="522" height="359"></span>
 <span id="ADL" style="display: inline-block; vertical-align: middle">Adelaide<br>
-  <img class="map" src="adl.svg" title="Adelaide" alt="Adelaide map" width="293" height="271"></span>
+    <img class="map" src="adl.svg" title="Adelaide" alt="Adelaide map" width="293" height="271"></span>
 <span id="ALG" style="display: none; vertical-align: middle">Alger<br>
-  <img class="map" src="alg.svg" title="Alger" alt="Alger map" width="500" height="223"></span>
+    <img class="map" src="alg.svg" title="Alger" alt="Alger map" width="500" height="223"></span>
 <span id="ALC" style="display: none; vertical-align: middle">Alicante<br>
-  <img class="map" src="alc.svg" title="Alicante" alt="Alicante map" width="348" height="299"></span>
+    <img class="map" src="alc.svg" title="Alicante" alt="Alicante map" width="348" height="299"></span>
 <span id="AMS" style="display: inline-block; vertical-align: middle">Amsterdam<br>
-  <img class="map" src="ams.svg" title="Amsterdam" alt="Amsterdam map" width="495" height="539"></span>
+    <img class="map" src="ams.svg" title="Amsterdam" alt="Amsterdam map" width="495" height="539"></span>
 <span id="AK_" style="display: none; vertical-align: middle">Angarsk<br>
-  <img class="map" src="ak_.svg" title="Angarsk" alt="Angarsk map" width="152" height="277"></span>
+    <img class="map" src="ak_.svg" title="Angarsk" alt="Angarsk map" width="152" height="277"></span>
 <span id="ANE" style="display: none; vertical-align: middle">Angers<br>
-  <img class="map" src="ane.svg" title="Angers" alt="Angers map" width="201" height="255"></span>
+    <img class="map" src="ane.svg" title="Angers" alt="Angers map" width="201" height="255"></span>
 <span id="AYT" style="display: none; vertical-align: middle">Antalya<br>
-  <img class="map" src="ayt.svg" title="Antalya" alt="Antalya map" width="647" height="446"></span>
+    <img class="map" src="ayt.svg" title="Antalya" alt="Antalya map" width="647" height="446"></span>
 <span id="ANR" style="display: none; vertical-align: middle">Antwerpen<br>
-  <img class="map" src="anr.svg" title="Antwerpen" alt="Antwerpen map" width="462" height="353"></span>
+    <img class="map" src="anr.svg" title="Antwerpen" alt="Antwerpen map" width="462" height="353"></span>
 <span id="ARW" style="display: none; vertical-align: middle">Arad<br>
-  <img class="map" src="arw.svg" title="Arad" alt="Arad map" width="190" height="223"></span>
+    <img class="map" src="arw.svg" title="Arad" alt="Arad map" width="190" height="223"></span>
 <span id="ATH" style="display: none; vertical-align: middle">Athína<br>
-  <img class="map" src="ath.svg" title="Athína" alt="Athína map" width="326" height="446"></span>
+    <img class="map" src="ath.svg" title="Athína" alt="Athína map" width="326" height="446"></span>
 <span id="ATL" style="display: inline-block; vertical-align: middle">Atlanta<br>
-  <img class="map" src="atl.svg" title="Atlanta" alt="Atlanta map" width="76" height="43"></span>
+    <img class="map" src="atl.svg" title="Atlanta" alt="Atlanta map" width="76" height="43"></span>
 <span id="AGB" style="display: none; vertical-align: middle">Augsburg<br>
-  <img class="map" src="agb.svg" title="Augsburg" alt="Augsburg map" width="310" height="468"></span>
+    <img class="map" src="agb.svg" title="Augsburg" alt="Augsburg map" width="310" height="468"></span>
 <span id="AVN" style="display: none; vertical-align: middle">Avignon<br>
-  <img class="map" src="avn.svg" title="Avignon" alt="Avignon map" width="130" height="81"></span>
+    <img class="map" src="avn.svg" title="Avignon" alt="Avignon map" width="130" height="81"></span>
 <span id="BWI" style="display: none; vertical-align: middle">Baltimore<br>
-  <img class="map" src="bwi.svg" title="Baltimore" alt="Baltimore map" width="141" height="1009"></span>
+    <img class="map" src="bwi.svg" title="Baltimore" alt="Baltimore map" width="141" height="1009"></span>
 <span id="BCN" style="display: none; vertical-align: middle">Barcelona<br>
-  <img class="map" src="bcn.svg" title="Barcelona" alt="Barcelona map" width="478" height="304"></span>
+    <img class="map" src="bcn.svg" title="Barcelona" alt="Barcelona map" width="478" height="304"></span>
 <span id="BAX" style="display: none; vertical-align: middle">Barnaul<br>
-  <img class="map" src="bax.svg" title="Barnaul" alt="Barnaul map" width="364" height="413"></span>
+    <img class="map" src="bax.svg" title="Barnaul" alt="Barnaul map" width="364" height="413"></span>
 <span id="BSL" style="display: none; vertical-align: middle">Basel<br>
-  <img class="map" src="bsl.svg" title="Basel" alt="Basel map" width="462" height="446"></span>
+    <img class="map" src="bsl.svg" title="Basel" alt="Basel map" width="462" height="446"></span>
 <span id="BJS" style="display: none; vertical-align: middle">Beijing<br>
-  <img class="map" src="bjs.svg" title="Beijing" alt="Beijing map" width="946" height="968"></span>
+    <img class="map" src="bjs.svg" title="Beijing" alt="Beijing map" width="946" height="968"></span>
 <span id="BEG" style="display: none; vertical-align: middle">Beograd<br>
-  <img class="map" src="beg.svg" title="Beograd" alt="Beograd map" width="375" height="337"></span>
+    <img class="map" src="beg.svg" title="Beograd" alt="Beograd map" width="375" height="337"></span>
 <span id="BGY" style="display: none; vertical-align: middle">Bergamo<br>
-  <img class="map" src="bgy.svg" title="Bergamo" alt="Bergamo map" width="310" height="250"></span>
+    <img class="map" src="bgy.svg" title="Bergamo" alt="Bergamo map" width="310" height="250"></span>
 <span id="BGO" style="display: none; vertical-align: middle">Bergen<br>
-  <img class="map" src="bgo.svg" title="Bergen" alt="Bergen map" width="239" height="375"></span>
+    <img class="map" src="bgo.svg" title="Bergen" alt="Bergen map" width="239" height="375"></span>
 <span id="BER" style="display: inline-block; vertical-align: middle">Berlin<br>
-  <img class="map" src="ber.svg" title="Berlin" alt="Berlin map" width="1130" height="809"></span>
+    <img class="map" src="ber.svg" title="Berlin" alt="Berlin map" width="1130" height="809"></span>
 <span id="BRN" style="display: none; vertical-align: middle">Bern<br>
-  <img class="map" src="brn.svg" title="Bern" alt="Bern map" width="457" height="163"></span>
+    <img class="map" src="brn.svg" title="Bern" alt="Bern map" width="457" height="163"></span>
 <span id="QBQ" style="display: none; vertical-align: middle">Besançon<br>
-  <img class="map" src="qbq.svg" title="Besançon" alt="Besançon map" width="277" height="179"></span>
+    <img class="map" src="qbq.svg" title="Besançon" alt="Besançon map" width="277" height="179"></span>
 <span id="BFE" style="display: none; vertical-align: middle">Bielefeld<br>
-  <img class="map" src="bfe.svg" title="Bielefeld" alt="Bielefeld map" width="321" height="288"></span>
+    <img class="map" src="bfe.svg" title="Bielefeld" alt="Bielefeld map" width="321" height="288"></span>
 <span id="BIO" style="display: none; vertical-align: middle">Bilbao<br>
-  <img class="map" src="bio.svg" title="Bilbao" alt="Bilbao map" width="141" height="108"></span>
+    <img class="map" src="bio.svg" title="Bilbao" alt="Bilbao map" width="141" height="108"></span>
 <span id="BHX" style="display: none; vertical-align: middle">Birmingham<br>
-  <img class="map" src="bhx.svg" title="Birmingham" alt="Birmingham map" width="495" height="413"></span>
+    <img class="map" src="bhx.svg" title="Birmingham" alt="Birmingham map" width="495" height="413"></span>
 <span id="BI_" style="display: none; vertical-align: middle">Biysk<br>
-  <img class="map" src="bi_.svg" title="Biysk" alt="Biysk map" width="223" height="141"></span>
+    <img class="map" src="bi_.svg" title="Biysk" alt="Biysk map" width="223" height="141"></span>
 <span id="BLK" style="display: inline-block; vertical-align: middle">Blackpool<br>
-  <img class="map" src="blk.svg" title="Blackpool" alt="Blackpool map" width="130" height="525"></span>
+    <img class="map" src="blk.svg" title="Blackpool" alt="Blackpool map" width="130" height="525"></span>
 <span id="BOD" style="display: none; vertical-align: middle">Bordeaux<br>
-  <img class="map" src="bod.svg" title="Bordeaux" alt="Bordeaux map" width="484" height="506"></span>
+    <img class="map" src="bod.svg" title="Bordeaux" alt="Bordeaux map" width="484" height="506"></span>
 <span id="BOS" style="display: none; vertical-align: middle">Boston<br>
-  <img class="map" src="bos.svg" title="Boston" alt="Boston map" width="293" height="499"></span>
+    <img class="map" src="bos.svg" title="Boston" alt="Boston map" width="293" height="499"></span>
 <span id="BA_" style="display: none; vertical-align: middle">Brăila<br>
-  <img class="map" src="ba_.svg" title="Brăila" alt="Brăila map" width="109" height="234"></span>
+    <img class="map" src="ba_.svg" title="Brăila" alt="Brăila map" width="109" height="234"></span>
 <span id="BD_" style="display: none; vertical-align: middle">Brandenburg<br>
-  <img class="map" src="bd_.svg" title="Brandenburg" alt="Brandenburg map" width="234" height="147"></span>
+    <img class="map" src="bd_.svg" title="Brandenburg" alt="Brandenburg map" width="234" height="147"></span>
 <span id="BTS" style="display: none; vertical-align: middle">Bratislava<br>
-  <img class="map" src="bts.svg" title="Bratislava" alt="Bratislava map" width="359" height="332"></span>
+    <img class="map" src="bts.svg" title="Bratislava" alt="Bratislava map" width="359" height="332"></span>
 <span id="BWE" style="display: none; vertical-align: middle">Braunschweig<br>
-  <img class="map" src="bwe.svg" title="Braunschweig" alt="Braunschweig map" width="261" height="435"></span>
+    <img class="map" src="bwe.svg" title="Braunschweig" alt="Braunschweig map" width="261" height="435"></span>
 <span id="BRE" style="display: none; vertical-align: middle">Bremen<br>
-  <img class="map" src="bre.svg" title="Bremen" alt="Bremen map" width="473" height="462"></span>
+    <img class="map" src="bre.svg" title="Bremen" alt="Bremen map" width="473" height="462"></span>
 <span id="BES" style="display: none; vertical-align: middle">Brest FR<br>
-  <img class="map" src="bes.svg" title="Brest FR" alt="Brest FR map" width="272" height="212"></span>
+    <img class="map" src="bes.svg" title="Brest FR" alt="Brest FR map" width="272" height="212"></span>
 <span id="BRQ" style="display: none; vertical-align: middle">Brno<br>
-  <img class="map" src="brq.svg" title="Brno" alt="Brno map" width="435" height="430"></span>
+    <img class="map" src="brq.svg" title="Brno" alt="Brno map" width="435" height="430"></span>
 <span id="BRU" style="display: none; vertical-align: middle">Bruxelles<br>
-  <img class="map" src="bru.svg" title="Bruxelles" alt="Bruxelles map" width="511" height="429"></span>
+    <img class="map" src="bru.svg" title="Bruxelles" alt="Bruxelles map" width="511" height="429"></span>
 <span id="BUH" style="display: none; vertical-align: middle">București<br>
-  <img class="map" src="buh.svg" title="București" alt="București map" width="560" height="424"></span>
+    <img class="map" src="buh.svg" title="București" alt="București map" width="560" height="424"></span>
 <span id="BUD" style="display: inline-block; vertical-align: middle">Budapest<br>
-  <img class="map" src="bud.svg" title="Budapest" alt="Budapest map" width="598" height="1185"></span>
+    <img class="map" src="bud.svg" title="Budapest" alt="Budapest map" width="598" height="1185"></span>
 <span id="BUE" style="display: inline-block; vertical-align: middle">Buenos<br>Aires<br>
-  <img class="map" src="bue.svg" title="Buenos Aires" alt="Buenos Aires map" width="87" height="185"></span>
+    <img class="map" src="bue.svg" title="Buenos Aires" alt="Buenos Aires map" width="87" height="185"></span>
 <span id="BTZ" style="display: none; vertical-align: middle">Bursa<br>
-  <img class="map" src="btz.svg" title="Bursa" alt="Bursa map" width="120" height="300"></span>
+    <img class="map" src="btz.svg" title="Bursa" alt="Bursa map" width="120" height="300"></span>
 <span id="BZG" style="display: none; vertical-align: middle">Bydgoszcz<br>
-  <img class="map" src="bzg.svg" title="Bydgoszcz" alt="Bydgoszcz map" width="462" height="283"></span>
+    <img class="map" src="bzg.svg" title="Bydgoszcz" alt="Bydgoszcz map" width="462" height="283"></span>
 <span id="CFR" style="display: none; vertical-align: middle">Caen<br>
-  <img class="map" src="cfr.svg" title="Caen" alt="Caen map" width="109" height="234"></span>
+    <img class="map" src="cfr.svg" title="Caen" alt="Caen map" width="109" height="234"></span>
 <span id="YYC" style="display: none; vertical-align: middle">Calgary<br>
-  <img class="map" src="yyc.svg" title="Calgary" alt="Calgary map" width="98" height="44"></span>
+    <img class="map" src="yyc.svg" title="Calgary" alt="Calgary map" width="98" height="44"></span>
 <span id="CBR" style="display: inline-block; vertical-align: middle">Canberra<br>
-  <img class="map" src="cbr.svg" title="Canberra" alt="Canberra map" width="87" height="332"></span>
+    <img class="map" src="cbr.svg" title="Canberra" alt="Canberra map" width="87" height="332"></span>
 <span id="CMN" style="display: none; vertical-align: middle">Casablanca<br>
-  <img class="map" src="cmn.svg" title="Casablanca" alt="Casablanca map" width="527" height="277"></span>
+    <img class="map" src="cmn.svg" title="Casablanca" alt="Casablanca map" width="527" height="277"></span>
 <span id="CGQ" style="display: none; vertical-align: middle">Changchun<br>
-  <img class="map" src="cgq.svg" title="Changchun" alt="Changchun map" width="245" height="174"></span>
+    <img class="map" src="cgq.svg" title="Changchun" alt="Changchun map" width="245" height="174"></span>
 <span id="CRL" style="display: none; vertical-align: middle">Charleroi<br>
-  <img class="map" src="crl.svg" title="Charleroi" alt="Charleroi map" width="522" height="283"></span>
+    <img class="map" src="crl.svg" title="Charleroi" alt="Charleroi map" width="522" height="283"></span>
 <span id="CLT" style="display: inline-block; vertical-align: middle">Charlotte<br>
-  <img class="map" src="clt.svg" title="Charlotte" alt="Charlotte map" width="136" height="136"></span>
+    <img class="map" src="clt.svg" title="Charlotte" alt="Charlotte map" width="136" height="136"></span>
 <span id="CEK" style="display: none; vertical-align: middle">Chelyabinsk<br>
-  <img class="map" src="cek.svg" title="Chelyabinsk" alt="Chelyabinsk map" width="413" height="576"></span>
+    <img class="map" src="cek.svg" title="Chelyabinsk" alt="Chelyabinsk map" width="413" height="576"></span>
 <span id="CZ_" style="display: none; vertical-align: middle">Chemnitz<br>
-  <img class="map" src="cz_.svg" title="Chemnitz" alt="Chemnitz map" width="217" height="228"></span>
+    <img class="map" src="cz_.svg" title="Chemnitz" alt="Chemnitz map" width="217" height="228"></span>
 <span id="CTU" style="display: none; vertical-align: middle">Chengdu<br>
-  <img class="map" src="ctu.svg" title="Chengdu" alt="Chengdu map" width="413" height="489"></span>
+    <img class="map" src="ctu.svg" title="Chengdu" alt="Chengdu map" width="413" height="489"></span>
 <span id="CEE" style="display: none; vertical-align: middle">Cherepovets<br>
-  <img class="map" src="cee.svg" title="Cherepovets" alt="Cherepovets map" width="332" height="93"></span>
+    <img class="map" src="cee.svg" title="Cherepovets" alt="Cherepovets map" width="332" height="93"></span>
 <span id="CVG" style="display: inline-block; vertical-align: middle">Cincinnati<br>
-  <img class="map" src="cvg.svg" title="Cincinnati" alt="Cincinnati map" width="60" height="93"></span>
+    <img class="map" src="cvg.svg" title="Cincinnati" alt="Cincinnati map" width="60" height="93"></span>
 <span id="CFE" style="display: none; vertical-align: middle">Clermont-Ferrand<br>
-  <img class="map" src="cfe.svg" title="Clermont-Ferrand" alt="Clermont-Ferrand map" width="152" height="217"></span>
+    <img class="map" src="cfe.svg" title="Clermont-Ferrand" alt="Clermont-Ferrand map" width="152" height="217"></span>
 <span id="CLJ" style="display: none; vertical-align: middle">Cluj-Napoca<br>
-  <img class="map" src="clj.svg" title="Cluj-Napoca" alt="Cluj-Napoca map" width="261" height="185"></span>
+    <img class="map" src="clj.svg" title="Cluj-Napoca" alt="Cluj-Napoca map" width="261" height="185"></span>
 <span id="CZL" style="display: none; vertical-align: middle">Constantine<br>
-  <img class="map" src="czl.svg" title="Constantine" alt="Constantine map" width="168" height="396"></span>
+    <img class="map" src="czl.svg" title="Constantine" alt="Constantine map" width="168" height="396"></span>
 <span id="CBU" style="display: none; vertical-align: middle">Cottbus<br>
-  <img class="map" src="cbu.svg" title="Cottbus" alt="Cottbus map" width="130" height="249"></span>
+    <img class="map" src="cbu.svg" title="Cottbus" alt="Cottbus map" width="130" height="249"></span>
 <span id="CRA" style="display: none; vertical-align: middle">Craiova<br>
-  <img class="map" src="cra.svg" title="Craiova" alt="Craiova map" width="190" height="109"></span>
+    <img class="map" src="cra.svg" title="Craiova" alt="Craiova map" width="190" height="109"></span>
 <span id="CUE" style="display: none; vertical-align: middle">Cuenca<br>
-  <img class="map" src="cue.svg" title="Cuenca" alt="Cuenca map" width="239" height="158"></span>
+    <img class="map" src="cue.svg" title="Cuenca" alt="Cuenca map" width="239" height="158"></span>
 <span id="CZW" style="display: none; vertical-align: middle">Częstochowa<br>
-  <img class="map" src="czw.svg" title="Częstochowa" alt="Częstochowa map" width="92" height="87"></span>
+    <img class="map" src="czw.svg" title="Częstochowa" alt="Częstochowa map" width="92" height="87"></span>
 <span id="DLC" style="display: none; vertical-align: middle">Dalian<br>
-  <img class="map" src="dlc.svg" title="Dalian" alt="Dalian map" width="522" height="310"></span>
+    <img class="map" src="dlc.svg" title="Dalian" alt="Dalian map" width="522" height="310"></span>
 <span id="DAL" style="display: inline-block; vertical-align: middle">Dallas<br>
-  <img class="map" src="dal.svg" title="Dallas" alt="Dallas map" width="451" height="663"></span>
+    <img class="map" src="dal.svg" title="Dallas" alt="Dallas map" width="451" height="663"></span>
 <span id="ZCS" style="display: none; vertical-align: middle">Darmstadt<br>
-  <img class="map" src="zcs.svg" title="Darmstadt" alt="Darmstadt map" width="299" height="631"></span>
+    <img class="map" src="zcs.svg" title="Darmstadt" alt="Darmstadt map" width="299" height="631"></span>
 <span id="DGP" style="display: none; vertical-align: middle">Daugavpils<br>
-  <img class="map" src="dgp.svg" title="Daugavpils" alt="Daugavpils map" width="120" height="131"></span>
+    <img class="map" src="dgp.svg" title="Daugavpils" alt="Daugavpils map" width="120" height="131"></span>
 <span id="DEB" style="display: none; vertical-align: middle">Debrecen<br>
-  <img class="map" src="deb.svg" title="Debrecen" alt="Debrecen map" width="82" height="148"></span>
+    <img class="map" src="deb.svg" title="Debrecen" alt="Debrecen map" width="82" height="148"></span>
 <span id="RTM" style="display: none; vertical-align: middle">Den Haag / Rotterdam<br>
-  <img class="map" src="rtm.svg" title="Den Haag / Rotterdam" alt="Den Haag / Rotterdam map" width="739" height="935"></span>
+    <img class="map" src="rtm.svg" title="Den Haag / Rotterdam" alt="Den Haag / Rotterdam map" width="739" height="935"></span>
 <span id="DEN" style="display: inline-block; vertical-align: middle">Denver<br>
-  <img class="map" src="den.svg" title="Denver" alt="Denver map" width="82" height="77"></span>
+    <img class="map" src="den.svg" title="Denver" alt="Denver map" width="82" height="77"></span>
 <span id="DS_" style="display: none; vertical-align: middle">Dessau<br>
-  <img class="map" src="ds_.svg" title="Dessau" alt="Dessau map" width="158" height="169"></span>
+    <img class="map" src="ds_.svg" title="Dessau" alt="Dessau map" width="158" height="169"></span>
 <span id="DTT" style="display: inline-block; vertical-align: middle">Detroit<br>
-  <img class="map" src="dtt.svg" title="Detroit" alt="Detroit map" width="98" height="163"></span>
+    <img class="map" src="dtt.svg" title="Detroit" alt="Detroit map" width="98" height="163"></span>
 <span id="DIJ" style="display: none; vertical-align: middle">Dijon<br>
-  <img class="map" src="dij.svg" title="Dijon" alt="Dijon map" width="261" height="266"></span>
+    <img class="map" src="dij.svg" title="Dijon" alt="Dijon map" width="261" height="266"></span>
 <span id="DNK" style="display: none; vertical-align: middle">Dnipro<br>
-  <img class="map" src="dnk.svg" title="Dnipro" alt="Dnipro map" width="440" height="516"></span>
+    <img class="map" src="dnk.svg" title="Dnipro" alt="Dnipro map" width="440" height="516"></span>
 <span id="DOH" style="display: none; vertical-align: middle">Doha<br>
-  <img class="map" src="doh.svg" title="Doha" alt="Doha map" width="386" height="527"></span>
+    <img class="map" src="doh.svg" title="Doha" alt="Doha map" width="386" height="527"></span>
 <span id="DOK" style="display: none; vertical-align: middle">Donetsk<br>
-  <img class="map" src="dok.svg" title="Donetsk" alt="Donetsk map" width="576" height="348"></span>
+    <img class="map" src="dok.svg" title="Donetsk" alt="Donetsk map" width="576" height="348"></span>
 <span id="DTM" style="display: none; vertical-align: middle">Dortmund<br>
-  <img class="map" src="dtm.svg" title="Dortmund" alt="Dortmund map" width="533" height="451"></span>
+    <img class="map" src="dtm.svg" title="Dortmund" alt="Dortmund map" width="533" height="451"></span>
 <span id="DRS" style="display: none; vertical-align: middle">Dresden<br>
-  <img class="map" src="drs.svg" title="Dresden" alt="Dresden map" width="478" height="511"></span>
+    <img class="map" src="drs.svg" title="Dresden" alt="Dresden map" width="478" height="511"></span>
 <span id="DXB" style="display: none; vertical-align: middle">Dubai<br>
-  <img class="map" src="dxb.svg" title="Dubai" alt="Dubai map" width="130" height="157"></span>
+    <img class="map" src="dxb.svg" title="Dubai" alt="Dubai map" width="130" height="157"></span>
 <span id="DUB" style="display: none; vertical-align: middle">Dublin<br>
-  <img class="map" src="dub.svg" title="Dublin" alt="Dublin map" width="614" height="462"></span>
+    <img class="map" src="dub.svg" title="Dublin" alt="Dublin map" width="614" height="462"></span>
 <span id="DJ_" style="display: none; vertical-align: middle">Dujiangyan<br>
-  <img class="map" src="dj_.svg" title="Dujiangyan" alt="Dujiangyan map" width="141" height="358"></span>
+    <img class="map" src="dj_.svg" title="Dujiangyan" alt="Dujiangyan map" width="141" height="358"></span>
 <span id="DUS" style="display: none; vertical-align: middle">Düsseldorf / Ruhr<br>
-  <img class="map" src="dus.svg" title="Düsseldorf / Ruhr" alt="Düsseldorf / Ruhr map" width="1783" height="1424"></span>
+    <img class="map" src="dus.svg" title="Düsseldorf / Ruhr" alt="Düsseldorf / Ruhr map" width="1783" height="1424"></span>
 <span id="EDI" style="display: none; vertical-align: middle">Edinburgh<br>
-  <img class="map" src="edi.svg" title="Edinburgh" alt="Edinburgh map" width="391" height="212"></span>
+    <img class="map" src="edi.svg" title="Edinburgh" alt="Edinburgh map" width="391" height="212"></span>
 <span id="YEG" style="display: none; vertical-align: middle">Edmonton<br>
-  <img class="map" src="yeg.svg" title="Edmonton" alt="Edmonton map" width="158" height="316"></span>
+    <img class="map" src="yeg.svg" title="Edmonton" alt="Edmonton map" width="158" height="316"></span>
 <span id="EB_" style="display: none; vertical-align: middle">Elbląg<br>
-  <img class="map" src="eb_.svg" title="Elbląg" alt="Elbląg map" width="98" height="169"></span>
+    <img class="map" src="eb_.svg" title="Elbląg" alt="Elbląg map" width="98" height="169"></span>
 <span id="ELP" style="display: inline-block; vertical-align: middle">El Paso<br>
-  <img class="map" src="elp.svg" title="El Paso" alt="El Paso map" width="87" height="114"></span>
+    <img class="map" src="elp.svg" title="El Paso" alt="El Paso map" width="87" height="114"></span>
 <span id="ERF" style="display: none; vertical-align: middle">Erfurt<br>
-  <img class="map" src="erf.svg" title="Erfurt" alt="Erfurt map" width="315" height="282"></span>
+    <img class="map" src="erf.svg" title="Erfurt" alt="Erfurt map" width="315" height="282"></span>
 <span id="ESK" style="display: none; vertical-align: middle">Eskişehir<br>
-  <img class="map" src="esk.svg" title="Eskişehir" alt="Eskişehir map" width="435" height="218"></span>
+    <img class="map" src="esk.svg" title="Eskişehir" alt="Eskişehir map" width="435" height="218"></span>
 <span id="FLR" style="display: none; vertical-align: middle">Firenze<br>
-  <img class="map" src="flr.svg" title="Firenze" alt="Firenze map" width="217" height="190"></span>
+    <img class="map" src="flr.svg" title="Firenze" alt="Firenze map" width="217" height="190"></span>
 <span id="FRA" style="display: none; vertical-align: middle">Frankfurt<br>
-  <img class="map" src="fra.svg" title="Frankfurt" alt="Frankfurt map" width="533" height="560"></span>
+    <img class="map" src="fra.svg" title="Frankfurt" alt="Frankfurt map" width="533" height="560"></span>
 <span id="FO_" style="display: none; vertical-align: middle">Frankfurt Oder<br>
-  <img class="map" src="fo_.svg" title="Frankfurt Oder" alt="Frankfurt Oder map" width="207" height="261"></span>
+    <img class="map" src="fo_.svg" title="Frankfurt Oder" alt="Frankfurt Oder map" width="207" height="261"></span>
 <span id="QFB" style="display: none; vertical-align: middle">Freiburg<br>
-  <img class="map" src="qfb.svg" title="Freiburg" alt="Freiburg map" width="261" height="261"></span>
+    <img class="map" src="qfb.svg" title="Freiburg" alt="Freiburg map" width="261" height="261"></span>
 <span id="GL_" style="display: none; vertical-align: middle">Galaţi<br>
-  <img class="map" src="gl_.svg" title="Galaţi" alt="Galaţi map" width="109" height="202"></span>
+    <img class="map" src="gl_.svg" title="Galaţi" alt="Galaţi map" width="109" height="202"></span>
 <span id="FUO" style="display: none; vertical-align: middle">Gaoming<br>
-  <img class="map" src="fuo.svg" title="Gaoming" alt="Gaoming map" width="82" height="197"></span>
+    <img class="map" src="fuo.svg" title="Gaoming" alt="Gaoming map" width="82" height="197"></span>
 <span id="GZT" style="display: none; vertical-align: middle">Gaziantep<br>
-  <img class="map" src="gzt.svg" title="Gaziantep" alt="Gaziantep map" width="223" height="283"></span>
+    <img class="map" src="gzt.svg" title="Gaziantep" alt="Gaziantep map" width="223" height="283"></span>
 <span id="GDN" style="display: none; vertical-align: middle">Gdańsk<br>
-  <img class="map" src="gdn.svg" title="Gdańsk" alt="Gdańsk map" width="348" height="359"></span>
+    <img class="map" src="gdn.svg" title="Gdańsk" alt="Gdańsk map" width="348" height="359"></span>
 <span id="GVA" style="display: none; vertical-align: middle">Genève<br>
-  <img class="map" src="gva.svg" title="Genève" alt="Genève map" width="435" height="261"></span>
+    <img class="map" src="gva.svg" title="Genève" alt="Genève map" width="435" height="261"></span>
 <span id="GNE" style="display: none; vertical-align: middle">Gent<br>
-  <img class="map" src="gne.svg" title="Gent" alt="Gent map" width="196" height="392"></span>
+    <img class="map" src="gne.svg" title="Gent" alt="Gent map" width="196" height="392"></span>
 <span id="GR_" style="display: none; vertical-align: middle">Gera<br>
-  <img class="map" src="gr_.svg" title="Gera" alt="Gera map" width="130" height="255"></span>
+    <img class="map" src="gr_.svg" title="Gera" alt="Gera map" width="130" height="255"></span>
 <span id="GM_" style="display: none; vertical-align: middle">Gmunden<br>
-  <img class="map" src="gm_.svg" title="Gmunden" alt="Gmunden map" width="103" height="70"></span>
+    <img class="map" src="gm_.svg" title="Gmunden" alt="Gmunden map" width="103" height="70"></span>
 <span id="OOL" style="display: inline-block; vertical-align: middle">Gold Coast<br>
-  <img class="map" src="ool.svg" title="Gold Coast" alt="Gold Coast map" width="304" height="391"></span>
+    <img class="map" src="ool.svg" title="Gold Coast" alt="Gold Coast map" width="304" height="391"></span>
 <span id="GZ_" style="display: none; vertical-align: middle">Görlitz<br>
-  <img class="map" src="gz_.svg" title="Görlitz" alt="Görlitz map" width="125" height="185"></span>
+    <img class="map" src="gz_.svg" title="Görlitz" alt="Görlitz map" width="125" height="185"></span>
 <span id="GW_" style="display: none; vertical-align: middle">Gorzów<br>
-  <img class="map" src="gw_.svg" title="Gorzów" alt="Gorzów map" width="217" height="174"></span>
+    <img class="map" src="gw_.svg" title="Gorzów" alt="Gorzów map" width="217" height="174"></span>
 <span id="GOT" style="display: none; vertical-align: middle">Göteborg<br>
-  <img class="map" src="got.svg" title="Göteborg" alt="Göteborg map" width="429" height="538"></span>
+    <img class="map" src="got.svg" title="Göteborg" alt="Göteborg map" width="429" height="538"></span>
 <span id="GT_" style="display: none; vertical-align: middle">Gotha<br>
-  <img class="map" src="gt_.svg" title="Gotha" alt="Gotha map" width="109" height="98"></span>
+    <img class="map" src="gt_.svg" title="Gotha" alt="Gotha map" width="109" height="98"></span>
 <span id="GRX" style="display: none; vertical-align: middle">Granada<br>
-  <img class="map" src="grx.svg" title="Granada" alt="Granada map" width="190" height="309"></span>
+    <img class="map" src="grx.svg" title="Granada" alt="Granada map" width="190" height="309"></span>
 <span id="GRZ" style="display: none; vertical-align: middle">Graz<br>
-  <img class="map" src="grz.svg" title="Graz" alt="Graz map" width="250" height="277"></span>
+    <img class="map" src="grz.svg" title="Graz" alt="Graz map" width="250" height="277"></span>
 <span id="GNB" style="display: none; vertical-align: middle">Grenoble<br>
-  <img class="map" src="gnb.svg" title="Grenoble" alt="Grenoble map" width="321" height="424"></span>
+    <img class="map" src="gnb.svg" title="Grenoble" alt="Grenoble map" width="321" height="424"></span>
 <span id="GD_" style="display: none; vertical-align: middle">Grudziądz<br>
-  <img class="map" src="gd_.svg" title="Grudziądz" alt="Grudziądz map" width="136" height="196"></span>
+    <img class="map" src="gd_.svg" title="Grudziądz" alt="Grudziądz map" width="136" height="196"></span>
 <span id="GDL" style="display: none; vertical-align: middle">Guadalajara<br>
-  <img class="map" src="gdl.svg" title="Guadalajara" alt="Guadalajara map" width="185" height="463"></span>
+    <img class="map" src="gdl.svg" title="Guadalajara" alt="Guadalajara map" width="185" height="463"></span>
 <span id="CAN" style="display: none; vertical-align: middle">Guangzhou<br>
-  <img class="map" src="can.svg" title="Guangzhou" alt="Guangzhou map" width="223" height="65"></span>
+    <img class="map" src="can.svg" title="Guangzhou" alt="Guangzhou map" width="223" height="65"></span>
 <span id="HKD" style="display: none; vertical-align: middle">Hakodate<br>
-  <img class="map" src="hkd.svg" title="Hakodate" alt="Hakodate map" width="239" height="152"></span>
+    <img class="map" src="hkd.svg" title="Hakodate" alt="Hakodate map" width="239" height="152"></span>
 <span id="HS_" style="display: none; vertical-align: middle">Halberstadt<br>
-  <img class="map" src="hs_.svg" title="Halberstadt" alt="Halberstadt map" width="103" height="108"></span>
+    <img class="map" src="hs_.svg" title="Halberstadt" alt="Halberstadt map" width="103" height="108"></span>
 <span id="HL_" style="display: none; vertical-align: middle">Halle<br>
-  <img class="map" src="hl_.svg" title="Halle" alt="Halle map" width="326" height="342"></span>
+    <img class="map" src="hl_.svg" title="Halle" alt="Halle map" width="326" height="342"></span>
 <span id="HAJ" style="display: none; vertical-align: middle">Hannover<br>
-  <img class="map" src="haj.svg" title="Hannover" alt="Hannover map" width="565" height="701"></span>
+    <img class="map" src="haj.svg" title="Hannover" alt="Hannover map" width="565" height="701"></span>
 <span id="HB_" style="display: none; vertical-align: middle">Heilbronn<br>
-  <img class="map" src="hb_.svg" title="Heilbronn" alt="Heilbronn map" width="429" height="54"></span>
+    <img class="map" src="hb_.svg" title="Heilbronn" alt="Heilbronn map" width="429" height="54"></span>
 <span id="HEL" style="display: inline-block; vertical-align: middle">Helsinki<br>
-  <img class="map" src="hel.svg" title="Helsinki" alt="Helsinki map" width="473" height="310"></span>
+    <img class="map" src="hel.svg" title="Helsinki" alt="Helsinki map" width="473" height="310"></span>
 <span id="HIJ" style="display: inline-block; vertical-align: middle">Hiroshima<br>
-  <img class="map" src="hij.svg" title="Hiroshima" alt="Hiroshima map" width="500" height="353"></span>
+    <img class="map" src="hij.svg" title="Hiroshima" alt="Hiroshima map" width="500" height="353"></span>
 <span id="HKG" style="display: inline-block; vertical-align: middle">Hong Kong<br>
-  <img class="map" src="hkg.svg" title="Hong Kong" alt="Hong Kong map" width="870" height="718"></span>
+    <img class="map" src="hkg.svg" title="Hong Kong" alt="Hong Kong map" width="870" height="718"></span>
 <span id="HOU" style="display: inline-block; vertical-align: middle">Houston<br>
-  <img class="map" src="hou.svg" title="Houston" alt="Houston map" width="332" height="561"></span>
+    <img class="map" src="hou.svg" title="Houston" alt="Houston map" width="332" height="561"></span>
 <span id="HIA" style="display: none; vertical-align: middle">Huai'an<br>
-  <img class="map" src="hia.svg" title="Huai'an" alt="Huai'an map" width="397" height="397"></span>
+    <img class="map" src="hia.svg" title="Huai'an" alt="Huai'an map" width="397" height="397"></span>
 <span id="HI_" style="display: none; vertical-align: middle">Huangshi<br>
-  <img class="map" src="hi_.svg" title="Huangshi" alt="Huangshi map" width="228" height="423"></span>
+    <img class="map" src="hi_.svg" title="Huangshi" alt="Huangshi map" width="228" height="423"></span>
 <span id="IAS" style="display: none; vertical-align: middle">Iaşi<br>
-  <img class="map" src="ias.svg" title="Iaşi" alt="Iaşi map" width="304" height="250"></span>
+    <img class="map" src="ias.svg" title="Iaşi" alt="Iaşi map" width="304" height="250"></span>
 <span id="INN" style="display: none; vertical-align: middle">Innsbruck<br>
-  <img class="map" src="inn.svg" title="Innsbruck" alt="Innsbruck map" width="293" height="114"></span>
+    <img class="map" src="inn.svg" title="Innsbruck" alt="Innsbruck map" width="293" height="114"></span>
 <span id="IKT" style="display: none; vertical-align: middle">Irkutsk<br>
-  <img class="map" src="ikt.svg" title="Irkutsk" alt="Irkutsk map" width="255" height="152"></span>
+    <img class="map" src="ikt.svg" title="Irkutsk" alt="Irkutsk map" width="255" height="152"></span>
 <span id="ALY" style="display: inline-block; vertical-align: middle">Iskandariyya<br>
-  <img class="map" src="aly.svg" title="Iskandariyya" alt="Iskandariyya map" width="413" height="370"></span>
+    <img class="map" src="aly.svg" title="Iskandariyya" alt="Iskandariyya map" width="413" height="370"></span>
 <span id="IST" style="display: none; vertical-align: middle">İstanbul<br>
-  <img class="map" src="ist.svg" title="İstanbul" alt="İstanbul map" width="473" height="473"></span>
+    <img class="map" src="ist.svg" title="İstanbul" alt="İstanbul map" width="473" height="473"></span>
 <span id="IJK" style="display: none; vertical-align: middle">Izhevsk<br>
-  <img class="map" src="ijk.svg" title="Izhevsk" alt="Izhevsk map" width="261" height="315"></span>
+    <img class="map" src="ijk.svg" title="Izhevsk" alt="Izhevsk map" width="261" height="315"></span>
 <span id="IZM" style="display: none; vertical-align: middle">İzmir<br>
-  <img class="map" src="izm.svg" title="İzmir" alt="İzmir map" width="397" height="392"></span>
+    <img class="map" src="izm.svg" title="İzmir" alt="İzmir map" width="397" height="392"></span>
 <span id="KCO" style="display: none; vertical-align: middle">İzmit<br>
-  <img class="map" src="kco.svg" title="İzmit" alt="İzmit map" width="283" height="109"></span>
+    <img class="map" src="kco.svg" title="İzmit" alt="İzmit map" width="283" height="109"></span>
 <span id="JN_" style="display: none; vertical-align: middle">Jena<br>
-  <img class="map" src="jn_.svg" title="Jena" alt="Jena map" width="152" height="293"></span>
+    <img class="map" src="jn_.svg" title="Jena" alt="Jena map" width="152" height="293"></span>
 <span id="JX_" style="display: none; vertical-align: middle">Jiaxing<br>
-  <img class="map" src="jx_.svg" title="Jiaxing" alt="Jiaxing map" width="196" height="278"></span>
+    <img class="map" src="jx_.svg" title="Jiaxing" alt="Jiaxing map" width="196" height="278"></span>
 <span id="KOJ" style="display: none; vertical-align: middle">Kagoshima<br>
-  <img class="map" src="koj.svg" title="Kagoshima" alt="Kagoshima map" width="141" height="266"></span>
+    <img class="map" src="koj.svg" title="Kagoshima" alt="Kagoshima map" width="141" height="266"></span>
 <span id="KGD" style="display: none; vertical-align: middle">Kaliningrad<br>
-  <img class="map" src="kgd.svg" title="Kaliningrad" alt="Kaliningrad map" width="168" height="179"></span>
+    <img class="map" src="kgd.svg" title="Kaliningrad" alt="Kaliningrad map" width="168" height="179"></span>
 <span id="KK_" style="display: none; vertical-align: middle">Kamianske<br>
-  <img class="map" src="kk_.svg" title="Kamianske" alt="Kamianske map" width="272" height="223"></span>
+    <img class="map" src="kk_.svg" title="Kamianske" alt="Kamianske map" width="272" height="223"></span>
 <span id="MKC" style="display: inline-block; vertical-align: middle">Kansas<br>City<br>
-  <img class="map" src="mkc.svg" title="Kansas City" alt="Kansas City map" width="49" height="109"></span>
+    <img class="map" src="mkc.svg" title="Kansas City" alt="Kansas City map" width="49" height="109"></span>
 <span id="KHH" style="display: none; vertical-align: middle">Kaohsiung<br>
-  <img class="map" src="khh.svg" title="Kaohsiung" alt="Kaohsiung map" width="201" height="244"></span>
+    <img class="map" src="khh.svg" title="Kaohsiung" alt="Kaohsiung map" width="201" height="244"></span>
 <span id="FKB" style="display: none; vertical-align: middle">Karlsruhe<br>
-  <img class="map" src="fkb.svg" title="Karlsruhe" alt="Karlsruhe map" width="685" height="712"></span>
+    <img class="map" src="fkb.svg" title="Karlsruhe" alt="Karlsruhe map" width="685" height="712"></span>
 <span id="KSF" style="display: none; vertical-align: middle">Kassel<br>
-  <img class="map" src="ksf.svg" title="Kassel" alt="Kassel map" width="386" height="429"></span>
+    <img class="map" src="ksf.svg" title="Kassel" alt="Kassel map" width="386" height="429"></span>
 <span id="KTW" style="display: none; vertical-align: middle">Katowice<br>
-  <img class="map" src="ktw.svg" title="Katowice" alt="Katowice map" width="1168" height="603"></span>
+    <img class="map" src="ktw.svg" title="Katowice" alt="Katowice map" width="1168" height="603"></span>
 <span id="ASR" style="display: none; vertical-align: middle">Kayseri<br>
-  <img class="map" src="asr.svg" title="Kayseri" alt="Kayseri map" width="696" height="359"></span>
+    <img class="map" src="asr.svg" title="Kayseri" alt="Kayseri map" width="696" height="359"></span>
 <span id="KZN" style="display: none; vertical-align: middle">Kazan<br>
-  <img class="map" src="kzn.svg" title="Kazan" alt="Kazan map" width="473" height="506"></span>
+    <img class="map" src="kzn.svg" title="Kazan" alt="Kazan map" width="473" height="506"></span>
 <span id="KEJ" style="display: none; vertical-align: middle">Kemerovo<br>
-  <img class="map" src="kej.svg" title="Kemerovo" alt="Kemerovo map" width="277" height="402"></span>
+    <img class="map" src="kej.svg" title="Kemerovo" alt="Kemerovo map" width="277" height="402"></span>
 <span id="KHV" style="display: none; vertical-align: middle">Khabarovsk<br>
-  <img class="map" src="khv.svg" title="Khabarovsk" alt="Khabarovsk map" width="201" height="668"></span>
+    <img class="map" src="khv.svg" title="Khabarovsk" alt="Khabarovsk map" width="201" height="668"></span>
 <span id="HRK" style="display: none; vertical-align: middle">Kharkiv<br>
-  <img class="map" src="hrk.svg" title="Kharkiv" alt="Kharkiv map" width="511" height="446"></span>
+    <img class="map" src="hrk.svg" title="Kharkiv" alt="Kharkiv map" width="511" height="446"></span>
 <span id="KCZ" style="display: none; vertical-align: middle">Kochi JP<br>
-  <img class="map" src="kcz.svg" title="Kochi JP" alt="Kochi JP map" width="250" height="114"></span>
+    <img class="map" src="kcz.svg" title="Kochi JP" alt="Kochi JP map" width="250" height="114"></span>
 <span id="CCU" style="display: inline-block; vertical-align: middle">Kolkata<br>
-  <img class="map" src="ccu.svg" title="Kolkata" alt="Kolkata map" width="130" height="390"></span>
+    <img class="map" src="ccu.svg" title="Kolkata" alt="Kolkata map" width="130" height="390"></span>
 <span id="CGN" style="display: none; vertical-align: middle">Köln / Bonn<br>
-  <img class="map" src="cgn.svg" title="Köln / Bonn" alt="Köln / Bonn map" width="908" height="1305"></span>
+    <img class="map" src="cgn.svg" title="Köln / Bonn" alt="Köln / Bonn map" width="908" height="1305"></span>
 <span id="KM_" style="display: none; vertical-align: middle">Kolomna<br>
-  <img class="map" src="km_.svg" title="Kolomna" alt="Kolomna map" width="174" height="185"></span>
+    <img class="map" src="km_.svg" title="Kolomna" alt="Kolomna map" width="174" height="185"></span>
 <span id="KP_" style="display: none; vertical-align: middle">Konotop<br>
-  <img class="map" src="kp_.svg" title="Konotop" alt="Konotop map" width="179" height="152"></span>
+    <img class="map" src="kp_.svg" title="Konotop" alt="Konotop map" width="179" height="152"></span>
 <span id="KYA" style="display: none; vertical-align: middle">Konya<br>
-  <img class="map" src="kya.svg" title="Konya" alt="Konya map" width="179" height="586"></span>
+    <img class="map" src="kya.svg" title="Konya" alt="Konya map" width="179" height="586"></span>
 <span id="KSC" style="display: none; vertical-align: middle">Košice<br>
-  <img class="map" src="ksc.svg" title="Košice" alt="Košice map" width="168" height="233"></span>
+    <img class="map" src="ksc.svg" title="Košice" alt="Košice map" width="168" height="233"></span>
 <span id="KRK" style="display: none; vertical-align: middle">Kraków<br>
-  <img class="map" src="krk.svg" title="Kraków" alt="Kraków map" width="533" height="337"></span>
+    <img class="map" src="krk.svg" title="Kraków" alt="Kraków map" width="533" height="337"></span>
 <span id="KRR" style="display: none; vertical-align: middle">Krasnodar<br>
-  <img class="map" src="krr.svg" title="Krasnodar" alt="Krasnodar map" width="522" height="337"></span>
+    <img class="map" src="krr.svg" title="Krasnodar" alt="Krasnodar map" width="522" height="337"></span>
 <span id="KJA" style="display: none; vertical-align: middle">Krasnoyarsk<br>
-  <img class="map" src="kja.svg" title="Krasnoyarsk" alt="Krasnoyarsk map" width="293" height="179"></span>
+    <img class="map" src="kja.svg" title="Krasnoyarsk" alt="Krasnoyarsk map" width="293" height="179"></span>
 <span id="KWG" style="display: none; vertical-align: middle">Kryvyi Rih<br>
-  <img class="map" src="kwg.svg" title="Kryvyi Rih" alt="Kryvyi Rih map" width="413" height="272"></span>
+    <img class="map" src="kwg.svg" title="Kryvyi Rih" alt="Kryvyi Rih map" width="413" height="272"></span>
 <span id="KMJ" style="display: none; vertical-align: middle">Kumamoto<br>
-  <img class="map" src="kmj.svg" title="Kumamoto" alt="Kumamoto map" width="234" height="158"></span>
+    <img class="map" src="kmj.svg" title="Kumamoto" alt="Kumamoto map" width="234" height="158"></span>
 <span id="KBP" style="display: none; vertical-align: middle">Kyiv<br>
-  <img class="map" src="kbp.svg" title="Kyiv" alt="Kyiv map" width="647" height="473"></span>
+    <img class="map" src="kbp.svg" title="Kyiv" alt="Kyiv map" width="647" height="473"></span>
 <span id="LEH" style="display: none; vertical-align: middle">Le Havre<br>
-  <img class="map" src="leh.svg" title="Le Havre" alt="Le Havre map" width="212" height="152"></span>
+    <img class="map" src="leh.svg" title="Le Havre" alt="Le Havre map" width="212" height="152"></span>
 <span id="LEJ" style="display: none; vertical-align: middle">Leipzig<br>
-  <img class="map" src="lej.svg" title="Leipzig" alt="Leipzig map" width="592" height="434"></span>
+    <img class="map" src="lej.svg" title="Leipzig" alt="Leipzig map" width="592" height="434"></span>
 <span id="LME" style="display: none; vertical-align: middle">Le Mans<br>
-  <img class="map" src="lme.svg" title="Le Mans" alt="Le Mans map" width="217" height="244"></span>
+    <img class="map" src="lme.svg" title="Le Mans" alt="Le Mans map" width="217" height="244"></span>
 <span id="LB_" style="display: none; vertical-align: middle">Liberec<br>
-  <img class="map" src="lb_.svg" title="Liberec" alt="Liberec map" width="348" height="218"></span>
+    <img class="map" src="lb_.svg" title="Liberec" alt="Liberec map" width="348" height="218"></span>
 <span id="LPX" style="display: none; vertical-align: middle">Liepāja<br>
-  <img class="map" src="lpx.svg" title="Liepāja" alt="Liepāja map" width="76" height="174"></span>
+    <img class="map" src="lpx.svg" title="Liepāja" alt="Liepāja map" width="76" height="174"></span>
 <span id="LIL" style="display: none; vertical-align: middle">Lille<br>
-  <img class="map" src="lil.svg" title="Lille" alt="Lille map" width="255" height="304"></span>
+    <img class="map" src="lil.svg" title="Lille" alt="Lille map" width="255" height="304"></span>
 <span id="LNZ" style="display: none; vertical-align: middle">Linz<br>
-  <img class="map" src="lnz.svg" title="Linz" alt="Linz map" width="315" height="418"></span>
+    <img class="map" src="lnz.svg" title="Linz" alt="Linz map" width="315" height="418"></span>
 <span id="LPK" style="display: none; vertical-align: middle">Lipetsk<br>
-  <img class="map" src="lpk.svg" title="Lipetsk" alt="Lipetsk map" width="136" height="158"></span>
+    <img class="map" src="lpk.svg" title="Lipetsk" alt="Lipetsk map" width="136" height="158"></span>
 <span id="LIS" style="display: inline-block; vertical-align: middle">Lisboa<br>
-  <img class="map" src="lis.svg" title="Lisboa" alt="Lisboa map" width="293" height="326"></span>
+    <img class="map" src="lis.svg" title="Lisboa" alt="Lisboa map" width="293" height="326"></span>
 <span id="LIT" style="display: inline-block; vertical-align: middle">Little<br>Rock<br>
-  <img class="map" src="lit.svg" title="Little Rock" alt="Little Rock map" width="49" height="71"></span>
+    <img class="map" src="lit.svg" title="Little Rock" alt="Little Rock map" width="49" height="71"></span>
 <span id="LCJ" style="display: none; vertical-align: middle">Łódź<br>
-  <img class="map" src="lcj.svg" title="Łódź" alt="Łódź map" width="571" height="538"></span>
+    <img class="map" src="lcj.svg" title="Łódź" alt="Łódź map" width="571" height="538"></span>
 <span id="LON" style="display: none; vertical-align: middle">London<br>
-  <img class="map" src="lon.svg" title="London" alt="London map" width="424" height="288"></span>
+    <img class="map" src="lon.svg" title="London" alt="London map" width="424" height="288"></span>
 <span id="LAX" style="display: none; vertical-align: middle">Los Angeles<br>
-  <img class="map" src="lax.svg" title="Los Angeles" alt="Los Angeles map" width="957" height="1169"></span>
+    <img class="map" src="lax.svg" title="Los Angeles" alt="Los Angeles map" width="957" height="1169"></span>
 <span id="LD_" style="display: none; vertical-align: middle">Lund<br>
-  <img class="map" src="ld_.svg" title="Lund" alt="Lund map" width="130" height="108"></span>
+    <img class="map" src="ld_.svg" title="Lund" alt="Lund map" width="130" height="108"></span>
 <span id="LUX" style="display: none; vertical-align: middle">Luxembourg<br>
-  <img class="map" src="lux.svg" title="Luxembourg" alt="Luxembourg map" width="168" height="228"></span>
+    <img class="map" src="lux.svg" title="Luxembourg" alt="Luxembourg map" width="168" height="228"></span>
 <span id="LWO" style="display: none; vertical-align: middle">Lviv<br>
-  <img class="map" src="lwo.svg" title="Lviv" alt="Lviv map" width="201" height="310"></span>
+    <img class="map" src="lwo.svg" title="Lviv" alt="Lviv map" width="201" height="310"></span>
 <span id="LYN" style="display: none; vertical-align: middle">Lyon<br>
-  <img class="map" src="lyn.svg" title="Lyon" alt="Lyon map" width="636" height="359"></span>
+    <img class="map" src="lyn.svg" title="Lyon" alt="Lyon map" width="636" height="359"></span>
 <span id="MAD" style="display: none; vertical-align: middle">Madrid<br>
-  <img class="map" src="mad.svg" title="Madrid" alt="Madrid map" width="668" height="983"></span>
+    <img class="map" src="mad.svg" title="Madrid" alt="Madrid map" width="668" height="983"></span>
 <span id="CSO" style="display: none; vertical-align: middle">Magdeburg<br>
-  <img class="map" src="cso.svg" title="Magdeburg" alt="Magdeburg map" width="255" height="537"></span>
+    <img class="map" src="cso.svg" title="Magdeburg" alt="Magdeburg map" width="255" height="537"></span>
 <span id="MQF" style="display: none; vertical-align: middle">Magnitogorsk<br>
-  <img class="map" src="mqf.svg" title="Magnitogorsk" alt="Magnitogorsk map" width="250" height="310"></span>
+    <img class="map" src="mqf.svg" title="Magnitogorsk" alt="Magnitogorsk map" width="250" height="310"></span>
 <span id="QMZ" style="display: none; vertical-align: middle">Mainz<br>
-  <img class="map" src="qmz.svg" title="Mainz" alt="Mainz map" width="250" height="239"></span>
+    <img class="map" src="qmz.svg" title="Mainz" alt="Mainz map" width="250" height="239"></span>
 <span id="AGP" style="display: none; vertical-align: middle">Málaga<br>
-  <img class="map" src="agp.svg" title="Málaga" alt="Málaga map" width="217" height="60"></span>
+    <img class="map" src="agp.svg" title="Málaga" alt="Málaga map" width="217" height="60"></span>
 <span id="MAN" style="display: none; vertical-align: middle">Manchester<br>
-  <img class="map" src="man.svg" title="Manchester" alt="Manchester map" width="543" height="869"></span>
+    <img class="map" src="man.svg" title="Manchester" alt="Manchester map" width="543" height="869"></span>
 <span id="MHG" style="display: none; vertical-align: middle">Mannheim / Heidelberg<br>
-  <img class="map" src="mhg.svg" title="Mannheim / Heidelberg" alt="Mannheim / Heidelberg map" width="1163" height="723"></span>
+    <img class="map" src="mhg.svg" title="Mannheim / Heidelberg" alt="Mannheim / Heidelberg map" width="1163" height="723"></span>
 <span id="MPW" style="display: none; vertical-align: middle">Mariupol<br>
-  <img class="map" src="mpw.svg" title="Mariupol" alt="Mariupol map" width="163" height="179"></span>
+    <img class="map" src="mpw.svg" title="Mariupol" alt="Mariupol map" width="163" height="179"></span>
 <span id="MRS" style="display: none; vertical-align: middle">Marseille<br>
-  <img class="map" src="mrs.svg" title="Marseille" alt="Marseille map" width="511" height="141"></span>
+    <img class="map" src="mrs.svg" title="Marseille" alt="Marseille map" width="511" height="141"></span>
 <span id="MYJ" style="display: none; vertical-align: middle">Matsuyama<br>
-  <img class="map" src="myj.svg" title="Matsuyama" alt="Matsuyama map" width="114" height="87"></span>
+    <img class="map" src="myj.svg" title="Matsuyama" alt="Matsuyama map" width="114" height="87"></span>
 <span id="MRU" style="display: none; vertical-align: middle">Maurice<br>
-  <img class="map" src="mru.svg" title="Maurice" alt="Maurice map" width="255" height="548"></span>
+    <img class="map" src="mru.svg" title="Maurice" alt="Maurice map" width="255" height="548"></span>
 <span id="MDE" style="display: none; vertical-align: middle">Medellín<br>
-  <img class="map" src="mde.svg" title="Medellín" alt="Medellín map" width="120" height="76"></span>
+    <img class="map" src="mde.svg" title="Medellín" alt="Medellín map" width="120" height="76"></span>
 <span id="MEL" style="display: inline-block; vertical-align: middle">Melbourne<br>
-  <img class="map" src="mel.svg" title="Melbourne" alt="Melbourne map" width="832" height="816"></span>
+    <img class="map" src="mel.svg" title="Melbourne" alt="Melbourne map" width="832" height="816"></span>
 <span id="MEM" style="display: inline-block; vertical-align: middle">Memphis<br>
-  <img class="map" src="mem.svg" title="Memphis" alt="Memphis map" width="60" height="109"></span>
+    <img class="map" src="mem.svg" title="Memphis" alt="Memphis map" width="60" height="109"></span>
 <span id="MDZ" style="display: none; vertical-align: middle">Mendoza<br>
-  <img class="map" src="mdz.svg" title="Mendoza" alt="Mendoza map" width="228" height="429"></span>
+    <img class="map" src="mdz.svg" title="Mendoza" alt="Mendoza map" width="228" height="429"></span>
 <span id="MZ_" style="display: none; vertical-align: middle">Mengzi<br>
-  <img class="map" src="mz_.svg" title="Mengzi" alt="Mengzi map" width="234" height="327"></span>
+    <img class="map" src="mz_.svg" title="Mengzi" alt="Mengzi map" width="234" height="327"></span>
 <span id="QME" style="display: none; vertical-align: middle">Messina<br>
-  <img class="map" src="qme.svg" title="Messina" alt="Messina map" width="98" height="207"></span>
+    <img class="map" src="qme.svg" title="Messina" alt="Messina map" width="98" height="207"></span>
 <span id="MEX" style="display: none; vertical-align: middle">México<br>
-  <img class="map" src="mex.svg" title="México" alt="México map" width="163" height="310"></span>
+    <img class="map" src="mex.svg" title="México" alt="México map" width="163" height="310"></span>
 <span id="MIL" style="display: inline-block; vertical-align: middle">Milano<br>
-  <img class="map" src="mil.svg" title="Milano" alt="Milano map" width="348" height="642"></span>
+    <img class="map" src="mil.svg" title="Milano" alt="Milano map" width="348" height="642"></span>
 <span id="MKE" style="display: inline-block; vertical-align: middle">Milwaukee<br>
-  <img class="map" src="mke.svg" title="Milwaukee" alt="Milwaukee map" width="76" height="71"></span>
+    <img class="map" src="mke.svg" title="Milwaukee" alt="Milwaukee map" width="76" height="71"></span>
 <span id="MSP" style="display: none; vertical-align: middle">Minneapolis<br>
-  <img class="map" src="msp.svg" title="Minneapolis" alt="Minneapolis map" width="478" height="462"></span>
+    <img class="map" src="msp.svg" title="Minneapolis" alt="Minneapolis map" width="478" height="462"></span>
 <span id="MSQ" style="display: none; vertical-align: middle">Minsk<br>
-  <img class="map" src="msq.svg" title="Minsk" alt="Minsk map" width="196" height="376"></span>
+    <img class="map" src="msq.svg" title="Minsk" alt="Minsk map" width="196" height="376"></span>
 <span id="MCQ" style="display: none; vertical-align: middle">Miskolc<br>
-  <img class="map" src="mcq.svg" title="Miskolc" alt="Miskolc map" width="326" height="60"></span>
+    <img class="map" src="mcq.svg" title="Miskolc" alt="Miskolc map" width="326" height="60"></span>
 <span id="MPL" style="display: none; vertical-align: middle">Montpellier<br>
-  <img class="map" src="mpl.svg" title="Montpellier" alt="Montpellier map" width="402" height="353"></span>
+    <img class="map" src="mpl.svg" title="Montpellier" alt="Montpellier map" width="402" height="353"></span>
 <span id="MOW" style="display: inline-block; vertical-align: middle">Moskva<br>
-  <img class="map" src="mow.svg" title="Moskva" alt="Moskva map" width="837" height="1000"></span>
+    <img class="map" src="mow.svg" title="Moskva" alt="Moskva map" width="837" height="1000"></span>
 <span id="MO_" style="display: none; vertical-align: middle">Most<br>
-  <img class="map" src="mo_.svg" title="Most" alt="Most map" width="152" height="434"></span>
+    <img class="map" src="mo_.svg" title="Most" alt="Most map" width="152" height="434"></span>
 <span id="MQV" style="display: none; vertical-align: middle">Mostaganem<br>
-  <img class="map" src="mqv.svg" title="Mostaganem" alt="Mostaganem map" width="163" height="256"></span>
+    <img class="map" src="mqv.svg" title="Mostaganem" alt="Mostaganem map" width="163" height="256"></span>
 <span id="MLH" style="display: none; vertical-align: middle">Mulhouse<br>
-  <img class="map" src="mlh.svg" title="Mulhouse" alt="Mulhouse map" width="196" height="180"></span>
+    <img class="map" src="mlh.svg" title="Mulhouse" alt="Mulhouse map" width="196" height="180"></span>
 <span id="MUC" style="display: inline-block; vertical-align: middle">München<br>
-  <img class="map" src="muc.svg" title="München" alt="München map" width="440" height="511"></span>
+    <img class="map" src="muc.svg" title="München" alt="München map" width="440" height="511"></span>
 <span id="RMU" style="display: none; vertical-align: middle">Murcia<br>
-  <img class="map" src="rmu.svg" title="Murcia" alt="Murcia map" width="158" height="191"></span>
+    <img class="map" src="rmu.svg" title="Murcia" alt="Murcia map" width="158" height="191"></span>
 <span id="NLV" style="display: none; vertical-align: middle">Mykolaiv<br>
-  <img class="map" src="nlv.svg" title="Mykolaiv" alt="Mykolaiv map" width="304" height="212"></span>
+    <img class="map" src="nlv.svg" title="Mykolaiv" alt="Mykolaiv map" width="304" height="212"></span>
 <span id="NBC" style="display: none; vertical-align: middle">Naberezhnye Chelny<br>
-  <img class="map" src="nbc.svg" title="Naberezhnye Chelny" alt="Naberezhnye Chelny map" width="359" height="359"></span>
+    <img class="map" src="nbc.svg" title="Naberezhnye Chelny" alt="Naberezhnye Chelny map" width="359" height="359"></span>
 <span id="NGS" style="display: none; vertical-align: middle">Nagasaki<br>
-  <img class="map" src="ngs.svg" title="Nagasaki" alt="Nagasaki map" width="130" height="228"></span>
+    <img class="map" src="ngs.svg" title="Nagasaki" alt="Nagasaki map" width="130" height="228"></span>
 <span id="NKG" style="display: none; vertical-align: middle">Nanjing<br>
-  <img class="map" src="nkg.svg" title="Nanjing" alt="Nanjing map" width="739" height="304"></span>
+    <img class="map" src="nkg.svg" title="Nanjing" alt="Nanjing map" width="739" height="304"></span>
 <span id="NTE" style="display: none; vertical-align: middle">Nantes<br>
-  <img class="map" src="nte.svg" title="Nantes" alt="Nantes map" width="310" height="321"></span>
+    <img class="map" src="nte.svg" title="Nantes" alt="Nantes map" width="310" height="321"></span>
 <span id="NAP" style="display: none; vertical-align: middle">Napoli<br>
-  <img class="map" src="nap.svg" title="Napoli" alt="Napoli map" width="158" height="136"></span>
+    <img class="map" src="nap.svg" title="Napoli" alt="Napoli map" width="158" height="136"></span>
 <span id="NTL" style="display: inline-block; vertical-align: middle">Newcastle AU<br>
-  <img class="map" src="ntl.svg" title="Newcastle AU" alt="Newcastle AU map" width="103" height="54"></span>
+    <img class="map" src="ntl.svg" title="Newcastle AU" alt="Newcastle AU map" width="103" height="54"></span>
 <span id="NCL" style="display: none; vertical-align: middle">Newcastle UK<br>
-  <img class="map" src="ncl.svg" title="Newcastle UK" alt="Newcastle UK map" width="158" height="104"></span>
+    <img class="map" src="ncl.svg" title="Newcastle UK" alt="Newcastle UK map" width="158" height="104"></span>
 <span id="MSY" style="display: inline-block; vertical-align: middle">New Orleans<br>
-  <img class="map" src="msy.svg" title="New Orleans" alt="New Orleans map" width="228" height="190"></span>
+    <img class="map" src="msy.svg" title="New Orleans" alt="New Orleans map" width="228" height="190"></span>
 <span id="NYC" style="display: none; vertical-align: middle">New York<br>
-  <img class="map" src="nyc.svg" title="New York" alt="New York map" width="489" height="473"></span>
+    <img class="map" src="nyc.svg" title="New York" alt="New York map" width="489" height="473"></span>
 <span id="NCE" style="display: none; vertical-align: middle">Nice<br>
-  <img class="map" src="nce.svg" title="Nice" alt="Nice map" width="266" height="261"></span>
+    <img class="map" src="nce.svg" title="Nice" alt="Nice map" width="266" height="261"></span>
 <span id="NK_" style="display: none; vertical-align: middle">Nizhnekamsk<br>
-  <img class="map" src="nk_.svg" title="Nizhnekamsk" alt="Nizhnekamsk map" width="114" height="266"></span>
+    <img class="map" src="nk_.svg" title="Nizhnekamsk" alt="Nizhnekamsk map" width="114" height="266"></span>
 <span id="GOJ" style="display: none; vertical-align: middle">Nizhny Novgorod<br>
-  <img class="map" src="goj.svg" title="Nizhny Novgorod" alt="Nizhny Novgorod map" width="538" height="522"></span>
+    <img class="map" src="goj.svg" title="Nizhny Novgorod" alt="Nizhny Novgorod map" width="538" height="522"></span>
 <span id="NT_" style="display: none; vertical-align: middle">Nizhny Tagil<br>
-  <img class="map" src="nt_.svg" title="Nizhny Tagil" alt="Nizhny Tagil map" width="391" height="217"></span>
+    <img class="map" src="nt_.svg" title="Nizhny Tagil" alt="Nizhny Tagil map" width="391" height="217"></span>
 <span id="NH_" style="display: none; vertical-align: middle">Nordhausen<br>
-  <img class="map" src="nh_.svg" title="Nordhausen" alt="Nordhausen map" width="103" height="98"></span>
+    <img class="map" src="nh_.svg" title="Nordhausen" alt="Nordhausen map" width="103" height="98"></span>
 <span id="ORF" style="display: none; vertical-align: middle">Norfolk<br>
-  <img class="map" src="orf.svg" title="Norfolk" alt="Norfolk map" width="332" height="87"></span>
+    <img class="map" src="orf.svg" title="Norfolk" alt="Norfolk map" width="332" height="87"></span>
 <span id="NRK" style="display: none; vertical-align: middle">Norrköping<br>
-  <img class="map" src="nrk.svg" title="Norrköping" alt="Norrköping map" width="207" height="218"></span>
+    <img class="map" src="nrk.svg" title="Norrköping" alt="Norrköping map" width="207" height="218"></span>
 <span id="NQT" style="display: none; vertical-align: middle">Nottingham<br>
-  <img class="map" src="nqt.svg" title="Nottingham" alt="Nottingham map" width="266" height="499"></span>
+    <img class="map" src="nqt.svg" title="Nottingham" alt="Nottingham map" width="266" height="499"></span>
 <span id="NC_" style="display: none; vertical-align: middle">Novocherkassk<br>
-  <img class="map" src="nc_.svg" title="Novocherkassk" alt="Novocherkassk map" width="82" height="82"></span>
+    <img class="map" src="nc_.svg" title="Novocherkassk" alt="Novocherkassk map" width="82" height="82"></span>
 <span id="NOZ" style="display: none; vertical-align: middle">Novokuznetsk<br>
-  <img class="map" src="noz.svg" title="Novokuznetsk" alt="Novokuznetsk map" width="451" height="516"></span>
+    <img class="map" src="noz.svg" title="Novokuznetsk" alt="Novokuznetsk map" width="451" height="516"></span>
 <span id="OVB" style="display: none; vertical-align: middle">Novosibirsk<br>
-  <img class="map" src="ovb.svg" title="Novosibirsk" alt="Novosibirsk map" width="440" height="483"></span>
+    <img class="map" src="ovb.svg" title="Novosibirsk" alt="Novosibirsk map" width="440" height="483"></span>
 <span id="NUE" style="display: none; vertical-align: middle">Nürnberg<br>
-  <img class="map" src="nue.svg" title="Nürnberg" alt="Nürnberg map" width="217" height="315"></span>
+    <img class="map" src="nue.svg" title="Nürnberg" alt="Nürnberg map" width="217" height="315"></span>
 <span id="ODE" style="display: none; vertical-align: middle">Odense<br>
-  <img class="map" src="ode.svg" title="Odense" alt="Odense map" width="212" height="201"></span>
+    <img class="map" src="ode.svg" title="Odense" alt="Odense map" width="212" height="201"></span>
 <span id="ODS" style="display: none; vertical-align: middle">Odesa<br>
-  <img class="map" src="ods.svg" title="Odesa" alt="Odesa map" width="391" height="978"></span>
+    <img class="map" src="ods.svg" title="Odesa" alt="Odesa map" width="391" height="978"></span>
 <span id="OKJ" style="display: none; vertical-align: middle">Okayama<br>
-  <img class="map" src="okj.svg" title="Okayama" alt="Okayama map" width="87" height="76"></span>
+    <img class="map" src="okj.svg" title="Okayama" alt="Okayama map" width="87" height="76"></span>
 <span id="OKC" style="display: inline-block; vertical-align: middle">Oklahoma<br>City<br>
-  <img class="map" src="okc.svg" title="Oklahoma City" alt="Oklahoma City map" width="71" height="87"></span>
+    <img class="map" src="okc.svg" title="Oklahoma City" alt="Oklahoma City map" width="71" height="87"></span>
 <span id="OLO" style="display: none; vertical-align: middle">Olomouc<br>
-  <img class="map" src="olo.svg" title="Olomouc" alt="Olomouc map" width="179" height="119"></span>
+    <img class="map" src="olo.svg" title="Olomouc" alt="Olomouc map" width="179" height="119"></span>
 <span id="OZ_" style="display: none; vertical-align: middle">Olsztyn<br>
-  <img class="map" src="oz_.svg" title="Olsztyn" alt="Olsztyn map" width="109" height="196"></span>
+    <img class="map" src="oz_.svg" title="Olsztyn" alt="Olsztyn map" width="109" height="196"></span>
 <span id="OMS" style="display: none; vertical-align: middle">Omsk<br>
-  <img class="map" src="oms.svg" title="Omsk" alt="Omsk map" width="250" height="418"></span>
+    <img class="map" src="oms.svg" title="Omsk" alt="Omsk map" width="250" height="418"></span>
 <span id="OST" style="display: none; vertical-align: middle">Oostende<br>
-  <img class="map" src="ost.svg" title="Oostende" alt="Oostende map" width="1495" height="913"></span>
+    <img class="map" src="ost.svg" title="Oostende" alt="Oostende map" width="1495" height="913"></span>
 <span id="OMR" style="display: none; vertical-align: middle">Oradea<br>
-  <img class="map" src="omr.svg" title="Oradea" alt="Oradea map" width="163" height="185"></span>
+    <img class="map" src="omr.svg" title="Oradea" alt="Oradea map" width="163" height="185"></span>
 <span id="ORN" style="display: none; vertical-align: middle">Oran<br>
-  <img class="map" src="orn.svg" title="Oran" alt="Oran map" width="255" height="244"></span>
+    <img class="map" src="orn.svg" title="Oran" alt="Oran map" width="255" height="244"></span>
 <span id="ORE" style="display: none; vertical-align: middle">Orléans<br>
-  <img class="map" src="ore.svg" title="Orléans" alt="Orléans map" width="299" height="359"></span>
+    <img class="map" src="ore.svg" title="Orléans" alt="Orléans map" width="299" height="359"></span>
 <span id="OSW" style="display: none; vertical-align: middle">Orsk / Novotroitsk<br>
-  <img class="map" src="osw.svg" title="Orsk / Novotroitsk" alt="Orsk / Novotroitsk map" width="641" height="255"></span>
+    <img class="map" src="osw.svg" title="Orsk / Novotroitsk" alt="Orsk / Novotroitsk map" width="641" height="255"></span>
 <span id="OEL" style="display: none; vertical-align: middle">Oryol<br>
-  <img class="map" src="oel.svg" title="Oryol" alt="Oryol map" width="277" height="228"></span>
+    <img class="map" src="oel.svg" title="Oryol" alt="Oryol map" width="277" height="228"></span>
 <span id="OSA" style="display: none; vertical-align: middle">Osaka<br>
-  <img class="map" src="osa.svg" title="Osaka" alt="Osaka map" width="217" height="374"></span>
+    <img class="map" src="osa.svg" title="Osaka" alt="Osaka map" width="217" height="374"></span>
 <span id="OSI" style="display: none; vertical-align: middle">Osijek<br>
-  <img class="map" src="osi.svg" title="Osijek" alt="Osijek map" width="288" height="98"></span>
+    <img class="map" src="osi.svg" title="Osijek" alt="Osijek map" width="288" height="98"></span>
 <span id="OK_" style="display: none; vertical-align: middle">Osinniki<br>
-  <img class="map" src="ok_.svg" title="Osinniki" alt="Osinniki map" width="125" height="158"></span>
+    <img class="map" src="ok_.svg" title="Osinniki" alt="Osinniki map" width="125" height="158"></span>
 <span id="UKK" style="display: none; vertical-align: middle">Óskemen<br>
-  <img class="map" src="ukk.svg" title="Óskemen" alt="Óskemen map" width="212" height="217"></span>
+    <img class="map" src="ukk.svg" title="Óskemen" alt="Óskemen map" width="212" height="217"></span>
 <span id="OSL" style="display: none; vertical-align: middle">Oslo<br>
-  <img class="map" src="osl.svg" title="Oslo" alt="Oslo map" width="375" height="397"></span>
+    <img class="map" src="osl.svg" title="Oslo" alt="Oslo map" width="375" height="397"></span>
 <span id="OSR" style="display: none; vertical-align: middle">Ostrava<br>
-  <img class="map" src="osr.svg" title="Ostrava" alt="Ostrava map" width="375" height="304"></span>
+    <img class="map" src="osr.svg" title="Ostrava" alt="Ostrava map" width="375" height="304"></span>
 <span id="OGX" style="display: none; vertical-align: middle">Ouargla<br>
-  <img class="map" src="ogx.svg" title="Ouargla" alt="Ouargla map" width="223" height="103"></span>
+    <img class="map" src="ogx.svg" title="Ouargla" alt="Ouargla map" width="223" height="103"></span>
 <span id="QPA" style="display: none; vertical-align: middle">Padova<br>
-  <img class="map" src="qpa.svg" title="Padova" alt="Padova map" width="87" height="272"></span>
+    <img class="map" src="qpa.svg" title="Padova" alt="Padova map" width="87" height="272"></span>
 <span id="PMO" style="display: none; vertical-align: middle">Palermo<br>
-  <img class="map" src="pmo.svg" title="Palermo" alt="Palermo map" width="310" height="179"></span>
+    <img class="map" src="pmo.svg" title="Palermo" alt="Palermo map" width="310" height="179"></span>
 <span id="PAR" style="display: inline-block; vertical-align: middle">Paris<br>
-  <img class="map" src="par.svg" title="Paris" alt="Paris map" width="1179" height="1222"></span>
+    <img class="map" src="par.svg" title="Paris" alt="Paris map" width="1179" height="1222"></span>
 <span id="PWQ" style="display: none; vertical-align: middle">Pavlodar<br>
-  <img class="map" src="pwq.svg" title="Pavlodar" alt="Pavlodar map" width="125" height="348"></span>
+    <img class="map" src="pwq.svg" title="Pavlodar" alt="Pavlodar map" width="125" height="348"></span>
 <span id="PEE" style="display: none; vertical-align: middle">Perm<br>
-  <img class="map" src="pee.svg" title="Perm" alt="Perm map" width="250" height="304"></span>
+    <img class="map" src="pee.svg" title="Perm" alt="Perm map" width="250" height="304"></span>
 <span id="PHL" style="display: inline-block; vertical-align: middle">Philadelphia<br>
-  <img class="map" src="phl.svg" title="Philadelphia" alt="Philadelphia map" width="522" height="310"></span>
+    <img class="map" src="phl.svg" title="Philadelphia" alt="Philadelphia map" width="522" height="310"></span>
 <span id="PHX" style="display: inline-block; vertical-align: middle">Phoenix<br>
-  <img class="map" src="phx.svg" title="Phoenix" alt="Phoenix map" width="946" height="565"></span>
+    <img class="map" src="phx.svg" title="Phoenix" alt="Phoenix map" width="946" height="565"></span>
 <span id="PIT" style="display: none; vertical-align: middle">Pittsburgh<br>
-  <img class="map" src="pit.svg" title="Pittsburgh" alt="Pittsburgh map" width="174" height="566"></span>
+    <img class="map" src="pit.svg" title="Pittsburgh" alt="Pittsburgh map" width="174" height="566"></span>
 <span id="HOQ" style="display: none; vertical-align: middle">Plauen<br>
-  <img class="map" src="hoq.svg" title="Plauen" alt="Plauen map" width="190" height="141"></span>
+    <img class="map" src="hoq.svg" title="Plauen" alt="Plauen map" width="190" height="141"></span>
 <span id="QPL" style="display: none; vertical-align: middle">Ploieşti<br>
-  <img class="map" src="qpl.svg" title="Ploieşti" alt="Ploieşti map" width="130" height="152"></span>
+    <img class="map" src="qpl.svg" title="Ploieşti" alt="Ploieşti map" width="130" height="152"></span>
 <span id="PZ_" style="display: none; vertical-align: middle">Plzeň<br>
-  <img class="map" src="pz_.svg" title="Plzeň" alt="Plzeň map" width="228" height="228"></span>
+    <img class="map" src="pz_.svg" title="Plzeň" alt="Plzeň map" width="228" height="228"></span>
 <span id="PDX" style="display: inline-block; vertical-align: middle">Portland<br>
-  <img class="map" src="pdx.svg" title="Portland" alt="Portland map" width="1364" height="609"></span>
+    <img class="map" src="pdx.svg" title="Portland" alt="Portland map" width="1364" height="609"></span>
 <span id="OPO" style="display: none; vertical-align: middle">Porto<br>
-  <img class="map" src="opo.svg" title="Porto" alt="Porto map" width="571" height="963"></span>
+    <img class="map" src="opo.svg" title="Porto" alt="Porto map" width="571" height="963"></span>
 <span id="PD_" style="display: none; vertical-align: middle">Potsdam<br>
-  <img class="map" src="pd_.svg" title="Potsdam" alt="Potsdam map" width="293" height="271"></span>
+    <img class="map" src="pd_.svg" title="Potsdam" alt="Potsdam map" width="293" height="271"></span>
 <span id="POZ" style="display: none; vertical-align: middle">Poznań<br>
-  <img class="map" src="poz.svg" title="Poznań" alt="Poznań map" width="370" height="348"></span>
+    <img class="map" src="poz.svg" title="Poznań" alt="Poznań map" width="370" height="348"></span>
 <span id="PRG" style="display: inline-block; vertical-align: middle">Praha<br>
-  <img class="map" src="prg.svg" title="Praha" alt="Praha map" width="560" height="462"></span>
+    <img class="map" src="prg.svg" title="Praha" alt="Praha map" width="560" height="462"></span>
 <span id="PK_" style="display: none; vertical-align: middle">Prokopyevsk<br>
-  <img class="map" src="pk_.svg" title="Prokopyevsk" alt="Prokopyevsk map" width="451" height="212"></span>
+    <img class="map" src="pk_.svg" title="Prokopyevsk" alt="Prokopyevsk map" width="451" height="212"></span>
 <span id="PY_" style="display: none; vertical-align: middle">Pyatigorsk<br>
-  <img class="map" src="py_.svg" title="Pyatigorsk" alt="Pyatigorsk map" width="364" height="141"></span>
+    <img class="map" src="py_.svg" title="Pyatigorsk" alt="Pyatigorsk map" width="364" height="141"></span>
 <span id="FNJ" style="display: none; vertical-align: middle">Pyongyang<br>
-  <img class="map" src="fnj.svg" title="Pyongyang" alt="Pyongyang map" width="364" height="299"></span>
+    <img class="map" src="fnj.svg" title="Pyongyang" alt="Pyongyang map" width="364" height="299"></span>
 <span id="TAO" style="display: none; vertical-align: middle">Qingdao<br>
-  <img class="map" src="tao.svg" title="Qingdao" alt="Qingdao map" width="245" height="76"></span>
+    <img class="map" src="tao.svg" title="Qingdao" alt="Qingdao map" width="245" height="76"></span>
 <span id="QB_" style="display: none; vertical-align: middle">Qiubei<br>
-  <img class="map" src="qb_.svg" title="Qiubei" alt="Qiubei map" width="98" height="343"></span>
+    <img class="map" src="qb_.svg" title="Qiubei" alt="Qiubei map" width="98" height="343"></span>
 <span id="RBA" style="display: none; vertical-align: middle">Rabat<br>
-  <img class="map" src="rba.svg" title="Rabat" alt="Rabat map" width="359" height="267"></span>
+    <img class="map" src="rba.svg" title="Rabat" alt="Rabat map" width="359" height="267"></span>
 <span id="RHE" style="display: none; vertical-align: middle">Reims<br>
-  <img class="map" src="rhe.svg" title="Reims" alt="Reims map" width="109" height="256"></span>
+    <img class="map" src="rhe.svg" title="Reims" alt="Reims map" width="109" height="256"></span>
 <span id="RIX" style="display: none; vertical-align: middle">Riga<br>
-  <img class="map" src="rix.svg" title="Riga" alt="Riga map" width="451" height="397"></span>
+    <img class="map" src="rix.svg" title="Riga" alt="Riga map" width="451" height="397"></span>
 <span id="RIO" style="display: inline-block; vertical-align: middle">Rio de Janeiro<br>
-  <img class="map" src="rio.svg" title="Rio de Janeiro" alt="Rio de Janeiro map" width="163" height="168"></span>
+    <img class="map" src="rio.svg" title="Rio de Janeiro" alt="Rio de Janeiro map" width="163" height="168"></span>
 <span id="ROM" style="display: none; vertical-align: middle">Roma<br>
-  <img class="map" src="rom.svg" title="Roma" alt="Roma map" width="359" height="239"></span>
+    <img class="map" src="rom.svg" title="Roma" alt="Roma map" width="359" height="239"></span>
 <span id="RLG" style="display: none; vertical-align: middle">Rostock<br>
-  <img class="map" src="rlg.svg" title="Rostock" alt="Rostock map" width="288" height="353"></span>
+    <img class="map" src="rlg.svg" title="Rostock" alt="Rostock map" width="288" height="353"></span>
 <span id="ROV" style="display: none; vertical-align: middle">Rostov-na-Donu<br>
-  <img class="map" src="rov.svg" title="Rostov-na-Donu" alt="Rostov-na-Donu map" width="196" height="103"></span>
+    <img class="map" src="rov.svg" title="Rostov-na-Donu" alt="Rostov-na-Donu map" width="196" height="103"></span>
 <span id="URO" style="display: none; vertical-align: middle">Rouen<br>
-  <img class="map" src="uro.svg" title="Rouen" alt="Rouen map" width="168" height="233"></span>
+    <img class="map" src="uro.svg" title="Rouen" alt="Rouen map" width="168" height="233"></span>
 <span id="SCN" style="display: none; vertical-align: middle">Saarbrücken<br>
-  <img class="map" src="scn.svg" title="Saarbrücken" alt="Saarbrücken map" width="196" height="289"></span>
+    <img class="map" src="scn.svg" title="Saarbrücken" alt="Saarbrücken map" width="196" height="289"></span>
 <span id="SAC" style="display: none; vertical-align: middle">Sacramento<br>
-  <img class="map" src="sac.svg" title="Sacramento" alt="Sacramento map" width="141" height="152"></span>
+    <img class="map" src="sac.svg" title="Sacramento" alt="Sacramento map" width="141" height="152"></span>
 <span id="EBU" style="display: none; vertical-align: middle">Saint-Étienne<br>
-  <img class="map" src="ebu.svg" title="Saint-Étienne" alt="Saint-Étienne map" width="125" height="266"></span>
+    <img class="map" src="ebu.svg" title="Saint-Étienne" alt="Saint-Étienne map" width="125" height="266"></span>
 <span id="SV_" style="display: none; vertical-align: middle">Salavat<br>
-  <img class="map" src="sv_.svg" title="Salavat" alt="Salavat map" width="87" height="245"></span>
+    <img class="map" src="sv_.svg" title="Salavat" alt="Salavat map" width="87" height="245"></span>
 <span id="SLC" style="display: inline-block; vertical-align: middle">Salt Lake City<br>
-  <img class="map" src="slc.svg" title="Salt Lake City" alt="Salt Lake City map" width="408" height="326"></span>
+    <img class="map" src="slc.svg" title="Salt Lake City" alt="Salt Lake City map" width="408" height="326"></span>
 <span id="KUF" style="display: none; vertical-align: middle">Samara<br>
-  <img class="map" src="kuf.svg" title="Samara" alt="Samara map" width="440" height="331"></span>
+    <img class="map" src="kuf.svg" title="Samara" alt="Samara map" width="440" height="331"></span>
 <span id="SKD" style="display: none; vertical-align: middle">Samarkand<br>
-  <img class="map" src="skd.svg" title="Samarkand" alt="Samarkand map" width="185" height="190"></span>
+    <img class="map" src="skd.svg" title="Samarkand" alt="Samarkand map" width="185" height="190"></span>
 <span id="SZF" style="display: none; vertical-align: middle">Samsun<br>
-  <img class="map" src="szf.svg" title="Samsun" alt="Samsun map" width="696" height="538"></span>
+    <img class="map" src="szf.svg" title="Samsun" alt="Samsun map" width="696" height="538"></span>
 <span id="SAN" style="display: none; vertical-align: middle">San Diego<br>
-  <img class="map" src="san.svg" title="San Diego" alt="San Diego map" width="663" height="489"></span>
+    <img class="map" src="san.svg" title="San Diego" alt="San Diego map" width="663" height="489"></span>
 <span id="SFO" style="display: inline-block; vertical-align: middle">San Francisco<br>
-  <img class="map" src="sfo.svg" title="San Francisco" alt="San Francisco map" width="348" height="359"></span>
+    <img class="map" src="sfo.svg" title="San Francisco" alt="San Francisco map" width="348" height="359"></span>
 <span id="SJC" style="display: none; vertical-align: middle">San Jose<br>
-  <img class="map" src="sjc.svg" title="San Jose" alt="San Jose map" width="788" height="625"></span>
+    <img class="map" src="sjc.svg" title="San Jose" alt="San Jose map" width="788" height="625"></span>
 <span id="LED" style="display: none; vertical-align: middle">Sankt-Peterburg<br>
-  <img class="map" src="led.svg" title="Sankt-Peterburg" alt="Sankt-Peterburg map" width="772" height="837"></span>
+    <img class="map" src="led.svg" title="Sankt-Peterburg" alt="Sankt-Peterburg map" width="772" height="837"></span>
 <span id="SSZ" style="display: none; vertical-align: middle">Santos<br>
-  <img class="map" src="ssz.svg" title="Santos" alt="Santos map" width="321" height="71"></span>
+    <img class="map" src="ssz.svg" title="Santos" alt="Santos map" width="321" height="71"></span>
 <span id="SYX" style="display: none; vertical-align: middle">Sanya<br>
-  <img class="map" src="syx.svg" title="Sanya" alt="Sanya map" width="87" height="234"></span>
+    <img class="map" src="syx.svg" title="Sanya" alt="Sanya map" width="87" height="234"></span>
 <span id="SPK" style="display: none; vertical-align: middle">Sapporo<br>
-  <img class="map" src="spk.svg" title="Sapporo" alt="Sapporo map" width="76" height="125"></span>
+    <img class="map" src="spk.svg" title="Sapporo" alt="Sapporo map" width="76" height="125"></span>
 <span id="SJJ" style="display: none; vertical-align: middle">Sarajevo<br>
-  <img class="map" src="sjj.svg" title="Sarajevo" alt="Sarajevo map" width="326" height="125"></span>
+    <img class="map" src="sjj.svg" title="Sarajevo" alt="Sarajevo map" width="326" height="125"></span>
 <span id="GSV" style="display: none; vertical-align: middle">Saratov<br>
-  <img class="map" src="gsv.svg" title="Saratov" alt="Saratov map" width="239" height="266"></span>
+    <img class="map" src="gsv.svg" title="Saratov" alt="Saratov map" width="239" height="266"></span>
 <span id="SZW" style="display: none; vertical-align: middle">Schwerin<br>
-  <img class="map" src="szw.svg" title="Schwerin" alt="Schwerin map" width="245" height="245"></span>
+    <img class="map" src="szw.svg" title="Schwerin" alt="Schwerin map" width="245" height="245"></span>
 <span id="SEA" style="display: inline-block; vertical-align: middle">Seattle<br>
-  <img class="map" src="sea.svg" title="Seattle" alt="Seattle map" width="435" height="408"></span>
+    <img class="map" src="sea.svg" title="Seattle" alt="Seattle map" width="435" height="408"></span>
 <span id="QSF" style="display: none; vertical-align: middle">Sétif<br>
-  <img class="map" src="qsf.svg" title="Sétif" alt="Sétif map" width="272" height="92"></span>
+    <img class="map" src="qsf.svg" title="Sétif" alt="Sétif map" width="272" height="92"></span>
 <span id="SVQ" style="display: none; vertical-align: middle">Sevilla<br>
-  <img class="map" src="svq.svg" title="Sevilla" alt="Sevilla map" width="87" height="65"></span>
+    <img class="map" src="svq.svg" title="Sevilla" alt="Sevilla map" width="87" height="65"></span>
 <span id="SHA" style="display: none; vertical-align: middle">Shanghai<br>
-  <img class="map" src="sha.svg" title="Shanghai" alt="Shanghai map" width="413" height="174"></span>
+    <img class="map" src="sha.svg" title="Shanghai" alt="Shanghai map" width="413" height="174"></span>
 <span id="SZD" style="display: none; vertical-align: middle">Sheffield<br>
-  <img class="map" src="szd.svg" title="Sheffield" alt="Sheffield map" width="359" height="332"></span>
+    <img class="map" src="szd.svg" title="Sheffield" alt="Sheffield map" width="359" height="332"></span>
 <span id="SHE" style="display: none; vertical-align: middle">Shenyang<br>
-  <img class="map" src="she.svg" title="Shenyang" alt="Shenyang map" width="902" height="690"></span>
+    <img class="map" src="she.svg" title="Shenyang" alt="Shenyang map" width="902" height="690"></span>
 <span id="SZX" style="display: none; vertical-align: middle">Shenzhen<br>
-  <img class="map" src="szx.svg" title="Shenzhen" alt="Shenzhen map" width="152" height="195"></span>
+    <img class="map" src="szx.svg" title="Shenzhen" alt="Shenzhen map" width="152" height="195"></span>
 <span id="BFW" style="display: none; vertical-align: middle">Sidi Bel Abbès<br>
-  <img class="map" src="bfw.svg" title="Sidi Bel Abbès" alt="Sidi Bel Abbès map" width="130" height="173"></span>
+    <img class="map" src="bfw.svg" title="Sidi Bel Abbès" alt="Sidi Bel Abbès map" width="130" height="173"></span>
 <span id="LNX" style="display: none; vertical-align: middle">Smolensk<br>
-  <img class="map" src="lnx.svg" title="Smolensk" alt="Smolensk map" width="223" height="218"></span>
+    <img class="map" src="lnx.svg" title="Smolensk" alt="Smolensk map" width="223" height="218"></span>
 <span id="SOF" style="display: none; vertical-align: middle">Sofiya<br>
-  <img class="map" src="sof.svg" title="Sofiya" alt="Sofiya map" width="457" height="381"></span>
+    <img class="map" src="sof.svg" title="Sofiya" alt="Sofiya map" width="457" height="381"></span>
 <span id="SO_" style="display: none; vertical-align: middle">Stary Oskol<br>
-  <img class="map" src="so_.svg" title="Stary Oskol" alt="Stary Oskol map" width="239" height="636"></span>
+    <img class="map" src="so_.svg" title="Stary Oskol" alt="Stary Oskol map" width="239" height="636"></span>
 <span id="STO" style="display: none; vertical-align: middle">Stockholm<br>
-  <img class="map" src="sto.svg" title="Stockholm" alt="Stockholm map" width="370" height="261"></span>
+    <img class="map" src="sto.svg" title="Stockholm" alt="Stockholm map" width="370" height="261"></span>
 <span id="SXB" style="display: inline-block; vertical-align: middle">Strasbourg<br>
-  <img class="map" src="sxb.svg" title="Strasbourg" alt="Strasbourg map" width="310" height="375"></span>
+    <img class="map" src="sxb.svg" title="Strasbourg" alt="Strasbourg map" width="310" height="375"></span>
 <span id="STR" style="display: none; vertical-align: middle">Stuttgart<br>
-  <img class="map" src="str.svg" title="Stuttgart" alt="Stuttgart map" width="538" height="641"></span>
+    <img class="map" src="str.svg" title="Stuttgart" alt="Stuttgart map" width="538" height="641"></span>
 <span id="SZV" style="display: none; vertical-align: middle">Suzhou<br>
-  <img class="map" src="szv.svg" title="Suzhou" alt="Suzhou map" width="636" height="310"></span>
+    <img class="map" src="szv.svg" title="Suzhou" alt="Suzhou map" width="636" height="310"></span>
 <span id="SYD" style="display: inline-block; vertical-align: middle">Sydney<br>
-  <img class="map" src="syd.svg" title="Sydney" alt="Sydney map" width="321" height="256"></span>
+    <img class="map" src="syd.svg" title="Sydney" alt="Sydney map" width="321" height="256"></span>
 <span id="SZZ" style="display: none; vertical-align: middle">Szczecin<br>
-  <img class="map" src="szz.svg" title="Szczecin" alt="Szczecin map" width="337" height="348"></span>
+    <img class="map" src="szz.svg" title="Szczecin" alt="Szczecin map" width="337" height="348"></span>
 <span id="SZ_" style="display: none; vertical-align: middle">Szeged<br>
-  <img class="map" src="sz_.svg" title="Szeged" alt="Szeged map" width="136" height="147"></span>
+    <img class="map" src="sz_.svg" title="Szeged" alt="Szeged map" width="136" height="147"></span>
 <span id="TCM" style="display: inline-block; vertical-align: middle">Tacoma<br>
-  <img class="map" src="tcm.svg" title="Tacoma" alt="Tacoma map" width="87" height="114"></span>
+    <img class="map" src="tcm.svg" title="Tacoma" alt="Tacoma map" width="87" height="114"></span>
 <span id="TGK" style="display: none; vertical-align: middle">Taganrog<br>
-  <img class="map" src="tgk.svg" title="Taganrog" alt="Taganrog map" width="152" height="244"></span>
+    <img class="map" src="tgk.svg" title="Taganrog" alt="Taganrog map" width="152" height="244"></span>
 <span id="TPE" style="display: none; vertical-align: middle">Taipei<br>
-  <img class="map" src="tpe.svg" title="Taipei" alt="Taipei map" width="359" height="892"></span>
+    <img class="map" src="tpe.svg" title="Taipei" alt="Taipei map" width="359" height="892"></span>
 <span id="TLL" style="display: none; vertical-align: middle">Tallinn<br>
-  <img class="map" src="tll.svg" title="Tallinn" alt="Tallinn map" width="277" height="201"></span>
+    <img class="map" src="tll.svg" title="Tallinn" alt="Tallinn map" width="277" height="201"></span>
 <span id="TPA" style="display: inline-block; vertical-align: middle">Tampa<br>
-  <img class="map" src="tpa.svg" title="Tampa" alt="Tampa map" width="82" height="93"></span>
+    <img class="map" src="tpa.svg" title="Tampa" alt="Tampa map" width="82" height="93"></span>
 <span id="TMP" style="display: none; vertical-align: middle">Tampere<br>
-  <img class="map" src="tmp.svg" title="Tampere" alt="Tampere map" width="272" height="250"></span>
+    <img class="map" src="tmp.svg" title="Tampere" alt="Tampere map" width="272" height="250"></span>
 <span id="TLV" style="display: none; vertical-align: middle">Tel Aviv<br>
-  <img class="map" src="tlv.svg" title="Tel Aviv" alt="Tel Aviv map" width="435" height="353"></span>
+    <img class="map" src="tlv.svg" title="Tel Aviv" alt="Tel Aviv map" width="435" height="353"></span>
 <span id="TCI" style="display: none; vertical-align: middle">Tenerife<br>
-  <img class="map" src="tci.svg" title="Tenerife" alt="Tenerife map" width="234" height="169"></span>
+    <img class="map" src="tci.svg" title="Tenerife" alt="Tenerife map" width="234" height="169"></span>
 <span id="TSR" style="display: none; vertical-align: middle">Timişoara<br>
-  <img class="map" src="tsr.svg" title="Timişoara" alt="Timişoara map" width="196" height="174"></span>
+    <img class="map" src="tsr.svg" title="Timişoara" alt="Timişoara map" width="196" height="174"></span>
 <span id="TYO" style="display: none; vertical-align: middle">Tokyo<br>
-  <img class="map" src="tyo.svg" title="Tokyo" alt="Tokyo map" width="245" height="174"></span>
+    <img class="map" src="tyo.svg" title="Tokyo" alt="Tokyo map" width="245" height="174"></span>
 <span id="TOF" style="display: none; vertical-align: middle">Tomsk<br>
-  <img class="map" src="tof.svg" title="Tomsk" alt="Tomsk map" width="147" height="272"></span>
+    <img class="map" src="tof.svg" title="Tomsk" alt="Tomsk map" width="147" height="272"></span>
 <span id="TRN" style="display: none; vertical-align: middle">Torino<br>
-  <img class="map" src="trn.svg" title="Torino" alt="Torino map" width="304" height="413"></span>
+    <img class="map" src="trn.svg" title="Torino" alt="Torino map" width="304" height="413"></span>
 <span id="YTO" style="display: inline-block; vertical-align: middle">Toronto<br>
-  <img class="map" src="yto.svg" title="Toronto" alt="Toronto map" width="663" height="353"></span>
+    <img class="map" src="yto.svg" title="Toronto" alt="Toronto map" width="663" height="353"></span>
 <span id="TN_" style="display: none; vertical-align: middle">Toruń<br>
-  <img class="map" src="tn_.svg" title="Toruń" alt="Toruń map" width="332" height="180"></span>
+    <img class="map" src="tn_.svg" title="Toruń" alt="Toruń map" width="332" height="180"></span>
 <span id="TLS" style="display: none; vertical-align: middle">Toulouse<br>
-  <img class="map" src="tls.svg" title="Toulouse" alt="Toulouse map" width="234" height="305"></span>
+    <img class="map" src="tls.svg" title="Toulouse" alt="Toulouse map" width="234" height="305"></span>
 <span id="TUF" style="display: none; vertical-align: middle">Tours<br>
-  <img class="map" src="tuf.svg" title="Tours" alt="Tours map" width="147" height="316"></span>
+    <img class="map" src="tuf.svg" title="Tours" alt="Tours map" width="147" height="316"></span>
 <span id="TOY" style="display: none; vertical-align: middle">Toyama<br>
-  <img class="map" src="toy.svg" title="Toyama" alt="Toyama map" width="620" height="424"></span>
+    <img class="map" src="toy.svg" title="Toyama" alt="Toyama map" width="620" height="424"></span>
 <span id="TY_" style="display: none; vertical-align: middle">Toyohashi<br>
-  <img class="map" src="ty_.svg" title="Toyohashi" alt="Toyohashi map" width="152" height="60"></span>
+    <img class="map" src="ty_.svg" title="Toyohashi" alt="Toyohashi map" width="152" height="60"></span>
 <span id="TRD" style="display: none; vertical-align: middle">Trondheim<br>
-  <img class="map" src="trd.svg" title="Trondheim" alt="Trondheim map" width="141" height="141"></span>
+    <img class="map" src="trd.svg" title="Trondheim" alt="Trondheim map" width="141" height="141"></span>
 <span id="TUS" style="display: inline-block; vertical-align: middle">Tucson<br>
-  <img class="map" src="tus.svg" title="Tucson" alt="Tucson map" width="136" height="92"></span>
+    <img class="map" src="tus.svg" title="Tucson" alt="Tucson map" width="136" height="92"></span>
 <span id="TYA" style="display: none; vertical-align: middle">Tula<br>
-  <img class="map" src="tya.svg" title="Tula" alt="Tula map" width="283" height="299"></span>
+    <img class="map" src="tya.svg" title="Tula" alt="Tula map" width="283" height="299"></span>
 <span id="TUN" style="display: inline-block; vertical-align: middle">Tunis<br>
-  <img class="map" src="tun.svg" title="Tunis" alt="Tunis map" width="467" height="494"></span>
+    <img class="map" src="tun.svg" title="Tunis" alt="Tunis map" width="467" height="494"></span>
 <span id="UFA" style="display: none; vertical-align: middle">Ufa<br>
-  <img class="map" src="ufa.svg" title="Ufa" alt="Ufa map" width="440" height="407"></span>
+    <img class="map" src="ufa.svg" title="Ufa" alt="Ufa map" width="440" height="407"></span>
 <span id="UUD" style="display: none; vertical-align: middle">Ulan-Ude<br>
-  <img class="map" src="uud.svg" title="Ulan-Ude" alt="Ulan-Ude map" width="239" height="196"></span>
+    <img class="map" src="uud.svg" title="Ulan-Ude" alt="Ulan-Ude map" width="239" height="196"></span>
 <span id="QUL" style="display: none; vertical-align: middle">Ulm<br>
-  <img class="map" src="qul.svg" title="Ulm" alt="Ulm map" width="239" height="201"></span>
+    <img class="map" src="qul.svg" title="Ulm" alt="Ulm map" width="239" height="201"></span>
 <span id="ULY" style="display: none; vertical-align: middle">Ulyanovsk<br>
-  <img class="map" src="uly.svg" title="Ulyanovsk" alt="Ulyanovsk map" width="272" height="430"></span>
+    <img class="map" src="uly.svg" title="Ulyanovsk" alt="Ulyanovsk map" width="272" height="430"></span>
 <span id="US_" style="display: none; vertical-align: middle">Usolye<br>Sibirskoye<br>
-  <img class="map" src="us_.svg" title="Usolye Sibirskoye" alt="Usolye Sibirskoye map" width="114" height="125"></span>
+    <img class="map" src="us_.svg" title="Usolye Sibirskoye" alt="Usolye Sibirskoye map" width="114" height="125"></span>
 <span id="UTC" style="display: none; vertical-align: middle">Utrecht<br>
-  <img class="map" src="utc.svg" title="Utrecht" alt="Utrecht map" width="348" height="315"></span>
+    <img class="map" src="utc.svg" title="Utrecht" alt="Utrecht map" width="348" height="315"></span>
 <span id="QUT" style="display: none; vertical-align: middle">Utsunomiya<br>
-  <img class="map" src="qut.svg" title="Utsunomiya" alt="Utsunomiya map" width="337" height="141"></span>
+    <img class="map" src="qut.svg" title="Utsunomiya" alt="Utsunomiya map" width="337" height="141"></span>
 <span id="VLC" style="display: none; vertical-align: middle">Valéncia ES<br>
-  <img class="map" src="vlc.svg" title="Valéncia ES" alt="Valéncia ES map" width="310" height="277"></span>
+    <img class="map" src="vlc.svg" title="Valéncia ES" alt="Valéncia ES map" width="310" height="277"></span>
 <span id="XVS" style="display: none; vertical-align: middle">Valenciennes<br>
-  <img class="map" src="xvs.svg" title="Valenciennes" alt="Valenciennes map" width="478" height="505"></span>
+    <img class="map" src="xvs.svg" title="Valenciennes" alt="Valenciennes map" width="478" height="505"></span>
 <span id="VCE" style="display: none; vertical-align: middle">Venezia<br>
-  <img class="map" src="vce.svg" title="Venezia" alt="Venezia map" width="391" height="326"></span>
+    <img class="map" src="vce.svg" title="Venezia" alt="Venezia map" width="391" height="326"></span>
 <span id="VIN" style="display: none; vertical-align: middle">Vinnytsia<br>
-  <img class="map" src="vin.svg" title="Vinnytsia" alt="Vinnytsia map" width="288" height="141"></span>
+    <img class="map" src="vin.svg" title="Vinnytsia" alt="Vinnytsia map" width="288" height="141"></span>
 <span id="VTB" style="display: none; vertical-align: middle">Vitebsk<br>
-  <img class="map" src="vtb.svg" title="Vitebsk" alt="Vitebsk map" width="293" height="130"></span>
+    <img class="map" src="vtb.svg" title="Vitebsk" alt="Vitebsk map" width="293" height="130"></span>
 <span id="VIT" style="display: none; vertical-align: middle">Vitoria-Gasteiz<br>
-  <img class="map" src="vit.svg" title="Vitoria-Gasteiz" alt="Vitoria-Gasteiz map" width="158" height="158"></span>
+    <img class="map" src="vit.svg" title="Vitoria-Gasteiz" alt="Vitoria-Gasteiz map" width="158" height="158"></span>
 <span id="VVO" style="display: none; vertical-align: middle">Vladivostok<br>
-  <img class="map" src="vvo.svg" title="Vladivostok" alt="Vladivostok map" width="103" height="125"></span>
+    <img class="map" src="vvo.svg" title="Vladivostok" alt="Vladivostok map" width="103" height="125"></span>
 <span id="VOG" style="display: none; vertical-align: middle">Volgograd<br>
-  <img class="map" src="vog.svg" title="Volgograd" alt="Volgograd map" width="772" height="1174"></span>
+    <img class="map" src="vog.svg" title="Volgograd" alt="Volgograd map" width="772" height="1174"></span>
 <span id="WAW" style="display: none; vertical-align: middle">Warszawa<br>
-  <img class="map" src="waw.svg" title="Warszawa" alt="Warszawa map" width="832" height="756"></span>
+    <img class="map" src="waw.svg" title="Warszawa" alt="Warszawa map" width="832" height="756"></span>
 <span id="WAS" style="display: inline-block; vertical-align: middle">Washington<br>
-  <img class="map" src="was.svg" title="Washington" alt="Washington map" width="120" height="44"></span>
+    <img class="map" src="was.svg" title="Washington" alt="Washington map" width="120" height="44"></span>
 <span id="YKF" style="display: none; vertical-align: middle">Waterloo CA<br>
-  <img class="map" src="ykf.svg" title="Waterloo CA" alt="Waterloo CA map" width="277" height="304"></span>
+    <img class="map" src="ykf.svg" title="Waterloo CA" alt="Waterloo CA map" width="277" height="304"></span>
 <span id="VIE" style="display: inline-block; vertical-align: middle">Wien<br>
-  <img class="map" src="vie.svg" title="Wien" alt="Wien map" width="592" height="1021"></span>
+    <img class="map" src="vie.svg" title="Wien" alt="Wien map" width="592" height="1021"></span>
 <span id="WRO" style="display: none; vertical-align: middle">Wrocław<br>
-  <img class="map" src="wro.svg" title="Wrocław" alt="Wrocław map" width="522" height="310"></span>
+    <img class="map" src="wro.svg" title="Wrocław" alt="Wrocław map" width="522" height="310"></span>
 <span id="WUH" style="display: none; vertical-align: middle">Wuhan<br>
-  <img class="map" src="wuh.svg" title="Wuhan" alt="Wuhan map" width="1380" height="386"></span>
+    <img class="map" src="wuh.svg" title="Wuhan" alt="Wuhan map" width="1380" height="386"></span>
 <span id="WZ_" style="display: none; vertical-align: middle">Würzburg<br>
-  <img class="map" src="wz_.svg" title="Würzburg" alt="Würzburg map" width="190" height="299"></span>
+    <img class="map" src="wz_.svg" title="Würzburg" alt="Würzburg map" width="190" height="299"></span>
 <span id="IAR" style="display: none; vertical-align: middle">Yaroslavl<br>
-  <img class="map" src="iar.svg" title="Yaroslavl" alt="Yaroslavl map" width="130" height="173"></span>
+    <img class="map" src="iar.svg" title="Yaroslavl" alt="Yaroslavl map" width="130" height="173"></span>
 <span id="SVX" style="display: none; vertical-align: middle">Yekaterinburg<br>
-  <img class="map" src="svx.svg" title="Yekaterinburg" alt="Yekaterinburg map" width="380" height="717"></span>
+    <img class="map" src="svx.svg" title="Yekaterinburg" alt="Yekaterinburg map" width="380" height="717"></span>
 <span id="JRS" style="display: inline-block; vertical-align: middle">Yerushalayim<br>
-  <img class="map" src="jrs.svg" title="Yerushalayim" alt="Yerushalayim map" width="196" height="223"></span>
+    <img class="map" src="jrs.svg" title="Yerushalayim" alt="Yerushalayim map" width="196" height="223"></span>
 <span id="YP_" style="display: none; vertical-align: middle">Yevpatoriya<br>
-  <img class="map" src="yp_.svg" title="Yevpatoriya" alt="Yevpatoriya map" width="147" height="125"></span>
+    <img class="map" src="yp_.svg" title="Yevpatoriya" alt="Yevpatoriya map" width="147" height="125"></span>
 <span id="ZAG" style="display: none; vertical-align: middle">Zagreb<br>
-  <img class="map" src="zag.svg" title="Zagreb" alt="Zagreb map" width="457" height="305"></span>
+    <img class="map" src="zag.svg" title="Zagreb" alt="Zagreb map" width="457" height="305"></span>
 <span id="OZH" style="display: none; vertical-align: middle">Zaporizhia<br>
-  <img class="map" src="ozh.svg" title="Zaporizhia" alt="Zaporizhia map" width="158" height="234"></span>
+    <img class="map" src="ozh.svg" title="Zaporizhia" alt="Zaporizhia map" width="158" height="234"></span>
 <span id="ZAZ" style="display: none; vertical-align: middle">Zaragoza<br>
-  <img class="map" src="zaz.svg" title="Zaragoza" alt="Zaragoza map" width="201" height="255"></span>
+    <img class="map" src="zaz.svg" title="Zaragoza" alt="Zaragoza map" width="201" height="255"></span>
 <span id="ZTR" style="display: none; vertical-align: middle">Zhytomyr<br>
-  <img class="map" src="ztr.svg" title="Zhytomyr" alt="Zhytomyr map" width="174" height="82"></span>
+    <img class="map" src="ztr.svg" title="Zhytomyr" alt="Zhytomyr map" width="174" height="82"></span>
 <span id="ZL_" style="display: none; vertical-align: middle">Zlatoust<br>
-  <img class="map" src="zl_.svg" title="Zlatoust" alt="Zlatoust map" width="207" height="370"></span>
+    <img class="map" src="zl_.svg" title="Zlatoust" alt="Zlatoust map" width="207" height="370"></span>
 <span id="ZRH" style="display: inline-block; vertical-align: middle">Zürich<br>
-  <img class="map" src="zrh.svg" title="Zürich" alt="Zürich map" width="734" height="451"></span>
+    <img class="map" src="zrh.svg" title="Zürich" alt="Zürich map" width="734" height="451"></span>
 <span id="ZW_" style="display: none; vertical-align: middle">Zwickau<br>
-  <img class="map" src="zw_.svg" title="Zwickau" alt="Zwickau map" width="223" height="223"></span>
+    <img class="map" src="zw_.svg" title="Zwickau" alt="Zwickau map" width="223" height="223"></span>
 </div>
 <div id="sidebar">
 <div id="button" style="position: absolute; right: 5px;" onclick="togglesidebar()"><a id="collapse" href="javascript:">[&minus;]</a></div>
@@ -1269,7 +1269,7 @@ window.onload=window.onhashchange;
 <br>
 <div class="headerfooter">
 <div style="white-space: normal;">
-Thick lines represent running in streets or with uncontrolled or light-controlled grade crossings; thin lines represent thru-running onto sections with grade-separations or crossing gates.  Other frequent local rail lines are shown in light gray, ferries in cyan.<br>All lines shown run at least every 20 minutes during the day on weekdays as of 2024.<br>
+Thick lines represent running in streets or with uncontrolled or light-controlled grade crossings; thin lines represent thru-running onto sections with grade-separations or crossing gates.    Other frequent local rail lines are shown in light gray, ferries in cyan.<br>All lines shown run at least every 20 minutes during the day on weekdays as of 2024.<br>
 Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (30 CSS pixels per km)</div>
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.

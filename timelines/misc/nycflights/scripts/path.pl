@@ -10,10 +10,10 @@ open(my $afile, "scripts/airports.dat") or die "couldn't open file!";
 
 my $lat; my $long;
 while (<$afile>) {
-  if (/^$iata/) {
-    (undef, $lat, $long, undef) = split(/\t/, $_);
-    last;
-  }
+    if (/^$iata/) {
+        (undef, $lat, $long, undef) = split(/\t/, $_);
+        last;
+    }
 }
 if (!$lat) {
   die "airport $iata not found!";

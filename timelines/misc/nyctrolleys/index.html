@@ -12,18 +12,18 @@
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
 div#preloader {
-	position: absolute;
-	left: -9999px;
-	top:  -9999px;
+    position: absolute;
+    left: -9999px;
+    top:  -9999px;
 }
 div#preloader img {
-	display: block;
+    display: block;
 }
 img {
-	border: 1px solid;
+    border: 1px solid;
 }
 body {
-	text-align: center;
+    text-align: center;
 }
 </style>
 <script language="JavaScript" type="text/javascript">
@@ -32,49 +32,49 @@ count=26;
 step=1;
 index=0;
 function update() {
-	map = document.getElementById("map");
-	map.src=(start+step*index) + ".svg";
-	map.title=start+step*index;
-	map.alt=start+step*index + " map";
-	location.replace("#" + (start+step*index));
+    map = document.getElementById("map");
+    map.src=(start+step*index) + ".svg";
+    map.title=start+step*index;
+    map.alt=start+step*index + " map";
+    location.replace("#" + (start+step*index));
 }
 function nextmap() {
-	index=(index+1)%count;
-	update();
+    index=(index+1)%count;
+    update();
 }
 function prevmap() {
-	index=(index+count-1)%count;
-	update();
+    index=(index+count-1)%count;
+    update();
 }
 document.onkeydown=function(keypress) {
-	if(keypress.which == 65) { prevmap(); }
-	if(keypress.which == 83) { nextmap(); }
+    if(keypress.which == 65) { prevmap(); }
+    if(keypress.which == 83) { nextmap(); }
 }
 function gotoyear(x) {
-	inyear = parseInt(x);
-	if( start <= inyear & inyear <= start+step*count & !(inyear % step) ) {
-		index = (inyear-start)/step;
-		update();
-	}
+    inyear = parseInt(x);
+    if( start <= inyear & inyear <= start+step*count & !(inyear % step) ) {
+        index = (inyear-start)/step;
+        update();
+    }
 }
 intervalID=0;
 function startanim() {
-	intervalID = setInterval(nextmap, 1000);
-	animbutton = document.getElementById("animbutton");
-	animbutton.onclick = stopanim;
-	animbutton.innerText = "click here to stop animation";
+    intervalID = setInterval(nextmap, 1000);
+    animbutton = document.getElementById("animbutton");
+    animbutton.onclick = stopanim;
+    animbutton.innerText = "click here to stop animation";
 }
 function stopanim() {
-	clearInterval(intervalID);
-	animbutton = document.getElementById("animbutton");
-	animbutton.onclick = startanim;
-	animbutton.innerText = "click here to animate";
+    clearInterval(intervalID);
+    animbutton = document.getElementById("animbutton");
+    animbutton.onclick = startanim;
+    animbutton.innerText = "click here to animate";
 }
 window.onload=function() {
-	gotoyear(location.hash.substring(1));
+    gotoyear(location.hash.substring(1));
 }
 window.onhashchange=function() {
-	gotoyear(location.hash.substring(1));
+    gotoyear(location.hash.substring(1));
 }
 </script>
 <script type="text/javascript">
@@ -128,7 +128,7 @@ window.onhashchange=function() {
 <a href="javascript:" onclick="prevmap()">one year earlier (or press a)</a> --- 
 <a href="javascript:" onclick="nextmap()">one year later (or press s)</a>
 <p>
-Based on service at the end of the year in question.  Lines coloured by operator (<a href="colours.html">key</a>).  Waterlines as of c. 1940.<br>
+Based on service at the end of the year in question. Lines coloured by operator (<a href="colours.html">key</a>). Waterlines as of c. 1940.<br>
 Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (30 CSS pixels per km)
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.

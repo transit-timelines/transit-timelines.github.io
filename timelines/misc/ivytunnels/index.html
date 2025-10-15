@@ -8,12 +8,12 @@
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
 div#preloader {
-	position: absolute;
-	left: -9999px;
-	top:  -9999px;
+    position: absolute;
+    left: -9999px;
+    top:  -9999px;
 }
 div#preloader img {
-	display: block;
+    display: block;
 }
 </style>
 <script language="JavaScript" type="text/javascript">
@@ -22,49 +22,49 @@ count=23;
 step=5;
 index=count-1;
 function update() {
-	["H","P"].forEach(function(cont) {
-		document[cont].src=(cont.toLowerCase() + '/' + (start+step*index) + ".svg");
-		document[cont].title=start+step*index;
-		document[cont].alt=start+step*index + " map";
-		location.replace("#" + (start+step*index));
-	});
+    ["H","P"].forEach(function(cont) {
+        document[cont].src=(cont.toLowerCase() + '/' + (start+step*index) + ".svg");
+        document[cont].title=start+step*index;
+        document[cont].alt=start+step*index + " map";
+        location.replace("#" + (start+step*index));
+    });
 }
 function nextmap() {
-	index=(index+1)%count;
-	update();
+    index=(index+1)%count;
+    update();
 }
 function prevmap() {
-	index=(index+count-1)%count;
-	update();
+    index=(index+count-1)%count;
+    update();
 }
 document.onkeydown=function(keypress) {
-	if(keypress.which == 65) { prevmap(); }
-	if(keypress.which == 83) { nextmap(); }
+    if(keypress.which == 65) { prevmap(); }
+    if(keypress.which == 83) { nextmap(); }
 }
 function gotoyear(x) {
-	inyear = parseInt(x);
-	if( start <= inyear & inyear <= start+step*count & !(inyear % step) ) {
-		index = (inyear-start)/step;
-		update();
-	}
+    inyear = parseInt(x);
+    if( start <= inyear & inyear <= start+step*count & !(inyear % step) ) {
+        index = (inyear-start)/step;
+        update();
+    }
 }
 intervalID=0;
 function startanim() {
-	intervalID = setInterval(nextmap, 1000);
-	animbutton = document.getElementById("animbutton");
+    intervalID = setInterval(nextmap, 1000);
+    animbutton = document.getElementById("animbutton");
 
 }
 function stopanim() {
-	clearInterval(intervalID);
-	animbutton = document.getElementById("animbutton");
-	animbutton.onclick = startanim;
-	animbutton.innerText = "click here to animate";
+    clearInterval(intervalID);
+    animbutton = document.getElementById("animbutton");
+    animbutton.onclick = startanim;
+    animbutton.innerText = "click here to animate";
 }
 window.onload=function() {
-	gotoyear(location.hash.substring(1));
+    gotoyear(location.hash.substring(1));
 }
 window.onhashchange=function() {
-	gotoyear(location.hash.substring(1));
+    gotoyear(location.hash.substring(1));
 }
 </script>
 <script type="text/javascript">
@@ -86,7 +86,7 @@ window.onhashchange=function() {
 <a id="animbutton" href="javascript:" onclick="startanim()">click here to animate</a>
 <p>
 <span id="H" style="display: inline-block; vertical-align: middle">Harvard<br><a href="javascript:" onclick="nextmap()">
-  <img class="map" name="H" src="h/2025.svg" title="2025" alt="2025 map" width="500" height="402" style="border-width: 1px; border-style: solid"></a></span>
+    <img class="map" name="H" src="h/2025.svg" title="2025" alt="2025 map" width="500" height="402" style="border-width: 1px; border-style: solid"></a></span>
 <span id="P" style="display: inline-block; vertical-align: middle">Providence<br><a href="javascript:" onclick="nextmap()">
 <img class="map" name="P" src="p/2025.svg" title="2025" alt="2025 map" width="380" height="630" style="border-width: 1px; border-style: solid"></a></span>
 <p>

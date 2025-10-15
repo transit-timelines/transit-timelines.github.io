@@ -17,12 +17,12 @@ cat <<HEREDOC | sed -e"s/START/${START}/g; s/END/${END}/g; s/COUNT/${COUNT}/g;"
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
 div#preloader {
-	position: absolute;
-	left: -9999px;
-	top:  -9999px;
+    position: absolute;
+    left: -9999px;
+    top:  -9999px;
 }
 div#preloader img {
-	display: block;
+    display: block;
 }
 </style>
 <script language="JavaScript" type="text/javascript">
@@ -31,48 +31,48 @@ count=COUNT;
 step=1;
 index=count-1;
 function update() {
-	document["MAP"].src=(start+step*index) + ".svg";
-	document["MAP"].title=start+step*index;
-	document["MAP"].alt=start+step*index + " map";
-	location.replace("#" + (start+step*index));
+    document["MAP"].src=(start+step*index) + ".svg";
+    document["MAP"].title=start+step*index;
+    document["MAP"].alt=start+step*index + " map";
+    location.replace("#" + (start+step*index));
 }
 function nextmap() {
-	index=(index+1)%count;
-	update();
+    index=(index+1)%count;
+    update();
 }
 function prevmap() {
-	index=(index+count-1)%count;
-	update();
+    index=(index+count-1)%count;
+    update();
 }
 document.onkeydown=function(keypress) {
-	if(keypress.which == 65) { prevmap(); }
-	if(keypress.which == 83) { nextmap(); }
+    if(keypress.which == 65) { prevmap(); }
+    if(keypress.which == 83) { nextmap(); }
 }
 function gotoyear(x) {
-	inyear = parseInt(x);
-	if( start <= inyear & inyear <= start+step*count & !(inyear % step) ) {
-		index = (inyear-start)/step;
-		update();
-	}
+    inyear = parseInt(x);
+    if( start <= inyear & inyear <= start+step*count & !(inyear % step) ) {
+        index = (inyear-start)/step;
+        update();
+    }
 }
 intervalID=0;
 function startanim() {
-	intervalID = setInterval(nextmap, 1000);
-	animbutton = document.getElementById("animbutton");
-	animbutton.onclick = stopanim;
-	animbutton.innerText = "click here to stop animation";
+    intervalID = setInterval(nextmap, 1000);
+    animbutton = document.getElementById("animbutton");
+    animbutton.onclick = stopanim;
+    animbutton.innerText = "click here to stop animation";
 }
 function stopanim() {
-	clearInterval(intervalID);
-	animbutton = document.getElementById("animbutton");
-	animbutton.onclick = startanim;
-	animbutton.innerText = "click here to animate";
+    clearInterval(intervalID);
+    animbutton = document.getElementById("animbutton");
+    animbutton.onclick = startanim;
+    animbutton.innerText = "click here to animate";
 }
 window.onload=function() {
-	gotoyear(location.hash.substring(1));
+    gotoyear(location.hash.substring(1));
 }
 window.onhashchange=function() {
-        gotoyear(location.hash.substring(1));
+    gotoyear(location.hash.substring(1));
 }
 </script>
 <script type="text/javascript">
@@ -98,7 +98,7 @@ window.onhashchange=function() {
 <p>
 HEREDOC
 for y in `seq $START $END`; do
-  echo "<a href=\"#${y}\" onclick=\"gotoyear(${y})\">${y}</a>"
+    echo "<a href=\"#${y}\" onclick=\"gotoyear(${y})\">${y}</a>"
 done
 cat <<HEREDOC
 <p>
@@ -113,7 +113,7 @@ Please send any corrections or questions to threestationsquare at gmail dot com.
 <div id="preloader">
 HEREDOC
 for y in `seq $START $END`; do
-  echo '<img src="'${y}'.svg" width="1" height="1" alt="">'
+    echo '<img src="'${y}'.svg" width="1" height="1" alt="">'
 done
 cat <<HEREDOC
 </div>

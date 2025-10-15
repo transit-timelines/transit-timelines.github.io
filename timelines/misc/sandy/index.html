@@ -4,12 +4,12 @@
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <style type="text/css">
 div#preloader {
-	position: absolute;
-	left: -9999px;
-	top:  -9999px;
+    position: absolute;
+    left: -9999px;
+    top:  -9999px;
 }
 div#preloader img {
-	display: block;
+    display: block;
 }
 </style>
 <script language="JavaScript" type="text/javascript">
@@ -18,84 +18,84 @@ count=32;
 step=1;
 index=0;
 function update() {
-        num = start+step*index;
-	map = document.getElementById("map");
-	map.src=num + ".svg";
-        if (num < 7) { 
-		map.title="Oct " + (num+25);
-		map.alt="Oct " + (num+25) + " map";
-        } else if ( num < 20) {
-		map.title="Nov " + (num-6);
-		map.alt="Nov " + (num-6) + " map";
-        } else if (num < 23) {
-                map.title="Nov " + (num*7 - 126);
-                map.alt="Nov " + (num*7 - 126) + " map";
-	} else if (num < 27 ) {
-                map.title="Dec " + (num*7 - 156);
-                map.alt="Dec " + (num*7 - 156) + " map";
-        } else if ( num == 27 ) {
-                map.title="mid-January";
-                map.alt="January map";
-	} else if ( num == 28 ) {
-                map.title="mid-February";
-                map.alt="February map";
-        } else if ( num == 29 ) {
-                map.title="mid-March";
-                map.alt="March map";
-        } else if ( num == 30 ) {
-                map.title="mid-April";
-                map.alt="April map";
-        } else if ( num == 31 ) {
-                map.title="mid-May";
-                map.alt="May map";
-        } else if ( num == 32 ) {
-                map.title="mid-June";
-                map.alt="June map";
-        }
-	location.replace("#" + (start+step*index));
+    num = start+step*index;
+    map = document.getElementById("map");
+    map.src=num + ".svg";
+    if (num < 7) { 
+        map.title="Oct " + (num+25);
+        map.alt="Oct " + (num+25) + " map";
+    } else if ( num < 20) {
+        map.title="Nov " + (num-6);
+        map.alt="Nov " + (num-6) + " map";
+    } else if (num < 23) {
+        map.title="Nov " + (num*7 - 126);
+        map.alt="Nov " + (num*7 - 126) + " map";
+    } else if (num < 27 ) {
+        map.title="Dec " + (num*7 - 156);
+        map.alt="Dec " + (num*7 - 156) + " map";
+    } else if ( num == 27 ) {
+        map.title="mid-January";
+        map.alt="January map";
+    } else if ( num == 28 ) {
+        map.title="mid-February";
+        map.alt="February map";
+    } else if ( num == 29 ) {
+        map.title="mid-March";
+        map.alt="March map";
+    } else if ( num == 30 ) {
+        map.title="mid-April";
+        map.alt="April map";
+    } else if ( num == 31 ) {
+        map.title="mid-May";
+        map.alt="May map";
+    } else if ( num == 32 ) {
+        map.title="mid-June";
+        map.alt="June map";
+    }
+    location.replace("#" + (start+step*index));
 }
 function nextmap() {
-	if (index < count-1) {
-		index=(index+1);
-	}
-	update();
+    if (index < count-1) {
+        index=(index+1);
+    }
+    update();
 }
 function prevmap() {
-	if (index >= start) {
-		index=(index-1);
-	}
-	update();
+    if (index >= start) {
+        index=(index-1);
+    }
+    update();
 }
 document.onkeydown=function(keypress) {
-	if(keypress.which == 65) { prevmap(); }
-	if(keypress.which == 83) { nextmap(); }
+    if(keypress.which == 65) { prevmap(); }
+    if(keypress.which == 83) { nextmap(); }
 }
 function gotoyear(x) {
-	inyear = parseInt(x);
-	if( start <= inyear & inyear <= start+step*count & !(inyear % step) ) {
-		index = (inyear-start)/step;
-		update();
-	}
+    inyear = parseInt(x);
+    if( start <= inyear & inyear <= start+step*count & !(inyear % step) ) {
+        index = (inyear-start)/step;
+        update();
+    }
 }
 function showbg() {
-	bgimg = document.getElementById("bg");
-	bgimg.style.display = 'inline-block'
-	bgbutton = document.getElementById("bgbutton");
-	bgbutton.onclick = hidebg;
-	bgbutton.innerText = "click here to hide labels and waterlines"
+    bgimg = document.getElementById("bg");
+    bgimg.style.display = 'inline-block'
+    bgbutton = document.getElementById("bgbutton");
+    bgbutton.onclick = hidebg;
+    bgbutton.innerText = "click here to hide labels and waterlines"
 }
 function hidebg() {
-	bgimg = document.getElementById("bg");
-	bgimg.style.display = 'none'
-	bgbutton = document.getElementById("bgbutton");
-	bgbutton.onclick = showbg;
-	bgbutton.innerText = "click here to show labels and waterlines"
+    bgimg = document.getElementById("bg");
+    bgimg.style.display = 'none'
+    bgbutton = document.getElementById("bgbutton");
+    bgbutton.onclick = showbg;
+    bgbutton.innerText = "click here to show labels and waterlines"
 }
 window.onload=function() {
-	gotoyear(location.hash.substring(1));
+    gotoyear(location.hash.substring(1));
 }
 window.onhashchange=function() {
-	gotoyear(location.hash.substring(1));
+    gotoyear(location.hash.substring(1));
 }
 </script>
 <script type="text/javascript">
@@ -157,7 +157,7 @@ window.onhashchange=function() {
 <p>
 <a id="bgbutton" href="javascript:" onclick="showbg()">click here to show labels and waterlines</a>
 <p>
-Based on midday service on the day in question.  Check <a href="http://www.mta.info">mta.info</a>, <a href="http://www.panynj.gov">panynj.gov</a> and <a href="http://www.njtransit.com">njtransit.com</a> for most current information.
+Based on midday service on the day in question. Check <a href="http://www.mta.info">mta.info</a>, <a href="http://www.panynj.gov">panynj.gov</a> and <a href="http://www.njtransit.com">njtransit.com</a> for most current information.
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>

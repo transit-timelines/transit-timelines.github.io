@@ -3,35 +3,35 @@
 <head><title>One-off Rapid Transit Map Scale Comparison</title>
 <style type="text/css">
 span {
-        margin-top: 10px;
-        margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .map, .bgmap {
-        border: 1px solid;
-        margin-left: 10px;
-        margin-right: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 </style>
 <script language="JavaScript" type="text/javascript">
 function toggleshow(x) {
-	if(document.getElementById(x).style.display=='inline-block') document.getElementById(x).style.display = 'none';
-	else document.getElementById(x).style.display = 'inline-block';
+    if(document.getElementById(x).style.display=='inline-block') document.getElementById(x).style.display = 'none';
+    else document.getElementById(x).style.display = 'inline-block';
 }
 function showbg() {
-	for (bgimg of document.getElementsByClassName("bgmap")) {
-		bgimg.style.display = 'inline-block';
-	}
-	bgbutton = document.getElementById("bgbutton");
-	bgbutton.onclick = hidebg;
-	bgbutton.innterText = "click here to hide present-day labels and waterlines";
+    for (bgimg of document.getElementsByClassName("bgmap")) {
+        bgimg.style.display = 'inline-block';
+    }
+    bgbutton = document.getElementById("bgbutton");
+    bgbutton.onclick = hidebg;
+    bgbutton.innterText = "click here to hide present-day labels and waterlines";
 }
 function hidebg() {
-	for (bgimg of document.getElementsByClassName("bgmap")) {
-		bgimg.style.display = 'none';
-	}
-	bgbutton = document.getElementById("bgbutton");
-	bgbutton.onclick = showbg;
-	bgbutton.innterText = "click here to show present-day labels and waterlines";
+    for (bgimg of document.getElementsByClassName("bgmap")) {
+        bgimg.style.display = 'none';
+    }
+    bgbutton = document.getElementById("bgbutton");
+    bgbutton.onclick = showbg;
+    bgbutton.innterText = "click here to show present-day labels and waterlines";
 }
 </script>
 <script type="text/javascript">
@@ -50,28 +50,28 @@ function hidebg() {
 smaller versions --- <a href="large.html">larger versions</a><p>
 <h4>Past:</h4>
 <span id="MKC" style="display: inline-block; vertical-align: middle"><a href="https://www.google.com/maps/d/viewer?mid=1-dWVmBPsK_iqijuEYQoCXc1x6AAErheS">Kansas City<br>
-  <img class="map" src="mkc.svg" title="Kansas City" alt="Kansas City map" width="72" height="58"></a></span>
+    <img class="map" src="mkc.svg" title="Kansas City" alt="Kansas City map" width="72" height="58"></a></span>
 <span id="LOU" style="display: inline-block; vertical-align: middle"><a href="https://www.google.com/maps/d/viewer?mid=12o6afFYwKujZ8AnFOrfSuj6kO9k">Louisville<br>
-  <img class="map" src="lou.svg" title="Louisville" alt="Louisville map" width="62" height="62"></a></span>
+    <img class="map" src="lou.svg" title="Louisville" alt="Louisville map" width="62" height="62"></a></span>
 <span id="SUX" style="display: inline-block; vertical-align: middle"><a href="https://www.google.com/maps/d/viewer?mid=1kT0FCz8_uQ5Wssyp-BMm4YdjW_M">Sioux City<br>
-  <img class="map" src="sux.svg" title="Sioux City" alt="Sioux City map" width="69" height="54"></a></span>
+    <img class="map" src="sux.svg" title="Sioux City" alt="Sioux City map" width="69" height="54"></a></span>
 <span id="ROC" style="display: inline-block; vertical-align: middle"><a href="https://www.google.com/maps/d/viewer?mid=1n4qMzGkFYLaFLhk_QA2E1dBVVyY&ll=43.15%2C-77.62&z=13">Rochester<br>
-  <img class="map" src="roc.svg" title="Rochester" alt="Rochester map" width="98" height="102"></a></span>
+    <img class="map" src="roc.svg" title="Rochester" alt="Rochester map" width="98" height="102"></a></span>
 <span id="CT_" style="display: inline-block; vertical-align: middle"><a href="https://www.remontees-mecaniques.net/bdd/site-chiatura-1043.html">Chiatura</a><br><small>(ignoring midday breaks)</small><br><a href="https://www.remontees-mecaniques.net/bdd/site-chiatura-1043.html">
-  <img class="map" src="ct_.svg" title="Chiatura" alt="Chiatura map" width="87" height="83"></a></span>
+    <img class="map" src="ct_.svg" title="Chiatura" alt="Chiatura map" width="87" height="83"></a></span>
 <span id="HL_" style="display: inline-block; vertical-align: middle"><a href="https://de.wikipedia.org/wiki/S-Bahn_Mitteldeutschland#Das_Hallesche_Netz">Halle<br>
-  <img class="map" src="hl_.svg" title="Halle" alt="Halle map" width="101" height="108"></a></span>
+    <img class="map" src="hl_.svg" title="Halle" alt="Halle map" width="101" height="108"></a></span>
 <span id="SKI" style="display: inline-block; vertical-align: middle"><a href="https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9cabine_de_Skikda">Skikda<br>
-  <img class="map" src="ski.svg" title="Skikda" alt="Skikda map" width="43" height="43"></a></span>
+    <img class="map" src="ski.svg" title="Skikda" alt="Skikda map" width="43" height="43"></a></span>
 <span id="IND" style="display: inline-block; vertical-align: middle"><a href="https://www.google.com/maps/d/viewer?mid=1Iq_dnlCJRc2mt7Rb8jKlv5tWunNDt6vo">Indianapolis<br>
-  <img class="map" src="ind.svg" title="Indianapolis" alt="Indianapolis map" width="40" height="40"></a></span>
+    <img class="map" src="ind.svg" title="Indianapolis" alt="Indianapolis map" width="40" height="40"></a></span>
 <h4>Special-Purpose:</h4>
 <span id="DWS" style="display: inline-block; vertical-align: middle">Disneyworld<br>
-  <img class="map" src="dws.svg" title="Disneyworld" alt="Disneyworld map" width="62" height="102"></span>
+    <img class="map" src="dws.svg" title="Disneyworld" alt="Disneyworld map" width="62" height="102"></span>
 <span id="QCA" style="display: inline-block; vertical-align: middle">Makkah<br><small>(7 days/year)</small><br>
-  <img class="map" src="qca.svg" title="Makkah" alt="Makkah map" width="123" height="116"></span>
+    <img class="map" src="qca.svg" title="Makkah" alt="Makkah map" width="123" height="116"></span>
 <span id="MGW" style="display: inline-block; vertical-align: middle">Morgantown<br><small>(~195 days/year)</small><br>
-  <img class="map" src="mgw.svg" title="Morgantown" alt="Morgantown map" width="40" height="55"></span>
+    <img class="map" src="mgw.svg" title="Morgantown" alt="Morgantown map" width="40" height="55"></span>
 <p>
 <!--<form action="">Cities to show:
 <div style="display: inline-block"><input type="checkbox" id="MKCcheckbox" onclick="toggleshow('MKC')" autocomplete="off" checked>Kansas City</div>

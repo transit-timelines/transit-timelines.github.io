@@ -3,97 +3,97 @@
 <head><title>Unrealised Rapid Transit Plans</title>
 <style type="text/css">
 span {
-        margin-top: 10px;
-        margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .map, .bgmap {
-        border: 1px solid;
-        margin-left: 10px;
-        margin-right: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 body {
-	text-align: center;
+    text-align: center;
 }
 </style>
 <script language="JavaScript" type="text/javascript">
 posdict = {};
 function setsrc(x, url, pos) {
-        document.getElementById(x + "map").src = url;
-	posdict[x] = pos;
+    document.getElementById(x + "map").src = url;
+    posdict[x] = pos;
 }
 function next(x) {
-	if (!(x in posdict)) { posdict[x] = 0; }
-	var links = document.getElementById(x).getElementsByClassName('setsrc');
-        if (posdict[x] + 1 >= links.length) {
-		links[0].click();
-	} else {
-		links[posdict[x]+1].click();
-	}
+    if (!(x in posdict)) { posdict[x] = 0; }
+    var links = document.getElementById(x).getElementsByClassName('setsrc');
+    if (posdict[x] + 1 >= links.length) {
+        links[0].click();
+    } else {
+        links[posdict[x]+1].click();
+    }
 }
 function toggleshow(x) {
-        if(document.getElementById(x).style.display=='inline-block') document.getElementById(x).style.display = 'none';
-        else document.getElementById(x).style.display = 'inline-block';
+    if(document.getElementById(x).style.display=='inline-block') document.getElementById(x).style.display = 'none';
+    else document.getElementById(x).style.display = 'inline-block';
 }
 function selectall() {
-        spans = document.getElementsByTagName("span");
-        for (var i=0; i < spans.length; i++) {
-                if (spans[i].style.display == 'none') {
-                        document.getElementById(spans[i].id + "checkbox").click();
-                }
+    spans = document.getElementsByTagName("span");
+    for (var i=0; i < spans.length; i++) {
+        if (spans[i].style.display == 'none') {
+            document.getElementById(spans[i].id + "checkbox").click();
         }
+    }
 }
 function deselectall() {
-        spans = document.getElementsByTagName("span");
-        for (var i=0; i < spans.length; i++) {
-                if (spans[i].style.display == 'inline-block') {
-                        document.getElementById(spans[i].id + "checkbox").click();
-                }
+    spans = document.getElementsByTagName("span");
+    for (var i=0; i < spans.length; i++) {
+        if (spans[i].style.display == 'inline-block') {
+            document.getElementById(spans[i].id + "checkbox").click();
         }
+    }
 }
 function showbg() {
-        for (bgimg of document.getElementsByClassName("bgmap")) {
-                bgimg.style.display = 'inline-block';
-        }
-        bgbutton = document.getElementById("bgbutton");
-        bgbutton.onclick = hidebg;
-        bgbutton.innterText = "click here to hide present-day labels and waterlines";
+    for (bgimg of document.getElementsByClassName("bgmap")) {
+        bgimg.style.display = 'inline-block';
+    }
+    bgbutton = document.getElementById("bgbutton");
+    bgbutton.onclick = hidebg;
+    bgbutton.innterText = "click here to hide present-day labels and waterlines";
 }
 function hidebg() {
-        for (bgimg of document.getElementsByClassName("bgmap")) {
-                bgimg.style.display = 'none';
-        }
-        bgbutton = document.getElementById("bgbutton");
-        bgbutton.onclick = showbg;
-        bgbutton.innterText = "click here to show present-day labels and waterlines";
+    for (bgimg of document.getElementsByClassName("bgmap")) {
+        bgimg.style.display = 'none';
+    }
+    bgbutton = document.getElementById("bgbutton");
+    bgbutton.onclick = showbg;
+    bgbutton.innterText = "click here to show present-day labels and waterlines";
 }
 
 window.onload=function() {
-	var spans = document.getElementsByTagName('span');
-	for (var i=0; i<spans.length; i++) {
-		if (document.getElementById(spans[i].id).getElementsByClassName('setsrc')[0].innerHTML.match(/actual/)) {
-			next(spans[i].id);
-		}
-	}
+    var spans = document.getElementsByTagName('span');
+    for (var i=0; i<spans.length; i++) {
+        if (document.getElementById(spans[i].id).getElementsByClassName('setsrc')[0].innerHTML.match(/actual/)) {
+            next(spans[i].id);
+        }
+    }
 }
 document.onkeydown=function(keypress) {
-        if(keypress.which == 65) {
-		var spans = document.getElementsByTagName('span');
-		for (var i=0; i<spans.length; i++) {
-			var links = document.getElementById(spans[i].id).getElementsByClassName('setsrc');
-			if (!(spans[i].id in posdict)) { posdict[spans[i].id] = 0; }
-        		if (posdict[spans[i].id] - 1 < 0) {
-				links[posdict[spans[i].id] - 1 + links.length].click();
-			} else {
-				links[posdict[spans[i].id] - 1].click();
-			}
-		}
-	}
-        if(keypress.which == 83) {
-		var spans = document.getElementsByTagName('span');
-		for (var i=0; i<spans.length; i++) {
-			next(spans[i].id);
-		}
-	}
+    if(keypress.which == 65) {
+        var spans = document.getElementsByTagName('span');
+        for (var i=0; i<spans.length; i++) {
+            var links = document.getElementById(spans[i].id).getElementsByClassName('setsrc');
+            if (!(spans[i].id in posdict)) { posdict[spans[i].id] = 0; }
+            if (posdict[spans[i].id] - 1 < 0) {
+                links[posdict[spans[i].id] - 1 + links.length].click();
+            } else {
+                links[posdict[spans[i].id] - 1].click();
+            }
+        }
+    }
+    if(keypress.which == 83) {
+        var spans = document.getElementsByTagName('span');
+        for (var i=0; i<spans.length; i++) {
+            next(spans[i].id);
+        }
+    }
 }
 </script>
 <script type="text/javascript">

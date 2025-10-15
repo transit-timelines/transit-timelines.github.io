@@ -3127,7 +3127,7 @@ iVU+lhvVRzVVGKqV+NPGvH9Z6cl76gAAbME34Yh5M6kZqe0AAAAASUVORK5CYII=
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="ILM" d="m 2000,2000 -35.828,70.832" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="IND" d="m 2000,2000 -104.723,3.736" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="IST" d="m 2000,2000 622.171,-512.478" />
-<path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="ITH" d="m 2000,2000 -20.074,-20.085" />
+<path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="ITH" d="m 2000,2000 -20.563,-19.742" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="JAX" d="m 2000,2000 -73.869,110.569" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="JED" d="m 2000,2000 875.085,-531.066" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="JNB" d="m 2000,2000 1249.765,298.608" />
@@ -3232,7 +3232,7 @@ iVU+lhvVRzVVGKqV+NPGvH9Z6cl76gAAbME34Yh5M6kZqe0AAAAASUVORK5CYII=
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="STT" d="m 2000,2000 97.730,244.467" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="SVO" d="m 2000,2000 422.564,-617.739" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="SXM" d="m 2000,2000 118.112,245.820" />
-<path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="SYR" d="m 2000,2000 -17.017,-26.902" />
+<path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="SYR" d="m 2000,2000 -18.341,-26.530" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="TLV" d="m 2000,2000 739.232,-535.182" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="TPA" d="m 2000,2000 -84.278,137.837" />
 <path style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="TUL" d="m 2000,2000 -194.619,26.376" />
@@ -3347,7 +3347,7 @@ iVU+lhvVRzVVGKqV+NPGvH9Z6cl76gAAbME34Yh5M6kZqe0AAAAASUVORK5CYII=
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotILM" r="3" cx="1964.172" cy="2070.832" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotIND" r="3" cx="1895.277" cy="2003.736" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotIST" r="3" cx="2622.171" cy="1487.522" />
-<circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotITH" r="3" cx="1979.926" cy="1979.915" />
+<circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotITH" r="3" cx="1979.437" cy="1980.258" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotJAX" r="3" cx="1926.131" cy="2110.569" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotJED" r="3" cx="2875.085" cy="1468.934" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotJNB" r="3" cx="3249.765" cy="2298.608" />
@@ -3452,7 +3452,7 @@ iVU+lhvVRzVVGKqV+NPGvH9Z6cl76gAAbME34Yh5M6kZqe0AAAAASUVORK5CYII=
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotSTT" r="3" cx="2097.730" cy="2244.467" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotSVO" r="3" cx="2422.564" cy="1382.261" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotSXM" r="3" cx="2118.112" cy="2245.820" />
-<circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotSYR" r="3" cx="1982.983" cy="1973.098" />
+<circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotSYR" r="3" cx="1981.659" cy="1973.470" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotTLV" r="3" cx="2739.232" cy="1464.818" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotTPA" r="3" cx="1915.722" cy="2137.837" />
 <circle style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" id="dotTUL" r="3" cx="1805.381" cy="2026.376" />

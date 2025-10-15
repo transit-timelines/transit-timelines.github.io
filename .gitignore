@@ -8,3 +8,4 @@
 *.djvu
 *.zip
 *.rar
+/scripts/apikeys
