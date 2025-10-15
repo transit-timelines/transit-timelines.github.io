@@ -1,9 +1,16 @@
-cat <<HEREDOC
+#!/bin/bash
+if [ $(basename $(pwd)) = 'rtoverlay' ]; then
+    TITLE='Pre-Industrial Walled City \& Modern Rapid Transit Scale Comparison'
+else
+    TITLE='Pre-Industrial Walled City Scale Comparison'
+fi
+sed -e"s/TITLE/$TITLE/" <<HEREDOC
 <!DOCTYPE HTML>
 <html>
-<head><title>Pre-Industrial Walled City Scale Comparison</title>
+<head><title>TITLE</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Pre-Industrial Walled City Scale Comparison" />
+<meta property="og:title" content="TITLE" />
 <meta property="og:image" content="https://alexander.co.tz/walledcityscale/preview.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
@@ -42,18 +49,8 @@ function deselectall() {
     }
 }
 </script>
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-19998781-1']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-<h3>Pre-Industrial Walled City Scale Comparison</h3>
+<h3>TITLE</h3>
 HEREDOC
 sortedcities=`echo $@ | perl -wpe's/([a-z]+)(-?[0-9]+).svg ?/$2 $1\n/g' | sort -g | awk '{print $2$1}'`
 for city in $sortedcities; do
@@ -71,7 +68,11 @@ for city in $sortedcities; do
     echo '    <img class="map" src="'${city}'.svg" title="'$SNAME'" alt="'$SNAME' map" width="'$W'" height="'$H'"></span>'
 done
 echo '<p>'
-echo '<a href="rtoverlay">versions with modern rapid transit lines overlaid (where applicable)</a>'
+if [ $(basename $(pwd)) = 'rtoverlay' ]; then
+    echo '<a href="..">versions without rapid transit lines overlaid (with additional cities)</a>'
+else
+    echo '<a href="rtoverlay">versions with modern rapid transit lines overlaid (where applicable)</a>'
+fi
 echo '<p>'
 echo '<form action="">Cities to show:'
 for city in $sortedcities; do

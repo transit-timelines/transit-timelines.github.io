@@ -30,13 +30,11 @@ hsr: $(patsubst %.svg,%.svg.gz,$(wildcard hsr/?/*.svg))
 
 ivytunnels: $(patsubst %.svg,%.svg.gz,$(wildcard ivytunnels/?/*.svg))
 
-88nv: $(patsubst %.svg,%.svg.gz,$(wildcard 88nv/*.svg)) 88nv/preview.gif
-
 sandy: $(patsubst %.svg,%.svg.gz,$(wildcard sandy/*.svg)) sandy/preview.gif
 
 nyctrolleys: $(patsubst %.svg,%.svg.gz,$(wildcard nyctrolleys/*.svg)) nyctrolleys/preview.gif
 
-nycflights:
+nycflights 88nv:
 	$(MAKE) --directory=$@
 
 %.svg.gz : %.svg

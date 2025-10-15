@@ -5,7 +5,7 @@ all: index.html $(patsubst %.svg,%.svg.gz,$(wildcard *.svg)) rtoverlay
 	mv $<.tmp $<
 	gzip -f --keep $<
 
-index.html: names makeindex.sh $(wildcard *0.svg)
+index.html: names sources makeindex.sh $(wildcard *0.svg)
 	./makeindex.sh $(wildcard *.svg) > $@
 
 rtoverlay:

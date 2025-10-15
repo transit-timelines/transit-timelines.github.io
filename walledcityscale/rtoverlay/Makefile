@@ -5,5 +5,5 @@ all: index.html $(patsubst %.svg,%.svg.gz,$(wildcard *.svg))
 	mv $<.tmp $<
 	gzip -f --keep $<
 
-index.html: names makeindex.sh $(wildcard *.svg)
-	./makeindex.sh $(wildcard *.svg) > $@
+index.html: names sources ../makeindex.sh $(wildcard *.svg)
+	../makeindex.sh $(wildcard *.svg) | grep -v '<meta.*image' > $@
