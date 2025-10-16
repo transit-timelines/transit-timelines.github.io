@@ -1,7 +1,6 @@
 #!/bin/bash
-scriptdir=$(dirname $0)
-source ${scriptdir}/apikeys
-echo $#
+source $(dirname $0)/apikeys
+
 if [ $# -lt 5 ]; then
     zoom=14
 else
