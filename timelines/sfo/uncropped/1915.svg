@@ -33,43 +33,23 @@
      y="0"
      x="-534" />
   <text
-     style="font-size:144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3639"
      y="12197.96"
      x="124.45"><tspan
        id="tspan2"
        y="12197.96"
-       x="124.45">1920</tspan></text>
+       x="124.45">1915</tspan></text>
   <text
-     style="font-size:144px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3639-3"
      y="206.96"
      x="124.45"><tspan
        id="tspan1"
        y="206.96"
-       x="124.45">1920</tspan></text>
-  <path
-     style="fill:none;stroke:#d31345;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     id="path2979"
-     d="m 1010.9,4137.3 -4.4,2.2 -22.5,5 -14,6.5 -28.5,21.5 -137,122.5 -35,29.5 -38,36.5 -25,25.5 -29.5,42.5 -23.5,31.5" />
-  <path
-     style="fill:none;stroke:#d31345;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-     id="path3594"
-     d="m 655,4457.5 -8,15 -15,17 -24.5,24.5 -14.5,18.5 -10,22 -1.5,14 -1.5,44 3.5,5 32,16 8,9.5 11.5,23.5 18.5,16.5 26.5,13.5 31.5,13 71,18.5" />
-  <path
-     style="fill:none;stroke:#d31345;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-     id="path2891"
-     d="m 781.19,4727.2 1.4,4.2 -0.35,50.4" />
-  <path
-     style="fill:none;stroke:#d31345;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-     id="path2843"
-     d="m 1470.72,3683.99 49.78,-47.99 -0.03,-2.05 -1.26,-3.17 1.04,-2.61 2.72,-2.22 3.99,0.86 3.29,3.43 0.57,4.36 -2.32,2.25 -2.79,0.82 -3.35,-1.6 -1.87,-0.08" />
-  <path
-     style="fill:none;stroke:#d31345;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path2818"
-     d="m 1010.9,4137.3 16.6,-8.3 69.5,-72 36.07,-35.61 80.4,-81.17 62.03,-63.22 52.51,-50.06 113.61,-113.52 29.1,-29.42" />
+       x="124.45">1915</tspan></text>
   <path
      style="fill:none;fill-opacity:0.25;stroke:#ff0000;stroke-width:5;stroke-linejoin:round"
      d="m 2280.25,3402.76 238.38,21.16 31.08,-0.99 32.07,-7.27 19.18,-7.6 100.51,-97.53 22.48,-21.49 20.5,-33.06 25.13,-76.7 7.93,-68.77 0.99,-70.09 -3.97,-40.34 2.65,-9.59 8.76,-14.88 15.87,-13.22"

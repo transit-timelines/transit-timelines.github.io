@@ -49,7 +49,7 @@ man%a.svg : ../../timelines/man/small/%.svg Makefile
 
 
 index.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
-	./makeindex.sh 10 $(NYC) $(BER) $(BOS) '<br>' $(PIT) $(MAN) $(SFO) '<br>' $(YMQ) $(SEA) $(ZRH) $(HNL) '<br>' $(PVD) $(CVG) $(MSY) > $@
+	./makeindex.sh 10 $(NYC) $(BER) $(BOS) '<br>' $(PIT) $(SFO) $(MAN) '<br>' $(YMQ) $(SEA) $(ZRH) $(HNL) '<br>' $(PVD) $(CVG) $(MSY) > $@
 
 large.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
-	./makeindex.sh 30 $(NYC) $(BER) $(BOS) $(PIT) $(MAN) $(SFO) $(YMQ) $(SEA) $(ZRH) $(HNL) $(PVD) $(CVG) $(MSY) > $@
+	./makeindex.sh 30 $(NYC) $(BER) $(BOS) $(PIT) $(MAN) $(YMQ) $(MAN) $(SEA) $(ZRH) $(HNL) $(PVD) $(CVG) $(MSY) > $@
