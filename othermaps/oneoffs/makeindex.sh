@@ -96,7 +96,7 @@ done
 if [ $SCALE = 10 ]; then
     cat <<HEREDOC
 </form><p>-->
-Based on frequent midday service at the end of the year in question (<a href="/timelines/notes.html">notes</a>).<br>
+Based on frequent midday service at the end of the year in question (<a href="/timelines/notes.html">notes</a>) except as noted.<br>
 Scale: <svg width="100px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (10 CSS pixels per km)
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.
@@ -107,7 +107,7 @@ elif [ $SCALE = 30 ]; then
     cat <<HEREDOC
 </form><p>-->
 <a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels and waterlines</a><p>
-Based on frequent midday service at the end of the year in question (<a href="/timelines/notes.html">notes</a>).<br>
+Based on frequent midday service at the end of the year in question (<a href="/timelines/notes.html">notes</a>) except as noted.<br>
 Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (30 CSS pixels per km)
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.
