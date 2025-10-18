@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg2"
+   viewBox="35, 0, 9050, 12300"
+   height="12300"
+   width="9050"
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata42">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <image
+     xlink:href="../../basemap/sfoosm.png"
+     style="display:none"
+     id="image12"
+     height="12549"
+     width="9879"
+     y="0"
+     x="-534" />
+  <text
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3639"
+     y="12197.96"
+     x="124.45"><tspan
+       id="tspan2"
+       y="12197.96"
+       x="124.45">1910</tspan></text>
+  <text
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3639-3"
+     y="206.96"
+     x="124.45"><tspan
+       id="tspan1"
+       y="206.96"
+       x="124.45">1910</tspan></text>
+  <path
+     style="fill:none;stroke:#ff6633;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2848.05,3111.34 69.97,-19.69 41.95,-13.58 218.37,44.47 17.73,10.83 17.41,14.01 10.83,6.16 8.39,-0.96 9.64,-5.99"
+     id="path1-3" />
+  <path
+     style="fill:none;stroke:#ff6633;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2088.05,3285.01 30.88,13.74 49.01,-12.49 7.18,-4.89 24.31,-26.38 10.4,-3.55 134.5,-23.38 174.37,-33.27 108.51,-23.58 220.85,-59.87"
+     id="path3009" />
+</svg>

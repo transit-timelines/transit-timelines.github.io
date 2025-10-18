@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-50 -2000 1800 3700"
+   height="3700"
+   width="1800"
+   id="svg2"
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <image
+     y="-2076.13"
+     x="-151.38"
+     id="image10"
+     xlink:href="../basemap/szdosm.png"
+     preserveAspectRatio="none"
+     height="3826.13"
+     width="2013.75"
+     style="display:none" />
+  <path
+     style="fill:none;fill-opacity:0.25;stroke:#dd2124;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 541.08,831.28 1.8,-23.76 5.41,-13.93 21.63,-30.97 51.45,-47.19 15.4,-24.74 9.67,-21.79 12.13,-22.61 14.75,-20.97 35.56,-41.79 14.58,-23.76 34.74,-67.51 14.58,-24.74 13.76,-17.7 184.44,-205.25 5.9,-11 2.19,-13.78"
+     id="path1" />
+  <text
+     x="39.45"
+     y="-1793.04"
+     id="text3791-5"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
+       x="39.45"
+       y="-1793.04"
+       id="tspan1">1990</tspan></text>
+</svg>

@@ -1,5 +1,5 @@
 #!/bin/bash
-scriptdir=$(smalldir $0)
+scriptdir=$(dirname $0)
 smalldir=$1/small
 if [ -L $smalldir ]; then
     exit
