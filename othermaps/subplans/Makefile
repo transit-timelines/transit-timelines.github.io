@@ -52,4 +52,4 @@ index.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/tem
 	./makeindex.sh 10 $(NYC) $(BER) $(BOS) '<br>' $(PIT) $(SFO) $(MAN) '<br>' $(YMQ) $(SEA) $(ZRH) $(HNL) '<br>' $(PVD) $(CVG) $(MSY) > $@
 
 large.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
-	./makeindex.sh 30 $(NYC) $(BER) $(BOS) $(PIT) $(MAN) $(YMQ) $(MAN) $(SEA) $(ZRH) $(HNL) $(PVD) $(CVG) $(MSY) > $@
+	./makeindex.sh 30 $(NYC) $(BER) $(BOS) $(PIT) $(SFO) $(MAN) $(YMQ) $(MAN) $(SEA) $(ZRH) $(HNL) $(PVD) $(CVG) $(MSY) > $@
