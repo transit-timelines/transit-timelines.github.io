@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="svg2"
-   viewBox="100 -1500 4100 4350"
+   viewBox="200 -1500 4000 4350"
    height="4350"
-   width="4100"
+   width="4000"
    version="1.1"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
@@ -61,10 +61,10 @@
      xml:space="preserve"
      id="text3000"
      y="-1293.04"
-     x="189.45"><tspan
+     x="289.45"><tspan
        id="tspan1"
        y="-1293.04"
-       x="189.45">2025</tspan></text>
+       x="289.45">2025</tspan></text>
   <path
      id="path4497"
      d="m 1278.95,522.11 2.01,1.26 -17.19,-9.27 -9.68,4.93 -2.31,4.39 -24.15,151.9 -3.59,9.81 -43.4,26.04 -9.43,18.68 -5.85,16.6 0.75,6.79"
