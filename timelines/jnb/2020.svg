@@ -49,15 +49,15 @@
   <path
      id="path833"
      d="m 2525.42,183.84 -1.05,-10.02 2.77,-2.77 42.45,-3.96 11.07,6.33"
-     style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#f04a38;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f04a38;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path835"
      d="m 2330.68,368.79 -1.56,-12.12 2.37,-3.16 230.97,-29.79 2.37,-3.16"
-     style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#f04a38;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f04a38;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path837"
      d="m 2331.61,369.18 -1.34,-12.32 1.77,-2.42 230.52,-29.7 50.73,-6.84 h 33.56 l 18.45,-3.55"
-     style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#2e4a8f;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#2e4a8f;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path839"
      d="m 1524.02,782.73 33.77,-15.4 35.46,-10.34 309.75,-45.84 22.24,-2.07 56.53,14.66 0.41,0.07 17.93,1.58 h 0.44 l 73.3,-6.33 0.3,-0.04 19.63,-4.13 33.86,4.17 h 0.63 l 23.73,-3.16 1.37,-0.64 14.24,-13.18 0.78,-1.51 8.31,-62.82 27.71,-22.58 0.87,-1.43 5.27,-25.31 -0.12,-1.41 -5.27,-13.71 3.73,-1.08"
@@ -97,7 +97,7 @@
        y="1297.96"
        id="tspan2">2020</tspan></text>
   <path
-     style="fill:none;fill-opacity:0.25;stroke:#9d8a56;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     style="fill:none;stroke:#9d8a56;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
      d="m 3437.95,-1532.69 70.06,-20.6 44.07,-7.11 29.64,-0.99 30.04,2.77 39.32,7.71 36.36,12.84 28.85,14.82 143.85,94.26 247.2,146.82 20.35,8.5 29.44,8.1 22.92,4.54 110.06,18.18 30.63,11.07 25.89,15.41 82.4,67.58 30.83,16.99 390.86,222.3 19.36,8.1 59.87,14.03 12.05,7.51 7.71,11.07 14.23,28.26"
      id="path3" />
 </svg>

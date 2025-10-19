@@ -25,11 +25,11 @@
   <defs
      id="defs6" />
   <path
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 79.5,601.5 88,48.5 14,1 12.5,-2.5 9,-10 39.5,-80.5 8.5,-8 19.5,-5.5 32.5,-16 184.5,-66.5 364.5,29 207,75 182,-21 49,-2 82,19 45.5,27.5 12,-0.5 178,-84.5 17,-2 21,3 14.5,11 37.5,38.5 26.5,25 27,35.5"
      id="path817" />
   <path
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 479.5,-1839 12.5,24 81,219.5 98.5,199.5 25.5,47 10.5,27.5 3,29.5 -0.5,67 5,26 45,171.5 4,17 -8.5,30.5 -17,22 -30.5,18 -172.5,71.5 -15.5,13.5 -7,16 -4,22 -17,60.5 -2,14.5 4,133 3.5,37.5 7.5,14.5 3.5,38 43,67.5 75,88 8,14 -1,5.5 -4.5,15 -2.5,5 -54.5,54.5 -25.5,41.5 -36.5,88 -4,17 -5,184 10.5,56.5 -0.5,39.5 -15.5,211 -23.5,222 2,10.5 83,227.5 11,20 117,161.5 11.5,17 6,17.5 262,337.5 16,13 28.5,10 13.5,0.5 120.5,4.5 16.5,5.5 14,14 28,33 32,36.5"
      id="path819" />
   <image
@@ -44,9 +44,9 @@
   <path
      id="path822"
      d="m 784.2,492.34 -9.36,10.84 57.94,163.14 11.98,34.08 3.74,19.85 -0.79,16.17 -15.99,66.21 -21.11,65.15 -6.98,17.95 -9.97,10.97 -95.06,100.05 -17.62,16.62 -13.63,8.31 -99.72,36.23 -11.97,0.33 -10.3,-5.32 -8.97,-7.31 -92.41,-258.93 -24.26,6.98 -64.82,-31.24 -10.3,-9.31 -3.99,-11.3 v -8.64 l 24.26,-48.53 v -9.97 l -2.66,-11.97 -6.65,-11.63 -13.96,-7.31 -10.64,-0.66 -29.92,8.31 -3.99,6.98 -8.64,10.97 -12.96,5.32 -13.3,-0.66 -99.05,-47.86 -8.31,16.29 -43.21,-20.28 8.64,-17.28 59.49,-108.11 33.68,-53.15 5.91,-13.38 -0.12,-7.35 -2.6,-17.86 -10.59,-52.54 -12.05,-38.55 -1.34,-22.61 9.02,-186.56 9.13,-4.74 120.15,3.09 54.95,4.28 14.14,2.42 148.79,-38.57 11.96,-0.18 119.29,21.62 13.81,6.24 19.11,13.03 94.26,72.91 8.58,11.87 3.87,15.6 0.28,19.16 36.04,108.01 -0.19,7.34 -33.09,95.1 -35.01,43.94 z"
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#7cbd52;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#7cbd52;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00ffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#00ffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 30.04,727.63 c 15.81,-16.08 -4.51,-70.34 0.59,-83.35"
      id="path820" />
 </svg>

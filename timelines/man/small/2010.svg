@@ -89,15 +89,15 @@
      d="m 1014.21,2221.18 16.19,-20.85 44.61,-49.45 4.16,-0.29 17.91,14.9 6.04,2.74 18.11,22.5 11.59,5.82 5.43,10.1 13.45,4.66 6.78,-0.4"
      style="fill:none;fill-rule:evenodd;stroke:#e9b600;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     style="fill:none;fill-opacity:0.25;stroke:#7b2181;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     style="fill:none;stroke:#7b2181;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
      d="m 1768.77,3314.61 -5.09,-23.76 -9.05,-18.39 -138.03,-283.71 -96.45,-196.59 -9.05,-27.15 -44.42,-173.2"
      id="path1" />
   <path
-     style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#7b2181;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;fill-rule:nonzero;stroke:#7b2181;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 957.32,2255 8.02,1.6 71.88,4.8 14.72,0.87 17.85,-4.66 86.53,-31.82 17.85,-4.66"
      id="path2088-6" />
   <path
-     style="fill:none;fill-opacity:0.25;stroke:#7b2181;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     style="fill:none;stroke:#7b2181;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
      d="m 1151.07,2207.82 40.48,15.73 14.98,6.71 58.07,40.12 51.31,42.36 43.16,46.71 37.92,52.71 29.92,53.56 20.98,51.42 9.73,33.4 9.04,41.27"
      id="path2-7" />
 </svg>

@@ -37,11 +37,11 @@
   <path
      id="path817"
      d="m 831.05,1315.76 38.85,-189.15 4.68,-22.3"
-     style="opacity:1;fill:none;fill-opacity:0.08;fill-rule:nonzero;stroke:#e6007e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#e6007e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path819"
      d="m 325.46,854.45 -32.5,-25.6 -5.61,-1.29 -5.18,1.01 -4.6,5.18 -89.17,183.22 -19.27,51.49 -0.43,7.33 2.59,4.89 4.31,3.16 6.76,1.29 26.03,-0.43 8.92,2.01 12.66,6.33 26.03,-1.87 8.2,-4.75 49.47,-39.69 10.35,-4.31 21,-3.16 14.81,-2.59 6.04,1.15 5.9,3.31 38.4,25.6 7.48,3.74 29.34,-3.16 10.64,-3.31 19.99,-10.35 11.65,-1.87 10.64,2.01 41.13,13.23 10.79,-1.58 10.64,-4.75 18.84,-6.62 11.94,-0.72 8.49,1.44 53.79,17.69 40.7,18.84 10.64,0.43 8.77,-1.15 11.79,-1.58 38.26,0.86 9.64,-1.73 10.64,-0.29 82.7,29.48"
-     style="opacity:1;fill:none;fill-opacity:0.08;fill-rule:nonzero;stroke:#4a86e8;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#4a86e8;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
      x="-425.55"
      y="-643.04"
@@ -54,17 +54,17 @@
   <path
      id="path1486"
      d="m 869.64,1103.33 -4.29,22.16 -7.35,34.67"
-     style="opacity:1;fill:none;fill-opacity:0.08;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     style="fill:none;fill-opacity:0.25;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
      d="m -401,-296.62 139.21,96.57"
      id="path1" />
   <path
-     style="fill:none;fill-opacity:0.25;stroke:#f39100;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     style="fill:none;stroke:#f39100;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
      d="m 311.09,837.04 29.21,21.59 106.64,80.92 40.13,29.49 22.61,11.97 144.99,71.61 30.15,17.96 13.3,11.09 43.45,45.89 13.08,9.53 32.81,10.86 45.23,13.52 19.07,6.43 26.38,4.43"
      id="path2" />
   <path
-     style="fill:none;fill-opacity:0.25;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
      d="m 3043.94,1908.22 -1.25,-45.36 -4.01,-27.57 -7.77,-19.55 -16.04,-32.08 -4.26,-15.54 -12.78,-64.66"
      id="path3" />
 </svg>

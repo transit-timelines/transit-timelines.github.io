@@ -1024,7 +1024,7 @@ image/svg+xml</dc:format>
    id="tspan1">1934</tspan>
 </text>
   <path
-     style="opacity:1;fill:none;fill-opacity:0.14;fill-rule:nonzero;stroke:#00ffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#00ffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1348.24,679.86 c -82.96,-52 -106.8,-64.8 -166.87,-95.87"
      id="Englewood_Ferry" />
   <path
@@ -1033,7 +1033,7 @@ image/svg+xml</dc:format>
      style="fill:none;fill-rule:evenodd;stroke:#ff6600;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="PSCT_E3:_Bergen"
-     style="opacity:1;fill:none;fill-opacity:0.15;fill-rule:nonzero;stroke:#ff6600;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ff6600;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m -1500.92,2932.79 -49.94,-22.83 -6.02,-10.29 -5.52,-2.13 -9.13,5.19 m 180.84,15.38 -5.52,2.31 -11.21,38.26 -2.67,2.67 -40.25,-18.75 m -158.44,-443.58 -41.78,81.8 -42.79,106.46 -14.85,50.34 -7.55,27.43 -24.41,83.56 -17.87,52.35 -16.36,52.85 2.77,4.78 26.93,8.05 13.59,-0.76 104.45,-36.24 36.24,-15.1 18.88,-11.83 5.29,1.26 9.56,16.61 44.8,18.62 5.79,-0.25 11.83,-14.09 3.52,0.25 40.4,17.49 4.03,-1.76 11.2,-24.66 6.54,3.4 7.68,-15.6 4.28,0.25 49.46,26.3 110.84,50.76 34.53,-18.86 24.92,-18.15 h 5.7 l 10.32,13.88 12.1,8.54 27.76,11.03 15.31,1.07" />
   <path
      style="fill:none;stroke:#ff0000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"

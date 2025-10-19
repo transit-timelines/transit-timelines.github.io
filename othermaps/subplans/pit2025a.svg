@@ -102,15 +102,15 @@
      d="m 1077.5,2739 -36,-13.5 -19,-15.5 -28.5,-23.5 -16.5,-21.5 -13,-25.5 -8.5,-38 -29,-159 -9.5,-42.5 2,-36 12,-25 39,-54.5 7,-21.5 1.5,-21.5 -5.5,-20 -11.5,-33 -6.5,-23.5 -2.5,-27.5 -8.06,-171.06 1.64,-9.94"
      id="path3757-3" />
   <path
-     style="fill:#000000;fill-opacity:0;stroke:#017ec0;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#017ec0;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      d="m 983.9,1740.33 -12.33,15.58"
      id="path1" />
   <path
-     style="fill:#000000;fill-opacity:0;stroke:#017ec0;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#017ec0;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      d="m 913.56,1787.18 -59.31,11.76 -21.36,11.96 -46.35,33.07 -12.72,16.14 -20.08,50.96 -4.35,12.68 -8.29,9.55 -9.5,2.71 -17.79,-1.11 -16.49,5.38 -13.12,1.71"
      id="path2" />
   <path
-     style="fill:#000000;fill-opacity:0;stroke:#017ec0;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#017ec0;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      d="m 913.16,1785.12 23.77,-5.71 30.87,-21.03 2.31,-3.53"
      id="path3" />
 </svg>

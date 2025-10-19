@@ -112,7 +112,7 @@
        y="16097.96"
        x="89.45">2000</tspan></text>
   <path
-     style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     style="opacity:1;fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
      d="m 7280.2,6586.74 98.95,30.67"
      id="path869" />
 </svg>

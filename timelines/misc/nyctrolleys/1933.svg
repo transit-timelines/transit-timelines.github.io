@@ -1048,14 +1048,14 @@ image/svg+xml</dc:format>
   <path
      id="Englewood_Ferry"
      d="m 1348.24,679.86 c -82.96,-52 -106.8,-64.8 -166.87,-95.87"
-     style="opacity:1;fill:none;fill-opacity:0.14;fill-rule:nonzero;stroke:#00ffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#00ffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#ff6600;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m -12.86,3031.2 7.68,-19.29 5.34,-0.73 39.16,15.61 53.58,9.25 9.85,1.72 69.25,10.75 2.75,-0.75 1.5,-10.75 -2,-2 -48.4,-7.13 -4.31,1.89 -3,17.68 -5.46,4.33 -89.95,-14.52 -155.04,-22.79 -101.82,33.36 -51.5,-27.51 -62.18,-32.23 -136.96,-68.72 -175.31,-75.63 -74.81,-31.25 -168,-55 -27.5,-1 -28.5,9 -50,25 -54.17,0.5 -32.59,-2.98 -75.24,31.48 -157,-43.5 -97.5,-28 -81,-29.5 -132.5,36 -69,-18.5 -8,27 -190,-54.5"
      id="PSCT_E1:_Newark" />
   <path
      id="PSCT_E3:_Bergen"
-     style="opacity:1;fill:none;fill-opacity:0.15;fill-rule:nonzero;stroke:#ff6600;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ff6600;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m -1528.28,2920.28 -22.57,-10.32 -6.02,-10.29 -5.52,-2.13 -9.13,5.19 m 180.83,15.38 -5.52,2.31 -11.21,38.26 -2.67,2.67 -40.25,-18.75 m -158.44,-443.58 -41.78,81.8 -42.79,106.46 -14.85,50.34 -7.55,27.43 -24.41,83.56 -17.87,52.35 -16.36,52.85 2.77,4.78 26.93,8.05 13.59,-0.76 104.45,-36.24 36.24,-15.1 18.88,-11.83 5.29,1.26 9.56,16.61 23.85,9.92 9.62,-20.74 32.47,15.35 40.4,17.49 4.03,-1.76 11.2,-24.66 6.54,3.4 7.68,-15.6 4.28,0.25 49.46,26.3 110.84,50.76 34.53,-18.86 24.92,-18.15 h 5.7 l 10.32,13.88 12.1,8.54 27.76,11.03 15.31,1.07" />
   <path
      style="fill:none;stroke:#ff0000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"

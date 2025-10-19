@@ -31,9 +31,9 @@
      width="18289.88"
      y="-7482.57"
      x="-4725.03"
-     style="display:none;fill-opacity:0.45" />
+     style="display:none" />
   <path
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#e02525;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#e02525;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 2589.63,2371.62 3.22,7.63 14.08,14.25 6.45,11.71 2.21,16.8 -1.7,17.47 0.17,14.59 2.71,5.6"
      id="path926" />
   <path
@@ -271,13 +271,13 @@
      id="path4222"
      style="fill:none;stroke:#04783f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#80c242;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#80c242;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 965.48,12932.06 44.87,-4.88 h 156.27 l 24.75,-5.3 L 2041,12693 l 38,-6.5 32.5,-1 42.5,5.5 193,38 27,3.5 31.5,-2.5 83,-16.5 307.5,-49 119,-8 78.5,1.5 102.5,14.5 88.5,32 46,9 43.75,4.25 73.5,6.75 18,8.25 11.75,10.88 4.75,13.62 0.5,9"
      id="path1121" />
   <path
      id="path1563"
      d="m 11637.68,2282.21 -54.97,-258.22"
-     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#118ec6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#118ec6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="fill:none;stroke:#8bb7e0;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 5029.82,2735.78 21.68,-5.28 92.5,-50 28,-17.5 22.5,-6 h 23.5 l 36,10 16,4.5 16.5,-3 32,-9 16,-0.5 39,14 26,15 16,8 22.5,-0.5 100,-5 373.5,-22 L 6195,2653 l 44,2.5 34.5,12 25,14.5 26,20 33.5,43.5 82,107 49.5,80 37.5,45.5 32,57 53,92 67.5,122 19.5,26 15.5,12 25.5,13.5 43.5,11.5 23,10.5 15.5,11.5 15,8"

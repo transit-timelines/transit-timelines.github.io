@@ -45,9 +45,9 @@
   <path
      id="path819"
      d="m 883.88,2509.36 42.6,130.15"
-     style="opacity:1;fill:none;fill-opacity:0.4;fill-rule:nonzero;stroke:#87251c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#87251c;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     style="fill:none;fill-opacity:0.25;stroke:#652400;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     style="fill:none;stroke:#652400;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
      d="m 51.57,1451.37 -33.25,35.66 -13.01,11.57 -19.52,13.98 -21.93,20.72 -13.25,14.46 -11.81,14.7 -4.1,11.57 -8.19,36.63 1.93,16.63 5.54,13.01 59.04,71.33 48.92,59.04 19.52,14.46 20.24,11.57 131.7,55.57 37.9,5.73 63.9,-10.14 26.44,-12.34 55.53,-71.39"
      id="path1" />
 </svg>

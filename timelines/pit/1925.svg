@@ -113,7 +113,7 @@
   <path
      id="path835"
      d="m 1337.24,350.35 48.47,-15.42"
-     style="opacity:1;fill:none;fill-opacity:0.38;fill-rule:nonzero;stroke:#ec2c29;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ec2c29;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#ec2c29;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      d="m 1395.94,675.89 43.4,-2.26 24.15,-3.02 -16.6,35.47 1.13,21.51"
@@ -121,9 +121,9 @@
   <path
      id="path837"
      d="m 1344.09,356.17 4.73,-9.68"
-     style="opacity:1;fill:none;fill-opacity:0.38;fill-rule:nonzero;stroke:#ec2c29;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ec2c29;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path839"
      d="m 1289.55,415.52 2.33,-0.53 16.34,7.81 0.47,2.54"
-     style="opacity:1;fill:none;fill-opacity:0.38;fill-rule:nonzero;stroke:#ec2c29;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ec2c29;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>

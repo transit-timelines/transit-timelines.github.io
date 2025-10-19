@@ -36,7 +36,7 @@
   <path
      id="path4508"
      d="m 1194.53,401.56 -42.87,9.22 -11.01,7.59 -65.59,66.21 -36.81,43.44 -103.89,66.47 -26.77,4.57 -38.33,-9.02 -26.18,-0.14 -132.79,41.54 -28.89,13.58 -34.3,21.21 -15.26,19.46 -6.17,41.37 0.38,27.94 21.67,62.46 42.61,129.24 -1.08,14.71 -6.36,29.95 -26.6,49.28 -17.28,20.29 -20.19,10.65 -83.25,32.34 -30.17,15.53 -15.08,16.28 -5.24,23.43"
-     style="opacity:1;fill:none;fill-opacity:0.02;fill-rule:nonzero;stroke:#ed1c24;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ed1c24;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
      x="-160.55"
      y="106.96"
@@ -47,11 +47,11 @@
        y="106.96"
        id="tspan1">1970</tspan></text>
   <path
-     style="opacity:1;fill:none;fill-opacity:0.02;fill-rule:nonzero;stroke:#ed1c24;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ed1c24;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 685.15,930.95 2.02,-5.15 3.34,-3.91 4.42,-2.83 5.56,-1.65 30.03,-3.59 139.99,-6.86 97.7,-19.63"
      id="path4506" />
   <path
-     style="fill:none;fill-opacity:0.02;fill-rule:nonzero;stroke:#0089b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;fill-rule:nonzero;stroke:#0089b6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 450.63,1265.19 52.73,-25.65"
      id="path4510" />
 </svg>
