@@ -119,7 +119,7 @@ function toggleshow(x) {
     if (span.style.display == 'inline-block') {
         mapimg = document.getElementById(x + "map");
         span.style.display = 'none';
-        if (mapimg.tagName.toUpperCase() == "IMG") mapimg.src = "/0";
+        if (mapimg.tagName.toUpperCase() == "IMG") mapimg.src = "date:";
         prediv = document.getElementById(x + "pre");
         prediv.parentNode.removeChild(prediv);
         for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = false; }
@@ -246,7 +246,7 @@ for city in $@; do
         echo '    <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="'$city'/small/2025.svg" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
     else
         echo '<span id="'$UPPER'" style="display: none;"><a href="'$city'">'$NAME'</a><br>'
-        echo '    <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="/0" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
+        echo '    <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="data:" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
     fi
 done
 
