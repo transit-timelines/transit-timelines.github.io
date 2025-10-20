@@ -198,4 +198,8 @@ Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
 See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines/misc/">miscellaneous timelines and maps</a>
 HEREDOC
-sed -e's!sources.!sources. Background map images <a href="https://www.maptiler.com/copyright/">copyright MapTiler</a>.!' ~/timelines/scripts/template/part4
+if [ $SCALE = 30 ]; then
+    sed -e's/image/images/' ~/timelines/scripts/template/part4b
+else
+    cat ~/timelines/scripts/template/part4
+fi
