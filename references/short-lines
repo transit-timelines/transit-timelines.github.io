@@ -154,6 +154,7 @@ BWE	2550m	tram gradesep	5	1970-08-24*	never
 FSZ	2560m	tram ROW	5	1925-04-01*	1930-03-31	thru-routed with two 2km+ lines
 KCO	2720m	tram ROW	5	2019-02-11*	never
 UIO	2860m	tbus gradesep	5	1996-21-21*	2023-12-01
+PAT	2890m	elevated metro	3	2025-10-06*	never
 QB_	2930m	tram gradesep	2	2021-05-15*	never		+1330m thru
 BFE	2950m	tram gradesep	5	1978-04-01	1991-04-28	thru with 1050m above
 

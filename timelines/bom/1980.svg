@@ -7,11 +7,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   viewBox="150, -3443, 5700, 8400"
+   viewBox="150 -3428 5700 8700"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="5700"
-   height="8400"
+   height="8700"
    id="svg2">
   <metadata
      id="metadata8">
@@ -40,7 +40,7 @@
      id="path3006"
      style="fill:none;stroke:#00c000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <path
-     d="m 513,4839.5 -6,-28 -1,-34.5 -6,-36.5 -13,-32 -31,-54 -40,-55 -21.5,-23 -44,-34.5 -12.5,-18 -11,-39 0.5,-35.5 54,-134.5 13,-41 72,-170 30.5,-66.5 67,-162.5 72.5,-160.5 35.5,-63.5 89,-150.5 31.5,-82 17,-54 8.5,-48 -4,-52.5 -7.5,-35 -66,-155.5 -29,-68 -24,-71.5 -3,-51.5 2.5,-48.5 9.5,-70.5 7,-54.5 10.5,-81.5 16.5,-154 32.5,-237.5 12.5,-112 21.5,-148 15,-119.5 22.5,-176.5 9.5,-72.5 c -3,-0.5 2,-43 2,-43 l 0,-53.5 -7,-131 -8.5,-215 -7,-154.5 L 827,941 840,866 868.5,700 917,445.5 942.5,300.5 967,164 l 8.5,-64 3,-48 0,-53.5 L 976.5,-44 l -6.5,-69 -8,-82 -18.5,-171.5 -13.5,-131 -18.5,-175 -30.5,-283 1.5,-65.5 4.5,-23.5 -46,-428 -10.5,-30 -53.99,-100.5 -171.01,-400 -117.5,-270 -50,-125 -14,-41.5 -23,-97.5 -108.5,-628.5"
+     d="m 513,4839.5 -6,-28 -1,-34.5 -6,-36.5 -13,-32 -31,-54 -40,-55 -21.5,-23 -44,-34.5 -12.5,-18 -11,-39 0.5,-35.5 54,-134.5 13,-41 72,-170 30.5,-66.5 67,-162.5 72.5,-160.5 35.5,-63.5 89,-150.5 31.5,-82 17,-54 8.5,-48 -4,-52.5 -7.5,-35 -66,-155.5 -29,-68 -24,-71.5 -3,-51.5 2.5,-48.5 9.5,-70.5 7,-54.5 10.5,-81.5 16.5,-154 32.5,-237.5 12.5,-112 21.5,-148 15,-119.5 22.5,-176.5 9.5,-72.5 c -3,-0.5 2,-43 2,-43 l 0,-53.5 -7,-131 -8.5,-215 -7,-154.5 3.5,-69.5 13,-75 28.5,-166 48.5,-254.5 25.5,-145 24.5,-136.5 8.5,-64 3,-48 0,-53.5 L 976.5,-44 l -6.5,-69 -8,-82 -18.5,-171.5 -13.5,-131 -18.5,-175 -30.5,-283 1.5,-65.5 4.5,-23.5 -46,-428 -10.5,-30 -53.99,-100.5 -171.01,-400 -117.5,-270 -50,-125 -14,-41.5 -23,-97.5 -98.27,-569.27 -13.46,-65.71"
      id="path3795"
      style="fill:none;stroke:#ff0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <path
@@ -53,20 +53,20 @@
      style="fill:none;stroke:#0000ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <text
      x="239.45"
-     y="-3236.04"
+     y="-3221.04"
      id="text3803"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
        x="239.45"
-       y="-3236.04"
+       y="-3221.04"
        id="tspan1">1980</tspan></text>
   <text
      x="5427.45"
-     y="4854.96"
+     y="5169.96"
      id="text3807"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
        x="5427.45"
-       y="4854.96"
+       y="5169.96"
        id="tspan2">1980</tspan></text>
 </svg>

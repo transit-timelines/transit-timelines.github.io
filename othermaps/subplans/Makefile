@@ -11,7 +11,6 @@ PIT=pit1965a.svg pit1967plan.svg pit1970plan.svg pit2025a.svg
 SFO=sfo1960a.svg sfo1961plan.svg sfo1966plan.svg sfo2025a.svg
 SEA=sea1970plan.svg sea2000a.svg sea2002plan.svg sea2015a.svg sea2016plan.svg sea2025a.svg sea2026proj.svg
 ZRH=zrh1973plan.svg ../../timelines/zrh/small/2025.svg
-HNL=hnl2006plan.svg hnl2025a.svg
 PVD=pvd1914.svg pvd1914plan.svg pvd2025.svg
 CVG=cvg1920plan.svg
 MSY=msy1959plan.svg
@@ -19,7 +18,7 @@ MAN=man1970a.svg man1971plan.svg man2025a.svg
 BER=../../timelines/ber/small/1955.svg ber1955plan.svg ber1989.svg ber1989west.svg ber1989east.svg ../../timelines/ber/small/1995.svg ber1996plan.svg ../../timelines/ber/small/2025.svg
 YMQ=ymq1961plan.svg ymq1970a.svg ymq2015a.svg ymq2016plan.svg ymq2025a.svg
 
-SVGS=$(NYC) $(BER) $(BOS) $(PIT) $(MAN) $(SFO) $(YMQ) $(SEA) $(ZRH) $(HNL) $(PVD) $(CVG) $(MSY)
+SVGS=$(NYC) $(BER) $(BOS) $(PIT) $(MAN) $(SFO) $(YMQ) $(SEA) $(ZRH) $(PVD) $(CVG) $(MSY)
 
 RECROPPED=bos1915a.svg bos1945a.svg bos2025a.svg pit1965a.svg pit2025a.svg sfo2025a.svg sea2000a.svg sea2015a.svg hnl2025a.svg
 
@@ -33,7 +32,7 @@ sfo%a.svg : ../../timelines/sfo/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl -335 0 -2235 -3050 $< > $@
 
 hnl%a.svg : ../../timelines/hnl/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl 0 0 1300 850 $< > $@
+	~/timelines/scripts/reviewbox.pl 0 0 650 650 $< > $@
 
 pit%a.svg : ../../timelines/pit/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 1000 -1400 1350 0 $< > $@
@@ -49,7 +48,7 @@ man%a.svg : ../../timelines/man/small/%.svg Makefile
 
 
 index.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
-	./makeindex.sh 10 $(NYC) $(BER) $(BOS) '<br>' $(PIT) $(SFO) $(MAN) '<br>' $(YMQ) $(SEA) $(ZRH) $(HNL) '<br>' $(PVD) $(CVG) $(MSY) > $@
+	./makeindex.sh 10 $(NYC) $(BER) $(BOS) '<br>' $(PIT) $(SFO) $(MAN) '<br>' $(YMQ) $(SEA) $(ZRH) '<br>' $(PVD) $(CVG) $(MSY) > $@
 
 large.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
-	./makeindex.sh 30 $(NYC) $(BER) $(BOS) $(PIT) $(SFO) $(MAN) $(YMQ) $(MAN) $(SEA) $(ZRH) $(HNL) $(PVD) $(CVG) $(MSY) > $@
+	./makeindex.sh 30 $(NYC) $(BER) $(BOS) $(PIT) $(SFO) $(MAN) $(YMQ) $(MAN) $(SEA) $(ZRH) $(PVD) $(CVG) $(MSY) > $@
