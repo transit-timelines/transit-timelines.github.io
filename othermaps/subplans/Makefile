@@ -23,7 +23,7 @@ SVGS=$(NYC) $(BER) $(BOS) $(PIT) $(MAN) $(SFO) $(YMQ) $(SEA) $(ZRH) $(PVD) $(CVG
 RECROPPED=bos1915a.svg bos1945a.svg bos2025a.svg pit1965a.svg pit2025a.svg sfo2025a.svg sea2000a.svg sea2015a.svg hnl2025a.svg
 
 nyc%a.svg : ../../timelines/nyc/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl 0 1950 450 0 $< > $@
+	~/timelines/scripts/reviewbox.pl 0 1950 500 0 $< > $@
 
 bos%a.svg : ../../timelines/bos/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 0 -600 0 0 $< > $@
