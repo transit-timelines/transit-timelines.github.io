@@ -101,6 +101,7 @@ ASR	1400m	tram gradesep	2	2023-03-02	never*
 LUG	1403m	funicular	5	1912-02-17	1978-__-__*
 NUE	1442m	tram gradesep	3	1938-09-04	1970-11-04*	950m trackshare w/1507m line below
 OSR	1455m	tram gradesep	2	1963-04-01?	1986-04-30
+XLN	1460m	peoplemover	3	1989-02-04	never*		closed 2016-08-27
 BWI	1480m	tram elevated	3	1893-05-06	1983-11-21*
 QLS	1485m	funicular/rack	6	1877-03-16	1991-06-02*	plus unconnected later line
 BRE	1490m	tram gradesep	3	1967-06-18*	1968-__-__	extended within 1-2yr
@@ -129,12 +130,12 @@ LNZ	1860m	tram tunnel	4	2004-08-31*	never		ext within 7yr, see 2130m below
 HI_	1870m	tram gradesep	2	2022-12-28	never*
 NTE	1900m	tram gradesep	3	1985-01-07	never*
 MQV	1900m	tram gradesep	3	2023-02-18	never*
+SKI	1920m	cableway	3	2009-07-__	never		no weekday service by 2011
 WAW	1940m	tram gradesep	2	1963-12-08	1975-01-__*
 ZAG	1990m	tram gradesep	4	2020-05-31	never*		unconnected to 1140m above
 PEN	1996m	funicular	3	2011-04-25	never*		replaced 907m and 1313m lines
 GDN	2000m	tram gradesep	6	1977-12-31*	2007-12-19	latter is thru with 2040m
 SOF	2000m	tram gradesep	3	1964-__-__*	1998-01-28	+50m 1972, +650m thru 1979
-SKI	2010m	cableway	3	2009-07-__	never		no weekday service by 2011
 POZ	2050m	tram gradesep	4	1985-08-30*	1997-03-01
 BRS	2110m	busway		2	2018-09-03	never*		only two grade-separated stops
 YVR 	2120m	tram gradesep	4	1912-12-02*	1985-12-11	plus 1060m thru-routed line
