@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="3750"
-   height="2950"
-   viewBox="-515 -850 3750 2950">
+   width="5050"
+   height="5200"
+   viewBox="-515 -850 5050 5200">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -26,8 +26,8 @@
   <defs
      id="defs6" />
   <image
-     width="3946.84"
-     height="3018.17"
+     width="5339.84"
+     height="5339.84"
      preserveAspectRatio="none"
      xlink:href="../basemap/qlsosm.png"
      id="image10"
@@ -51,14 +51,31 @@
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 869.64,1103.33 -4.29,22.16 -7.35,34.67"
      id="path1486" />
-
   <path
      style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
      d="m -401,-296.62 139.21,96.57"
      id="path1" />
-
   <path
      style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
      d="m 3043.94,1908.22 -1.25,-45.36 -4.01,-27.57 -7.77,-19.55 -16.04,-32.08 -4.26,-15.54 -12.78,-64.66"
      id="path3" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     d="m 4132.75,2083.67 49.76,45.78"
+     id="path4" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round"
+     d="m 3968.68,2552.85 2.84,-87.3"
+     id="path5" />
+
+  <text
+     style="font-style:normal;font-weight:normal;font-size:12px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3809-2"
+     y="4247.96"
+     x="-425.55"><tspan
+       style="font-size:144px"
+       id="tspan2"
+       y="4247.96"
+       x="-425.55">1965</tspan></text>
 </svg>
