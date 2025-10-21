@@ -5,8 +5,8 @@
    version="1.1"
    id="svg1"
    width="2500"
-   height="2100"
-   viewBox="0 0 2500 2100"
+   height="2050"
+   viewBox="0 -25 2500 2050"
    xml:space="preserve"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
@@ -48,10 +48,10 @@
      d="m 2027.74,885.64 99.12,87.25"
      id="path9" /><text
      x="89.45"
-     y="206.96"
+     y="181.96"
      id="text3652"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="89.45"
-       y="206.96"
+       y="181.96"
        id="tspan1">2025</tspan></text></svg>
