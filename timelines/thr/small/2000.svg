@@ -35,12 +35,8 @@
      style="display:none" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#024697;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 5241.5,2778.5 46,-7 10,2 86.5,10.5 21,22 62,86.5 25.5,41.5 174.5,112.5 342.5,166 55.5,27 195.5,28 119.5,-2 26.5,-20.5 35.5,-15.5 14,-23.5 58,-24 11,-23.5"
+     d="m 5241.5,2778.5 46,-7 10,2 86.5,10.5 21,22 62,86.5 25.5,41.5 174.5,112.5 342.5,166 55.5,27 195.5,28 119.5,-2"
      id="path4201" />
-  <path
-     style="fill:none;fill-rule:evenodd;stroke:#e71911;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="M 6534.41,2132.34 6465.5,2119 l -15,3.5 -13.5,7 -5.5,21 3,149.5 16.5,131 0,40.5 -10,92.5 5,68.5 8,49 2,70 -26.5,69 -5,27.5 0,45 8,150 -22,115 -9,82.5 -17,13.5 -20,17.5 -25.5,3 -5.5,10 -50.5,420 2.5,16 8,26 13,18 5,18.5 0,20 -29.5,208.5 0.5,17.5 111,705.5 3.5,20.5 -3,13 -13.5,30 -24,15 -57,32 -30.5,21.5 -34,31.5 -22,36.5 -121,279.5 -76.5,157 -15.5,20.5 -20,13 -23.5,7.5 -18,0 -14.5,-5 -60,-25.5 -22.5,0.5 -25,10.5 -26.5,8.5 -26.95,34.38"
-     id="path4203" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 6194.5,1211 14,-198.5 L 6103,622 6209.5,251"
@@ -53,7 +49,7 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
        x="-2460.55"
        y="-993.04"
-       id="tspan1">2005</tspan></text>
+       id="tspan1">2000</tspan></text>
   <text
      x="-2460.55"
      y="7697.96"

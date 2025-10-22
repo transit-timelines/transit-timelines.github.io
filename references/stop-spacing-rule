@@ -1,24 +1,3 @@
-===== NOT SHOWN BECAUSE CLOSEST STOPS BETWEEN 7KM AND 8KM APART =====
-PHL: 7.1km West Philadelphia-North Philadelphia 1930?
-SOU: 7.1km Southampton Airport Parkway
-FUK: 7.1km Tosu-Kurume(-Omuta) 2000
-VIE: 7.1km Purkersdorf-Tullnerbach Pressbaum
-DUS: 7.1km Duisburg-Rheinhausen, 7.5km Duisburg-Oberhausen(-Gelsenkirchen)
-BJS: 7.2km Capital Airport Express
-GLA: 7.3km PaisleyG-Johnstone(-Killwinning)
-AMS: 7.4km Utrecht-Houten 2005
-MUC: 7.4km early Pasing?
-CHI: 7.6km Skokie Swift pre-2015
-LON: 7.6km St Albans-Harpenden 1985
-CSX: 7.6km S2 maglev Changshannan-Langli
-BNE: 7.9km Altandi-Beenleigh
-THR: 7.9km line 5 Sadegieh-Vardavard(-Karaj) 2000
-*ACH: 5.2km Gossau-Flawil(-Wil), 5.9km (Altstätten-)Heerbrugg-St Margrethen(-SG), 6.6km Romanshorn-Amriswil(-Weinfelden)
-*BLK: 5.2km BlackpoolN-Poulton le Fylde(-Preston/Chorley) (Chorley-Buckshaw Pkwy 2015 was just 3.7km)
-*MST: 5.4km Maastricht-Meerssen
-*HB_: 5.6km Bad Friedrichshall Hbf-Neckarsulm
-*GNE: 6.5km Gent-Dampoort(-Lokeren), 12.5km Gent-Wetteren
-*ZIN: 6.5km Grindelwald-Eigergletscher
 ===== NOT SHOWN BECAUSE CLOSEST STOPS OVER 8KM APART =====
 LON: 8.1km Reading-Twyford(-London), 9.1km Paddington-EalingB, 9.4km StP-StratfordI(-Ebbsfleet), 9.5km Woking-Guildford, 9.7km LivSt-Tottenham Hale(-Stansted Airport), 10.5km BromleyS-Swanley, 10.8km Swanley-Otford, 10.8km Reading-Wokingham?, 10.9km Dartford-Gravesend 1995, 11.2km Redhill-Gatwick 1980, 12.2km BStortford-HarlowTown, 16.5km Redhill-ECroydon 2000, 23.4km Farnborough-Basingstoke, 43.2km Victoria-Gatwick, 58km London-Reading(-Swindon)
 DUS: 8.2km Düsseldorf-Airport, 9.4km Duisburg-Mühlheim, 15.2km Hamm-Kamen(-Dortmund)
@@ -30,6 +9,7 @@ OPO: 8.5km Campanha-Ermesinde
 QLS: 8.5km Puidoux-Palezieux, 39.1km Yverdon les Bains
 ZRH: 8.7km (Zürich-)Baden-Brugg, 10.2km HB-airport via Wipkingen, 12km HB-Thalwil via basistunnel, 27.2km Wil-Winterthur (3.8km Turgi-Brugg & 4.9km Baden-Turgi but not thru)
 BRU: 8.98km (Aarschot-)Leuven-Wezemall, 15.0km Ottignies-Gembloux(-Namur), 18.7km Lier-Herentals, 20.3km Denderleeuw-Zottegem
+BNE: 9.0km Loganlea-Beenleigh
 EIN: 9.0km Deurne-Helmond(-Eindhoven)
 AMS: 9.0km Schiphol-Zuid(-Lelystad) (also 1980), 9.7km Rotterdam-Alexander(-Gouda), 11.5km Utrecht-Driebergen Ziest, 13.8km Goverwelle-Woerden, 15.9km Utrecht-Woerden, 16.9km Centraal-Schiphol(-HSL), 17.5km Hilversum-Utrecht 1995, 18.1km Amsterdam-Haarlem pre-1972?, 21.2km Amersfoort-Utrecht(-Den Haag), 24.8km Almere-Lelystad(-Zwolle), 27.1km Leiden-Schiphol, 37.5km Dordrecht-Roosendaal
 GLA: 9.3km PaisleyG-Bishopton(-Port Glasgow)
@@ -43,6 +23,7 @@ SEL: 10.7km GTX-A Suseo-Seongnam
 DAC: 11.7km opening 2022-12-28
 LUX: 12.4km Ettelbruck-Mersch
 ZDA: 12.4km Olten, 18.1km Brugg
+GNE: 12.5km Gent-Wetteren
 MIL: 12.8km (Bovisa-)Busto Arsizio FN-MXP T1
 BJS: 13+km Daxing Airport Express?
 QNC: 13.1km Ins
@@ -73,7 +54,7 @@ CZX/WUX: 41km Changzhou-Wuxi(-Suzhou) via intercity line
 KUL: 57km KLIA1-Sentral (KLIA Ekspres 2005-2010)
 NCL: 57km Newcastle-Darlington(-York)
 ===== STOPS OVER 25KM APART AND CURRENTLY SHOWN DUE TO THRU SERVICE =====
-THR: 25.6km Golshahr-Hastgerd
+THR: 25.7km Golshahr-Hastgerd 2020
 GVA: 26.0km Nyon-Morges 2010 (off edge)
 VIE: 30.4km Tulln-Heiligenstadt
 CPH: 32.6km Roskilde-Ringsted 2015
