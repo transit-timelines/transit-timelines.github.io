@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="6600"
+   height="3200"
+   viewBox="0 0 6600 3200"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <image
+       width="6848"
+       height="3424"
+       preserveAspectRatio="none"
+       xlink:href="../basemap/achosm.png"
+       id="image1"
+       x="-200"
+       y="-25"
+       style="display:none" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text3791-5"
+       y="206.96"
+       x="89.45"><tspan
+         id="tspan1"
+         y="206.96"
+         x="89.45">1975</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+       d="m 3632.84,2350.48 9.57,10.86 2.39,6.44 5.89,21.35"
+       id="path4" />
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="3300"
+   height="950"
+   viewBox="0 0 3300 950"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+    <image
+       width="3622"
+       height="1278.35"
+       preserveAspectRatio="none"
+       xlink:href="../basemap/mstosm.png"
+       id="image1"
+       x="-215"
+       y="-185"
+       style="display:none" />
+    <path
+       style="fill:none;stroke:#5176ba;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+       d="m 143.8,847.8 -23.57,-77.6 -0.83,-16.06 4.17,-13.98 41.51,-62.16 88.87,-146.23 16.48,-26.08 27.33,-30.25 36.71,-27.95 30.87,-18.57 146.86,-74.89 33.17,-9.39 28.16,-2.71 22.74,1.88 44.64,9.6 161.88,48.81 23.16,9.6 133.92,59.24 26.7,6.88 33.38,5.63 24.62,1.25 226.54,10.64 25.24,6.88 35.25,16.06 26.08,13.56 18.57,14.6 113.69,117.44 16.06,12.1 21.49,11.06 14.81,5.42 187.33,53.19 19.61,0.83 14.6,-2.92 16.48,-5.84 12.72,-10.22 82.4,-94.71 94.5,-69.47 18.15,-20.23 67.17,-103.47 17.31,-17.94 16.9,-12.93 68.42,-45.68 140.6,-79.9 163.13,-91.79 14.39,-11.89 42.56,-35.67 18.36,-9.6 17.94,-3.96 18.98,1.25 20.86,7.93 56.11,38.38 50.27,25.66 11.26,3.13 24.82,2.29 47.14,15.85 17.94,5.63 13.14,1.46 66.34,-0.21 29.41,-2.71 29.62,-5.63 27.95,-8.55 144.56,-71.97 15.65,-4.59 46.31,-9.18 21.69,-2.29"
+       id="path1" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="text3791-5"
+       y="206.96"
+       x="89.45"><tspan
+         id="tspan1"
+         y="206.96"
+         x="89.45">2025</tspan></text>
+</svg>

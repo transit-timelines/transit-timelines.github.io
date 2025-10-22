@@ -26,7 +26,7 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="../timelines/basemap/hb_osm.png"
+     xlink:href="basemap/hb_osm.png"
      width="2429"
      height="1766.55"
      preserveAspectRatio="none"
