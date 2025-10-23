@@ -256,7 +256,7 @@ function unclicktohide() {
     <a href="ath" class="map-wrap"><img class="map" id="ATHmap" src="data:" title="2025" alt="2025 map" width="185" height="265"></a></span>
 <span id="PIT" style="display: none;"><a href="pit">Pittsburgh</a><br>
     <a href="pit" class="map-wrap"><img class="map" id="PITmap" src="data:" title="2025" alt="2025 map" width="264" height="213"></a></span>
-<span id="OSA" style="display: inline-block;"><a href="osa">Osaka</a><br>
+<span id="OSA" style="display: inline-block;"><a href="osa">Osaka / Kobe / Kyoto</a><br>
     <a href="osa" class="map-wrap"><img class="map" id="OSAmap" src="osa/small/2025.svg" title="2025" alt="2025 map" width="1402" height="1007"></a></span>
 <span id="PHL" style="display: none;"><a href="phl">Philadelphia</a><br>
     <a href="phl" class="map-wrap"><img class="map" id="PHLmap" src="data:" title="2025" alt="2025 map" width="366" height="330"></a></span>
@@ -630,7 +630,7 @@ function unclicktohide() {
     <a href="ckg" class="map-wrap"><img class="map" id="CKGmap" src="data:" title="2025" alt="2025 map" width="790" height="616"></a></span>
 <span id="BFS" style="display: none;"><a href="bfs">Belfast</a><br>
     <a href="bfs" class="map-wrap"><img class="map" id="BFSmap" src="data:" title="2025" alt="2025 map" width="518" height="290"></a></span>
-<span id="NKG" style="display: none;"><a href="nkg">Nanjing</a><br>
+<span id="NKG" style="display: none;"><a href="nkg">Nanjing / Wuhu</a><br>
     <a href="nkg" class="map-wrap"><img class="map" id="NKGmap" src="data:" title="2025" alt="2025 map" width="851" height="1372"></a></span>
 <span id="KZN" style="display: none;"><a href="kzn">Kazan</a><br>
     <a href="kzn" class="map-wrap"><img class="map" id="KZNmap" src="data:" title="2025" alt="2025 map" width="116" height="178"></a></span>
@@ -720,7 +720,7 @@ function unclicktohide() {
     <a href="ywg" class="map-wrap"><img class="map" id="YWGmap" src="data:" title="2025" alt="2025 map" width="257" height="174"></a></span>
 <span id="MDZ" style="display: none;"><a href="mdz">Mendoza</a><br>
     <a href="mdz" class="map-wrap"><img class="map" id="MDZmap" src="data:" title="2025" alt="2025 map" width="101" height="152"></a></span>
-<span id="HGH" style="display: none;"><a href="hgh">Hangzhou</a><br>
+<span id="HGH" style="display: none;"><a href="hgh">Hangzhou / Shaoxing</a><br>
     <a href="hgh" class="map-wrap"><img class="map" id="HGHmap" src="data:" title="2025" alt="2025 map" width="1000" height="681"></a></span>
 <span id="LHE" style="display: none;"><a href="lhe">Lahore</a><br>
     <a href="lhe" class="map-wrap"><img class="map" id="LHEmap" src="data:" title="2025" alt="2025 map" width="199" height="257"></a></span>
@@ -1035,6 +1035,7 @@ function unclicktohide() {
 <input type="checkbox" class="KTWcheckbox" onclick="toggleshow('KTW')" autocomplete="off"><a href="javascript:sidebarclick('KTW')">Katowice</a><br>
 <input type="checkbox" class="KZNcheckbox" onclick="toggleshow('KZN')" autocomplete="off"><a href="javascript:sidebarclick('KZN')">Kazan</a><br>
 <input type="checkbox" class="HRKcheckbox" onclick="toggleshow('HRK')" autocomplete="off"><a href="javascript:sidebarclick('HRK')">Kharkiv</a><br>
+<input type="checkbox" class="OSAcheckbox" onclick="toggleshow('OSA')" autocomplete="off" checked><a href="javascript:sidebarclick('OSA')">Kobe</a><br>
 <input type="checkbox" class="CPHcheckbox" onclick="toggleshow('CPH')" autocomplete="off"><a href="javascript:sidebarclick('CPH')">København</a><br>
 <input type="checkbox" class="COKcheckbox" onclick="toggleshow('COK')" autocomplete="off"><a href="javascript:sidebarclick('COK')">Kochi</a><br>
 <input type="checkbox" class="CCUcheckbox" onclick="toggleshow('CCU')" autocomplete="off"><a href="javascript:sidebarclick('CCU')">Kolkata</a><br>
@@ -1045,6 +1046,7 @@ function unclicktohide() {
 <input type="checkbox" class="KULcheckbox" onclick="toggleshow('KUL')" autocomplete="off"><a href="javascript:sidebarclick('KUL')">Kuala Lumpur</a><br>
 <input type="checkbox" class="KMGcheckbox" onclick="toggleshow('KMG')" autocomplete="off"><a href="javascript:sidebarclick('KMG')">Kunming</a><br>
 <input type="checkbox" class="KBPcheckbox" onclick="toggleshow('KBP')" autocomplete="off"><a href="javascript:sidebarclick('KBP')">Kyiv</a><br>
+<input type="checkbox" class="OSAcheckbox" onclick="toggleshow('OSA')" autocomplete="off" checked><a href="javascript:sidebarclick('OSA')">Kyoto</a><br>
 <input type="checkbox" class="LHEcheckbox" onclick="toggleshow('LHE')" autocomplete="off"><a href="javascript:sidebarclick('LHE')">Lahore</a><br>
 <input type="checkbox" class="LHWcheckbox" onclick="toggleshow('LHW')" autocomplete="off"><a href="javascript:sidebarclick('LHW')">Lanzhou</a><br>
 <input type="checkbox" class="LPBcheckbox" onclick="toggleshow('LPB')" autocomplete="off"><a href="javascript:sidebarclick('LPB')">La Paz</a><br>
@@ -1174,6 +1176,7 @@ function unclicktohide() {
 <input type="checkbox" class="SELcheckbox" onclick="toggleshow('SEL')" autocomplete="off" checked><a href="javascript:sidebarclick('SEL')">Seoul</a><br>
 <input type="checkbox" class="SVQcheckbox" onclick="toggleshow('SVQ')" autocomplete="off"><a href="javascript:sidebarclick('SVQ')">Sevilla</a><br>
 <input type="checkbox" class="SHAcheckbox" onclick="toggleshow('SHA')" autocomplete="off" checked><a href="javascript:sidebarclick('SHA')">Shanghai</a><br>
+<input type="checkbox" class="HGHcheckbox" onclick="toggleshow('HGH')" autocomplete="off"><a href="javascript:sidebarclick('HGH')">Shaoxing</a><br>
 <input type="checkbox" class="SZDcheckbox" onclick="toggleshow('SZD')" autocomplete="off"><a href="javascript:sidebarclick('SZD')">Sheffield</a><br>
 <input type="checkbox" class="SHEcheckbox" onclick="toggleshow('SHE')" autocomplete="off"><a href="javascript:sidebarclick('SHE')">Shenyang</a><br>
 <input type="checkbox" class="HKGcheckbox" onclick="toggleshow('HKG')" autocomplete="off" checked><a href="javascript:sidebarclick('HKG')">Shenzhen</a><br>
@@ -1222,6 +1225,7 @@ function unclicktohide() {
 <input type="checkbox" class="VIEcheckbox" onclick="toggleshow('VIE')" autocomplete="off" checked><a href="javascript:sidebarclick('VIE')">Wien</a><br>
 <input type="checkbox" class="YWGcheckbox" onclick="toggleshow('YWG')" autocomplete="off"><a href="javascript:sidebarclick('YWG')">Winnipeg</a><br>
 <input type="checkbox" class="WUHcheckbox" onclick="toggleshow('WUH')" autocomplete="off"><a href="javascript:sidebarclick('WUH')">Wuhan</a><br>
+<input type="checkbox" class="NKGcheckbox" onclick="toggleshow('NKG')" autocomplete="off"><a href="javascript:sidebarclick('NKG')">Wuhu</a><br>
 <input type="checkbox" class="URCcheckbox" onclick="toggleshow('URC')" autocomplete="off"><a href="javascript:sidebarclick('URC')">Wulumuqi</a><br>
 <input type="checkbox" class="WUXcheckbox" onclick="toggleshow('WUX')" autocomplete="off"><a href="javascript:sidebarclick('WUX')">Wuxi</a><br>
 <input type="checkbox" class="XMNcheckbox" onclick="toggleshow('XMN')" autocomplete="off"><a href="javascript:sidebarclick('XMN')">Xiamen</a><br>

@@ -6,7 +6,7 @@
 1886-02-01	lpl	Liverpool
 1892-06-06	chi	Chicago
 1896-05-02	bud	Budapest
-1896-12-14	gla	Glasgow
+1896-12-14	gla	Glasgow / Edinburgh
 1897-09-01	bos	Boston
 1898-05-11	vie	Wien
 1898-05-31	osl	Oslo
@@ -16,7 +16,7 @@
 1904-03-29	ncl	Newcastle
 1904-09-16	ath	Athína
 1904-12-09	pit	Pittsburgh
-1905-05-12	osa	Osaka
+1905-05-12	osa	Osaka / Kobe / Kyoto
 1905-12-18	phl	Philadelphia
 1906-1_-__	lax	Los Angeles
 1907-10-01	ham	Hamburg
@@ -48,7 +48,7 @@
 1938-07-03	pme	Portsmouth
 1945-09-15	nap	Napoli
 1952-06-22	gdn	Gdańsk
-1952-10-05	bru	Bruxelles
+1952-10-05	bru	Bruxelles / Antwerpen
 1954-03-30	yto	Toronto
 1954-05-__	per	Perth
 1955-02-09	rom	Roma
@@ -203,7 +203,7 @@
 2005-04-19	sju	San Juan
 2005-06-18	ckg	Chongqing
 2005-08-01	bfs	Belfast
-2005-08-27	nkg	Nanjing
+2005-08-27	nkg	Nanjing / Wuhu
 2005-08-27	kzn	Kazan
 2005-11-19	vap	Valparaíso
 2006-02-04	trn	Torino
@@ -224,7 +224,7 @@
 2008-08-31	xmn	Xiamen
 2008-12-11	krk	Kraków
 2008-12-14	zda	Aarau
-2008-12-14	qar	Arnhem
+2008-12-14	qar	Arnhem / Nijmegen
 2008-12-22	sdq	Santo Domingo
 2009-03-18	ada	Adana
 2009-04-02	svq	Sevilla
@@ -248,7 +248,7 @@
 2011-12-01	ala	Almaty
 2012-04-08	ywg	Winnipeg
 2012-10-08	mdz	Mendoza
-2012-11-24	hgh	Hangzhou
+2012-11-24	hgh	Hangzhou / Shaoxing
 2013-02-11	lhe	Lahore
 2013-03-02	vbs	Brescia
 2013-05-20	kmg	Kunming
