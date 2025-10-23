@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="-50 -50 2650 4150"
-   height="4150"
-   width="2650"
+   viewBox="-3315 -2400 5900 6500"
+   height="6500"
+   width="5900"
    version="1.1"
    id="svg2">
   <metadata
@@ -27,12 +27,12 @@
      id="defs6" />
   <image
      xlink:href="../basemap/manosm.png"
-     width="3814.25"
-     height="5821.75"
+     width="6022.5"
+     height="8030"
      preserveAspectRatio="none"
      id="image10"
-     x="-1154.5"
-     y="-165.75"
+     x="-3362.75"
+     y="-2374"
      style="display:none" />
   <path
      id="path4138"
@@ -45,16 +45,25 @@
      style="font-style:normal;font-weight:normal;font-size:139.7px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#e9b600;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      xml:space="preserve" />
   <text
-     x="39.45"
-     y="156.96"
+     x="-3225.55"
+     y="-2193.04"
      id="text2997"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="39.45"
-       y="156.96"
+       x="-3225.55"
+       y="-2193.04"
        id="tspan1">1935</tspan></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#7b2181;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 516.25,423.39 -84.42,158.62 -15.52,28.72 -13.58,34.15 -4.66,32.98 -3.88,32.98 -4.66,19.4 -8.54,24.06 -6.98,13.19 -23.28,35.7 -18.63,28.33 -9.31,29.88 -1.16,24.84 6.21,26 11.25,21.34 15.52,25.22 17.46,18.63 26.39,20.18 18.63,11.25 65.58,26.78 75.67,32.21 12.03,10.48 15.91,16.69 13.19,23.67 43.85,92.36 5.43,16.3 3.49,22.12 2.33,39.19 5.43,20.18 11.64,24.06 13.97,17.07 19.79,14.75 22.89,11.25 21.73,5.82 29.1,0.78 26.39,2.72 34.54,12.42 52,22.12 37.25,21.73 36.09,28.72 37.25,22.51 17.85,14.36 12.03,18.24 10.87,22.12 17.85,67.13 7.76,29.1 11.25,22.12 13.19,17.85 10.87,9.7 15.13,15.13 9.7,19.01 13.97,30.66 17.07,24.45 11.64,14.75 10.48,22.89 4.04,13.16 -2.98,23.31 -12.03,30.78 -15.28,32.34 -8.48,16.31 -12.97,15.43 -15.12,12.25 -22.2,15.87 -12.48,14.94 -9.75,23.47 -13.82,13.23 -23,10.09"
      id="path4142" />
+  <text
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3652-1"
+     y="3997.95"
+     x="2162.45"><tspan
+       id="tspan2"
+       y="3997.95"
+       x="2162.45"></tspan></text>
 </svg>

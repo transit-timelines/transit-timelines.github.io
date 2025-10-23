@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="-50 -50 2650 4150"
-   height="4150"
-   width="2650"
+   viewBox="-3315 -2400 5900 6500"
+   height="6500"
+   width="5900"
    version="1.1"
    id="svg2">
   <metadata
@@ -27,12 +27,12 @@
      id="defs6" />
   <image
      xlink:href="../basemap/manosm.png"
-     width="3814.25"
-     height="5821.75"
+     width="6022.5"
+     height="8030"
      preserveAspectRatio="none"
      id="image10"
-     x="-1154.5"
-     y="-165.75"
+     x="-3362.75"
+     y="-2374"
      style="display:none" />
   <path
      id="path4138"
@@ -45,12 +45,21 @@
      style="font-style:normal;font-weight:normal;font-size:139.7px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#e9b600;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      xml:space="preserve" />
   <text
-     x="39.45"
-     y="156.96"
+     x="-3225.55"
+     y="-2193.04"
      id="text2997"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="39.45"
-       y="156.96"
+       x="-3225.55"
+       y="-2193.04"
        id="tspan1">1940</tspan></text>
+  <text
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3652-1"
+     y="3997.95"
+     x="2162.45"><tspan
+       id="tspan2"
+       y="3997.95"
+       x="2162.45">1940</tspan></text>
 </svg>

@@ -27,12 +27,12 @@
      id="defs6" />
   <image
      xlink:href="../basemap/manosm.png"
-     width="3814.25"
-     height="5821.75"
+     width="6022.5"
+     height="8030"
      preserveAspectRatio="none"
      id="image10"
-     x="-1154.5"
-     y="-165.75"
+     x="-3362.75"
+     y="-2374"
      style="display:none" />
   <path
      id="path4138"
@@ -57,4 +57,13 @@
        x="-660.55"
        y="156.96"
        id="tspan1">1970</tspan></text>
+  <text
+     style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"
+     id="text3652-1"
+     y="3997.95"
+     x="2177.45"><tspan
+       id="tspan2"
+       y="3997.95"
+       x="2177.45"></tspan></text>
 </svg>

@@ -20,7 +20,7 @@ YMQ=ymq1961plan.svg ymq1970a.svg ymq2015a.svg ymq2016plan.svg ymq2025a.svg
 
 SVGS=$(NYC) $(BER) $(BOS) $(PIT) $(MAN) $(SFO) $(YMQ) $(SEA) $(ZRH) $(PVD) $(CVG) $(MSY)
 
-RECROPPED=bos1915a.svg bos1945a.svg bos2025a.svg pit1965a.svg pit2025a.svg sfo2025a.svg sea2000a.svg sea2015a.svg hnl2025a.svg
+RECROPPED=bos1915a.svg bos1945a.svg bos2025a.svg pit1965a.svg pit2025a.svg sfo2025a.svg sea2000a.svg sea2015a.svg
 
 nyc%a.svg : ../../timelines/nyc/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 0 1950 500 0 $< > $@
@@ -30,9 +30,6 @@ bos%a.svg : ../../timelines/bos/small/%.svg Makefile
 
 sfo%a.svg : ../../timelines/sfo/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl -335 0 -2235 -3050 $< > $@
-
-hnl%a.svg : ../../timelines/hnl/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl 0 0 650 650 $< > $@
 
 pit%a.svg : ../../timelines/pit/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 1000 -1400 1350 0 $< > $@
@@ -44,7 +41,7 @@ ymq%a.svg : ../../timelines/ymq/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl -2100 -100 0 100 $< > $@
 
 man%a.svg : ../../timelines/man/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl -700 0 0 1550 $< > $@
+	~/timelines/scripts/reviewbox.pl 2565 2350 15 1550 $< > $@
 
 
 index.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
