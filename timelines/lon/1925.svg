@@ -25,6 +25,14 @@
   <defs
      id="defs6" />
   <path
+     d="m 4351,2917.5 -13,-35.5 -11,-25.5 -3.5,-35.5 -2.5,-32.5 -4.5,-21.5 2,-14 -3,-21 -14,-23 -16.75,-50.09 -20.46,-54.3 -9.37,-41.25 -13.25,-30.25 -30.37,-42.75 -15.44,-24.17 -7.26,-43.03 -3.5,-46.41 v -48.99 l 1.41,-32.18 -3.5,-27.45 -10.27,-21.08 -19.24,-25.55 -17.15,-20.15 -9.9,-7.68 -12.5,-3.96 -36.4,-6.44 -18.82,3.22"
+     id="path3899-5"
+     style="fill:none;stroke:#ee1b2d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 4320.5,2783 13,12.5 27,10.5 25,5 12,9 8.5,16 1,19 11,27"
+     id="path4409"
+     style="fill:none;stroke:#ee1b2d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
      id="path926"
      d="m 2589.63,2371.62 3.22,7.63 14.08,14.25 6.45,11.71 2.21,16.8 -1.7,17.47 0.17,14.59 2.71,5.6"
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#e02525;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
@@ -205,7 +213,7 @@
   <path
      style="fill:none;stroke:#ee9bac;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="path3899-4"
-     d="m 4283.44,2641.98 -14.94,-39.49 -9,-41 -13.5,-30.5 -30,-42.5 -15.5,-24.5 -7,-42.5 -3.5,-46.5 0,-47.5 1.5,-32 -3.5,-28.5 -11.5,-23 -21,-10.5" />
+     d="m 4283.44,2641.98 -14.94,-39.49 -9,-41 -13.5,-30.5 -30,-42.5 -15.5,-24.5 -7,-42.5 -3.5,-46.5 0,-47.5 1.5,-32 -3.5,-28.5 -11.5,-23 -16,-8.49" />
   <path
      style="fill:none;stroke:#ee9bac;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="path3224"
