@@ -56,7 +56,7 @@ function showbg() {
     }
     bgbutton = document.getElementById("bgbutton");
     bgbutton.onclick = hidebg;
-    bgbutton.innterText = "click here to hide present-day labels and waterlines";
+    bgbutton.innerText = "click here to hide present-day labels and waterlines";
 }
 function hidebg() {
     for (bgimg of document.getElementsByClassName("bgmap")) {
@@ -64,7 +64,7 @@ function hidebg() {
     }
     bgbutton = document.getElementById("bgbutton");
     bgbutton.onclick = showbg;
-    bgbutton.innterText = "click here to show present-day labels and waterlines";
+    bgbutton.innerText = "click here to show present-day labels and waterlines";
 }
 
 window.onload=function() {
@@ -140,11 +140,13 @@ smaller versions --- <a href="large.html">larger versions</a><p>
 <br>(<a href="../../timelines/pit">timeline</a>)</small></span>
 <span id="sfo" style="display: inline-block; vertical-align: middle">San Francisco<br>
 <a href="javascript:next('sfo');">
-<img class="map" src="sfo1960a.svg" id="sfomap" title="San Francisco" alt=" map" width="518" height="670"></a><small>
-<br><a class="setsrc" href="javascript:setsrc('sfo','sfo1960a.svg',0);">1960 actual</a>
-<br><a class="setsrc" href="javascript:setsrc('sfo','sfo1961plan.svg',1);">1961 proposal</a> (<a href="https://www.bart.gov/sites/default/files/docs/50-years/1961-parsons-engineering-report-to-sf-bart-district%20WSP.pdf">info</a>)
-<br><a class="setsrc" href="javascript:setsrc('sfo','sfo1966plan.svg',2);">1966 proposal</a> (<a href="https://www.flickr.com/photos/walkingsf/4408099420/in/album-72157622518181915/">info</a>)
-<br><a class="setsrc" href="javascript:setsrc('sfo','sfo2025a.svg',3);">2025 actual</a>
+<img class="map" src="sfo1935a.svg" id="sfomap" title="San Francisco" alt=" map" width="525" height="721"></a><small>
+<br><a class="setsrc" href="javascript:setsrc('sfo','sfo1935a.svg',0);">1935 actual</a>
+<br><a class="setsrc" href="javascript:setsrc('sfo','sfo1935plan.svg',1);">1935 proposal</a> (<a href="https://www.flickr.com/photos/walkingsf/4437741056/in/album-72157622518181915/">info</a>)
+<br><a class="setsrc" href="javascript:setsrc('sfo','sfo1945a.svg',2);">1945 actual</a>
+<br><a class="setsrc" href="javascript:setsrc('sfo','sfo1956plan.svg',3);">1956 proposal</a> (<a href="https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no=%226344.000%22">info</a>)
+<br><a class="setsrc" href="javascript:setsrc('sfo','sfo1961plan.svg',4);">1961 proposal</a> (<a href="https://www.bart.gov/sites/default/files/docs/50-years/1961-parsons-engineering-report-to-sf-bart-district%20WSP.pdf">info</a>)
+<br><a class="setsrc" href="javascript:setsrc('sfo','sfo2025a.svg',5);">2025 actual</a>
 <br>(<a href="../../timelines/sfo">timeline</a>)</small></span>
 <span id="man" style="display: inline-block; vertical-align: middle">Manchester<br>
 <a href="javascript:next('man');">

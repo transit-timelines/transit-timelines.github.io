@@ -8,7 +8,7 @@ all: large.html index.html $(patsubst %.svg,%.svg.gz,$(wildcard *.svg))
 NYC=nyc1935a.svg nyc1939plan.svg nyc1965a.svg nyc1968plan.svg nyc2025a.svg
 BOS=bos1892plan.svg bos1915a.svg bos1917plan.svg bos1945a.svg bos1945plan.svg bos2025a.svg
 PIT=pit1965a.svg pit1967plan.svg pit1970plan.svg pit2025a.svg
-SFO=sfo1960a.svg sfo1961plan.svg sfo1966plan.svg sfo2025a.svg
+SFO=sfo1935a.svg sfo1935plan.svg sfo1945a.svg sfo1956plan.svg sfo1961plan.svg sfo2025a.svg
 SEA=sea1970plan.svg sea2000a.svg sea2002plan.svg sea2015a.svg sea2016plan.svg sea2025a.svg sea2026proj.svg
 ZRH=zrh1973plan.svg ../../timelines/zrh/small/2025.svg
 PVD=pvd1914.svg pvd1914plan.svg pvd2025.svg
@@ -29,7 +29,7 @@ bos%a.svg : ../../timelines/bos/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 0 -600 0 0 $< > $@
 
 sfo%a.svg : ../../timelines/sfo/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl -335 0 -2235 -3050 $< > $@
+	~/timelines/scripts/reviewbox.pl -435 -150 -2235 -2500 $< > $@
 
 pit%a.svg : ../../timelines/pit/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 1000 -1400 1350 0 $< > $@
