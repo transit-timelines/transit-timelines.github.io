@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="1050"
-   height="2650"
-   viewBox="0 0 1050 2650">
+   width="1200"
+   height="2750"
+   viewBox="0 -100 1200 2750">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -50,9 +50,9 @@
      style="font-style:normal;font-weight:normal;font-size:144px;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3652"
-     y="206.96"
+     y="106.96"
      x="89.45"><tspan
        id="tspan1"
-       y="206.96"
+       y="106.96"
        x="89.45">2020</tspan></text>
 </svg>

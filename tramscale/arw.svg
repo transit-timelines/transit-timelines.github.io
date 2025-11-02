@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="875"
+   width="600"
    height="1025"
-   viewBox="0 0 875 1025">
+   viewBox="0 0 600 1025"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,42 +19,34 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
-    <image
-       xlink:href="basemap/arwosm.png"
-       style="display:none"
-       y="-280"
-       x="-385"
-       id="image12"
-       preserveAspectRatio="none"
-       height="1635.38"
-       width="3738" />
-    <path
-       style="fill:none;stroke:#29166f;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 538.82,955.02 -3.87,11.68 -3.15,2.14 -10.19,-0.17 -119.39,-29.82 -3.5,-3.86 1.57,-38.57 5.42,-46.18 -2.03,-113.24 16.8,-42.46 -0.71,-8.53 -13.52,-47.88 -11.41,-27.59 -5.46,-2.16 -7.68,-2.84 -18.42,-12.92 -9.77,-14.5 -10.79,-27.06 -0.76,-12.87 54.6,-119.04 25.71,-42.71 8.26,-16.04 6.97,-17.53 8.04,-39.35 -3.13,-9.81 -8.39,-9.99 -8.06,-5.9 -170.82,-47.02 -86.25,-52.61 -40.81,-50.13 -32.16,-29.5 5.66,-39.18 -3.11,-3.16 -4.08,1.45 -14.53,14.82 -3.77,6.84 -1.54,9.32 21.36,9.9"
-       id="path855" />
-    <path
-       style="fill:none;stroke:#29166f;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 255.11,230.79 -6.34,15.52 -32.46,17.3 -53.5,104 -10.68,8.2 -3.25,10.69 -3.49,5.64 -38.97,112.57 -2.07,18.35 -37.2,106.7 1.86,4.55 156.89,-13.29 62.22,-3.76 4.92,7.28 32.1,5.17 8.1,2.95 4.26,-1.53 43.86,7.64 3.2,-17.43 3.24,-4.33 9,0.37"
-       id="path1463" />
-    <path
-       style="fill:none;stroke:#29166f;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 387.8,617 -6.1,-11.47"
-       id="path1465" />
-    <path
-       style="fill:none;stroke:#29166f;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 288.12,617.25 7.08,-1.43 42.78,3.44 45.2,9.63"
-       id="path1467" />
-    <path
-       style="fill:none;stroke:#29166f;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 422.26,376.44 10.35,4.01 113.73,23.58 19.18,6.92 22.16,0.84 18.14,-5.53 17.44,0.8 190.01,61.9 1.93,5.51 -25.9,83.65 -4.79,1.62 -83.59,-25.98 -13.08,-1.18 -2.49,-29.88 -21.36,-30.65 -62.93,-43.44 -30.18,-23.26 -24.55,-1.32"
-       id="path1469" />
-  </g>
+  <image
+     xlink:href="basemap/arwosm.png"
+     style="display:none"
+     y="-280"
+     x="-385"
+     id="image12"
+     preserveAspectRatio="none"
+     height="1635.38"
+     width="3738" />
+  <path
+     style="fill:none;stroke:#29166f;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 538.82,955.02 -3.87,11.68 -3.15,2.14 -10.19,-0.17 -119.39,-29.82 -3.5,-3.86 1.57,-38.57 5.42,-46.18 -2.03,-113.24 16.8,-42.46 -0.71,-8.53 -13.52,-47.88 -11.41,-27.59 -5.46,-2.16 -7.68,-2.84 -18.42,-12.92 -9.77,-14.5 -10.79,-27.06 -0.76,-12.87 54.6,-119.04 25.71,-42.71 8.26,-16.04 6.97,-17.53 8.04,-39.35 -3.13,-9.81 -8.39,-9.99 -8.06,-5.9 -170.82,-47.02 -86.25,-52.61 -40.81,-50.13 -32.16,-29.5 5.66,-39.18 -3.11,-3.16 -4.08,1.45 -14.53,14.82 -3.77,6.84 -1.54,9.32 21.36,9.9"
+     id="path855" />
+  <path
+     style="fill:none;stroke:#29166f;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 255.11,230.79 -6.34,15.52 -32.46,17.3 -53.5,104 -10.68,8.2 -3.25,10.69 -3.49,5.64 -38.97,112.57 -2.07,18.35 -37.2,106.7 1.86,4.55 156.89,-13.29 62.22,-3.76 4.92,7.28 32.1,5.17 8.1,2.95 4.26,-1.53 43.86,7.64 3.2,-17.43 3.24,-4.33 9,0.37"
+     id="path1463" />
+  <path
+     style="fill:none;stroke:#29166f;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 387.8,617 -6.1,-11.47"
+     id="path1465" />
+  <path
+     style="fill:none;stroke:#29166f;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 288.12,617.25 7.08,-1.43 42.78,3.44 45.2,9.63"
+     id="path1467" />
 </svg>
