@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
-   viewBox="-150 -2090 5300 6500"
+   viewBox="-6900 -2090 12050 6500"
    height="6500"
-   width="5300"
+   width="12050"
    version="1.1">
   <metadata
      id="metadata8">
@@ -30,9 +30,9 @@
      style="display:none"
      id="image10"
      height="6684.46"
-     width="5729.54"
+     width="12414"
      y="-2234.46"
-     x="-318.31" />
+     x="-7002.77" />
   <path
      style="fill:none;stroke:#8a2495;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="path3754"
@@ -82,19 +82,19 @@
      xml:space="preserve"
      id="text3790"
      y="4307.96"
-     x="-60.55"><tspan
+     x="-6810.55"><tspan
        id="tspan2"
        y="4307.96"
-       x="-60.55">2000</tspan></text>
+       x="-6810.55">2000</tspan></text>
   <text
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
      xml:space="preserve"
      id="text3790-8"
      y="-1883.04"
-     x="-60.55"><tspan
+     x="-6810.55"><tspan
        id="tspan1"
        y="-1883.04"
-       x="-60.55">2000</tspan></text>
+       x="-6810.55">2000</tspan></text>
   <path
      id="path844"
      d="m 1289.43,2996.2 -44.97,-0.9 -16.28,-0.16 -3.73,6.37 2.54,20.5 9.5,33 61.5,209 14,49 2,17 v 15 l -18.5,64.5 -40.46,119.23 -29.04,45.77 -42.76,59.03 -16.77,20.36 -34.69,28.54 -4.45,8.21 0.12,21.71"

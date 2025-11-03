@@ -3,9 +3,9 @@
 
 <svg
    version="1.1"
-   width="5300"
+   width="12050"
    height="6500"
-   viewBox="-150 -2090 5300 6500"
+   viewBox="-6900 -2090 12050 6500"
    id="svg2"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
@@ -31,9 +31,9 @@
      style="display:none"
      id="image10"
      height="6684.46"
-     width="5729.54"
+     width="12414"
      y="-2234.46"
-     x="-318.31" />
+     x="-7002.77" />
   <path
      d="m 1233.5,1269.5 3,22 -7,54.5 -35,166 -26.5,114 -37.5,217.5 -7,53 -6,11 -28.34,13.84"
      id="path3782"
@@ -47,21 +47,21 @@
      id="path3788"
      style="fill:none;stroke:#f148a3;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <text
-     x="-60.55"
+     x="-6810.55"
      y="4307.96"
      id="text3790"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-       x="-60.55"
+       x="-6810.55"
        y="4307.96"
        id="tspan2">1970</tspan></text>
   <text
-     x="-60.55"
+     x="-6810.55"
      y="-1883.04"
      id="text3790-8"
      xml:space="preserve"
      style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-       x="-60.55"
+       x="-6810.55"
        y="-1883.04"
        id="tspan1">1970</tspan></text>
 </svg>
