@@ -29,7 +29,7 @@ bos%a.svg : ../../timelines/bos/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 0 -600 0 0 $< > $@
 
 sfo%a.svg : ../../timelines/sfo/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl -435 -150 -2235 -2500 $< > $@
+	~/timelines/scripts/reviewbox.pl -435 -150 -2235 -2350 $< > $@
 
 pit%a.svg : ../../timelines/pit/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 1000 -1400 1350 0 $< > $@
