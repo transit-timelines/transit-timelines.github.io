@@ -1,15 +1,16 @@
 check Huangshi gradesep
 use Mengzi IATA code when assigned
-metro background CSO QUL BHX BRN LED MAD WUH SHE SYD WUH LUX
+metro background CSO QUL LED MAD WUH SHE SYD WUH LUX
 
 
 check construction status:
 Aarhus L2 (Lisbjergskolen)
 Antwerpen 2/4 11 12
-Brandenburg 1
-Berlin U6
-Brno 4 9
-Bruxelles 3 44 82/97
+Beograd 2/11 3 7/9
+Berlin U6 Köpenick
+Bielefeld U1 (Senne)
+Bruxelles 3 51 55 62 81 82/97
+Bucuresti 5 16 24 45
 Bydgoszcz 6
 Cagliari 1
 Cottbus 1

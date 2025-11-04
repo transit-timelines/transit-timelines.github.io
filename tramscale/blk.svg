@@ -27,9 +27,9 @@
   <image
      xlink:href="basemap/blkosm.png"
      x="10"
-     y="24"
+     y="-175.25"
      width="4184.25"
-     height="4383.5"
+     height="4582.75"
      id="image10"
      style="display:none" />
   <path
