@@ -183,7 +183,7 @@ cat <<HEREDOC
 <br>
 <div class="headerfooter">
 <div style="white-space: normal;">
-Thick lines represent running in streets or with uncontrolled or light-controlled grade crossings; thin lines represent thru-running onto sections with grade-separations or crossing gates. Other frequent local rail/fixed-guideway transit lines are shown in light gray, ferries in cyan.<br>All lines shown run at least every 20 minutes during the day on weekdays as of 2024.<br>
+Thick lines represent running in streets or with uncontrolled or light-controlled grade crossings; thin lines represent thru-running onto sections with grade-separations or crossing gates.<br>Other frequent local rail/fixed-guideway transit lines are shown in light gray, ferries in cyan.<br>All lines shown run at least every 20 minutes during the day on weekdays as of 2024.<br>
 Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (30 CSS pixels per km)</div>
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.

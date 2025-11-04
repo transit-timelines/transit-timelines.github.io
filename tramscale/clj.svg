@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
    width="1200"
    height="850"
-   viewBox="0 0 1200 850">
+   viewBox="0 0 1200 850"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,30 +19,27 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
-    <image
-       xlink:href="basemap/cljosm.png"
-       style="display:none"
-       y="50"
-       x="-50"
-       id="image12"
-       preserveAspectRatio="none"
-       height="924.67"
-       width="1387" />
-    <path
-       style="fill:none;stroke:#3bac2c;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
-       d="m 54.1,792.42 11.81,4.55 26.41,-9.51 57.19,-29.71 28.4,-6.28 22.03,-12.62 2,-5.1 -3.08,-8.58 1.96,-11.23 1.2,-14.74 8.23,-29.09 -1.07,-8.82 -11.23,-17.56 -0.63,-7.02 3.44,-6.42 9.4,-5.43 44.24,-5.16 9.79,-3.49 10.86,-11.32 30.05,-41.61 8.07,-6.44 23,-6.96 8.37,-7.16 13.24,-19.96 8.26,-5.19 34.03,-8.02 27.35,-10.35 36.71,-12.68 14.8,-9.6 15.07,7.88 13.05,-8.69 18.99,-14.81 5.33,-6.37 -7.14,-16.37 -1.48,-39.13 3.76,-82.76 -0.08,-0.83 -7.33,-1.42 -4.76,-2.52 -6.5,-12.81 18.26,-5.24"
-       id="path837" />
-    <path
-       style="fill:none;stroke:#3bac2c;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
-       d="m 526.42,315.84 -0.33,-21.98 77.09,-19.18 11.56,1.04 4.18,-2.42 2.64,-5.26 1.73,-43.09 26.99,-43.31 15.51,-48.18 19.44,-13.64 11.11,-13.49 35.24,-36.95 6.6,-3.5 h 8.3 l 37.39,18.37 110.51,32.29 58.49,2.8 25.38,-7.34 75.26,-0.89 22.57,-2.26 63.84,-2.37 9.13,-4.57"
-       id="path839" />
-  </g>
+  <image
+     xlink:href="basemap/cljosm.png"
+     style="display:none"
+     y="-181.17"
+     x="-50"
+     id="image12"
+     preserveAspectRatio="none"
+     height="1155.84"
+     width="1387" />
+  <path
+     style="fill:none;stroke:#3bac2c;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 54.1,792.42 11.81,4.55 26.41,-9.51 57.19,-29.71 28.4,-6.28 22.03,-12.62 2,-5.1 -3.08,-8.58 1.96,-11.23 1.2,-14.74 8.23,-29.09 -1.07,-8.82 -11.23,-17.56 -0.63,-7.02 3.44,-6.42 9.4,-5.43 44.24,-5.16 9.79,-3.49 10.86,-11.32 30.05,-41.61 8.07,-6.44 23,-6.96 8.37,-7.16 13.24,-19.96 8.26,-5.19 34.03,-8.02 27.35,-10.35 36.71,-12.68 14.8,-9.6 15.07,7.88 13.05,-8.69 18.99,-14.81 5.33,-6.37 -7.14,-16.37 -1.48,-39.13 3.76,-82.76 -0.08,-0.83 -7.33,-1.42 -4.76,-2.52 -6.5,-12.81 18.26,-5.24"
+     id="path837" />
+  <path
+     style="fill:none;stroke:#3bac2c;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 526.42,315.84 -0.33,-21.98 77.09,-19.18 11.56,1.04 4.18,-2.42 2.64,-5.26 1.73,-43.09 26.99,-43.31 15.51,-48.18 19.44,-13.64 11.11,-13.49 35.24,-36.95 6.6,-3.5 h 8.3 l 37.39,18.37 110.51,32.29 58.49,2.8 25.38,-7.34 75.26,-0.89 22.57,-2.26 63.84,-2.37 9.13,-4.57"
+     id="path839" />
 </svg>
