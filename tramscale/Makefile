@@ -1,4 +1,4 @@
-all: index.html $(patsubst %.svg,%.svg.gz,$(wildcard *.svg))
+all: $(patsubst %.svg,%.svg.gz,$(wildcard *.svg)) index.html
 
 %.svg.gz : %.svg
 	~/timelines/scripts/round.py < $< > $<.tmp

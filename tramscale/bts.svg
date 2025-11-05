@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 1650 1525"
-   height="1525"
+   viewBox="0 0 1650 2000"
+   height="2000"
    width="1650"
    id="svg2"
    version="1.1"
@@ -26,11 +26,11 @@
      id="defs6" />
   <image
      xlink:href="basemap/btsosm.png"
-     width="1801"
+     width="2026.12"
      height="2251.25"
      preserveAspectRatio="none"
      id="image10"
-     x="10"
+     x="-215.12"
      y="-76.25"
      style="display:none" />
   <path
@@ -39,7 +39,7 @@
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#e31e24;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path819"
-     d="m 890.78,1465.37 19.53,-28.98 1.22,-8.85 -0.61,-45.15 2.44,-85.42 3.97,-76.88 -3.66,-7.63 -39.97,-39.66 -3.2,-20.44 -16.93,-10.68 -36.31,-7.02"
+     d="m 817.26,1134.66 36.31,7.02 16.93,10.68 3.2,20.44 39.97,39.66 3.66,7.63 -3.97,76.88 -2.44,85.42 0.61,45.15 -1.22,8.85 -19.53,28.98 -60.1,94.14 -4.57,17.46 -11.64,205.8 4.99,24.11 17.05,37 2.49,18.71 -4.99,71.51"
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#e31e24;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path823"
