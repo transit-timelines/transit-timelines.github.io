@@ -1,6 +1,6 @@
 check Huangshi gradesep
 use Mengzi IATA code when assigned
-metro background CSO QUL LED MAD WUH SHE SYD WUH LUX
+metro background QUL LED MAD WUH SHE SYD WUH LUX
 
 
 check construction status:
@@ -14,8 +14,8 @@ Bucuresti 5 16 24 45
 Bydgoszcz 6
 Cottbus 1
 Denver E H L
-Dresden 4 4/10/12 11
-Frankfurt 15/16/18
+Dnipro 1 6 9
+Dresden 6/9 12
 Gdansk 8 (bridge closed until 2027)
 Gent T4
 Halle 1

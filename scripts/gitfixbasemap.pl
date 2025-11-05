@@ -1,8 +1,14 @@
 #!/usr/bin/perl
 
+my $n;
+if ($#ARGV > 0) {
+    $n = $ARGV[1]+1;
+} else {
+    $n = 1;
+}
 
-my $gitstring = `git log $ARGV[0] | head -n1`;
-my ($commit, $hash) = split(/ /,$gitstring);
+my $gitstring = `git log $ARGV[0] | grep commit | tail -n+$n | head -n1`;
+my ($commit, $hash) = split(/ /, $gitstring);
 chomp($hash);
 
 open(my $file, "<", $ARGV[0]) or die $!;
