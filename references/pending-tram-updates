@@ -1,6 +1,6 @@
 check Huangshi gradesep
 use Mengzi IATA code when assigned
-metro background QUL LED MAD WUH SHE SYD WUH LUX
+metro background QUL LED LUX MAD SHE SYD WUH LUX
 
 
 check construction status:
@@ -40,7 +40,6 @@ Orsk 4/5
 Osijek all
 Ostrava 1/2/8 4/8/9/12 7
 Perm 2/11/12
-Plauen 5
 Poznan 10/11/12/19
 Praha 1/6/14/25 19 etc
 Rostock 2/3/4
@@ -55,6 +54,6 @@ Vladikavkaz freq
 Volgograd ST 1/2/4/10
 Warszawa 1/22/24 4/10/11/14/18
 Würzburg all
-Yaroslavl 5/7 6
+Yaroslavl 1/7 6
 Yenakiyevo freq
 Zagreb 7/14 8/14/15

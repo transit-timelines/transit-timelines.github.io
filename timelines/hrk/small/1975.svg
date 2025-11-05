@@ -28,12 +28,12 @@
   <image
      style="display:none"
      y="-270"
-     x="-117"
+     x="-334"
      id="image10"
      xlink:href="../basemap/hrkosm.png"
      preserveAspectRatio="none"
      height="2170"
-     width="2821" />
+     width="3038" />
   <path
      id="path4512"
      d="M 778.82,464.57 890.9,620.49"
