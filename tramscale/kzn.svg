@@ -24,19 +24,23 @@
   </metadata>
   <defs
      id="defs6" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1862.9,1937 -221.51,-226.04 -14.18,-10.26 -9.66,-2.41 -37.72,2.11 -78.77,-6.64 -62.47,-12.07 -12.67,-8.75 -8.45,-14.18 -31.08,-53.11 -24.75,-35.31 -18.41,-20.22 -53.72,-36.52 -181.37,-155.42 -19.62,-19.62 -23.24,-38.02 -88.72,-69.41 -17.2,-18.11 -6.04,-12.07 -16.6,-35.61 -3.92,-14.49 -10.56,-38.33 0.3,-10.26 7.24,-111.06 -0.91,-17.2 -3.62,-10.86 -29.88,-78.16 -10.56,-12.37 -12.68,-11.17 -32.29,-13.58 -6.04,-6.34 -22.94,-28.07 -19.92,-45.57 -35.01,-56.13 -13.28,-34.1 -1.51,-11.17 8.75,-135.8 12.07,-31.39 12.37,-27.16 1.41,-23.5 -4.34,-38.75 6.25,-128.78"
+       id="path817" />
+  </g>
   <image
      xlink:href="../timelines/basemap/kznosm.png"
      style="display:none"
      width="2469"
-     height="2279.08"
+     height="2658.92"
      preserveAspectRatio="none"
      id="image10"
      x="-150"
-     y="-4.08" />
-  <path
-     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1862.9,1937 -221.51,-226.04 -14.18,-10.26 -9.66,-2.41 -37.72,2.11 -78.77,-6.64 -62.47,-12.07 -12.67,-8.75 -8.45,-14.18 -31.08,-53.11 -24.75,-35.31 -18.41,-20.22 -53.72,-36.52 -181.37,-155.42 -19.62,-19.62 -23.24,-38.02 -88.72,-69.41 -17.2,-18.11 -6.04,-12.07 -16.6,-35.61 -3.92,-14.49 -10.56,-38.33 0.3,-10.26 7.24,-111.06 -0.91,-17.2 -3.62,-10.86 -29.88,-78.16 -10.56,-12.37 -12.68,-11.17 -32.29,-13.58 -6.04,-6.34 -22.94,-28.07 -19.92,-45.57 -35.01,-56.13 -13.28,-34.1 -1.51,-11.17 8.75,-135.8 12.07,-31.39 12.37,-27.16 1.41,-23.5 -4.34,-38.75 6.25,-128.78"
-     id="path817" />
+     y="-194" />
   <path
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#800000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1713.64,2057.15 -109.69,105.64 -1.93,2.06"

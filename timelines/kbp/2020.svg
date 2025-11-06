@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
    viewBox="0, 0, 3600, 2750"
    height="2750"
    width="3600"
-   version="1.1">
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,7 +19,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -28,10 +27,10 @@
   <image
      xlink:href="../basemap/kbposm.png"
      id="image10"
-     height="3010"
-     width="3655"
-     y="-65"
-     x="0"
+     height="3440"
+     width="4085"
+     y="-495"
+     x="-430"
      style="display:none" />
   <path
      style="fill:none;stroke:#08ad08;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -67,9 +66,9 @@
        y="206.96"
        x="89.45">2020</tspan></text>
   <path
-     style="fill:none;stroke:#87cbc8;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#87cbc8;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3047"
-     d="m 2250.5,659 3,-25 10.5,-35 15,-40 11,-23 35,-44.5 42.5,-44 41,-23.5 73.5,-37.5 21.5,-14.5 24,-23.5 39,-58 13,-32.5 6.5,-27.5 6,-74.5 4,-53 2.5,-34" />
+     d="m 2598.5,69 -2.5,34 -4,53 -6,74.5 -6.5,27.5 -13,32.5 -39,58 -24,23.5 -21.5,14.5 -73.5,37.5 -41,23.5 -42.5,44 -35,44.5 -11,23 -15,40 -10.5,35 -3,25 -2.43,26.19 -0.22,126.53 -7.14,11.46 1.08,3.68 7.57,1.73 3.03,-4.11 -4.54,-12.76" />
   <path
      style="fill:none;stroke:#87cbc8;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      id="path3828"

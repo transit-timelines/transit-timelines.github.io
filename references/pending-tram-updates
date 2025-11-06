@@ -1,6 +1,6 @@
 check Huangshi gradesep
 use Mengzi IATA code when assigned
-metro background QUL LED LUX MAD SHE SYD WUH LUX
+metro background LED LUX MAD QUL SHE SYD WUH
 
 
 check construction status:
@@ -20,12 +20,11 @@ Gdansk 8 (bridge closed until 2027)
 Gent T4
 Halle 1
 Heilbronn S4
-Katowice 6/19 11 14/26
-Kemerovo 1
-Kraków 1/2 9/14/16
-Krasnoyarsk 4
+Kaliningrad 5
+Katowice 9 10/11/19/20 14 22
+Kraków 5 6/20
 Kursk 2 3 4 8
-Kyiv 11/12/16/19
+Kyiv 14/18
 Łodź 6/7 9/13 etc
 Magdeburg 10
 Mannheim all
@@ -43,7 +42,6 @@ Perm 2/11/12
 Poznan 10/11/12/19
 Praha 1/6/14/25 19 etc
 Rostock 2/3/4
-Samara Galaktionovskaya
 Sankt-Peterburg headways 10 16 40 41 61
 Saratov 2 3 5
 Szczecin Pomorzany

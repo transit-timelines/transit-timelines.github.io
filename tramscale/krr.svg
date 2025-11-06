@@ -17,12 +17,12 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs6" /><image
      xlink:href="basemap/krrosm.png"
-     y="125"
+     y="-113.55"
      x="-85"
      id="image12"
      style="display:none;image-rendering:optimizeSpeed"
      preserveAspectRatio="none"
-     height="1669.82"
+     height="1908.37"
      width="2624" /><path
      style="fill:none;stroke:#dc3131;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
      d="m 67.03,1090.68 8.12,-21.69 7.78,-10.42 9.86,-9.09 22.28,-12.91 264.83,-153.42 9.05,-8.97 4.8,-9.72 9.06,-34.51 344.52,77.38 -20.6,86.57 258.38,61.86 16.12,80.97 28.57,-15.22 20.69,12.91 14.8,26.44 15.71,6.95 4.16,9.07 0.87,7.65 2.76,4.14 191.27,-25.4 16.47,0.8 289.05,86.76 42.13,24.47 24.77,15.09 18.52,6.84 10.03,1.22 21,-5.54 105.48,-37.57 8.81,-0.65 52.47,4.33 463.56,-225.44"

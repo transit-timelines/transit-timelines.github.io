@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    viewBox="0 0 1775 1975"
    height="1975"
    width="1775"
    id="svg2"
-   version="1.1">
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -19,7 +19,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -29,11 +28,19 @@
      xlink:href="../timelines/basemap/ksfosm.png"
      style="display:none"
      y="-149.29"
-     x="-25"
+     x="-235.93"
      id="image10"
      preserveAspectRatio="none"
-     height="2109.29"
-     width="2953" />
+     height="2320.21"
+     width="3163.93" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+       d="m 1000.24,885.89 -103.04,-28.27 -28.14,-4.92 -98.88,-7.67 h -80.76 l -26.74,5.13 -23.81,9.89 -17.21,11.54 -15.57,18.13 -12.64,21.06 -4.58,22.53 0.18,14.1 2.52,8.78 17.63,35.91"
+       id="path1" />
+  </g>
   <path
      id="path836"
      d="m 53.38,1894.8 13.66,6.23 15.1,3.12 24.45,1.44 15.58,-1.92 63.04,-10.79 23.49,-2.4 82.94,-3.12 16.54,-2.64 14.62,-8.39 11.27,-11.51 7.91,-13.18 9.11,-29.96 8.39,-12.7 5.75,-6.95 17.02,-13.18 5.27,-6.71 6.47,-23.25 2.52,-11.63 -0.24,-2.16 -1.2,-1.56"
