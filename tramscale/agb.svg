@@ -24,10 +24,14 @@
   </metadata>
   <defs
      id="defs6" />
-  <path
-     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.25"
-     d="m 565.34,626.1 57.29,88.81 16.61,19.32 27.12,24.41 51.86,28.14 23.05,10.85 46.44,14.24 45.76,7.12 43.39,-0.34 239.66,0.68 59.32,3.73 304.07,28.81 17.63,0.34 23.05,-5.08 41.69,-9.15"
-     id="path836" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 565.34,626.1 57.29,88.81 16.61,19.32 27.12,24.41 51.86,28.14 23.05,10.85 46.44,14.24 45.76,7.12 43.39,-0.34 239.66,0.68 59.32,3.73 304.07,28.81 17.63,0.34 23.05,-5.08 41.69,-9.15"
+       id="path836" />
+  </g>
   <image
      width="2018.57"
      height="2467.14"

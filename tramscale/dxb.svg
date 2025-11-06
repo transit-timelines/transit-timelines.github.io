@@ -15,7 +15,15 @@
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs6" /><image
+     id="defs6" /><g
+     id="rt"
+     style="opacity:0.25"><path
+       id="path819"
+       d="m 3672.5,-1808 -152,-81 H 3482 l -183,-97.25 -24,-25.25 -96.25,-57.5 -26.25,-9.5 -56.75,-32.5 -30.25,-2 -16.25,-6.5 H 3032 l -25,8.75 -71.5,5.25 -18.5,4.5 -29,-1 -29.5,-11.5 -25,-10 -11,-12.5 -3.5,-20 14,-74.5 -4,-26 -12,-18 -30,-18 -140.5,-77 h -17 l -18.12,4.5 -29.12,9.75 -21,61.62 -63.75,55.88 -22,29 -209.5,407.25 -10.25,10.25 -32.37,20.89 -197.28,319.61 -13.44,44.9 -44.19,55.15 -27.93,42.43 -31.47,30.05 -439.11,525.73 -32.17,41.01 -30.05,51.62 -186.32,330.93 -20.86,33.59 -14.85,20.15 -21.21,21.92 -145.31,119.5 -300.17,230.87 -174.3,159.45 -28.28,29.34 -135.06,120.21 -59.4,60.81 -55.15,48.08 -27.93,27.22 -29.7,35 -212.49,267.29 -19.09,19.09 -3.18,18.03 -3.18,16.26 -11.67,15.2 -27.22,17.32 -113.49,141.07 -16.26,30.41 -12.37,16.26 -23.33,14.85 -68.59,86.97 -41.37,68.24 -12.37,31.82 -27.58,67.88 -4.6,24.75 -48.44,306.18 -45.61,294.51 -9.19,35 -8.49,23.33"
+       style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /><path
+       style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -114.33,-324.93 18.44,45.87 4.73,31.21 11.35,16.55 397.19,330.99 6.62,8.98 7.57,19.39 4.73,8.98 32.63,14.19 32.15,27.42"
+       id="path878" /></g><image
      xlink:href="../timelines/basemap/dxbosm.png"
      width="4883.2"
      height="5493.6"
@@ -24,9 +32,6 @@
      x="-880.2"
      y="-2948.4"
      style="display:none" /><path
-     id="path819"
-     d="m 3672.5,-1808 -152,-81 H 3482 l -183,-97.25 -24,-25.25 -96.25,-57.5 -26.25,-9.5 -56.75,-32.5 -30.25,-2 -16.25,-6.5 H 3032 l -25,8.75 -71.5,5.25 -18.5,4.5 -29,-1 -29.5,-11.5 -25,-10 -11,-12.5 -3.5,-20 14,-74.5 -4,-26 -12,-18 -30,-18 -140.5,-77 h -17 l -18.12,4.5 -29.12,9.75 -21,61.62 -63.75,55.88 -22,29 -209.5,407.25 -10.25,10.25 -32.37,20.89 -197.28,319.61 -13.44,44.9 -44.19,55.15 -27.93,42.43 -31.47,30.05 -439.11,525.73 -32.17,41.01 -30.05,51.62 -186.32,330.93 -20.86,33.59 -14.85,20.15 -21.21,21.92 -145.31,119.5 -300.17,230.87 -174.3,159.45 -28.28,29.34 -135.06,120.21 -59.4,60.81 -55.15,48.08 -27.93,27.22 -29.7,35 -212.49,267.29 -19.09,19.09 -3.18,18.03 -3.18,16.26 -11.67,15.2 -27.22,17.32 -113.49,141.07 -16.26,30.41 -12.37,16.26 -23.33,14.85 -68.59,86.97 -41.37,68.24 -12.37,31.82 -27.58,67.88 -4.6,24.75 -48.44,306.18 -45.61,294.51 -9.19,35 -8.49,23.33"
-     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /><path
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ec6906;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 136.75,643.21 3.31,-0.47 73.76,-92.91 17.5,-20.8 61.47,-59.58 19.39,-13.95 12.06,-12.06 5.2,-16.08 1.18,-18.2 -4.49,-12.29 -9.69,-13.95 -3.31,-0.71"
      id="path822" /><path
@@ -35,7 +40,4 @@
      id="path824" /><path
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ec6906;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 136.75,643.21 -4.26,0.71 -8.75,12.77 h -4.96 l -48.47,-42.32 -0.47,-5.67 4.49,-9.22 0.47,-16.08 8.75,-13.95 4.49,-5.67 10.64,-5.67 17.02,-2.84 7.33,-3.55 7.09,-9.46 7.33,-21.04 7.8,-10.88 10.88,-10.64 21.28,-13 h 5.44 l 43.74,39.01 7.09,0.24"
-     id="path826" /><path
-     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m -114.33,-324.93 18.44,45.87 4.73,31.21 11.35,16.55 397.19,330.99 6.62,8.98 7.57,19.39 4.73,8.98 32.63,14.19 32.15,27.42"
-     id="path878" /></svg>
+     id="path826" /></svg>

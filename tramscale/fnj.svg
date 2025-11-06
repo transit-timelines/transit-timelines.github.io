@@ -33,14 +33,18 @@
      x="-99.29"
      y="-572.14"
      style="display:none" />
-  <path
-     id="path4506"
-     d="m 1291.95,-121.46 -37.11,129.03 -3.23,23.81 12.5,229.12 3.8,30.5 23.8,76.6 3.62,22.24 -3.43,24.89 -45.43,129.1 -18.74,89.65 -11.82,24.76 -116.94,98.13 -13.27,5.6 -30.99,-2.72 -70.01,-7.41 -10.61,1.93 -53.14,29.76 -13.45,2.6 -86.32,-16.77"
-     style="fill:none;fill-rule:evenodd;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="path4508"
-     d="m 620.92,338.81 32.11,13.02 241.34,118.05 15.15,0.35 12.2,-5.61 91.18,-82.74 4.71,-10.77 13.76,-70.8 49.9,-116.07 29.53,-50.62 75.69,-86.06 27.12,-21.15 83.69,-22.58 136.7,-70.77 199.02,-73.57 216.93,-42.32 162.58,-16.39"
-     style="fill:none;fill-rule:evenodd;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       id="path4506"
+       d="m 1291.95,-121.46 -37.11,129.03 -3.23,23.81 12.5,229.12 3.8,30.5 23.8,76.6 3.62,22.24 -3.43,24.89 -45.43,129.1 -18.74,89.65 -11.82,24.76 -116.94,98.13 -13.27,5.6 -30.99,-2.72 -70.01,-7.41 -10.61,1.93 -53.14,29.76 -13.45,2.6 -86.32,-16.77"
+       style="fill:none;fill-rule:evenodd;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path4508"
+       d="m 620.92,338.81 32.11,13.02 241.34,118.05 15.15,0.35 12.2,-5.61 91.18,-82.74 4.71,-10.77 13.76,-70.8 49.9,-116.07 29.53,-50.62 75.69,-86.06 27.12,-21.15 83.69,-22.58 136.7,-70.77 199.02,-73.57 216.93,-42.32 162.58,-16.39"
+       style="fill:none;fill-rule:evenodd;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
   <path
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#800080;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1607.57,331.37 -63.67,-12.64 -135.3,602.05 -94.1,272.94 -9.83,19.19 -12.64,14.98 -16.85,13.11 h -14.98 l -25.75,7.49 -16.85,0.47 -522.93,-14.51 -0.47,14.51 527.15,14.98 23.41,-3.75 15.45,-5.62 15.45,-14.04"

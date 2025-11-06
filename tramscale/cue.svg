@@ -25,8 +25,6 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
     <image
        xlink:href="basemap/cueosm.png"
        y="0"
@@ -44,5 +42,4 @@
        style="fill:none;stroke:#d50613;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
        d="m 286.76,216.02 5.24,-18.7 12.54,-9.71 10.42,-2.1 8.9,9.01 17.24,2.52 66.35,26.5 240.96,60.97 3.34,-15.95 58.79,11.15"
        id="path857" />
-  </g>
 </svg>

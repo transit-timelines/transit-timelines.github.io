@@ -24,6 +24,14 @@
   </metadata>
   <defs
      id="defs6" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2987"
+       d="m -1336,1434 34,17 32,9 55,13 24,15 29,24 19,31 10,33 3,100 11,30 60,69 21,25 21,47 17,64 21,30 81,57 42,23 23,3 h 57 l 36,5 49,26 56,65 12,34 6,43 12,23 28,13 128,47 81,60 81,58 48,31 131,52 33,28 46,41 40,17 18,20 21,76 2,33 -3,42 2,15 11,6 128,52 198,213 16,14 18,7 h 89 l 11,8 31,33 3,12 6,147 8,8 167,-7 21,-5 63,-23 31,-17 26,-20 -2,-67" />
+  </g>
   <image
      xlink:href="../timelines/basemap/bwiosm.png"
      id="image10"
@@ -32,10 +40,6 @@
      y="-49"
      x="-1500"
      style="display:none" />
-  <path
-     style="fill:none;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path2987"
-     d="m -1336,1434 34,17 32,9 55,13 24,15 29,24 19,31 10,33 3,100 11,30 60,69 21,25 21,47 17,64 21,30 81,57 42,23 23,3 h 57 l 36,5 49,26 56,65 12,34 6,43 12,23 28,13 128,47 81,60 81,58 48,31 131,52 33,28 46,41 40,17 18,20 21,76 2,33 -3,42 2,15 11,6 128,52 198,213 16,14 18,7 h 89 l 11,8 31,33 3,12 6,147 8,8 167,-7 21,-5 63,-23 31,-17 26,-20 -2,-67" />
   <path
      style="fill:none;stroke:#007499;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3757"

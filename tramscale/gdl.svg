@@ -24,14 +24,18 @@
   </metadata>
   <defs
      id="defs6" />
-  <path
-     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 575.03,711.02 208.34,-5.22 151.39,42.71 381.56,121.97 40.34,1.9 176.54,27.53 h 33.22 l 89.22,14.71 28.95,22.31 9.49,4.27 30.37,3.32"
-     id="path817" />
-  <path
-     id="path835"
-     d="m 1593.71,1509.41 -89.99,-33.24 -14.78,-8.91 -121.88,-189.09 -85.69,-160.09 -348.92,-235.28 -50.71,-33.55 -22.3,-21.99 -117.58,-45.19 -41.82,-24.73 -6.75,-9.81 -2.67,-14.37 -16.56,-317.93 -3.11,-13.16 -10.13,-12.71 -525.22,-357.98 -11.35,-12.46 -12.61,-31.07 v -13.11 l 17.49,-73.06 -0.67,-7.38 -7.31,-7.53 -50.28,-5.75 -6.71,-4.07 -243.77,-189.52"
-     style="fill:none;stroke:#f2f2f2;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 575.03,711.02 208.34,-5.22 151.39,42.71 381.56,121.97 40.34,1.9 176.54,27.53 h 33.22 l 89.22,14.71 28.95,22.31 9.49,4.27 30.37,3.32"
+       id="path817" />
+    <path
+       id="path835"
+       d="m 1593.71,1509.41 -89.99,-33.24 -14.78,-8.91 -121.88,-189.09 -85.69,-160.09 -348.92,-235.28 -50.71,-33.55 -22.3,-21.99 -117.58,-45.19 -41.82,-24.73 -6.75,-9.81 -2.67,-14.37 -16.56,-317.93 -3.11,-13.16 -10.13,-12.71 -525.22,-357.98 -11.35,-12.46 -12.61,-31.07 v -13.11 l 17.49,-73.06 -0.67,-7.38 -7.31,-7.53 -50.28,-5.75 -6.71,-4.07 -243.77,-189.52"
+       style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
   <image
      xlink:href="../timelines/basemap/gdlosm.png"
      y="-852.5"

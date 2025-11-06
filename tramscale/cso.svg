@@ -24,6 +24,14 @@
   </metadata>
   <defs
      id="defs6" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linejoin:round"
+       d="m 620.45,1255.41 -28.51,174.93 -2.7,33.06 2.02,33.91 9.95,28.85 47.07,81.82"
+       id="path1" />
+  </g>
   <image
      xlink:href="basemap/csoosm.png"
      y="-225"
@@ -33,10 +41,6 @@
      height="2900"
      width="1450"
      style="display:none" />
-  <path
-     style="fill:none;stroke:#f2f2f2;stroke-width:8;stroke-linejoin:round"
-     d="m 620.45,1255.41 -28.51,174.93 -2.7,33.06 2.02,33.91 9.95,28.85 47.07,81.82"
-     id="path1" />
   <path
      id="path838"
      d="m 409.67,1282.02 -9.4,-43.96 -5.7,-49.67 -5.03,-10.74 -1.01,-22.15"

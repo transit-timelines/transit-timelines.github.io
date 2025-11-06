@@ -25,8 +25,6 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
     <image
        xlink:href="basemap/baxosm.png"
        y="-30"
@@ -80,5 +78,4 @@
        style="fill:none;stroke:#2d5c88;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 1339.27,486.42 82.76,-75.67 81.54,-66.07"
        id="path875" />
-  </g>
 </svg>
