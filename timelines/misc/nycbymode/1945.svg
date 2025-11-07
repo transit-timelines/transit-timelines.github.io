@@ -34,7 +34,7 @@
        height="8448"
        width="7168"
        y="-2048"
-       x="-1280" />
+       x="-3072" />
     <image
        xlink:href="railosm.png"
        style="opacity:0.5"
@@ -42,7 +42,7 @@
        height="8448"
        preserveAspectRatio="none"
        id="image1296"
-       x="-1280"
+       x="-3072"
        y="-2048" />
   </g>
   <path

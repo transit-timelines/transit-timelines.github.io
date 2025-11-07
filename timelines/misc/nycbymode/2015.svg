@@ -38,7 +38,7 @@
        height="8448"
        width="7168"
        y="-2048"
-       x="-1280" />
+       x="-3072" />
     <image
        xlink:href="railosm.png"
        style="opacity:0.5"
@@ -46,7 +46,7 @@
        height="8448"
        preserveAspectRatio="none"
        id="image1296"
-       x="-1280"
+       x="-3072"
        y="-2048" />
   </g>
   <path
@@ -503,4 +503,9 @@
      style="fill:none;stroke:#006600;stroke-width:3;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      d="m -912.57,2611.42 51.39,-8.3"
      id="path3840" />
+
+  <path
+     style="fill:none;stroke:#800080;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path5582"
+     d="m 972.89,2347.99 120.01,56.6" />
 </svg>

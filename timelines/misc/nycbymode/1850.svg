@@ -30,7 +30,7 @@
      id="g1301">
     <image
        xlink:href="../../basemap/nycosm.png"
-       x="-1280"
+       x="-3072"
        y="-2048"
        width="7168"
        height="8448"
@@ -39,7 +39,7 @@
     <image
        xlink:href="railosm.png"
        y="-2048"
-       x="-1280"
+       x="-3072"
        id="image1296"
        preserveAspectRatio="none"
        height="8448"
