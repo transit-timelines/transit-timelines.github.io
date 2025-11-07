@@ -1,22 +1,22 @@
 check Huangshi gradesep
 use Mengzi IATA code when assigned
-metro background LED LUX MAD QUL SHE SYD WUH
+metro background MAD QUL SHE SYD WUH
 
 
 check construction status:
-Aarhus L2 (Lisbjergskolen)
+Aarhus L2(Lisbjergskolen)
 Antwerpen 2/4 11 12
 Beograd 2/11 3 7/9
 Berlin U6 Köpenick
-Bielefeld U1 (Senne)
+Bielefeld U1(Senne)
 Bruxelles 3 51 55 62 81 82/97
 Bucuresti 5 16 24 45
 Bydgoszcz 6
 Cottbus 1
-Denver E H L
+Denver D/H/L
 Dnipro 1 6 9
 Dresden 6/9 12
-Gdansk 8 (bridge closed until 2027)
+Gdansk 8(bridge closed until 2027)
 Gent T4
 Halle 1
 Heilbronn S4
@@ -25,7 +25,9 @@ Katowice 9 10/11/19/20 14 22
 Kraków 5 6/20
 Kursk 2 3 4 8
 Kyiv 14/18
-Łodź 6/7 9/13 etc
+Lipetsk all
+Lisboa funiculars
+Łodź 1 4/9
 Magdeburg 10
 Mannheim all
 Milano 2
@@ -42,7 +44,7 @@ Perm 2/11/12
 Poznan 10/11/12/19
 Praha 1/6/14/25 19 etc
 Rostock 2/3/4
-Sankt-Peterburg headways 10 16 40 41 61
+Sankt-Peterburg 3 40(headways)
 Saratov 2 3 5
 Szczecin Pomorzany
 Toronto 501
