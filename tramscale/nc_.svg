@@ -25,8 +25,6 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
     <image
        xlink:href="basemap/nc_osm.png"
        y="-1125"
@@ -40,5 +38,4 @@
        style="fill:none;stroke:#088a4b;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
        d="m 71.09,59.3 0.15,52.52 27.51,50.28 1.98,7.53 26.81,48.98 82.82,-44.89 27.45,53.05 24.77,-11.46 45.56,89.04"
        id="path855" />
-  </g>
 </svg>

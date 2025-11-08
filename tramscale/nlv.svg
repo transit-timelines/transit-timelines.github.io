@@ -25,8 +25,6 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
     <image
        xlink:href="basemap/nlvosm.png"
        style="display:none"
@@ -52,5 +50,4 @@
        style="opacity:1;fill:none;stroke:#da1b16;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
        d="m 704.79,196.03 26.59,21.63 -33.49,41.89 -12.56,-10.41"
        id="path897" />
-  </g>
 </svg>
