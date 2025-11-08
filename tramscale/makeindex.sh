@@ -12,7 +12,7 @@ span {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.map {
+.map, .bgmap {
     border: 1px solid;
     margin-left: 10px;
     margin-right: 10px;
@@ -62,6 +62,7 @@ function toggleshow(x) {
         for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = false; }
     } else {
         span.style.display = 'inline-block';
+        for (bgimg of span.getElementsByClassName("bgmap")) { bgimg.src = x.toLowerCase() + "-bg.png"; }
         for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = true; }
     }
 }
@@ -115,6 +116,23 @@ function togglesidebar() {
         m.style.paddingLeft = "calc(10.5em + 22px)";
     }
 }
+function showbg() { 
+    for (bgimg of document.getElementsByClassName("bgmap")) {
+        bgimg.style.display = 'inline-block';
+        bgimg.src = bgimg.parentElement.id.toLowerCase() + "-bg.png";
+    }   
+    bgbutton = document.getElementById("bgbutton");
+    bgbutton.onclick = hidebg;
+    bgbutton.innterText = "click here to hide labels and waterlines";
+}           
+function hidebg() {
+    for (bgimg of document.getElementsByClassName("bgmap")) {
+        bgimg.style.display = 'none';
+    }
+    bgbutton = document.getElementById("bgbutton");
+    bgbutton.onclick = showbg;
+    bgbutton.innterText = "click here to show labels and waterlines";
+}
 window.onhashchange=function() {
     location.hash.split("#").forEach(function(x) {
         if (x == "showall") {
@@ -144,6 +162,9 @@ for city in $CITIES; do
         echo '<span id="'$UPPER'" style="display: inline-block; vertical-align: middle">'$NAME'<br>'
     else
         echo '<span id="'$UPPER'" style="display: none; vertical-align: middle">'$NAME'<br>'
+    fi
+    if [ -f ${city}-bg.png ]; then
+        echo '    <img class="bgmap" src="data:" style="position:absolute; z-index: -1; display:none" width="'$W'" height="'$H'">'
     fi
     echo '    <img class="map" src="'${city}.svg'" title="'$SNAME'" alt="'$SNAME' map" width="'$W'" height="'$H'"></span>'
 done
@@ -183,6 +204,7 @@ cat <<HEREDOC
 <br>
 <div class="headerfooter">
 <div style="white-space: normal;">
+<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show labels and waterlines</a><p>
 Thick lines represent running in streets or with uncontrolled or light-controlled grade crossings; thin lines represent thru-running onto sections with grade-separations or crossing gates.<br>Other frequent local rail/fixed-guideway transit lines are shown in light gray, ferries in cyan.<br>All lines shown run at least every 20 minutes during the day on weekdays as of 2024.<br>
 Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (30 CSS pixels per km)</div>
 <p>
@@ -190,4 +212,4 @@ Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
 See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines/misc/">miscellaneous timelines and maps</a>
 HEREDOC
-sed -e's!</div>!</div></div>!' ../scripts/template/part4
+sed -e's!</div>!</div></div>!; s/image/images/;' ../scripts/template/part4b

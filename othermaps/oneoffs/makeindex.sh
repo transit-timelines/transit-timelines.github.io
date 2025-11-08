@@ -26,7 +26,7 @@ function showbg() {
     }
     bgbutton = document.getElementById("bgbutton");
     bgbutton.onclick = hidebg;
-    bgbutton.innterText = "click here to hide present-day labels and waterlines";
+    bgbutton.innerText = "click here to hide present-day labels and waterlines";
 }
 function hidebg() {
     for (bgimg of document.getElementsByClassName("bgmap")) {
@@ -34,7 +34,7 @@ function hidebg() {
     }
     bgbutton = document.getElementById("bgbutton");
     bgbutton.onclick = showbg;
-    bgbutton.innterText = "click here to show present-day labels and waterlines";
+    bgbutton.innerText = "click here to show present-day labels and waterlines";
 }
 </script>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
