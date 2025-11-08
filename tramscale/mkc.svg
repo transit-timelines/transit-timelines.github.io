@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 225 500"
-   height="500"
+   viewBox="0 0 225 1275"
+   height="1275"
    width="225"
    version="1.1"
    id="svg2"
@@ -19,7 +19,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -28,14 +27,14 @@
   <image
      xlink:href="basemap/mkcosm.png"
      width="1308.75"
-     height="1047"
+     height="1832.25"
      preserveAspectRatio="none"
      id="image10"
-     x="-1046.75"
+     x="-1036.75"
      y="-507"
      style="display:none" />
   <path
      id="path4138"
-     d="m 98.33,94.59 2.17,-2.44 38.74,-9.75 2.17,-1.35 -5.69,-23.03 -2.17,-0.54 -41.72,11.11 -0.54,2.71 8.94,30.34 9.75,27.91 -0.81,98.35 -4.06,65.29 -6.23,147.93 -2.98,3.52"
+     d="m 108.33,94.59 2.17,-2.44 38.74,-9.75 2.17,-1.35 -5.69,-23.03 -2.17,-0.54 -41.72,11.11 -0.54,2.71 8.94,30.34 9.75,27.91 -0.81,98.35 -4.06,65.29 -6.23,147.93 -5.2,102.07 -4.69,14.74 -8.45,180.86 -8.68,198.43 -6.45,150.83 1.56,12.68 8.01,23.36 10.46,22.91 7.34,14.46 3.11,13.12 1.33,8.9 -0.22,24.25"
      style="fill:none;fill-rule:evenodd;stroke:#0081d6;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>

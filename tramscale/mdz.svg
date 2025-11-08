@@ -26,12 +26,12 @@
      id="defs6" />
   <image
      y="-168"
-     x="-50"
+     x="-333.5"
      id="image10"
-     xlink:href="basemap/mdzosm.png"
+     xlink:href="../timelines/basemap/mdzosm.png"
      preserveAspectRatio="none"
      height="2268"
-     width="1134"
+     width="1701"
      style="display:none" />
   <path
      id="path836"
