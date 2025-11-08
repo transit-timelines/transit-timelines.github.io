@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="725"
+   width="850"
    height="1075"
-   viewBox="0 0 725 1075"
+   viewBox="0 0 850 1075"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -28,13 +28,21 @@
      xlink:href="basemap/ozhosm.png"
      style="display:none"
      y="-650"
-     x="-335"
+     x="-340"
      id="image12"
      preserveAspectRatio="none"
      height="1832"
-     width="1603" />
+     width="1832" />
   <path
      style="opacity:1;fill:none;stroke:#244082;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 95.62,61.56 -6.48,14.55 8.82,59.97 12.45,57.91 7.53,16.84 -55.74,71.7 42.88,34.69 7.58,14.12 18.92,34.49 17.39,13.05 26.01,14.87 36.72,8.66 111.41,75.76 8.71,0.01 14.52,-3.08 4.63,-2.96 12.03,-9.11 5.35,-1.63 9.68,0.28 7.05,3.71 179.6,224.09 52.86,67.75 40.98,46.68 -0.52,10.85 -18.85,64.89 -7.96,36.3 2.37,35.78 31.12,62.58"
+     d="m 659.68,1014.31 -31.12,-62.58 -2.37,-35.78 7.96,-36.3 18.85,-64.89 0.52,-10.85 -40.98,-46.68 -52.86,-67.75 -179.6,-224.09 -7.05,-3.71 -9.68,-0.28 -5.35,1.63 -12.03,9.11 -4.63,2.96 -14.52,3.08 -8.71,-0.01 -111.41,-75.76 -36.72,-8.66 -26.01,-14.87 -17.39,-13.05 -18.92,-34.49 -7.58,-14.12 -42.88,-34.69 55.74,-71.7 -7.53,-16.84 -12.45,-57.91 -8.82,-59.97 6.48,-14.55"
      id="path855" />
+  <path
+     style="opacity:1;fill:none;stroke:#244082;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 653.52,803.91 9.81,2.44 20.52,-27.56 31.29,-31.71 16.37,3.11 4.35,-2.9 12.02,-57.4 36.47,-190.03 10.84,-49.9"
+     id="path1" />
+  <path
+     style="opacity:1;fill:none;stroke:#244082;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 559.68,689.48 61.59,-46.64 87.91,110.28"
+     id="path2" />
 </svg>
