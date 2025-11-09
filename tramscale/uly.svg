@@ -12,8 +12,6 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs6" />
-  <g
-     id="g8">
     <image
        width="1771"
        height="2164.56"
@@ -59,5 +57,4 @@
        style="fill:none;stroke:#ef0000;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
        d="m 935.15,310.14 66.3,120.84 -2.65,31.74 v 16.08 l 10.75,87.15 68.28,9.71 0.98,4.92 -69.86,107.15 -11.34,8.55 14.16,23.5 5.23,24.92"
        id="path1228" />
-  </g>
 </svg>

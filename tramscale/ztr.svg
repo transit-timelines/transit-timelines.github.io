@@ -25,8 +25,6 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
     <image
        xlink:href="basemap/ztrosm.png"
        style="display:none"
@@ -40,5 +38,4 @@
        style="opacity:1;fill:none;stroke:#ad140a;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
        d="m 65.71,128.53 4.53,-1.96 -9.66,-20.44 79.29,-39.56 54.68,110.55 3.6,1.12 134.43,-69 3.39,0.95 43.67,89.04 31.71,-0.9 92.56,3.54 54.91,0.2 56.12,8.81 12.58,8.68 52.73,19.99 55.58,2.56 2.1,3.69 -0.16,72.63"
        id="path855" />
-  </g>
 </svg>

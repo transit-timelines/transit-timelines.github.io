@@ -25,8 +25,6 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
     <image
        xlink:href="basemap/yp_osm.png"
        style="display:none"
@@ -44,5 +42,4 @@
        style="opacity:1;fill:none;stroke:#ab0000;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
        d="m 257.69,308.26 33.57,150.07"
        id="path857" />
-  </g>
 </svg>

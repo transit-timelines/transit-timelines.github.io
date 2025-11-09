@@ -25,8 +25,6 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
     <image
        xlink:href="basemap/vinosm.png"
        style="display:none"
@@ -48,5 +46,4 @@
        style="opacity:1;fill:none;stroke:#38b1eb;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 1090.3,104.92 4.99,-5.48 143.59,-8.84 4.79,3.74"
        id="path859" />
-  </g>
 </svg>
