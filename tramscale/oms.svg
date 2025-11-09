@@ -25,8 +25,6 @@
   </metadata>
   <defs
      id="defs6" />
-  <g
-     id="g10">
     <image
        xlink:href="basemap/omsosm.png"
        y="-130"
@@ -48,5 +46,4 @@
        style="fill:none;stroke:#1e90ff;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
        d="m 803.55,1530.16 46.04,-8.84 3.91,1.18 2.7,3.68 8.95,23.49 4.04,2.47 35.77,-5.77 11.02,-4.72 7.69,-0.69 5.8,0.12 40.8,-7.19 10.51,6.77 1.18,14.46 -6.35,0.4 -1.94,-33.92 -6.9,-111.54 -16.65,-151.36 -11.62,-122.01"
        id="path859" />
-  </g>
 </svg>

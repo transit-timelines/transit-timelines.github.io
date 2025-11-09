@@ -26,12 +26,12 @@
      id="defs6" />
   <image
      xlink:href="../timelines/basemap/pozosm.png"
-     y="-22"
-     x="35"
+     y="-227.88"
+     x="-170.88"
      id="image10"
      preserveAspectRatio="none"
-     height="1647"
-     width="1647"
+     height="2058.75"
+     width="2058.75"
      style="display:none" />
   <path
      id="path836"
@@ -157,4 +157,12 @@
      style="fill:none;stroke:#00a0d8;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
      d="m 881.64,919.28 3.67,-4.25"
      id="path46715" />
+  <path
+     style="opacity:1;fill:none;stroke:#00a0d8;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 750.46,1033.63 1.12,-4.84 27.48,-25.74 4.8,-14.83 10.73,-44.97"
+     id="path1" />
+  <path
+     style="opacity:1;fill:none;stroke:#00a0d8;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 746.23,1033.81 5.35,-5.02"
+     id="path2" />
 </svg>
