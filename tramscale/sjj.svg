@@ -24,9 +24,17 @@
   </metadata>
   <defs
      id="defs6" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       id="path864"
+       d="m 1458.32,133.36 167.4,240.46"
+       style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
   <image
      xlink:href="basemap/sjjosm.png"
-     width="1460"
+     width="1703.33"
      height="730"
      preserveAspectRatio="none"
      id="image10"
@@ -37,8 +45,4 @@
      id="path836"
      d="m 67.59,516.49 -5.18,-7.48 1.44,-16.97 33.37,-24.45 15.53,-13.52 26.46,-26.17 12.94,-13.23 34.52,-29.34 18.98,-24.74 13.81,-11.22 14.96,-7.48 145.26,-42.57 258.87,-55.23 79.39,-15.53 55.23,-12.94 51.2,-14.09 16.11,-7.77 23.59,-3.16 104.41,-27.33 16.68,-6.33 33.37,-16.97 14.96,-4.89 27.61,-1.73 51.49,-1.29 13.81,-1.01 30.32,-1.69 44.04,1.12 20.71,-9.92 126.56,-5.32 8.49,-3.31 29.77,-11.79 27.33,-7.62 30.2,-8.77 3.45,-2.44 v -2.88 l -1.29,-1.01 -6.76,-3.88 -11.22,-3.16 -11.07,-6.9 -37.11,1.29 -15.68,2.59 -45.59,11.36 -7.91,3.45 -10.64,0.43 -59.68,-1.58 -31.64,10.21 -5.21,7.66 -32.57,23.12 -14.17,7.37"
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#323cbe;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="path864"
-     d="m 1458.32,133.36 167.4,240.46"
-     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>

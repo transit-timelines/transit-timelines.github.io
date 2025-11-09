@@ -24,17 +24,21 @@
   </metadata>
   <defs
      id="defs6" />
-  <path
-     d="m 1681,149 -36.5,16.5 -186,106 -11.54,8.48 -30.46,30.52 -89,89.5 -182,180.5 -6.5,15 -2.5,23 1,30 6.5,88 15.5,201.5 3,45.5 -3.5,13.5 -48,92 -35.5,31.5 -46.5,45.5 -38.5,37.5 -19,18.5 -30.5,23.5 -30,23 -31.5,17 -25,15.5 -17.5,15.5 -13.5,19.5 -10,21 -8.5,35 -3.5,33.5 -4.5,39 -7,17.5 -12,18.5 -53.5,55 -15,10 -20,8.5 -59.5,1 -26.5,-0.5 -14,3.5 -11.5,8.5 -13,16.5 -38,59 -7.5,16 -1.5,16.5 v 16.5"
-     id="path3610"
-     style="fill:none;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       d="m 1681,149 -36.5,16.5 -186,106 -11.54,8.48 -30.46,30.52 -89,89.5 -182,180.5 -6.5,15 -2.5,23 1,30 6.5,88 15.5,201.5 3,45.5 -3.5,13.5 -48,92 -11.88,20.7 -21.98,23.23 -86.63,70.56 -19,18.5 -30.5,23.5 -30,23 -31.5,17 -25,15.5 -17.5,15.5 -13.5,19.5 -10,21 -8.5,35 -3.5,33.5 -4.5,39 -7,17.5 -12,18.5 -53.5,55 -15,10 -20,8.5 -59.5,1 -26.5,-0.5 -14,3.5 -11.5,8.5 -13,16.5 -38,59 -7.5,16 -1.5,16.5 v 16.5"
+       id="path3610"
+       style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
   <image
      xlink:href="../timelines/basemap/sfoosm.png"
      style="display:none"
-     x="-70"
-     y="-3362"
-     width="9078"
-     height="12282"
+     x="-604"
+     y="-3629"
+     width="9879"
+     height="12816"
      id="image12" />
   <path
      d="M 1061.5,660.5 1033,661"
@@ -53,7 +57,7 @@
      id="path3606"
      style="fill:none;stroke:#cc0033;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     d="m 1500.16,329.27 -6.72,-15.61 -5.19,-7.07 -18.72,-19.25 L 1460,286 l -16,2.5 -12.5,5.7 -56.55,57 -46.08,46.08 -62.03,62.65 -58.34,57.63 -64.48,64.57 -41.02,40.64 -74.2,74.04 -64.97,66.13 L 936.5,777.5 l -22.5,5 -14,6.5 -28.5,21.5 -137,122.5 -35,29.5 -38,36.5 -25,25.5 -29.5,42.5 -23.5,31.5"
+     d="m 1500.16,329.27 -6.72,-15.61 -5.19,-7.07 -18.72,-19.25 -9.53,-1.34 -16,2.5 -12.5,5.7 -56.55,57 -46.08,46.08 -62.03,62.65 -58.34,57.63 -64.48,64.57 -41.02,40.64 -74.2,74.04 -64.97,66.13 -27.33,14.56 -22.5,5 -14,6.5 -28.5,21.5 -137,122.5 -35,29.5 -37.68,31.73 -27.54,30.27 -27.27,42.5 -23.5,31.5"
      id="path2818"
      style="fill:none;stroke:#cc0033;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
@@ -120,4 +124,8 @@
      d="m 1426,289.75 -311,50.5"
      id="path3780"
      style="fill:none;stroke:#560c04;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;stroke:#d31345;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none"
+     id="path3592"
+     d="m 584.5,1097.5 -5,2.5 -9.5,-6.5 -9,-2.5 -38,3 -4.5,-0.5 -2,-3.5 -1.5,-21 -2.5,-3.5 -152,8 -246.5,14 -2.5,3.5 4,80 -2,3 -8,0.5 -2.5,-2.5 -1.5,-23.5 2.5,-3 7.5,-0.5 2,-2.5" />
 </svg>

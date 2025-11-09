@@ -27,30 +27,30 @@
   <image
      xlink:href="../timelines/basemap/sv_osm.png"
      y="-100"
-     x="-70"
+     x="-266.37"
      id="image12"
-     style="display:none"
+     style="display:none;image-rendering:optimizeSpeed"
      preserveAspectRatio="none"
-     height="1208.2"
-     width="604.1" />
+     height="1409.57"
+     width="805.47" />
   <path
-     style="fill:none;stroke:#ff9900;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 57.77,1067.76 2.75,1.37 33.27,-11.6 184.74,-2.53 28.73,2.25 7.16,-2.77 4.68,-5.55 1.8,-6.76 2.39,-68.05 -1.83,-3.37 -7.1,-7.02 -0.95,-5.79 1.75,-39.36 2.03,-52.85"
+     style="fill:none;stroke:#ff9900;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 62.77,1067.76 2.75,1.37 33.27,-11.6 184.74,-2.53 28.73,2.25 7.16,-2.77 4.68,-5.55 1.8,-6.76 2.39,-68.05 -1.83,-3.37 -7.1,-7.02 -0.95,-5.79 1.75,-39.36 2.03,-52.85"
      id="path855" />
   <path
      style="fill:none;stroke:#ff9900;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 317.18,865.74 4.5,-87.38 0.3,-42.25 -1.44,-74.17 -2.17,-117.75 -0.51,-35.91"
+     d="m 322.18,865.74 4.5,-87.38 0.3,-42.25 -1.44,-74.17 -2.17,-117.75 -0.51,-35.91"
      id="path857" />
   <path
      style="fill:none;stroke:#ff9900;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 317.85,508.29 0.4,-28.32 2.86,-27.59 4.22,-10.37 5.28,-11.61 0.8,-6.87 -1.71,-8.38 -7.09,-10.76 -5.74,-5.11 -7.79,-2.87 -7.41,-1.15 -25.15,-0.37 -8.12,-2.07 -7.43,-4.4 -4.69,-4.62 -3.25,-5.68 -2.3,-8.56 -0.27,-16.05 -1.02,-38.24"
+     d="m 322.85,508.29 0.4,-28.32 2.86,-27.59 4.22,-10.37 5.28,-11.61 0.8,-6.87 -1.71,-8.38 -7.09,-10.76 -5.74,-5.11 -7.79,-2.87 -7.41,-1.15 -25.15,-0.37 -8.12,-2.07 -7.43,-4.4 -4.69,-4.62 -3.25,-5.68 -2.3,-8.56 -0.27,-16.05 -1.02,-38.24"
      id="path859" />
   <path
      style="fill:none;stroke:#ff9900;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 249.45,315.28 -3.3,-154.12 -1.82,-6.74 -4.19,-6.59 -29.13,-27.92 -3.71,-6.43 -1.58,-7.2 -0.48,-7.39 -0.97,-47.84"
+     d="m 254.45,315.28 -3.3,-154.12 -1.82,-6.74 -4.19,-6.59 -29.13,-27.92 -3.71,-6.43 -1.58,-7.2 -0.48,-7.39 -0.97,-47.84"
      id="path861" />
   <path
      style="fill:none;stroke:#ff9900;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 57.77,1067.76 -1.86,-1.38 -2.51,-7.05"
+     d="m 62.77,1067.76 -1.86,-1.38 -2.51,-7.05"
      id="path863" />
 </svg>

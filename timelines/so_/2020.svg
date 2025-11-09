@@ -29,12 +29,12 @@
      
     <image
        xlink:href="../basemap/so_osm.png"
-       y="0"
+       y="-211"
        x="-100"
        id="image12"
        style="display:none"
        preserveAspectRatio="none"
-       height="2954"
+       height="3165"
        width="1266" />
     <path
        style="fill:none;stroke:#cc6601;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"

@@ -24,13 +24,21 @@
   </metadata>
   <defs
      id="defs6" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       id="path835"
+       d="m 1647.36,928.98 -14.92,44.75"
+       style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
   <image
-     y="-169.29"
+     y="-422.86"
      x="-160"
      id="image10"
      xlink:href="../timelines/basemap/szfosm.png"
      preserveAspectRatio="none"
-     height="2789.29"
+     height="3042.86"
      width="3550"
      style="display:none" />
   <path
@@ -65,10 +73,6 @@
      id="path833"
      d="M 534.68,234.68 522,184.71 l -12.68,-22 -14.54,-22 -10.44,-11.56 -29.83,-50.71 -14.92,-10.81 -6.71,-1.49 -14.92,3.36 -20.88,14.17 -63.76,59.66 -24.61,24.98 -3.73,9.69 -1.12,18.64 5.97,18.27 0.37,5.97 -13.42,7.08 -70.47,3.36 -42.88,-8.2 -16.03,2.98 -48.1,29.83 -24.61,5.97 -9.32,-1.49 -16.78,-17.15 0.37,-11.56 12.68,-14.54 33.56,-29.08 35.05,-17.9 34.31,-6.71"
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#e65100;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="path835"
-     d="m 1647.36,928.98 -14.92,44.75"
-     style="opacity:1;fill:none;fill-rule:nonzero;stroke:#f2f2f2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path817"
      d="m 1334.88,888.34 22.75,-4.1 39.53,8.2 66.37,27.59 25.73,7.46 h 40.27 l 34.31,2.61 67.49,17.15 87.25,30.2 28.34,19.76 27.22,25.36 13.05,18.27 2.61,45.86 -7.83,23.12 -44.75,86.88 -3.73,15.29 3.73,9.69 10.44,45.12 13.8,57.42"

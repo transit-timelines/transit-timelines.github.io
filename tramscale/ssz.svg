@@ -33,10 +33,14 @@
      x="-200"
      y="-102"
      style="display:none" />
-  <path
-     style="fill:none;stroke:#f2f2f2;stroke-linejoin:round;stroke-width:8;stroke-dasharray:none"
-     d="m 665.73,276.96 42.01,-81.45"
-     id="path353" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       style="fill:none;stroke:#cccccc;stroke-linejoin:round;stroke-width:8;stroke-dasharray:none"
+       d="m 665.73,276.96 42.01,-81.45"
+       id="path353" />
+  </g>
   <path
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#ed0316;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 58.84,123.48 24.67,-1.4 307.72,34.92 19.09,3.72 217.87,87.99 30.73,9.31 17.69,3.72 13.5,-2.33 20.95,-12.57 18.16,-6.98 18.62,-2.79 13.04,2.79 12.57,-0.93 22.81,-22.81 49.35,-10.71 27.93,-13.04 21.41,-11.17 55.4,-21.41 h 35.85 l 17.69,-4.66 160.15,-61.92 38.64,-17.69 20.48,-2.79 13.97,-0.47 155.03,12.1 16.29,-10.71 V 60.16"
