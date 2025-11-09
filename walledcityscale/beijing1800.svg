@@ -28,12 +28,12 @@
   <image
      style="display:none"
      width="6939.56"
-     height="6564.44"
+     height="6752"
      preserveAspectRatio="none"
      xlink:href="../timelines/basemap/bjsosm.png"
      id="image10"
      x="-3302.89"
-     y="-3264.44" />
+     y="-3452" />
   <path
      style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 60.27,600.02 -6.02,7.76 8.14,150.9 0.35,91.08 9.27,103.96 401.39,-37.61 232.38,-8.43 148.97,16.67 26.44,-83.24 -25.21,-160.82 -3.81,-98.9 -57.73,3.93 -21.29,-527.5 -525.34,11.06 -65.16,31.14 -73.76,24.59 10.91,468.82 z"

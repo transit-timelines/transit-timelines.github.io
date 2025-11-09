@@ -21,7 +21,7 @@ span {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.map {
+.map, .rtmap {
     border: 1px solid;
     margin-left: 10px;
     margin-right: 10px;
@@ -64,6 +64,9 @@ for city in $sortedcities; do
         echo '<span id="'$UPPER'" style="display: none; vertical-align: middle">'$NAME'<br>'
     else
         echo '<span id="'$UPPER'" style="display: inline-block; vertical-align: middle">'$NAME'<br>'
+    fi
+    if [ -f ${city}-rt.svg ]; then
+        echo '    <img class="rtmap" src="'${city}'-rt.svg" width="'$W'" height="'$H'" style="position: absolute; z-index: 2;">'
     fi
     echo '    <img class="map" src="'${city}'.svg" title="'$SNAME'" alt="'$SNAME' map" width="'$W'" height="'$H'"></span>'
 done

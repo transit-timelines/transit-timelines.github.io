@@ -30,12 +30,12 @@
     <image
        xlink:href="../timelines/basemap/naposm.png"
        style="display:none"
-       y="-1315"
-       x="-1690"
+       y="-1500"
+       x="-1875"
        id="image12"
        preserveAspectRatio="none"
-       height="2590"
-       width="3515" />
+       height="2775"
+       width="3885" />
     <path
        style="fill:#808080;stroke:none;stroke-width:2;stroke-linejoin:round"
        d="m 233.34,173.68 -10.97,-82.75 -18.95,-8.66 -1.36,-9.9 -44.62,-21.58 -4.79,0.51 -15.2,14.26 -32.76,16.21 -17.36,15.13 2.62,41.43 -11.08,0.13 6.49,25.77 -2.49,10.51 -10.92,4.98 -16.02,-1.05 -2.93,1.45 11.63,20.03 -4.48,52.54 27.96,3.19 2.41,9.22 16.62,8.51 z"
