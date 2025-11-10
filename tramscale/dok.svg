@@ -2,9 +2,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="2650"
+   width="3125"
    height="1725"
-   viewBox="0 0 2650 1725"
+   viewBox="0 0 3125 1725"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
@@ -61,4 +61,8 @@
      style="fill:none;stroke:#191516;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
      d="m 463.37,1323.56 120.51,40.46 6.48,-0.62 4.94,4.63 3.39,31.15 4.01,4.32 7.71,-0.31 33.31,-7.09 18.2,-8.02 4.94,1.54 6.17,14.5"
      id="path1" />
+  <path
+     style="opacity:1;fill:none;stroke:#191516;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2440.47,1328.6 62.62,48.23 20.72,9.59 79.43,28.4 85,17.08 105.91,33.77 5.56,-1.15 12.28,-11.13 21.3,-14.97 90.75,-37.03 4.41,1.53 34.54,89.22 3.07,28.01 6.91,28.78 61.78,-13.62 23.02,98.24 4.8,6.14 2.69,12.28 7.87,-0.77"
+     id="path2" />
 </svg>

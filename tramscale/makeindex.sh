@@ -163,9 +163,7 @@ for city in $CITIES; do
     else
         echo '<span id="'$UPPER'" style="display: none; vertical-align: middle">'$NAME'<br>'
     fi
-    if [ -f ${city}-bg.png ]; then
-        echo '    <img class="bgmap" src="data:" style="position:absolute; z-index: -1; display:none" width="'$W'" height="'$H'">'
-    fi
+    echo '    <img class="bgmap" src="data:" style="position:absolute; z-index: -1; display:none" width="'$W'" height="'$H'">'
     echo '    <img class="map" src="'${city}.svg'" title="'$SNAME'" alt="'$SNAME' map" width="'$W'" height="'$H'"></span>'
 done
 cat <<HEREDOC
@@ -205,7 +203,7 @@ cat <<HEREDOC
 <div class="headerfooter">
 <div style="white-space: normal;">
 <a id="bgbutton" href="javascript:" onclick="showbg()">click here to show labels and waterlines</a><p>
-Thick lines represent running in streets or with uncontrolled or light-controlled grade crossings; thin lines represent thru-running onto sections with grade-separations or crossing gates.<br>Other frequent local rail/fixed-guideway transit lines are shown in light gray, ferries in cyan.<br>All lines shown run at least every 20 minutes during the day on weekdays as of 2024.<br>
+Thick lines represent running in streets or with uncontrolled or light-controlled grade crossings; thin lines represent thru-running onto sections with grade-separations or crossing gates.<br>Other frequent local rail/fixed-guideway transit lines are shown in light gray, ferries in cyan.<br>All lines shown run at least every 20 minutes during the day on weekdays as of 2025.<br>
 Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (30 CSS pixels per km)</div>
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.

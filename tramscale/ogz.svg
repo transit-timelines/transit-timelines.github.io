@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="850"
+   height="675"
+   viewBox="0 0 850 675"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <image
+     width="1233"
+     height="1726.2"
+     preserveAspectRatio="none"
+     style="display:none;image-rendering:optimizeSpeed"
+     xlink:href="basemap/ogzosm.png"
+     id="image10"
+     x="-145"
+     y="-390" />
+  <path
+     style="fill:none;stroke:#ed232b;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 567.43,200.34 -75.18,21.73 -28.78,12.62 171.34,374.05 5.8,11.17 59.71,-21.28 27.43,-4.43 1.51,-2.63 -5.32,-30.02 -6.26,-46.83 -17.29,-135.53 74.67,-11.6 14.61,-26.04 -69.74,-92.98 -74.45,22.69 -42.29,10.48 -22.57,-83.4 -13.19,1.99"
+     id="path860" />
+  <path
+     style="fill:none;stroke:#ed232b;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 717.22,511.43 -2.83,51.57 6.52,31.95"
+     id="path864" />
+  <path
+     style="fill:none;stroke:#ed232b;stroke-width:5;stroke-linejoin:round;stroke-opacity:1"
+     d="m 463.47,234.68 -147.86,76.08 -7.51,-3.42 -50.65,-98.72 -2.07,-13.73 -1.06,-64.95 -4.71,-10.44 -59.18,-59.06 -128.61,127.11 -0.34,8.15 178.23,180.17 h 6.97 l 55.83,-58.87 13.77,-6.75"
+     id="path866" />
+</svg>

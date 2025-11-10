@@ -24,13 +24,21 @@
   </metadata>
   <defs
      id="defs6" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       id="path959"
+       d="m 1806.81,744.39 48.35,-20.49"
+       style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
   <image
      xlink:href="basemap/wroosm.png"
-     y="40"
+     y="-171.92"
      x="-125"
      id="image12"
      preserveAspectRatio="none"
-     height="1483.42"
+     height="1695.34"
      width="2543"
      style="display:none" />
   <path
@@ -149,10 +157,6 @@
      id="path957"
      d="m 1979.16,610.61 -85.64,40.44 -13.36,3.59"
      style="fill:none;stroke:#0093cb;stroke-width:5;stroke-linejoin:round;stroke-opacity:1" />
-  <path
-     id="path959"
-     d="m 1806.81,744.39 48.35,-20.49"
-     style="fill:none;stroke:#f2f2f2;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path961"
      d="m 1229.06,254.47 31.95,26.19 226.97,36.95 18.83,6.38 57.97,4.52"

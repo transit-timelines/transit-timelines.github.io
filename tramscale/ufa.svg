@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    version="1.1"
    id="svg2"
@@ -14,13 +12,13 @@
      id="defs6" />
   <image
      width="2336"
-     height="1946.67"
+     height="2141.34"
      preserveAspectRatio="none"
      style="display:none"
      xlink:href="basemap/ufaosm.png"
      id="image10"
      x="-165"
-     y="50" />
+     y="-144.67" />
   <path
      style="fill:none;stroke:#f8a941;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 497.47,1385.26 15.48,-37.45 17.5,-61.8 3.55,-4.47 39.1,-17.16 5.34,-6.87 184.21,-253.16 2.11,-1.1 2.73,0.97 12.2,9.01 3.63,0.05 17.7,-25.6 18.31,-24.54 43.74,-19.96 5.05,0.66 23.12,17.45"
