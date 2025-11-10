@@ -24,6 +24,14 @@
   </metadata>
   <defs
      id="defs6" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none"
+       d="m 2550.2,1420.83 21.63,11.8 16.39,3.93 41.62,18.68 16.39,3.28 20.32,-2.95 29.17,-3.93 10.49,1.64 28.18,12.78 18.35,8.52 8.19,1.64 9.83,-1.97 44.57,-10.82 95.04,-4.59 82.59,-17.7 9.18,-0.33 10.81,4.92 11.47,2.62 70.46,-1.31 38.34,7.54 12.45,0.33 219.25,-71.12 16.06,-0.66 111.76,-6.23 112.41,-30.48 20.32,-2.62 44.9,-3.28 17.04,4.59 115.03,73.74 13.11,9.18 16.06,19.99"
+       id="path1" />
+  </g>
   <image
      xlink:href="../timelines/basemap/toyosm.png"
      y="-250.73"
@@ -31,7 +39,7 @@
      id="image10"
      preserveAspectRatio="none"
      height="2435.73"
-     width="2977"
+     width="4059.55"
      style="display:none" />
   <path
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#264a74;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
