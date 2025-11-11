@@ -1,5 +1,8 @@
 # from airline route mapper http://arm.64hosts.com/
 # airport-id	latitude	longitude	airport-name
+BER	52.3667	13.5033	Berlin Brandenburg
+NLU	19.7567	-99.0153	Mexico City AIFA
+TQO	20.1722	-87.6606	Tulum
 DSS	14.6708	-17.0728	Dakar Diagne
 CZG	42.0785	-76.0963	Bingamton Tri-Cities
 ITHM	42.459	-76.517	Ithaca Municipal
@@ -1973,7 +1976,8 @@ ISM	28.2898	-81.4370	KISSIMMEE GATEWAY A/P ORLANDO
 ISN	48.1783	-103.6417	Williston
 ISO	35.3314	-77.6088	KINGSTON RGNL JETPORT
 ISP	40.7953	-73.1002	Long Island MacArthur                   
-IST	40.9761	28.8139	Istanbul Ataturk Airport
+ISL	40.9761	28.8139	Istanbul Ataturk Airport
+IST	41.2622	28.7878	Istanbul Airport
 ISU	35.5609	45.3147	Sulaymaniyah
 ITA	-3.1261	-58.4811	Itacoatiara
 ITB	-4.2419	-56.0003	Itaituba                                
