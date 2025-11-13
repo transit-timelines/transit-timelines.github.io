@@ -105,8 +105,12 @@
      style="fill:none;stroke:#1264ab;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 692.66,1192.8 -2.33,6.12 12.2,102.2 0.71,28.72 2.01,4.13 3.07,1.33 6.08,1.75 82.95,0.65 44.24,-0.48"
      id="path848" />
-  <path
-     style="fill:none;stroke:#f2f2f2;stroke-width:8;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 1021.55,45.88 -2.97,-22.94 -372.45,-555.44"
-     id="path1" />
+  <g
+     id="rt"
+     style="opacity:0.25">
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linejoin:round;stroke-dasharray:none"
+       d="m 1021.55,45.88 -2.97,-22.94 -372.45,-555.44"
+       id="path1" />
+  </g>
 </svg>
