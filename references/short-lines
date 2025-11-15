@@ -150,6 +150,7 @@ IND	2250m	peoplemover	3	2003-06-28	never		closed 2019-02-06
 TCI	2270m	tram gradesep	4	2007-06-02*	never		1070m+1200m thru
 LPB	2400m	cableway	3	2014-05-30*	2014-09-15
 OSR	2430m	tram gradesep	5	1978-07-01?*	1986-04-30	latter is +1177m thru
+MEM	2490m	tram ROW	4	1997-10-01*	never		suspended since 2014-06-10
 GOA	2510m	light metro	2	1990-06-13*	1992-07-04	extended within 2yr
 BWE	2550m	tram gradesep	5	1970-08-24*	never
 FSZ	2560m	tram ROW	5	1925-04-01*	1930-03-31	thru-routed with two 2km+ lines
@@ -172,5 +173,5 @@ Turgi-Baden
 Ulm-Neu Ulm (but should show on tramscale)
 Zermatt-Täsch
 
-tramscale under 3km: EB_ 2580m+, NTL 2680m, MEM 2990m
+tramscale under 3km: EB_ 2580m+, NTL 2680m
 disqualified from tramscale for under 2km: Neuchâtel 356m, Enoshima 467m, Fukui 594m, Heilbronn 789m, Lugano 1400m, Vladikavkaz 1150m, Kyoto 1550m, Buffalo 1610m, Tianshui 1750m

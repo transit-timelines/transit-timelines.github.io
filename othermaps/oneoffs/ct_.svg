@@ -4,9 +4,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="1200"
+   width="1150"
    height="1150"
-   viewBox="0 0 1200 1150"
+   viewBox="0 0 1150 1150"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
@@ -14,7 +14,7 @@
      id="defs6" />
   <g
      id="g8"
-     transform="translate(-125,-225)"
+     transform="translate(-165,-225)"
      style="display:none">
     <image
        width="1997"
@@ -37,7 +37,7 @@
        id="tspan3641-3">1990</tspan></text>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 151.36,981.55 26.18,48.25"
+     d="m 111.36,981.55 26.18,48.25"
      id="path298">
     <desc
        id="desc919">1985-2019?</desc>
@@ -46,7 +46,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 218.64,907.38 36.55,36.65"
+     d="m 178.64,907.38 36.55,36.65"
      id="path921">
     <desc
        id="desc925">1975-1999</desc>
@@ -55,7 +55,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="M 218.64,907.38 322.82,870.94"
+     d="m 178.64,907.38 104.18,-36.44"
      id="path927">
     <desc
        id="desc931">1975-1999</desc>
@@ -64,7 +64,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="M 368.38,830.62 217.81,846.86"
+     d="m 328.38,830.62 -150.57,16.24"
      id="path1059">
     <desc
        id="desc1063">1967-2014, 2021-</desc>
@@ -73,7 +73,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 368.38,830.62 2.5,115.56"
+     d="m 328.38,830.62 2.5,115.56"
      id="path1065">
     <desc
        id="desc1069">1967-2015, 2021-</desc>
@@ -82,7 +82,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="M 332.69,817.69 220.47,781.32"
+     d="m 292.69,817.69 -112.22,-36.37"
      id="path1071">
     <desc
        id="desc1075">1990-2003</desc>
@@ -91,7 +91,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="M 368.38,830.62 348.67,788.23"
+     d="m 328.38,830.62 -19.71,-42.39"
      id="path1077">
     <desc
        id="desc1081">1967-2015</desc>
@@ -100,7 +100,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 403.24,830.57 4.77,60.29"
+     d="m 363.24,830.57 4.77,60.29"
      id="path1083">
     <desc
        id="desc1087">1963-2015</desc>
@@ -109,7 +109,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 633.72,655.63 19.39,23.58"
+     d="m 593.72,655.63 19.39,23.58"
      id="path444">
     <desc
        id="desc452">1969?-2019?</desc>
@@ -118,7 +118,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 613.01,634.56 20.71,21.07"
+     d="m 573.01,634.56 20.71,21.07"
      id="path1089">
     <desc
        id="desc448">1969?-2019?</desc>
@@ -127,7 +127,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 724.18,667.3 16.64,40.56"
+     d="m 684.18,667.3 16.64,40.56"
      id="path1149">
     <desc
        id="desc1153">1971?-2017?</desc>
@@ -136,7 +136,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 750.61,700.63 41.76,-5.4"
+     d="m 710.61,700.63 41.76,-5.4"
      id="path1155">
     <desc
        id="desc1159">1957-2019?</desc>
@@ -145,7 +145,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="M 830.53,594.63 895.77,558.02"
+     d="m 790.53,594.63 65.24,-36.61"
      id="path1161">
     <desc
        id="desc1165">1989-2019?</desc>
@@ -154,7 +154,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="M 863.15,487.82 893.86,535.58"
+     d="m 823.15,487.82 30.71,47.76"
      id="path1224">
     <desc
        id="desc1234">1954?-2019</desc>
@@ -163,7 +163,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 1045.82,340.22 41.21,-16.13"
+     d="m 1005.82,340.22 41.21,-16.13"
      id="path1226">
     <desc
        id="desc1230">1963-2019</desc>
@@ -172,7 +172,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="m 142.23,301.51 38.78,-36.56"
+     d="m 102.23,301.51 38.78,-36.56"
      id="path1236">
     <desc
        id="desc1240">1957-2019?</desc>
@@ -181,7 +181,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="M 493.15,854.61 433.2,814.43"
+     d="m 453.15,854.61 -59.95,-40.18"
      id="path1242">
     <desc
        id="desc1246">1954-2019</desc>
@@ -190,7 +190,7 @@
   </path>
   <path
      style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-dasharray:none"
-     d="M 1711.63,78.89 1670.68,-55.37"
+     d="m 1671.63,78.89 -40.95,-134.26"
      id="path1248">
     <desc
        id="desc1252">1989-2002</desc>
@@ -199,7 +199,7 @@
   </path>
   <path
      style="fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round"
-     d="m 433.2,814.43 9.68,-23.93"
+     d="m 393.2,814.43 9.68,-23.93"
      id="path594">
     <desc
        id="desc598">1966-2019</desc>
