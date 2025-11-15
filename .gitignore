@@ -9,3 +9,5 @@
 *.zip
 *.rar
 /scripts/apikeys
+!preview.gif
+!preview.png
