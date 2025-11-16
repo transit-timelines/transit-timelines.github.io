@@ -25,13 +25,13 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="../../basemap/bososm.png"
-     width="4352"
-     height="4864"
+     xlink:href="basemap/apollo17bososm.png"
+     width="1792"
+     height="1536"
      preserveAspectRatio="none"
      id="image10"
-     x="-1031"
-     y="-1714"
+     x="-7"
+     y="-178"
      style="opacity:0.6" />
   <path
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

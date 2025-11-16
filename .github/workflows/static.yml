@@ -34,9 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Remove unneeded files
-        run: |
-          rm -r references
-          rm -r scripts
+        run: rm -r references scripts othermaps/experiments othermaps/fantasy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -16,13 +16,13 @@
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs6" /><image
-     xlink:href="../../basemap/sfoosm.png"
-     width="8704"
-     height="11520"
+     xlink:href="basemap/opportunitysfoosm.png"
+     width="2048"
+     height="3584"
      preserveAspectRatio="none"
      id="image10"
      x="0"
-     y="-3520"
+     y="-192"
      style="opacity:0.6" /><image
      width="2815"
      height="3997.59"
