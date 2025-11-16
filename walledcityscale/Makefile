@@ -1,11 +1,7 @@
-all: index.html $(patsubst %.svg,%.svg.gz,$(wildcard *.svg)) rtoverlay
+all: index.html rtoverlay
 
-%.svg.gz : %.svg
-	~/timelines/scripts/round.py < $< > $<.tmp
-	mv $<.tmp $<
-	gzip -f --keep $<
-
-index.html: names sources makeindex.sh $(wildcard *0.svg)
+index.html: names sources makeindex.sh $(wildcard *.svg) ~/timelines/scripts/template/part4b
+	$(foreach svg,$?,if echo $(svg) | grep "svg$$" >/dev/null; then ~/timelines/scripts/round.py $(svg) < $(svg) > $(svg).tmp && mv $(svg).tmp $(svg); fi;)
 	./makeindex.sh $(wildcard *.svg) > $@
 
 rtoverlay:

@@ -1,9 +1,4 @@
-all: large.html index.html $(patsubst %.svg,%.svg.gz,$(wildcard *.svg))
-
-%.svg.gz : %.svg
-	~/timelines/scripts/round.py < $< > $<.tmp
-	mv $<.tmp $<
-	gzip -f --keep $<
+all: large.html index.html
 
 NYC=nyc1935a.svg nyc1939plan.svg nyc1965a.svg nyc1968plan.svg nyc2025a.svg
 BOS=bos1892plan.svg bos1915a.svg bos1917plan.svg bos1945a.svg bos1945plan.svg bos2025a.svg
@@ -44,8 +39,9 @@ man%a.svg : ../../timelines/man/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 2565 2350 15 1550 $< > $@
 
 
-index.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
+index.html: names makeindex.sh $(SVGS) ~/timelines/scripts/template/part4b Makefile
+	$(foreach svg,$?,if echo $(svg) | grep "svg$$" >/dev/null; then ~/timelines/scripts/round.py $(svg) < $(svg) > $(svg).tmp && mv $(svg).tmp $(svg); fi;)
 	./makeindex.sh 10 $(NYC) $(BER) $(BOS) '<br>' $(PIT) $(SFO) $(MAN) '<br>' $(YMQ) $(SEA) $(ZRH) '<br>' $(PVD) $(CVG) $(MSY) > $@
 
-large.html: names makeindex.sh $(wildcard *.svg) $(SVGS) ~/timelines/scripts/template/part4 Makefile
+large.html: names makeindex.sh $(SVGS) ~/timelines/scripts/template/part4b Makefile index.html
 	./makeindex.sh 30 $(NYC) $(BER) $(BOS) $(PIT) $(SFO) $(MAN) $(YMQ) $(MAN) $(SEA) $(ZRH) $(PVD) $(CVG) $(MSY) > $@

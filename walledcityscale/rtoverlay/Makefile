@@ -1,11 +1,6 @@
 CITIES=athens-350 rome-200 rome300 constantinople500 changan700 hangzhou1200 milan1200 cairo1300 london1300 lisbon1400 paris1400 seoul1400 beijing1500 naples1500 seville1500 tenochtitlan1500 moscow1600 beijing1800
 
-all: index.html $(CITIES:0=0.svg.gz) $(CITIES:0=0-rt.svg.gz)
-
-%.svg.gz : %.svg
-	~/timelines/scripts/round.py < $< > $<.tmp
-	mv $<.tmp $<
-	gzip -f --keep $<
+all: index.html $(CITIES:0=0.svg) $(CITIES:0=0-rt.svg)
 
 %0.svg: ../%0.svg
 	sed -e's/808080/c0c0c0/' $< > $@
