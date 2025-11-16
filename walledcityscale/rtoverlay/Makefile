@@ -29,3 +29,5 @@ $(CITIES:0=0-rt.svg):
 
 index.html: names sources ../makeindex.sh $(CITIES:0=0.svg) $(CITIES:0=0-rt.svg)
 	../makeindex.sh $(CITIES:0=0.svg) | grep -v '<meta.*image' > $@
+
+.PHONY: all

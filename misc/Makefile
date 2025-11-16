@@ -7,14 +7,14 @@ regrail = nerail carail gbrail
 regrail: $(regrail)
 
 define bymoderule
-$(1): $(1)/index.html
+$(1): $(1)/index.html $(1)/preview.gif
 
 $(1)/index.html: $(1)/name $(1)/key $(1)/preview.gif $(1)/bg.png $(wildcard $(1)/*.svg $(1)/seealso ~/timelines/scripts/template/*) ~/timelines/scripts/makeindex.sh
 	~/timelines/scripts/makeindex.sh $(1) > $$@
 endef
 
 define regrailrule
-$(1): $(1)/index.html $(1)/large.html
+$(1): $(1)/index.html $(1)/large.html $(1)/preview.gif
 
 $(1)/index.html: $(1)/name $(1)/cities $(1)/preview.gif $(1)/bg.png $(wildcard $(1)/*.svg) ~/timelines/scripts/makerailindex.sh ~/timelines/scripts/template/part4
 	~/timelines/scripts/makerailindex.sh $(1) 2 > $$@
