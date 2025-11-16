@@ -37,10 +37,10 @@ s/STEP/${STEP}/g;"
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <meta property="og:type" content="website" />
 <meta property="og:title" content="NAME Passenger Rail Timeline" />
-<meta property="og:image" content="https://alexander.co.tz/timelines/misc/URL/preview.gif" />
+<meta property="og:image" content="https://transit-timelines.github.io/misc/URL/preview.gif" />
 <meta property="og:image:width" content="PREVW" />
 <meta property="og:image:height" content="PREVH" />
-<meta property="og:url" content="https://alexander.co.tz/timelines/misc/URL/preview.gif" />
+<meta property="og:url" content="https://transit-timelines.github.io/misc/URL/preview.gif" />
 <meta property="og:description" content="Maps every STEP years, START-END" />
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
@@ -194,7 +194,7 @@ for link in nerail carail; do
     else
         echo " - "
     fi
-    echo -n '<a href="../'$link'">'`cat ~/timelines/timelines/misc/${link}/name`' passenger rail timeline</a>'
+    echo -n '<a href="../'$link'">'`cat ~/timelines/misc/${link}/name`' passenger rail timeline</a>'
 done
 echo ''
 if [ -f seealso ]; then
@@ -209,7 +209,7 @@ for city in `cat cities`; do
     else
         echo " - "
     fi
-    echo -n '<a href="../../'${city}'">'$(cat ~/timelines/timelines/${city}/name)"</a>"
+    echo -n '<a href="../../'${city}'">'$(cat ~/timelines/${city}/name)"</a>"
 done
 cat <<HEREDOC
 

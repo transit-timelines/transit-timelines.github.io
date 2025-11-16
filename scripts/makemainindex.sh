@@ -7,7 +7,7 @@ cat <<HEREDOC
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Rapid Transit Timelines and Scale Comparison" />
-<meta property="og:image" content="https://alexander.co.tz/timelines/preview.png" />
+<meta property="og:image" content="https://transit-timelines.github.io/preview.png" />
 <meta property="og:description" content="Maps every 5 years, 1840-2025" />
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">

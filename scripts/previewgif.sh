@@ -1,5 +1,5 @@
 #!/bin/bash
-scriptdir=$(dirname $0)
+scriptdir=~/timelines/scripts/
 pushd $1
 mkdir -p anim
 nonempty=false

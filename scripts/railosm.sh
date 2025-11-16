@@ -8,7 +8,7 @@ for i in `seq $1 $2`; do
     mkdir -p $i; cd $i
     for j in `seq $3 $4`; do
     echo https://c.tiles.openrailwaymap.org/standard/$zoom/$i/$j.png
-    done | xargs wget -U "base maps for https://alexander.co.tz/timelines/ contact threestationsquare@gmail.com" -T 60 -c; cd ..
+    done | xargs wget -U "base maps for https://transit-timelines.github.io/ contact threestationsquare@gmail.com" -T 60 -c; cd ..
 done
 for i in `seq $1 $2`; do
     montage -mode Concatenate -tile 1x`expr $4 - $3 + 1` `seq $3 $4 | sed -e"s!\(.*\)!$i/\1.png!"` $i.png

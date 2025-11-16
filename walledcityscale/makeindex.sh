@@ -11,7 +11,7 @@ sed -e"s/TITLE/$TITLE/" <<HEREDOC
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="TITLE" />
-<meta property="og:image" content="https://alexander.co.tz/walledcityscale/preview.png" />
+<meta property="og:image" content="https://transit-timelines.github.io/walledcityscale/preview.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <style type="text/css">
 body {

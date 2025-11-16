@@ -1,7 +1,7 @@
 #!/bin/bash
 pushd $1 >/dev/null
 
-SCRIPTDIR=$(dirname $0)
+SCRIPTDIR=~/timelines/scripts/
 START=$(basename $(grep -l 'stroke-width:[3-7]' [0-9]*.svg | sort -g | head -n1) .svg)
 END=$(basename $(ls [0-9]*.svg | sort -g | tail -n1) .svg)
 STEP=5
@@ -25,11 +25,11 @@ W=$(awk "BEGIN{print int(0.5+$(grep '^   width=' ${END}.svg | head -n1 | sed -e'
 H=$(awk "BEGIN{print int(0.5+$(grep '^   height=' ${END}.svg | head -n1 | sed -e's/"$//; s/.*"//;')*$W/$NATIVEW)}")
 
 if [ $(basename ${PWD%/*}) == 'misc' ]; then
-    URL=timelines/misc/$(basename ${PWD})
+    URL=misc/$(basename ${PWD})
 elif [ $(basename ${PWD}) == 'uncropped' ]; then
-    URL=timelines/$(basename ${PWD%/*})/uncropped
+    URL=$(basename ${PWD%/*})/uncropped
 else
-    URL=timelines/$(basename ${PWD})
+    URL=$(basename ${PWD})
 fi
 
 if [ ! -f key ]; then

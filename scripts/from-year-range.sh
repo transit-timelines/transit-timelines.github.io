@@ -1,5 +1,5 @@
 #!/bin/bash
-scriptdir=$(dirname $0)
+scriptdir=~/timelines/scripts/
 smalldir=$1/small
 if [ -L $smalldir ]; then
     exit
