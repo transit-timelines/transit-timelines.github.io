@@ -28,15 +28,15 @@
      id="layer1"
      transform="matrix(1.2,0,0,1.2,-10,-10)">
     <ellipse
-       style="fill:#808080;stroke:none;stroke-width:0.881424;stroke-linejoin:round"
+       style="fill:#808080;stroke:none;stroke-width:0.88;stroke-linejoin:round"
        id="path833"
        cx="125"
        cy="100"
        rx="45"
        ry="50" />
     <path
-       style="fill:#808080;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
-       d="m 91.666667,66.666667 -10.833334,9.166666 -10,3.333334 H 50 v 41.666663 h 20.833333 l 10,3.33334 10.833334,9.16666"
+       style="fill:#808080;stroke:none;stroke-width:0.79;stroke-linejoin:round"
+       d="m 91.67,66.67 -10.83,9.17 -10,3.33 H 50 v 41.67 h 20.83 l 10,3.33 10.83,9.17"
        id="path835" />
   </g>
 </svg>

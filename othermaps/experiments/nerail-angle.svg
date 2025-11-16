@@ -512,12 +512,12 @@
      d="m 7815.91,2482.99 12.02,-20.51 25.81,-18.03 10.25,2.47 12.37,-6.72 22.27,-1.77 31.82,-32.53 10.61,-7.07 1.77,-5.3 7.42,-2.47" />
   <text
      id="text4994-7"
-     y="216.96001"
-     x="89.449997"
+     y="216.96"
+     x="89.45"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
      xml:space="preserve"><tspan
-       y="216.96001"
-       x="89.449997"
+       y="216.96"
+       x="89.45"
        id="tspan4996-9">2010</tspan></text>
   <path
      style="fill:none;stroke:#000080;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -721,5 +721,5 @@
   <path
      style="fill:none;stroke:#008000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3951-9"
-     d="m 1032.2897,1791.7937 -32.1734,-24.4659 -7.04276,-23.9992 -23.99213,-9.1288 -27.30139,-25.1376 -1.41422,-11.3137 -33.58757,-27.2236 -6.71751,-18.0313 -27.93072,-27.2236 -5.65685,-16.2634 -43.48707,-31.4663 -39.24443,-1.0606 -8.83883,-10.9602 -47.0226,-20.8596 -7.42462,-23.6881 -8.13173,-3.182 -14.14214,8.4853 -50.91169,-2.1213 -16.61701,-12.3744 -34.64823,-13.435 -46.37913,-6.767" />
+     d="m 1032.29,1791.79 -32.17,-24.47 -7.04,-24 -23.99,-9.13 -27.3,-25.14 -1.41,-11.31 -33.59,-27.22 -6.72,-18.03 -27.93,-27.22 -5.66,-16.26 -43.49,-31.47 -39.24,-1.06 -8.84,-10.96 -47.02,-20.86 -7.42,-23.69 -8.13,-3.18 -14.14,8.49 -50.91,-2.12 -16.62,-12.37 -34.65,-13.44 -46.38,-6.77" />
 </svg>
