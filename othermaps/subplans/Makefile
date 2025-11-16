@@ -33,7 +33,7 @@ sea%a.svg : ../../timelines/sea/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl -720 -2465 430 2235 $< > $@
 
 ymq%a.svg : ../../timelines/ymq/small/%.svg Makefile
-	~/timelines/scripts/reviewbox.pl -2100 -100 0 100 $< > $@
+	~/timelines/scripts/reviewbox.pl 0 -100 0 100 $< > $@
 
 man%a.svg : ../../timelines/man/small/%.svg Makefile
 	~/timelines/scripts/reviewbox.pl 2565 2350 15 1550 $< > $@
