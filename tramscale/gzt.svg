@@ -16,7 +16,7 @@
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs6" /><image
-     xlink:href="../timelines/basemap/gztosm.png"
+     xlink:href="../basemap/gztosm.png"
      width="2153.6"
      height="2961.2"
      preserveAspectRatio="none"

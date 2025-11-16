@@ -16,7 +16,7 @@
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs6" /><image
-     xlink:href="../../timelines/basemap/nycosm.png"
+     xlink:href="../../basemap/nycosm.png"
      style="display:none;stroke-linejoin:round"
      x="-1280"
      y="-2048"

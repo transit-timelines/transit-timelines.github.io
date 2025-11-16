@@ -45,7 +45,7 @@
        style="fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/naposm.png"
+     xlink:href="../basemap/naposm.png"
      style="display:none"
      y="-1933.94"
      x="-2680.26"

@@ -33,7 +33,7 @@
        style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/hkgosm.png"
+     xlink:href="../basemap/hkgosm.png"
      style="display:none"
      x="-4227.11"
      y="-1773.33"

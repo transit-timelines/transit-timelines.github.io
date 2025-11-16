@@ -45,7 +45,7 @@
        style="fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/sofosm.png"
+     xlink:href="../basemap/sofosm.png"
      style="display:none"
      width="2481.25"
      height="3225.62"

@@ -90,7 +90,7 @@
        style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/cphosm.png"
+     xlink:href="../basemap/cphosm.png"
      y="-5214.15"
      x="-2575"
      id="image10"

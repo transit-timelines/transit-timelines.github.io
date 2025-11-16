@@ -41,7 +41,7 @@
        style="fill:none;fill-rule:evenodd;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/msqosm.png"
+     xlink:href="../basemap/msqosm.png"
      style="display:none"
      width="2584"
      height="2186.46"

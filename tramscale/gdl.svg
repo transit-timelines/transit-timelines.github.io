@@ -37,7 +37,7 @@
        style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/gdlosm.png"
+     xlink:href="../basemap/gdlosm.png"
      y="-852.5"
      x="-430.83"
      id="image10"

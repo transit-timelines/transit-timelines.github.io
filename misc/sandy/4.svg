@@ -28,13 +28,13 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="nycosm.png"
+     xlink:href="../../basemap/nycosm.png"
      style="display:none"
      id="image12"
-     height="5376"
-     width="3584"
-     y="0"
-     x="1792" />
+     height="8448"
+     width="7168"
+     y="-2048"
+     x="-1280" />
   <text
      x="39.45"
      y="222.96"

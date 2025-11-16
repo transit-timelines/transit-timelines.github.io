@@ -65,7 +65,7 @@
        style="fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/lisosm.png"
+     xlink:href="../basemap/lisosm.png"
      y="-1411.67"
      x="-2275"
      id="image10"

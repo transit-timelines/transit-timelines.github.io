@@ -61,7 +61,7 @@
        style="fill:none;fill-rule:evenodd;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/dusosm.png"
+     xlink:href="../basemap/dusosm.png"
      style="display:none;fill:#c8b7b7;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
      y="-11200"
      x="-3627.62"

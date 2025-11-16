@@ -45,7 +45,7 @@
        style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/mdeosm.png"
+     xlink:href="../basemap/mdeosm.png"
      id="image10"
      height="3355"
      width="2684"

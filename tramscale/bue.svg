@@ -89,7 +89,7 @@
        style="fill:none;fill-rule:evenodd;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/bueosm.png"
+     xlink:href="../basemap/bueosm.png"
      id="image10"
      height="7784"
      width="7784"

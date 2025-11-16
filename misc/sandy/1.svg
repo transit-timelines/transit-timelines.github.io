@@ -64,13 +64,13 @@
      id="path3622"
      style="fill:none;stroke:#f7931d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <image
-     xlink:href="nycosm.png"
+     xlink:href="../../basemap/nycosm.png"
      style="display:none"
      id="image12"
-     height="5376"
-     width="3584"
-     y="0"
-     x="1792" />
+     height="8448"
+     width="7168"
+     y="-2048"
+     x="-1280" />
   <path
      d="m 3437.73,2468.82 -16.23,-8.32 -121.69,-77.79 -5.8,-0.44 -3.93,2.79 -53.07,81.94 -12.95,11.38"
      id="path7674"

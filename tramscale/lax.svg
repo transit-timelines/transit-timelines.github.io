@@ -45,7 +45,7 @@
        style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/laxosm.png"
+     xlink:href="../basemap/laxosm.png"
      x="-1496.67"
      y="-2707.67"
      width="11746"

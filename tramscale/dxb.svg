@@ -24,7 +24,7 @@
        style="opacity:1;fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -114.33,-324.93 18.44,45.87 4.73,31.21 11.35,16.55 397.19,330.99 6.62,8.98 7.57,19.39 4.73,8.98 32.63,14.19 32.15,27.42"
        id="path878" /></g><image
-     xlink:href="../timelines/basemap/dxbosm.png"
+     xlink:href="../basemap/dxbosm.png"
      width="4883.2"
      height="5493.6"
      preserveAspectRatio="none"

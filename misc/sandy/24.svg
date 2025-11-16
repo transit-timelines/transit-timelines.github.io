@@ -28,21 +28,13 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="file:///home/alexander/timelines/timelines/basemap/nyceosm.png"
-     x="-512"
-     y="0"
-     width="5888"
-     height="5376"
-     id="image3202"
-     style="display:none" />
-  <image
-     xlink:href="../../timelines/basemap/nycosm.png"
+     xlink:href="../../basemap/nycosm.png"
      style="display:none"
      id="image12"
-     height="5376"
-     width="3584"
-     y="0"
-     x="1792" />
+     height="8448"
+     width="7168"
+     y="-2048"
+     x="-1280" />
   <path
      d="m 2313,2671 288,160 75,44 123,103 101,82 14,10 28,0 77.31,-10.37 4.19,1.64 2.44,3.05 L 3040,3103 l 11,67 4.71,29.07 3.8,4.16 5.11,2.27 L 3143,3190 l 73,-16 17,-1 71,59 187,140 10,20 0,13 -46,70 -6,28 -2,32 11,28 13,23 5,22"
      id="path3614"

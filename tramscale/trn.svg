@@ -37,7 +37,7 @@
        style="fill:none;fill-rule:nonzero;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/trnosm.png"
+     xlink:href="../basemap/trnosm.png"
      width="1907.2"
      height="2622.4"
      preserveAspectRatio="none"

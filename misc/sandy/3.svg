@@ -28,13 +28,13 @@
   <defs
      id="defs6" />
   <image
-     xlink:href="../../timelines/basemap/nycosm.png"
+     xlink:href="../../basemap/nycosm.png"
      style="display:none"
      id="image12"
-     height="5376"
-     width="3584"
-     y="0"
-     x="1792" />
+     height="8448"
+     width="7168"
+     y="-2048"
+     x="-1280" />
   <path
      d="m 2591,2339 27,-46 14,-27 21,-14 27,5 209,113 55,36 74.75,49.25 68.25,47.25 19.5,-1.25"
      id="path3626"

@@ -61,7 +61,7 @@
        style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <image
-     xlink:href="../timelines/basemap/buhosm.png"
+     xlink:href="../basemap/buhosm.png"
      style="display:none"
      width="2892"
      height="2651"

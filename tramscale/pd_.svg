@@ -33,7 +33,7 @@
        style="fill:none;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <image
-     xlink:href="../timelines/basemap/berosm.png"
+     xlink:href="../basemap/berosm.png"
      id="image12"
      height="7397.14"
      width="8835.47"

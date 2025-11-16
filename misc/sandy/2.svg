@@ -32,13 +32,13 @@
      id="path3634"
      style="fill:none;stroke:#f7931d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <image
-     xlink:href="../../timelines/basemap/nycosm.png"
+     xlink:href="../../basemap/nycosm.png"
      style="display:none"
      id="image12"
-     height="5376"
-     width="3584"
-     y="0"
-     x="1792" />
+     height="8448"
+     width="7168"
+     y="-2048"
+     x="-1280" />
   <path
      d="m 4436.75,3132.75 -48.75,-32.75 -69.5,-36.25 -54.25,-51.25 -153.25,-90 -32,-37.5 -151.5,-76.25 -116.25,-56.5 -24.75,-21.5 -9.25,-46.75 -26.5,-30.25 -44,-33 -60.75,-35.25 -203,-113.75 -19.5,-7 -16.75,3.5 -17.75,0.5 -56.5,-12 -33,0.25 -19.75,6.25 -39.75,10.5 -23,7.25 -81.68,5.38 -18.03,8.54 -14.05,5.87"
      id="path3622-5"
