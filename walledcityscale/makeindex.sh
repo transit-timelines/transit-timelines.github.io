@@ -98,7 +98,7 @@ Population estimates extremely approximate. Please send any corrections or quest
 <p>
 See also: <a href="..">rapid transit timelines</a> - <a href="../misc/">miscellaneous timelines and maps</a>
 <p>
-<div style="font-size: x-small;">By <a href="/">Alexander Rapp</a> (<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>) based on map data by <a href="http://www.openstreetmap.org">OpenStreetMap</a> and Wikimedia
+<div style="font-size: x-small;">By <a href="https://alexander.co.tz/">Alexander Rapp</a> (<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>) based on map data by <a href="http://www.openstreetmap.org">OpenStreetMap</a> and Wikimedia
 HEREDOC
 echo -n '('
 i=1
