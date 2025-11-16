@@ -126,8 +126,8 @@ for file in $@ '<p>'; do
             index=0
             br=true
             if [ ! -z $oldcity ]; then
-                if [ -d ../../timelines/$oldcity ]; then
-                    echo -n '<br>(<a href="../../timelines/'$oldcity'">timeline</a>)'
+                if [ -d ../../$oldcity ]; then
+                    echo -n '<br>(<a href="../../'$oldcity'">timeline</a>)'
                 fi
                 echo "</small></span>"
             fi
@@ -163,8 +163,8 @@ for file in $@ '<p>'; do
         index=$(expr $index + 1)
     else
         if [ ! -z $oldcity ]; then
-            if [ -d ../../timelines/$oldcity ]; then
-                echo -n '<br>(<a href="../../timelines/'$oldcity'">timeline</a>)'
+            if [ -d ../../$oldcity ]; then
+                echo -n '<br>(<a href="../../'$oldcity'">timeline</a>)'
             fi
             echo "</small></span>"
             unset oldcity
@@ -186,7 +186,7 @@ HEREDOC
 if [ $SCALE = 30 ]; then
     echo '<a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels and waterlines</a><p>'
 fi
-echo 'Based on planned frequent midday service (<a href="/timelines/notes.html">notes</a>).<br>'
+echo 'Based on planned frequent midday service (<a href="../notes.html">notes</a>).<br>'
 if [ $SCALE = 10 ]; then
     echo 'Scale: <svg width="100px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (10 CSS pixels per km)'
 elif [ $SCALE = 30 ]; then
@@ -196,7 +196,7 @@ cat <<HEREDOC
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
-See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines/misc/">miscellaneous timelines and maps</a>
+See also: <a href="../..">rapid transit timelines</a> - <a href="../../misc/">miscellaneous timelines and maps</a>
 HEREDOC
 if [ $SCALE = 30 ]; then
     sed -e's/image/images/' ~/timelines/scripts/template/part4b

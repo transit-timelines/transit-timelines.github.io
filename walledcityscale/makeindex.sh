@@ -96,7 +96,7 @@ Scale: <svg width="60px" height="3px" style="vertical-align: middle; stroke-widt
 <p>
 Population estimates extremely approximate. Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
-See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines/misc/">miscellaneous timelines and maps</a>
+See also: <a href="..">rapid transit timelines</a> - <a href="../misc/">miscellaneous timelines and maps</a>
 <p>
 <div style="font-size: x-small;">By <a href="/">Alexander Rapp</a> (<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>) based on map data by <a href="http://www.openstreetmap.org">OpenStreetMap</a> and Wikimedia
 HEREDOC

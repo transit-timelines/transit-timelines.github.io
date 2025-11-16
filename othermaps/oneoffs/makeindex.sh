@@ -39,7 +39,7 @@ function hidebg() {
 </script>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <center>
-<h3>One-off Rapid Transit Maps for Scale Comparison with <a href="/timelines">Timelines</a></h3>
+<h3>One-off Rapid Transit Maps for Scale Comparison with <a href="../..">Timelines</a></h3>
 HEREDOC
 if [ $SCALE = 10 ]; then
     echo 'smaller versions --- <a href="large.html">larger versions</a><p>'
@@ -96,23 +96,23 @@ done
 if [ $SCALE = 10 ]; then
     cat <<HEREDOC
 </form><p>-->
-Based on frequent midday service at the end of the year in question (<a href="/timelines/notes.html">notes</a>) except as noted.<br>
+Based on frequent midday service at the end of the year in question (<a href="../../notes.html">notes</a>) except as noted.<br>
 Scale: <svg width="100px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (10 CSS pixels per km)
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
-See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines/misc/">miscellaneous timelines and maps</a>
+See also: <a href="../..">rapid transit timelines</a> - <a href="../../misc/">miscellaneous timelines and maps</a>
 HEREDOC
 elif [ $SCALE = 30 ]; then
     cat <<HEREDOC
 </form><p>-->
 <a id="bgbutton" href="javascript:" onclick="showbg()">click here to show present-day labels and waterlines</a><p>
-Based on frequent midday service at the end of the year in question (<a href="/timelines/notes.html">notes</a>) except as noted.<br>
+Based on frequent midday service at the end of the year in question (<a href="../../notes.html">notes</a>) except as noted.<br>
 Scale: <svg width="300px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 10 km (30 CSS pixels per km)
 <p>
 Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
-See also: <a href="/timelines">rapid transit timelines</a> - <a href="/timelines/misc/">miscellaneous timelines and maps</a>
+See also: <a href="../..">rapid transit timelines</a> - <a href="../../misc/">miscellaneous timelines and maps</a>
 HEREDOC
 fi
 if [ $SCALE = 30 ]; then

@@ -31,7 +31,7 @@ pvd2025.svg	pvd	Providence	2025 actual
 hnl2025a.svg	hnl	Honolulu	2025 actual
 hnl2006plan.svg	hnl	Honolulu	2006 plan	https://en.wikipedia.org/wiki/Skyline_(Honolulu)#Studies
 zrh1973plan.svg	zrh	Zürich	1973 proposal	https://en.wikipedia.org/wiki/Z%C3%BCrich_Underground_Railway
-../../timelines/zrh/small/2025.svg	zrh	Zürich	2025 actual
+../../zrh/small/2025.svg	zrh	Zürich	2025 actual
 man1971plan.svg	man	Manchester	1971 proposal	https://en.wikipedia.org/wiki/Picc-Vic_tunnel
 man1970a.svg	man	Manchester	1970 actual
 man2025a.svg	man	Manchester	2025 actual
@@ -39,14 +39,14 @@ pit1967plan.svg	pit	Pittsburgh	1967 proposal	http://www.briem.com/files/skybus.p
 pit1970plan.svg	pit	Pittsburgh	1970 proposal	https://en.wikipedia.org/wiki/Transit_Expressway_Revenue_Line
 pit1965a.svg	pit	Pittsburgh	1965 actual
 pit2025a.svg	pit	Pittsburgh	2025 actual
-../../timelines/ber/small/1955.svg	ber	Berlin	1955 actual
-../../timelines/ber/small/1995.svg	ber	Berlin	1995 actual
+../../ber/small/1955.svg	ber	Berlin	1955 actual
+../../ber/small/1995.svg	ber	Berlin	1995 actual
 ber1955plan.svg	ber	Berlin	1955 proposal	https://www.berliner-untergrundbahn.de/planung.html
 ber1989.svg	ber	Berlin	1989 actual	nobreak
 ber1989west.svg	ber	Berlin	West	nobreak
 ber1989east.svg	ber	Berlin	East
 ber1996plan.svg	ber	Berlin	1996 proposal	https://web.archive.org/web/20160415114009/http://home.arcor.de/suedwestbezirk/suewe3/step3.jpg
-../../timelines/ber/small/2025.svg	ber	Berlin	2025 actual
+../../ber/small/2025.svg	ber	Berlin	2025 actual
 ymq1970a.svg	ymq	Montréal	1970 actual
 ymq2015a.svg	ymq	Montréal	2015 actual
 ymq2025a.svg	ymq	Montréal	2025 actual
