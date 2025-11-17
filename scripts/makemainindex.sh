@@ -10,8 +10,11 @@ cat <<HEREDOC
 <meta property="og:image" content="https://transit-timelines.github.io/preview.png" />
 <meta property="og:description" content="Maps every 5 years, 1840-2025" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="viewport" content="width=1500" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.3, minimum-scale=0.3" />
 <style type="text/css">
+* {
+    max-height: 999999px;
+}
 body {
     margin-left: 1px;
     margin-right: 1px;
@@ -35,7 +38,7 @@ div#sidebar {
     background: #ffffff;
     border: 1px solid;
     width: 10.5em;
-    max-height: calc(100% - 17px);
+    max-height: calc(100dvh - 17px);
     top: 0;
     left: 0;
     margin: 5px;

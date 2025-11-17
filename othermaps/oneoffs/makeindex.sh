@@ -4,7 +4,11 @@ cat <<HEREDOC
 <!DOCTYPE HTML>
 <html>
 <head><title>One-off Rapid Transit Map Scale Comparison</title>
+<meta name="viewport" content="width=device-width, initial-scale=0.3, minimum-scale=0.3" />
 <style type="text/css">
+* {
+    max-height: 999999px;
+}
 body {
     margin-left: 1px;
     margin-right: 1px;
@@ -46,7 +50,7 @@ function hidebg() {
     bgbutton.innerText = "click here to show present-day labels and waterlines";
 }
 </script>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"></head><body>
 <h3>One-off Rapid Transit Maps for Scale Comparison with <a href="../..">Timelines</a></h3>
 HEREDOC
 if [ $SCALE = 10 ]; then

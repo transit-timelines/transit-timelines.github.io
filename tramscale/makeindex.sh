@@ -7,8 +7,12 @@ cat <<HEREDOC
 <meta property="og:title" content="Tramway (Streetcar & Light Rail) Scale Comparison" />
 <meta property="og:image" content="https://transit-timelines.github.io/tramscale/preview.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="viewport" content="width=1500" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.3, minimum-scale=0.3" />
 <style type="text/css">
+* {
+    max-height: 999999px;
+}
 body {
     margin-left: 1px;
     margin-right: 1px;
@@ -28,7 +32,7 @@ div#sidebar {
     background: #ffffff;
     border: 1px solid;
     width: 10.5em;
-    max-height: calc(100% - 17px);
+    max-height: calc(100dvh - 17px);
     top: 0;
     left: 0;
     margin: 5px;
@@ -149,8 +153,8 @@ window.onhashchange=function() {
 }
 window.onload=window.onhashchange;
 </script>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-<h3>Tramway (Streetcar & Light Rail) Scale Comparison</h3>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"></head><body>
+<h3 class="headerfooter">Tramway (Streetcar & Light Rail) Scale Comparison</h3>
 <div id="maps" style="padding-left: calc(10.5em + 17px);">
 HEREDOC
 CITIES=$(for file in $@; do grep -P "^`basename $file .svg`@?\t" names | sed -e's/<br>/ /; s/ (.*//; s/\(.*\)@*\t\(.*\)/\2 AA\1/;'; done | sort | sed -e's/.* AA//; s/@//;')

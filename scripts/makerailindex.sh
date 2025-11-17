@@ -43,6 +43,7 @@ s/STEP/${STEP}/g;"
 <meta property="og:url" content="https://transit-timelines.github.io/misc/URL/preview.gif" />
 <meta property="og:description" content="Maps every STEP years, START-END" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="viewport" content="width=device-width, initial-scale=0.3" />
 <style type="text/css">
 div#preloader {
     position: absolute;

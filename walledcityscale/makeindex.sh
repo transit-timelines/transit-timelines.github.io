@@ -13,7 +13,11 @@ sed -e"s/TITLE/$TITLE/" <<HEREDOC
 <meta property="og:title" content="TITLE" />
 <meta property="og:image" content="https://transit-timelines.github.io/walledcityscale/preview.png" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="viewport" content="width=device-width, initial-scale=0.3, minimum-scale=0.3" />
 <style type="text/css">
+* {
+    max-height: 999999px;
+}
 body {
     text-align: center;
     margin-left: 1px;
@@ -26,6 +30,15 @@ span {
 p, form {
     margin-left: 10px;
     margin-right: 10px;
+}
+input {
+}
+span {
+    vertical-align: middle;
+}
+div {
+    font-size: medium;
+    display: inline-block;
 }
 .map, .rtmap {
     border: 1px solid;
@@ -55,7 +68,7 @@ function deselectall() {
     }
 }
 </script>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"></head><body>
 <h3>TITLE</h3>
 HEREDOC
 sortedcities=`echo $@ | perl -wpe's/([a-z]+)(-?[0-9]+).svg ?/$2 $1\n/g' | sort -g | awk '{print $2$1}'`
@@ -67,9 +80,9 @@ for city in $sortedcities; do
     W=$(awk "BEGIN{print int(0.5+$NATIVEW*0.6)}")
     H=$(awk "BEGIN{print int(0.5+$(grep ' height=' ${city}.svg | head -n1 | sed -e's/.* height="\([0-9\.]*\)".*/\1/;')*$W/$NATIVEW)}")
     if ( grep ^$city~ names >/dev/null ); then 
-        echo '<span id="'$UPPER'" style="display: none; vertical-align: middle">'$NAME'<br>'
+        echo '<span id="'$UPPER'" style="display: none;">'$NAME'<br>'
     else
-        echo '<span id="'$UPPER'" style="display: inline-block; vertical-align: middle">'$NAME'<br>'
+        echo '<span id="'$UPPER'" style="display: inline-block;">'$NAME'<br>'
     fi
     if [ -f ${city}-rt.svg ]; then
         echo '    <img class="rtmap" src="'${city}'-rt.svg" width="'$W'" height="'$H'" style="position: absolute; z-index: 2;">'
@@ -83,14 +96,14 @@ else
     echo '<a href="rtoverlay">versions with modern rapid transit lines overlaid (where applicable)</a>'
 fi
 echo '<p>'
-echo '<form action="">Cities to show:'
+echo '<form action="" style="font-size: medium;">Cities to show:'
 for city in $sortedcities; do
     NAME=`grep ^$city names | sed -e's/.*\t//; s/<br>.*//; s/,//;'`
     UPPER=$(echo $city | tr 'a-z' 'A-Z')
     if ( grep ^$city~ names >/dev/null ); then 
-        echo "<div style=\"display: inline-block\"><input type=\"checkbox\" id=\"${UPPER}checkbox\" onclick=\"toggleshow('$UPPER')\" autocomplete=\"off\">$NAME</div>"
+        echo "<div><input type=\"checkbox\" id=\"${UPPER}checkbox\" onclick=\"toggleshow('$UPPER')\" autocomplete=\"off\">$NAME</div>"
     else
-        echo "<div style=\"display: inline-block\"><input type=\"checkbox\" id=\"${UPPER}checkbox\" onclick=\"toggleshow('$UPPER')\" autocomplete=\"off\" checked>$NAME</div>"
+        echo "<div><input type=\"checkbox\" id=\"${UPPER}checkbox\" onclick=\"toggleshow('$UPPER')\" autocomplete=\"off\" checked>$NAME</div>"
     fi
 done
 cat <<HEREDOC

@@ -5,7 +5,11 @@ cat <<HEREDOC
 <!DOCTYPE HTML>
 <html>
 <head><title>Unrealised Rapid Transit Plans</title>
+<meta name="viewport" content="width=device-width, initial-scale=0.3, minimum-scale=0.3" />
 <style type="text/css">
+* {
+    max-height: 999999px;
+}
 body {
     text-align: center;
     margin-left: 1px;
