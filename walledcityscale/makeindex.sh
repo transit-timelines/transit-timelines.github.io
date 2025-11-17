@@ -16,10 +16,16 @@ sed -e"s/TITLE/$TITLE/" <<HEREDOC
 <style type="text/css">
 body {
     text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 span {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+p, form {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .map, .rtmap {
     border: 1px solid;

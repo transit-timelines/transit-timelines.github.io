@@ -5,9 +5,18 @@ cat <<HEREDOC
 <html>
 <head><title>One-off Rapid Transit Map Scale Comparison</title>
 <style type="text/css">
+body {
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+}
 span {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+p, form {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .map, .bgmap {
     border: 1px solid;
@@ -38,7 +47,6 @@ function hidebg() {
 }
 </script>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-<center>
 <h3>One-off Rapid Transit Maps for Scale Comparison with <a href="../..">Timelines</a></h3>
 HEREDOC
 if [ $SCALE = 10 ]; then

@@ -6,17 +6,23 @@ cat <<HEREDOC
 <html>
 <head><title>Unrealised Rapid Transit Plans</title>
 <style type="text/css">
+body {
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+}
 span {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+p, form {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .map, .bgmap {
     border: 1px solid;
     margin-left: 10px;
     margin-right: 10px;
-}
-body {
-    text-align: center;
 }
 </style>
 <script language="JavaScript" type="text/javascript">

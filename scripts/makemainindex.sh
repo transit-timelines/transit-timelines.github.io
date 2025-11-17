@@ -10,7 +10,13 @@ cat <<HEREDOC
 <meta property="og:image" content="https://transit-timelines.github.io/preview.png" />
 <meta property="og:description" content="Maps every 5 years, 1840-2025" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="viewport" content="width=1500" />
 <style type="text/css">
+body {
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+}
 div#preloader {
     position: absolute;
     left: -9999px;
@@ -29,7 +35,7 @@ div#sidebar {
     background: #ffffff;
     border: 1px solid;
     width: 10.5em;
-    max-height: calc(100% - 22px);
+    max-height: calc(100% - 17px);
     top: 0;
     left: 0;
     margin: 5px;
@@ -62,12 +68,9 @@ span {
     margin-right: 10px;
 }
 .headerfooter {
-    padding-left: calc(10.5em + 22px);
-    padding-right: calc(10.5em + 22px);
+    margin-left: calc(10.5em + 22px);
+    margin-right: calc(10.5em + 22px);
     white-space: nowrap;
-}
-body {
-    text-align: center;
 }
 </style>
 <script type="text/javascript">
@@ -119,7 +122,7 @@ function toggleshow(x) {
     if (span.style.display == 'inline-block') {
         mapimg = document.getElementById(x + "map");
         span.style.display = 'none';
-        if (mapimg.tagName.toUpperCase() == "IMG") mapimg.src = "date:";
+        if (mapimg.tagName.toUpperCase() == "IMG") mapimg.src = "data:,";
         prediv = document.getElementById(x + "pre");
         prediv.parentNode.removeChild(prediv);
         for (var i=0; i < checkboxes.length; i++ ) { checkboxes[i].checked = false; }
@@ -155,7 +158,7 @@ function togglesidebar() {
         s.style.display = 'block';
         h.style.display = 'block';
         a.innerHTML = "[&minus;]";
-        m.style.paddingLeft = "calc(10.5em + 22px)";
+        m.style.paddingLeft = "calc(10.5em + 17px)";
     }
 }
 function selectall(i) {
@@ -231,7 +234,7 @@ function unclicktohide() {
 <small>(maps ordered by opening date; click a city name in sidebar to jump to its map)</small>
 </div>
 <br>
-<div id="maps" style="padding-left: calc(10.5em + 22px);">
+<div id="maps" style="padding-left: calc(10.5em + 17px);">
 <noscript>Sorry, the maps really don't work without javascript.</noscript>
 HEREDOC
 
@@ -246,7 +249,7 @@ for city in $@; do
         echo '    <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="'$city'/small/2025.svg" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
     else
         echo '<span id="'$UPPER'" style="display: none;"><a href="'$city'">'$NAME'</a><br>'
-        echo '    <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="data:" title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
+        echo '    <a href="'$city'" class="map-wrap"><img class="map" id="'$UPPER'map" src="data:," title="2025" alt="2025 map" width="'${W}'" height="'${H}'"></a></span>'
     fi
 done
 

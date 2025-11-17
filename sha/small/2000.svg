@@ -8,8 +8,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg2"
    height="8350"
-   width="21150"
-   viewBox="-10150 -500 21150 8350"
+   width="21100"
+   viewBox="-10085 -460 21100 8350"
    version="1.1">
   <metadata
      id="metadata8">
@@ -29,7 +29,7 @@
      xlink:href="../basemap/shaosm.png"
      style="display:none"
      id="image10"
-     height="8657.42"
+     height="8946"
      width="21643.56"
      y="-764.51"
      x="-10416.07" />
@@ -53,18 +53,18 @@
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3866"
-     y="7747.96"
-     x="-10060.55"><tspan
+     y="7787.96"
+     x="-9995.55"><tspan
        id="tspan2"
-       y="7747.96"
-       x="-10060.55"></tspan></text>
+       y="7787.96"
+       x="-9995.55"></tspan></text>
   <text
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3870"
-     y="-293.04"
-     x="-10060.55"><tspan
+     y="-253.04"
+     x="-9995.55"><tspan
        id="tspan1"
-       y="-293.04"
-       x="-10060.55">2000</tspan></text>
+       y="-253.04"
+       x="-9995.55">2000</tspan></text>
 </svg>
