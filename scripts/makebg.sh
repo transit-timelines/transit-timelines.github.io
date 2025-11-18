@@ -57,6 +57,6 @@ w=$(awk "BEGIN{print int(0.5+$(grep '^   width=' $file | head -n1 | sed -e's/"$/
 h=$(awk "BEGIN{print int(0.5+$(grep '^   height=' $file | head -n1 | sed -e's/"$//; s/.*"//;')*$w/$nw)}")
 inkscape -b ffffff -y 255 -w $w -h $h -o ${bname}-bg24bit.png ${bname}-bg.svg
 convert ${bname}-bg24bit.png -type palette PNG8:${bname}-bgi.png
-pngquant --quality=50-70 ${bname}-bgi.png -f -o ${bname}-bg.png
+pngquant --quality=60-80 ${bname}-bgi.png -f -o ${bname}-bg.png
 rm -r $(seq $sl $sr)
 rm ${bname}-bg24bit.png ${bname}-bgi.png ${bname}-bg.svg $(seq $sl $sr | sed -e's/$/.png/') ${bname}-bgosm.png
