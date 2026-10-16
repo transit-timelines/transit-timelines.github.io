@@ -40,6 +40,10 @@
      id="rt"
      style="opacity:0.25">
     <path
+       id="path4255"
+       d="m 5298.63,794.51 150.5,2.5 29,2 22.5,15.5 15.5,15 12.5,19.5 5,17 2,21 -6,24.5 -27.5,45 -10.5,22 -2,22 0.5,23.5 7,32.5 15.5,70 1.5,27 -10,27 -45,67.5 -90.5,133.5 -13,9 -26,11.5 -14,2.5 -34,-6 -22.5,-1.5 -124,-25"
+       style="fill:none;fill-rule:evenodd;stroke:#cccccc;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
        style="fill:none;fill-opacity:0;stroke:#cccccc;stroke-width:8;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none"
        d="m 4985.52,3297.95 69.03,237.16 16.04,75.88 64.85,91.25 -149.92,118.5"
        id="path1" />

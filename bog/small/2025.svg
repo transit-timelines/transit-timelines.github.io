@@ -26,8 +26,8 @@
      id="defs6" />
   <image
      xlink:href="../basemap/bogosm.png"
-     width="3364.4399"
-     height="4037.3301"
+     width="3364.44"
+     height="4037.33"
      preserveAspectRatio="none"
      id="image10"
      x="-150"
@@ -236,7 +236,7 @@
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#fe0002;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path866"
-     d="m 2422.78,1857.57 -1.55,-6.46 -43.63,-30.2802 -0.9966,-5.2176 107.3843,-159.4343 -1.2231,-4.4357 -56.1073,-32.4568 -59.2794,-28.4899 -7.0744,1.6376"
+     d="m 2422.78,1857.57 -1.55,-6.46 -43.63,-30.28 -1,-5.22 107.38,-159.43 -1.22,-4.44 -56.11,-32.46 -59.28,-28.49 -7.07,1.64"
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#fe0002;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      id="path3366"
@@ -244,6 +244,6 @@
      style="opacity:1;fill:none;fill-rule:nonzero;stroke:#808000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      style="fill:none;stroke:#fe0002;stroke-linejoin:round;stroke-opacity:1"
-     d="m 2421.23,1851.11 5.4769,-0.8533"
+     d="m 2421.23,1851.11 5.48,-0.85"
      id="path1" />
 </svg>
