@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="900"
+   height="1020"
+   viewBox="0 0 900 1020"
+   xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1" /><g
+     id="g1"><image
+       width="1406"
+       height="1406"
+       preserveAspectRatio="none"
+       xlink:href="basemap/kaifengosm.png"
+       id="image1"
+       x="-330"
+       y="-220"
+       style="display:none" /><path
+       style="opacity:1;fill:#808080;stroke:none;stroke-linejoin:round"
+       d="m 55.85,804.21 37.8,-207.49 70.51,-547.96 687.14,148.99 -128.95,771.88 z"
+       id="path1" /><path
+       style="opacity:1;fill:#c6ecff;fill-opacity:1;stroke:none;stroke-linejoin:round"
+       d="m 63.04,586.11 -86.96,-18.32 12.7,-66.69 8.31,-5.86 77.79,25.72 z"
+       id="path2" /></g></svg>
