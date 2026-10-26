@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 390 520"
-   height="520"
-   width="390"
+   viewBox="0 0 370 510"
+   height="510"
+   width="370"
    id="svg2"
-   version="1.1">
-  <metadata
-     id="metadata8">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs6" />
-  <image
+   version="1.1"
+   xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6" /><image
      xlink:href="basemap/luoyangosm.png"
      width="1006"
      height="1006"
      preserveAspectRatio="none"
      id="image10"
-     x="-325"
-     y="-96"
-     style="display:none" />
-  <path
-     id="path867"
-     d="m -70.42,449.32 138.64,2.37 255.25,28.14 50.17,22.03 42.71,2.37 57.63,-3.05 10.17,43.73 -38.98,5.95 -148.47,-10.7 -86.1,4.75 -154.8,-28.21 -47.85,-19.34 -78.71,6.54 z"
-     style="opacity:1;fill:#c6ecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
+     x="-370"
+     y="-106"
+     style="display:none" /><path
      id="path850"
-     d="M 69.92,471.02 59.07,402.2 56.69,193.05 h -6.1 l 14.92,-110.51 140.34,6.44 3.05,-45.08 38.64,5.42 69.49,16.95 10.85,20 -0.34,108.47 18.31,8.47 -13.22,189.49 -5.76,6.78 1.36,70.51 z"
-     style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-</svg>
+     d="m 53.84,388.58 -2.34,-2.05 3.97,-202.29 -6.35,-0.34 13.18,-97.25 5,-10.71 127.86,19.2 3.05,-42.53 8.59,-1.38 90.75,18.08 4.9,5.82 3.35,28.51 1.01,96.93 16.27,1.79 -21.07,180.3 -1.31,79.22 -240.1,-6.72 z"
+     style="opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></svg>
