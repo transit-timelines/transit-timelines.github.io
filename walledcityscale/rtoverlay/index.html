@@ -67,7 +67,7 @@ function deselectall() {
 <span id="ROME-200" style="display: inline-block;">Rome, 200 BCE<br><small>population c. 200,000</small><br>
     <img class="rtmap" src="rome-200-rt.svg" width="180" height="258" style="position: absolute; z-index: 2;">
     <img class="map" src="rome-200.svg" title="Rome 200 BCE" alt="Rome 200 BCE map" width="180" height="258"></span>
-<span id="CHANGAN-100" style="display: inline-block;">Chang'an, 100 BCE<br><small>population c. 200,000</small><br>
+<span id="CHANGAN-100" style="display: inline-block;">Chang'an, 100 BCE<br><small>population c. 300,000</small><br>
     <img class="rtmap" src="changan-100-rt.svg" width="588" height="474" style="position: absolute; z-index: 2;">
     <img class="map" src="changan-100.svg" title="Chang'an 100 BCE" alt="Chang'an 100 BCE map" width="588" height="474"></span>
 <span id="ROME300" style="display: inline-block;">Rome, 300 CE<br><small>population c. 800,000</small><br>
@@ -91,9 +91,18 @@ function deselectall() {
 <span id="MILAN1250" style="display: inline-block;">Milan, 1250 CE<br><small>population c. 100,000</small><br>
     <img class="rtmap" src="milan1250-rt.svg" width="186" height="174" style="position: absolute; z-index: 2;">
     <img class="map" src="milan1250.svg" title="Milan 1250 CE" alt="Milan 1250 CE map" width="186" height="174"></span>
+<span id="PARIS1250" style="display: inline-block;">Paris, 1250 CE<br><small>population c. 150,000</small><br>
+    <img class="rtmap" src="paris1250-rt.svg" width="168" height="198" style="position: absolute; z-index: 2;">
+    <img class="map" src="paris1250.svg" title="Paris 1250 CE" alt="Paris 1250 CE map" width="168" height="198"></span>
+<span id="NANJING1400" style="display: inline-block;">Nanjing, 1400 CE<br><small>population c. 700,000</small><br>
+    <img class="rtmap" src="nanjing1400-rt.svg" width="558" height="660" style="position: absolute; z-index: 2;">
+    <img class="map" src="nanjing1400.svg" title="Nanjing 1400 CE" alt="Nanjing 1400 CE map" width="558" height="660"></span>
 <span id="BEIJING1500" style="display: inline-block;">Beijing, 1500 CE<br><small>population c. 700,000</small><br>
     <img class="rtmap" src="beijing1500-rt.svg" width="474" height="402" style="position: absolute; z-index: 2;">
     <img class="map" src="beijing1500.svg" title="Beijing 1500 CE" alt="Beijing 1500 CE map" width="474" height="402"></span>
+<span id="GENOA1500" style="display: inline-block;">Genoa, 1500 CE<br><small>population c. 70,000</small><br>
+    <img class="rtmap" src="genoa1500-rt.svg" width="180" height="210" style="position: absolute; z-index: 2;">
+    <img class="map" src="genoa1500.svg" title="Genoa 1500 CE" alt="Genoa 1500 CE map" width="180" height="210"></span>
 <span id="LISBON1500" style="display: inline-block;">Lisbon, 1500 CE<br><small>population c. 60,000</small><br>
     <img class="rtmap" src="lisbon1500-rt.svg" width="162" height="132" style="position: absolute; z-index: 2;">
     <img class="map" src="lisbon1500.svg" title="Lisbon 1500 CE" alt="Lisbon 1500 CE map" width="162" height="132"></span>
@@ -132,7 +141,10 @@ function deselectall() {
 <div><input type="checkbox" id="HANGZHOU1250checkbox" onclick="toggleshow('HANGZHOU1250')" autocomplete="off" checked>Hangzhou 1250 CE</div>
 <div><input type="checkbox" id="LONDON1250checkbox" onclick="toggleshow('LONDON1250')" autocomplete="off" checked>London 1250 CE</div>
 <div><input type="checkbox" id="MILAN1250checkbox" onclick="toggleshow('MILAN1250')" autocomplete="off" checked>Milan 1250 CE</div>
+<div><input type="checkbox" id="PARIS1250checkbox" onclick="toggleshow('PARIS1250')" autocomplete="off" checked>Paris 1250 CE</div>
+<div><input type="checkbox" id="NANJING1400checkbox" onclick="toggleshow('NANJING1400')" autocomplete="off" checked>Nanjing 1400 CE</div>
 <div><input type="checkbox" id="BEIJING1500checkbox" onclick="toggleshow('BEIJING1500')" autocomplete="off" checked>Beijing 1500 CE</div>
+<div><input type="checkbox" id="GENOA1500checkbox" onclick="toggleshow('GENOA1500')" autocomplete="off" checked>Genoa 1500 CE</div>
 <div><input type="checkbox" id="LISBON1500checkbox" onclick="toggleshow('LISBON1500')" autocomplete="off" checked>Lisbon 1500 CE</div>
 <div><input type="checkbox" id="NAPLES1500checkbox" onclick="toggleshow('NAPLES1500')" autocomplete="off" checked>Naples 1500 CE</div>
 <div><input type="checkbox" id="PARIS1500checkbox" onclick="toggleshow('PARIS1500')" autocomplete="off" checked>Paris 1500 CE</div>
@@ -147,9 +159,9 @@ function deselectall() {
 <p>
 Scale: <svg width="60px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 1 km (60 CSS pixels per km)
 <p>
-Population estimates extremely approximate. Please send any corrections or questions to threestationsquare at gmail dot com.
+Population estimates extremely approximate, and include residents of contiguous urban areas outside the walls (which vary from 0% to 30% of the population for the maps shown). Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
 See also: <a href="..">rapid transit timelines</a> - <a href="../misc/">miscellaneous timelines and maps</a>
 <p>
 <div style="font-size: x-small;">By <a href="https://alexander.co.tz/">Alexander Rapp</a> (<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>) based on map data by <a href="http://www.openstreetmap.org">OpenStreetMap</a> and Wikimedia
-(<a href="https://etc.usf.edu/maps/pages/8300/8391/8391.htm">1</a>,<a href="https://commons.wikimedia.org/wiki/File:Map_ancient_athens.png">2</a>,<a href="https://commons.wikimedia.org/wiki/File:Plan_of_Alexandria_c_30_BC_Otto_Puchstein_1890s_EN.svg">3</a>,<a href="https://commons.wikimedia.org/wiki/File:Map_of_ancient_Rome.svg">4</a>,<a href="https://www.persee.fr/doc/crai_0065-0536_2012_num_156_2_93599">5</a>,<a href="https://commons.wikimedia.org/wiki/File:Fes_sous_les_Almohades.PNG">6</a>,<a href="https://tenochtitlan.thomaskole.nl/">7</a>,<a href="https://commons.wikimedia.org/wiki/File:MurallasSevilla_completo.png">8</a>,<a href="https://commons.wikimedia.org/wiki/File:Hampi_Murray.jpg">9</a>) contributors and historical sources.</div></body></html>
+(<a href="https://etc.usf.edu/maps/pages/8300/8391/8391.htm">1</a>,<a href="https://commons.wikimedia.org/wiki/File:Map_ancient_athens.png">2</a>,<a href="https://commons.wikimedia.org/wiki/File:Plan_of_Alexandria_c_30_BC_Otto_Puchstein_1890s_EN.svg">3</a>,<a href="https://commons.wikimedia.org/wiki/File:Map_of_ancient_Rome.svg">4</a>,<a href="https://link.springer.com/article/10.1186/s43238-026-00261-z/figures/1">5</a>,<a href="https://www.sohu.com/a/798107584_121119016">6</a>,<a href="https://www.persee.fr/doc/crai_0065-0536_2012_num_156_2_93599">7</a>,<a href="https://commons.wikimedia.org/wiki/File:Fes_sous_les_Almohades.PNG">8</a>,<a href="https://commons.wikimedia.org/wiki/File:Muragenova5.jpg">9</a>,<a href="https://tenochtitlan.thomaskole.nl/">10</a>,<a href="https://commons.wikimedia.org/wiki/File:MurallasSevilla_completo.png">11</a>,<a href="https://commons.wikimedia.org/wiki/File:Hampi_Murray.jpg">12</a>) contributors and historical sources.</div></body></html>

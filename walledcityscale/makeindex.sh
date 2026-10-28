@@ -113,7 +113,7 @@ cat <<HEREDOC
 <p>
 Scale: <svg width="60px" height="3px" style="vertical-align: middle; stroke-width: 0px; background-color: black;"/> = 1 km (60 CSS pixels per km)
 <p>
-Population estimates extremely approximate. Please send any corrections or questions to threestationsquare at gmail dot com.
+Population estimates extremely approximate, and include residents of contiguous urban areas outside the walls (which vary from 0% to 30% of the population for the maps shown). Please send any corrections or questions to threestationsquare at gmail dot com.
 <p>
 See also: <a href="..">rapid transit timelines</a> - <a href="../misc/">miscellaneous timelines and maps</a>
 <p>
