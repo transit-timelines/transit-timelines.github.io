@@ -8,8 +8,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="2550"
-   viewBox="-50 0 2550 4000"
-   height="4000"
+   viewBox="-50 0 2550 4050"
+   height="4050"
    id="svg2">
   <metadata
      id="metadata8">
@@ -28,7 +28,7 @@
   <image
      xlink:href="../basemap/ledosm.png"
      id="image10"
-     height="4058"
+     height="4734.33"
      width="3719.83"
      y="-23.92"
      x="-1191.75"
