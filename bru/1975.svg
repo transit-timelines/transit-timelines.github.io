@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    id="svg2"
-   width="7300"
+   width="8350"
    height="10450"
-   viewBox="2675 -75 7300 10450">
+   viewBox="2675 -75 8350 10450">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,7 +27,7 @@
      id="defs6" />
   <image
      style="display:none"
-     width="10230.85"
+     width="11509.71"
      height="10657.14"
      preserveAspectRatio="none"
      xlink:href="../basemap/bruosm.png"

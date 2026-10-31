@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="2675 -75 7300 10450"
+   viewBox="2675 -75 8350 10450"
    height="10450"
-   width="7300"
+   width="8350"
    id="svg2"
    version="1.1">
   <metadata
@@ -32,7 +32,7 @@
      xlink:href="../basemap/bruosm.png"
      preserveAspectRatio="none"
      height="10657.14"
-     width="10230.85"
+     width="11509.71"
      style="display:none" />
   <path
      id="path4560"

@@ -2,8 +2,8 @@
 <svg
    id="svg2"
    height="6050"
-   width="4900"
-   viewBox="-1900 -1575 4900 6050"
+   width="5750"
+   viewBox="-2750 -1575 5750 6050"
    version="1.1"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,9 +28,9 @@
      xlink:href="../basemap/vieosm.png"
      id="image10"
      height="6294.91"
-     width="5170.82"
+     width="6070.09"
      y="-1798.55"
-     x="-2023.36"
+     x="-2922.63"
      style="display:none" />
   <path
      style="fill:none;stroke:#009ee3;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -81,10 +81,10 @@
      xml:space="preserve"
      id="text3818"
      y="-1368.04"
-     x="-1810.55"><tspan
+     x="-2660.55"><tspan
        id="tspan1"
        y="-1368.04"
-       x="-1810.55">2010</tspan></text>
+       x="-2660.55">2010</tspan></text>
   <path
      style="fill:none;stroke:#005d95;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path3796"
@@ -154,12 +154,12 @@
      id="path3778"
      d="m 1522,636 -51.5,-69.5 -47,-78 -26,-41.5 -12.5,-15 -12.5,-7.5 -17,3.5 -13.5,16 -34,80 -13.5,36 -1,15 -1,16 -9,12.5 -13,5 -23,-4 -27,-2 -27,-13.5 -51.5,-5 -15,-5 -16,0.5 -14.5,6.5 -9,12 -3,15.5 2,17.5 -2.5,13.5 -4.5,7 -10.5,7 -30,4.5 -15,1 -14,9.5 -72,105.5 -5,17 3,36 -5,12.5 -20.5,21 -11.5,6 -27,1 -11.5,5.5 -22.5,20 -44.5,19 -17,12.5 -14.5,32 -5.5,15.5 -14,63.5 2,20 6.23,15.75 0.77,14.79 -22.52,91.02 -26.95,114.01 0.66,11.47 2.31,7.46 19,24 8,11.5 1.5,12.5 -4.5,14.5 -10.69,9.11 -14.48,2.48 -52.36,-3.46 -51.09,-13.32 -34.78,-0.89 -85.86,5.24 -75.76,-3.61 -11.93,-1.9 -151.86,-56.04" />
   <text
-     x="-1810.55"
+     x="-2660.55"
      y="7347.95"
      id="text3004"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-1810.55"
+       x="-2660.55"
        y="4372.95"
        id="tspan2">2010</tspan></text>
 </svg>

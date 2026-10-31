@@ -2,8 +2,8 @@
 <svg
    id="svg2"
    height="6050"
-   viewBox="-1900 -1575 4900 6050"
-   width="4900"
+   viewBox="-2750 -1575 5750 6050"
+   width="5750"
    version="1.1"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,9 +28,9 @@
      xlink:href="../basemap/vieosm.png"
      id="image10"
      height="6294.91"
-     width="5170.82"
+     width="6070.09"
      y="-1798.55"
-     x="-2023.36"
+     x="-2922.63"
      style="display:none" />
   <path
      d="m 1318.75,528.46 -7.78,15.56 -7.07,19.8 -0.71,24.04 -2.83,12.73 -36.74,77.81 -16.7,31.31 -21.59,12.19 -14.34,16.11 -10,11 -6,26 -6,13.5 -22.5,14 -11,9 -5,26.5 -10,68.5 -3.5,11.5 -12.5,11.5 -33,14.5 -10,17 -11,37.5 -7.5,28 -25.5,68.5 -1.5,35 -19,47.5 2.5,79.5 11.12,41.79 -3.48,15.93 5.45,21.91 7.97,6.88 1.43,6.99 -5,20 -16,45.5 3,16.5 5.5,21.5 -5,21.5 -11,15.5 -26.5,24.5 -17.19,12.73 -12.65,5.23 -24.92,0.44 -16.3,-0.73"
@@ -85,10 +85,10 @@
      xml:space="preserve"
      id="text3818"
      y="-1368.04"
-     x="-1810.55"><tspan
+     x="-2660.55"><tspan
        id="tspan1"
        y="-1368.04"
-       x="-1810.55">1980</tspan></text>
+       x="-2660.55">1980</tspan></text>
   <path
      style="fill:none;stroke:#005d95;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="path3951"
@@ -130,12 +130,12 @@
      id="path3816"
      style="fill:none;stroke:#005d95;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
   <text
-     x="-1810.55"
+     x="-2660.55"
      y="7347.95"
      id="text3004"
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:144px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><tspan
-       x="-1810.55"
+       x="-2660.55"
        y="4372.95"
        id="tspan2">1980</tspan></text>
 </svg>
