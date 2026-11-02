@@ -13,4 +13,4 @@ done
 for i in `seq $1 $2`; do
     montage -mode Concatenate -tile 1x`expr $4 - $3 + 1` `seq $3 $4 | sed -e"s!\(.*\)!$i/\1.png!"` $i.png
 done
-montage -mode Concatenate -tile `expr $2 - $1 + 1`x1 `seq $1 $2 | sed -e's/$/.png/'` osm.png
+montage -alpha off -mode Concatenate -tile `expr $2 - $1 + 1`x1 `seq $1 $2 | sed -e's/$/.png/'` PNG8:osm.png
