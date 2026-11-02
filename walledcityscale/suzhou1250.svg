@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="490"
+   height="580"
+   viewBox="0 0 490 580"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <image
+       width="15675"
+       height="6479"
+       preserveAspectRatio="none"
+       xlink:href="../basemap/shaosm.png"
+       id="image1"
+       x="-2800"
+       y="-1445"
+       style="display:none" />
+    <path
+       style="fill:#808080;stroke:none;stroke-width:4.08;stroke-linejoin:round"
+       d="m 146.09,522.44 7.51,7.14 24.79,-2.25 9.77,-4.51 115.71,-13.9 86.41,-13.52 48.09,-10.14 -17.28,-126.98 -10.52,-30.81 -7.89,-42.83 -2.25,-19.16 -17.28,-82.65 2.63,-14.28 10.52,-10.89 -15.78,-102.94 -4.51,-4.88 -40.95,4.88 -18.78,-6.39 -66.5,11.27 -134.49,31.18 -12.77,1.5 -15.78,24.8 -33.06,13.52 9.02,67.62 -7.89,18.03 6.01,7.89 11.27,71.38 6.39,9.02 19.54,11.27 12.4,29.3 11.27,47.34 8.64,48.84 8.27,43.58 z"
+       id="path1" />
+  </g>
+</svg>

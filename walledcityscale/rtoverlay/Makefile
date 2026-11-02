@@ -1,4 +1,4 @@
-CITIES=athens-350 rome-200 changan-100 rome300 constantinople500 changan750 cairo1250 hangzhou1250 london1250 milan1250 paris1250 nanjing1400 beijing1500 genoa1500 lisbon1500 naples1500 paris1500 seoul1500 seville1500 tenochtitlan1500 moscow1600 beijing1750
+CITIES=athens-350 rome-200 changan-100 rome300 constantinople500 changan750 cairo1250 hangzhou1250 london1250 milan1250 nanjing1250 paris1250 suzhou1250 nanjing1400 beijing1500 genoa1500 lisbon1500 naples1500 paris1500 seoul1500 seville1500 tenochtitlan1500 moscow1600 beijing1750
 
 all: index.html $(CITIES:0=0.svg) $(CITIES:0=0-rt.svg)
 
@@ -14,6 +14,8 @@ changan750-rt.svg: changan750.svg ../../xiy/2025.svg
 hangzhou1250-rt.svg: hangzhou1250.svg ../../hgh/2025.svg
 milan1250-rt.svg: milan1250.svg ../../mil/2025.svg
 paris1250-rt.svg: paris1250.svg ../../par/2025.svg
+suzhou1250-rt.svg: suzhou1250.svg ../../sha/2025.svg
+nanjing1250-rt.svg: nanjing1250.svg ../../nkg/2025.svg
 cairo1250-rt.svg: cairo1250.svg ../../cai/2025.svg
 london1250-rt.svg: london1250.svg ../../lon/2025.svg
 nanjing1400-rt.svg: nanjing1400.svg ../../nkg/2025.svg
