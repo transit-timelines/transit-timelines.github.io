@@ -91,6 +91,7 @@ PEN	1313m	funicular	2	1923-10-21	never*		connected with 907m line above
 ZCS	1314m	tram gradesep	3	1966-__-__?	never*
 RIX	1320m	tram gradesep	4	1979-__-__	never*		infreq?
 ZRH	1328m	rack		4	1971-09-29	1976-09-25*	replaced 800m line above
+BIO	1234m	tram gradesep	3	1912-10-30	1956-11-01*
 AMS	1340m	tram gradesep	3	1927-07-15	1970-05-31
 FKJ	1340m	mainline trunk	3	1929-10-01	never*
 HKG	1365m	funicular	4	1888-05-30	1979-10-01*
