@@ -19,7 +19,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,7 +85,7 @@
      style="fill:none;fill-rule:evenodd;stroke:#c1171e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#80c342;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 13105.89,6799.5 -2.88,8.75 -13.44,45.43 -6.19,18.92 -19.8,22.63 -35.18,32.17 -34.12,70.71 6.01,103.59 -12.2,78.31 -11.49,48.08 -12.9,42.25 -21.92,30.41 -75.84,51.09"
+     d="m 12862.35,7353.69 3.59,-1.85 75.84,-51.09 21.92,-30.41 12.9,-42.25 11.49,-48.08 12.2,-78.31 -6.01,-103.59 34.12,-70.71 35.18,-32.17 19.8,-22.63 6.19,-18.92 13.44,-45.43 2.88,-8.75 14.63,-42.31 6,-18.69"
      id="path6593" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#c1171e;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
